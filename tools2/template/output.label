@@ -1,0 +1,221 @@
+Landmark File Version 2.0
+Orthography: stand up
+
+Flavor: transcription
+<
+Time: (nil)
+Symbol: s
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant +
+anterior +
+sonorant -
+blade +
+slack_vocal_folds -
+strident +
+>
+
+<
+Time: (nil)
+Symbol: s
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant +
+anterior +
+sonorant -
+blade +
+slack_vocal_folds -
+strident +
+>
+
+<
+Time: (nil)
+Symbol: t
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant -
+constricted_glottis -
+blade +
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: t
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant -
+constricted_glottis -
+blade +
+slack_vocal_folds -
+>
+
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant -
+distributed -
+continuant -
+anterior -
+sonorant -
+constricted_glottis -
+blade -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: ae
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low +
+const_tongue_root -
+vowel +
+adv_tongue_root -
+>
+
+<
+Time: (nil)
+Symbol: n
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: n
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: d
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant -
+blade +
+slack_vocal_folds +
+>
+
+<
+Time: (nil)
+Symbol: d
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant -
+blade +
+slack_vocal_folds +
+>
+
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant -
+distributed -
+continuant -
+anterior -
+sonorant -
+constricted_glottis -
+blade -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: ah
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back +
+low -
+round -
+const_tongue_root -
+vowel +
+adv_tongue_root -
+>
+
+<
+Time: (nil)
+Symbol: p
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+continuant -
+sonorant -
+constricted_glottis -
+round -
+lips +
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: p
+Prosody: (nil)
+Polarity: unspecified
+Features:
+consonant +
+continuant -
+sonorant -
+constricted_glottis -
+round -
+lips +
+slack_vocal_folds -
+>
+

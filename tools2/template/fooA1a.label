@@ -1,0 +1,1316 @@
+Landmark File Version 2.0
+Orthography: well this is what i wanted to tell you what she was aiming to was to get to the uh
+Flavor: transcription
+<
+Time: 150
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 194
+Symbol: eh
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high -
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 259
+Symbol: l
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior -
+distributed +
+lateral +
+high -
+low -
+back +
+nasal -
+>
+
+<
+Time: 362
+Symbol: l
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior -
+distributed +
+lateral +
+high -
+low -
+back +
+nasal -
+>
+
+<
+Time: 367
+Symbol: dh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident -
+blade +
+anterior +
+distributed +
+slack_vocal_folds +
+>
+
+<
+Time: ?
+Symbol: dh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident -
+blade +
+anterior +
+distributed +
+slack_vocal_folds +
+>
+
+<
+Time: 402
+Symbol: ih
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high +
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 438
+Symbol: s
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds -
+>
+
+<
+Time: 478
+Symbol: s
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds -
+>
+
+<
+Time: 521
+Symbol: ih
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high +
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 572
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: ?
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: 619
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 675
+Symbol: aa
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low +
+back +
+adv_tongue_root -
+const_tongue_root +
+>
+
+<
+Time: 693
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 708
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 740?
+Symbol: aa
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low +
+back +
+adv_tongue_root -
+const_tongue_root +
+>
+
+<
+Time: 744?
+Symbol: iy
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high +
+low -
+back -
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 808
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 902
+Symbol: aa
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low +
+back +
+adv_tongue_root -
+const_tongue_root +
+>
+
+<
+Time: 942
+Symbol: n
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior +
+distributed -
+nasal +
+>
+
+<
+Time: 963
+Symbol: n
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior +
+distributed -
+nasal +
+>
+
+<
+Time: 968
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 1005
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 1046
+Symbol: x
+Prosody: (nil)
+Polarity: nil
+Features:
+reduced +
+vowel +
+round -
+high -
+low -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 1074
+Symbol: d
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: 1135
+Symbol: d
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: 1136?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 1176
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 1220
+Symbol: uw
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: `
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 1300
+Symbol: eh
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high -
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 1329
+Symbol: l
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior -
+distributed +
+lateral +
+high -
+low -
+back +
+nasal -
+>
+
+<
+Time: 1341
+Symbol: l
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+blade +
+anterior -
+distributed +
+lateral +
+high -
+low -
+back +
+nasal -
+>
+
+<
+Time: 1357
+Symbol: y
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+blade +
+anterior -
+distributed +
+high +
+low -
+back -
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 1432
+Symbol: uw
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 1968
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 2206
+Symbol: aa
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low +
+back +
+adv_tongue_root -
+const_tongue_root +
+>
+
+<
+Time: 2281
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 2388
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 2390
+Symbol: sh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior -
+distributed +
+slack_vocal_folds -
+>
+
+<
+Time: 2532
+Symbol: sh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior -
+distributed +
+slack_vocal_folds -
+>
+
+<
+Time: 2629
+Symbol: iy
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high +
+low -
+back -
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 2737
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 2887
+Symbol: ah
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low -
+back +
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 2956
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: 3010
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: 3067
+Symbol: ey
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high -
+low -
+back -
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 3184
+Symbol: m
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+lips +
+round -
+nasal +
+>
+
+<
+Time: 3271
+Symbol: m
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+lips +
+round -
+nasal +
+>
+
+<
+Time: 3296
+Symbol: ih
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high +
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 3349
+Symbol: ng
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+body +
+high +
+low -
+nasal +
+>
+
+<
+Time: 3452
+Symbol: ng
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant +
+body +
+high +
+low -
+nasal +
+>
+
+<
+Time: 3515
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 3564
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 3576
+Symbol: uw
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 3752
+Symbol: w
+Prosody: (nil)
+Polarity: nil
+Features:
+glide +
+lips +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 3927
+Symbol: ah
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low -
+back +
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 3970
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: ?
+Symbol: z
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident +
+blade +
+anterior +
+distributed -
+slack_vocal_folds +
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 4158
+Symbol: uw
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 4188
+Symbol: g
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+body +
+high +
+low -
+slack_vocal_folds +
+>
+
+<
+Time: 4270
+Symbol: g
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+body +
+high +
+low -
+slack_vocal_folds +
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 4340
+Symbol: eh
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+high -
+low -
+back -
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 4418
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: ?
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 4620
+Symbol: t
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant -
+sonorant -
+blade +
+anterior +
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: (nil)
+Symbol: [OV]
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant -
+continuant -
+sonorant -
+blade -
+anterior -
+distributed -
+constricted_glottis -
+slack_vocal_folds -
+>
+
+<
+Time: 4707
+Symbol: uw
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round +
+high +
+low -
+back +
+adv_tongue_root +
+const_tongue_root -
+>
+
+<
+Time: 4886
+Symbol: dh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident -
+blade +
+anterior +
+distributed +
+slack_vocal_folds +
+>
+
+<
+Time: 5165
+Symbol: dh
+Prosody: (nil)
+Polarity: nil
+Features:
+consonant +
+continuant +
+sonorant -
+strident -
+blade +
+anterior +
+distributed +
+slack_vocal_folds +
+>
+
+<
+Time: 5204
+Symbol: ah
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low -
+back +
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: 5333
+Symbol: ah
+Prosody: (nil)
+Polarity: nil
+Features:
+vowel +
+round -
+high -
+low -
+back +
+adv_tongue_root -
+const_tongue_root -
+>
+
+<
+Time: (nil)
+Symbol: (nil)
+Prosody: (nil)
+Polarity: nil
+Features:
+>
+
+<
+Time: (nil)
+Symbol: (nil)
+Prosody: (nil)
+Polarity: nil
+Features:
+>
+

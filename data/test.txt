@@ -1,0 +1,100 @@
+MUTATION_TYPE	EXPECTED_LM	OBSERVED_LM	EXPECTED_LM_TIME	OBSERVED_LM_TIME	FROM_PHONEME	~pos	TO_PHONEME	~pos	FROM_WORD	~pos	~prominence	TO_WORD	~pos	~prominence	FROM_SUBPHRASE	~pos	TO_SUBPHRASE	~pos	FROM_PHRASE	~pos	TO_PHRASE	~pos	DIADLOGUE_WORD_FREQPRESERVED	V	V	0.10587233333333333	0.016735989317602087	
+PRESERVED	Sc	Sc	0.10588233333333333	0.05249790736607157	
+PRESERVED	Sr	Sr	0.21174466666666666	0.08326979033801044	
+PRESERVED	V	V	0.317617	0.1739220942283168	
+PRESERVED	V	V	0.317617	1.0744546856001653	
+DELETION	G			1.0765159828075972	y	o00	uw1	n11	you	1	False	you	1	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+DELETION	V			1.1411560360247388	uw1	n11	s	o00	you	1	False	see	2	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+DELETION	Fc			1.1411660360247389	uw1	n11	s	o00	you	1	False	see	2	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	Tn	Tn	1.1411670360247388	1.1418201591333288	
+PRESERVED	Fr	Fr	1.2274028663002094	1.200037235026186	
+DELETION	Tf			1.2274038663002094	s	o00	iy1	n11	see	2	False	see	2	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	V	V	1.3136496965756803	1.2832044863016965	
+PRESERVED	G	G	1.345251464383787	1.3389265446562886	
+PRESERVED	V	V	1.3768532321918934	1.3913219129598602	
+DELETION	G			1.408455	r	c11	y	o00	where	3	False	your	4	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+DELETION	G			1.4425436666666667	y	o00	ao1	n11	your	4	False	your	4	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	V	V	1.4766323333333333	1.4487073163399624	
+DELETION	G			1.510721	r	c11	s	o00	your	4	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+DELETION	Fc			1.510731	r	c11	s	o00	your	4	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	Tn	Tn	1.510732	1.4926295892355659	
+PRESERVED	Fr	Fr	1.5809438	1.6223705012253622	
+MUTATION	Tf	Sc	1.5809448	1.6223715012253621	s	o00	t	o00	start	5	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+DELETION	Nc			1.5809457999999998	s	o00	t	o00	start	5	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	Sr	Sr	1.6511666	1.6473206766080153	
+PRESERVED	V	V	1.7213894	1.7263295653197506	
+DELETION	G			1.7916121999999999	r	c11	t	c11	start	5	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+MUTATION	Sc	Sc-x	1.7916222	1.8203335600534984	r	c11	t	c11	start	5	False	start	5	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+INSERTION			t-glide	1.8203345600534984	
+MUTATION	Sr	Sr-x	1.861835	1.8203355600534983	t	c11	ih1	n11	start	5	False	is	6	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	V	V	2.0024515	1.913673417692551	
+DELETION	Fc			2.0024615	ih1	n11	z	c11	is	6	False	is	6	False	['you', 'see', 'where', 'your', 'start', 'is']	1	['you', 'see', 'where', 'your', 'start', 'is']	1
+PRESERVED	Tn	Tn	2.0024625	1.984365581276735	
+PRESERVED	Fr	Fr	2.143068	2.128244925983368	
+DELETION	Tf			2.143069	z	c11	-	-	is	6	False	-	-	-	['you', 'see', 'where', 'your', 'start', 'is']	1	-	-
+MUTATION	G	Gr	4.886920790675632	4.85708033549321	y	o00	ah1	n11	yup	1	False	yup	1	False	['yup', 'okay']	1	['yup', 'okay']	1
+PRESERVED	V	V	4.9519226479913945	4.916167901483515	
+MUTATION	Sc	Sc-x	4.951932647991394	4.988127643245785	ah1	n11	p	c11	yup	1	False	yup	1	False	['yup', 'okay']	1	['yup', 'okay']	1
+MUTATION	Sr	Sr-x	5.0169245053071565	4.988128643245785	p	c11	-	-	yup	1	False	-	-	-	['yup', 'okay']	1	-	-
+PRESERVED	V	V	5.950234128483601	5.887031380287137	
+PRESERVED	Sc	Sc	5.9502441284836	5.911981555669791	
+PRESERVED	Sr	Sr	6.0485065642418006	5.943585111154484	
+PRESERVED	V	V	6.146779	6.049207520274383	
+DELETION	G			6.200184666666667	y	o00	uh1	n11	you're	1	False	you're	1	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+PRESERVED	V	V	6.253590333333333	6.26710571861622	
+DELETION	G			6.306996	r	c11	g	o00	you're	1	False	gonna	2	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+MUTATION	Sc	Sc-x	6.3070059999999994	6.3244911219963225	r	c11	g	o00	you're	1	False	gonna	2	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+INSERTION			g-glide	6.324492121996323	
+MUTATION	Sr	Sr-x	6.3513114999999996	6.324493121996323	g	o00	aa1	n11	gonna	2	False	gonna	2	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+PRESERVED	V	V	6.395626999999999	6.379381507838159	
+PRESERVED	Nc	Nc	6.395636999999999	6.406826700759077	
+PRESERVED	Nr	Nr	6.4399425	6.439261928756526	
+PRESERVED	V	V	6.484258	6.460053741575404	
+PRESERVED	Sc	Sc	6.484267999999999	6.484920059011941	
+PRESERVED	Sr	Sr	6.588796333333333	6.548958842494084	
+PRESERVED	V	V	6.693334666666667	6.649591216537452	
+PRESERVED	Sc	Sc	6.6933446666666665	6.704481602379289	
+PRESERVED	Sr	Sr	6.797873	6.7585403157083705	
+MUTATION	G	Gr	6.827984666666667	6.814127335186673	y	o00	ao1	n11	your	4	False	your	4	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+MUTATION	V	V-x	6.858096333333333	6.855845999700716	ao1	n11	r	c11	your	4	False	your	4	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+DELETION	G			6.888208	r	c11	s	o00	your	4	False	start	5	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+DELETION	Fc			6.888217999999999	r	c11	s	o00	your	4	False	start	5	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+PRESERVED	Tn	Tn	6.888218999999999	6.881169877556751	
+PRESERVED	Fr	Fr	7.0013795558377545	7.020890859699608	
+MUTATION	Tf	Sc	7.001380555837755	7.020891859699608	s	o00	t	o00	start	5	False	start	5	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+DELETION	Nc			7.001381555837755	s	o00	t	o00	start	5	False	start	5	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+PRESERVED	Sr	Sr	7.1145511116755085	7.074117900515935	
+PRESERVED	V	V	7.227722667513263	7.128767034081543	
+MUTATION	G	Gc-x	7.340894223351017	7.15621222700246	r	c11	t	c11	start	5	False	start	5	False	["you're", 'gonna', 'take', 'your', 'start']	1	["you're", 'gonna', 'take', 'your', 'start']	1
+INSERTION			Gr	7.333358472219298	
+PRESERVED	Sc	Sc	7.340904223351017	7.408208998367257	
+MUTATION	Sr	Sr-x	7.454065779188772	7.42816913867338	t	c11	ah0	n11	start	5	False	and	1	False	["you're", 'gonna', 'take', 'your', 'start']	1	['and', 'go']	2
+PRESERVED	V	V	7.523952852792514	7.494702939693788	
+PRESERVED	Nc	Nc	7.523962852792514	7.524643150152972	
+INSERTION			Sc-x	7.620274143507992	
+PRESERVED	Nr	Nr	7.5938399263962575	7.641077301938687	
+PRESERVED	Sc	Sc	7.593849926396257	7.641078301938687	
+MUTATION	Sr	Sr-x	7.663727	7.647719336428911	d	c11	g	o00	and	1	False	go	2	False	['and', 'go']	2	['and', 'go']	2
+DELETION	Sc			7.663728	d	c11	g	o00	and	1	False	go	2	False	['and', 'go']	2	['and', 'go']	2
+PRESERVED	Sr	Sr	7.9628559999999995	7.665195804808584	
+PRESERVED	V	V	8.261985	7.949616458559012	
+PRESERVED	Sc	Sc	8.261994999999999	8.79411322696574	
+PRESERVED	Sr	Sr	8.588667333333333	8.87062709813921	
+PRESERVED	V	V	8.915349666666666	8.942982606748904	
+PRESERVED	Nc	Nc	8.915359666666665	9.194979378113699	
+PRESERVED	Nr	Nr	9.242032	9.241553038827984	
+PRESERVED	Sc	Sc	9.242042	9.241554038827983	
+PRESERVED	Sr	Sr	9.325549500000001	9.25735481657033	
+MUTATION	V	V-x	9.409067	9.357155518100944	uw1	n11	dh	o00	to	2	False	the	3	False	['down', 'to', 'the', 'left']	3	['down', 'to', 'the', 'left']	3
+PRESERVED	Fc	Fc	9.409077	9.407731171098588	
+PRESERVED	Fr	Fr	9.455939	9.43268134648124	
+PRESERVED	V	V	9.502811	9.455968176838384	
+PRESERVED	G	G	9.72779675	9.560758913445525	
+PRESERVED	V	V	9.9527825	9.716872093567256	
+PRESERVED	Fc	Fc	9.9527925	10.016274198159092	
+PRESERVED	Fr	Fr	10.17776825	10.052867788720317	
+MUTATION	Nc	Sc	10.17777825	10.052868788720316	f	c11	t	c11	left	4	False	left	4	False	['down', 'to', 'the', 'left']	3	['down', 'to', 'the', 'left']	3
+PRESERVED	Sr	Sr	10.402754	10.101104794460113	
+PRESERVED	V	V	10.7351165	11.014558688330972	
+MUTATION	Fc	Fc-x	10.7351265	11.037013846175359	ah1	n11	v	c11	of	1	False	of	1	False	['of', 'the', 'canadian', 'paradise']	1	['of', 'the', 'canadian', 'paradise']	1
+MUTATION	Fr	Fr-x	11.067479	11.058637331506992	v	c11	dh	o00	of	1	False	the	2	False	['of', 'the', 'canadian', 'paradise']	1	['of', 'the', 'canadian', 'paradise']	1

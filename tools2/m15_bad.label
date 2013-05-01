@@ -1,0 +1,494 @@
+Landmark File Version 2.0
+Flavor: transcription
+Date:  Thu Oct 28 17:52:46 1999
+Orthography: m15. I have an even number of them. (by jyc) * glottal stop at 123, glottalized 145, 174, 610, 1032, 1089, 1246  
+<
+Time: 123
+Symbol: q
+Prosody: (nil)
+Polarity: unspecified
+Features:
+glide +
+larynx +
+constricted_glottis +
+>
+
+<
+Time: 145
+Symbol: aa
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back +
+low +
+constricted_glottis +
+const_tongue_root +
+reduced -
+vowel +
+stressed -
+adv_tongue_root -
+>
+
+<
+Time: 174
+Symbol: iy
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low -
+glide +
+constricted_glottis +
+const_tongue_root -
+adv_tongue_root -
+>
+
+<
+Time: 224
+Symbol: h
+Prosody: (nil)
+Polarity: unspecified
+Features:
+spread_glottis +
+glide +
+constricted_glottis -
+larynx +
+>
+
+<
+Time: 320
+Symbol: ae
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low +
+const_tongue_root -
+reduced -
+stressed +
+vowel +
+adv_tongue_root -
+>
+
+<
+Time: 360
+Symbol: v
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: 398
+Symbol: v
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: 421
+Symbol: ae
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low +
+const_tongue_root -
+reduced +
+vowel +
+stressed -
+adv_tongue_root -
+>
+
+<
+Time: 443
+Symbol: n
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: 514
+Symbol: n
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: 610
+Symbol: iy
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high +
+back -
+low -
+constricted_glottis +
+const_tongue_root -
+reduced -
+vowel +
+stressed +
+adv_tongue_root +
+>
+
+<
+Time: 628
+Symbol: v
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+strident -
+>
+
+<
+Time: 688
+Symbol: v
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+strident -
+>
+
+<
+Time: 702
+Symbol: x
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low -
+reduced +
+vowel +
+stressed -
+>
+
+<
+Time: 1045
+Symbol: n
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: n
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: n
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: 820
+Symbol: n
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+distributed -
+continuant -
+anterior +
+sonorant +
+blade +
+nasal +
+>
+
+<
+Time: 849
+Symbol: ah
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back +
+low +
+round -
+const_tongue_root +
+reduced -
+vowel +
+stressed +
+adv_tongue_root -
+>
+
+<
+Time: 889
+Symbol: m
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant -
+sonorant +
+round -
+lips +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: m
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant -
+sonorant +
+round -
+lips +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: b
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant -
+spread_glottis -
+sonorant -
+stiff_vocal_folds -
+constricted_glottis -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: 996
+Symbol: b
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant -
+spread_glottis -
+sonorant -
+stiff_vocal_folds -
+constricted_glottis -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: 1032
+Symbol: rr
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back +
+low -
+distributed -
+anterior -
+glide +
+constricted_glottis +
+blade +
+reduced +
+stressed -
+>
+
+<
+Time: 1089
+Symbol: ah
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low -
+constricted_glottis +
+reduced +
+vowel +
+stressed -
+>
+
+<
+Time: 1122
+Symbol: v
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: (nil)
+Symbol: v
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant +
+sonorant -
+stiff_vocal_folds -
+round -
+lips +
+slack_vocal_folds +
+>
+
+<
+Time: 1161
+Symbol: dh
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+distributed +
+continuant +
+anterior +
+sonorant -
+stiff_vocal_folds -
+blade +
+slack_vocal_folds +
+strident -
+>
+
+<
+Time: 1222
+Symbol: dh
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+distributed +
+continuant +
+anterior +
+sonorant -
+stiff_vocal_folds -
+blade +
+slack_vocal_folds +
+strident -
+>
+
+<
+Time: 1246
+Symbol: eh
+Prosody: (nil)
+Polarity: unspecified
+Features:
+high -
+back -
+low -
+constricted_glottis +
+const_tongue_root -
+reduced +
+vowel +
+stressed -
+adv_tongue_root -
+>
+
+<
+Time: 1269
+Symbol: m
+Prosody: (nil)
+Polarity: closure
+Features:
+consonant +
+continuant -
+sonorant +
+round -
+lips +
+nasal +
+>
+
+<
+Time: (nil)
+Symbol: m
+Prosody: (nil)
+Polarity: release
+Features:
+consonant +
+continuant -
+sonorant +
+round -
+lips +
+nasal +
+>

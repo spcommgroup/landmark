@@ -1,0 +1,62 @@
+CHLee 2004
+"knowledge-rich, data-driven modeling paradigm that is capable of going beyond the current limitations
+of the state-of-the-art ASR technology"
+
+why "the optimal policy in decision and channel decoding no longer holds"?
+
+the input symbol sequences, such as words, concepts, or part-of-speech
+tags, can often be approximated by Markov chains,
+
+(3) Discriminative Modeling ¨C Using learning criterion that
+is consistent with speech recognition and verification objectives,
+minimum classification error (MCE) and minimum verification
+error (MVE) learning algorithms for HMM parameters have
+been shown quite effective in improving model separation,
+system accuracy, and performance robustness.
+
+However efforts in integrating detailed knowledge, from
+acoustics, speech, language and their interactions, are hampered
+by the current ASR formulation as a ¡°blackbox¡± of models
+trained to ¡°remember¡± the training data, because it is not
+straightforward to integrate all available knowledge sources into
+--> landmark/feature knowledge is a kind of probabilistic model... the difference is
+only in the structure of framework?
+
+¡°Knowledge-Based¡± Front-End [11] - An LVCSR system was
+built based on speech attributes produced by artificial neural
+network detectors. These ¡°knowledge-based¡± features were then
+used to train a set of HMMs. By merging the MFCC baseline
+system with systems built with 60 attributes and 44 phone
+features using a ROVER combination [12], we obtained a word
+error rate of 3.7% for the WSJ 5K test used in Nov92 evaluation,
+about 20% relative error reduction over the best baseline system.
+
+[12] Fiscus, ``A Post-Processing System to Yield Reduced
+Word Error Rates: Recognizer Output Voting Error
+Reduction (ROVER),'' -> merge many ASRs into one
+
+[11] Towards Knowledge-based Features for HMM Based Large Vocabulary Automatic Speech Recognition launey
+http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5743864
+
+"replace features based on the short-term spectra, such as Mel-frequency cepstral coefficients (MFCC), 
+by features that explicitly represent some of the distinctive features of the speech signal"
+spectral features --neural networks--> distinctive features --HMM--> words
+"very different error patterns
+
+Furthermore, a
+phonological parsing paradigm [17] for ASR has been proposed
+by assuming all the distinctive features can be exactly detected.
+However these features are not widely used in speech
+recognition due to the fact that they cannot be reliably detected
+in continuous speech, especially in adverse acoustic conditions.
+
+"other information"
+
+"bank of feature detectors" "mathematically rigorous" "stochastic"
+implemented using "acoustic-phonetic knowledge", neural network
+plug-n-play
+
+--> of course the knowledge will be language-specific, as opposed to conventional HMM models... but that's presumbly where the power comes from
+
+figure 1. too abstract; what is the "decision", phone, words?
+

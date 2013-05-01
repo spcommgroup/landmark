@@ -1,0 +1,6603 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 250.46991499999999 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "conv04g" 
+        xmin = 0 
+        xmax = 243.96269899999999 
+        intervals: size = 637 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7764149929137225 
+            text = "" 
+        intervals [2]:
+            xmin = 1.7764149929137225 
+            xmax = 2.1678410000000001 
+            text = "okay" 
+        intervals [3]:
+            xmin = 2.1678410000000001 
+            xmax = 2.3431109999999999 
+            text = "so" 
+        intervals [4]:
+            xmin = 2.3431109999999999 
+            xmax = 2.6918299999999999 
+            text = "Jill" 
+        intervals [5]:
+            xmin = 2.6918299999999999 
+            xmax = 2.9376169999999999 
+            text = "we're" 
+        intervals [6]:
+            xmin = 2.9376169999999999 
+            xmax = 3.3517519999999998 
+            text = "gonna" 
+        intervals [7]:
+            xmin = 3.3517519999999998 
+            xmax = 3.6682239999999999 
+            text = "start" 
+        intervals [8]:
+            xmin = 3.6682239999999999 
+            xmax = 3.8220079999999998 
+            text = "at" 
+        intervals [9]:
+            xmin = 3.8220079999999998 
+            xmax = 3.8732690000000001 
+            text = "the" 
+        intervals [10]:
+            xmin = 3.8732690000000001 
+            xmax = 4.2501920000000002 
+            text = "top" 
+        intervals [11]:
+            xmin = 4.2501920000000002 
+            xmax = 4.6994879999999997 
+            text = "lefthand" 
+        intervals [12]:
+            xmin = 4.6994879999999997 
+            xmax = 5.1970260000000001 
+            text = "corner" 
+        intervals [13]:
+            xmin = 5.1970260000000001 
+            xmax = 5.8782277425018377 
+            text = "" 
+        intervals [14]:
+            xmin = 5.8782277425018377 
+            xmax = 6.3971460000000002 
+            text = "um" 
+        intervals [15]:
+            xmin = 6.3971460000000002 
+            xmax = 6.7408979999999996 
+            text = "near" 
+        intervals [16]:
+            xmin = 6.7408979999999996 
+            xmax = 6.7891440000000003 
+            text = "the" 
+        intervals [17]:
+            xmin = 6.7891440000000003 
+            xmax = 7.2716050000000001 
+            text = "cliffs" 
+        intervals [18]:
+            xmin = 7.2716050000000001 
+            xmax = 9.4570190000000007 
+            text = "and" 
+        intervals [19]:
+            xmin = 9.4570190000000007 
+            xmax = 9.816592 
+            text = "you're" 
+        intervals [20]:
+            xmin = 9.816592 
+            xmax = 10.018622000000001 
+            text = "gonna" 
+        intervals [21]:
+            xmin = 10.018622000000001 
+            xmax = 10.579482 
+            text = "start" 
+        intervals [22]:
+            xmin = 10.579482 
+            xmax = 10.835789 
+            text = "not" 
+        intervals [23]:
+            xmin = 10.835789 
+            xmax = 11.728344 
+            text = "above" 
+        intervals [24]:
+            xmin = 11.728344 
+            xmax = 11.779605999999999 
+            text = "the" 
+        intervals [25]:
+            xmin = 11.779605999999999 
+            xmax = 12.250004000000001 
+            text = "cliff" 
+        intervals [26]:
+            xmin = 12.250004000000001 
+            xmax = 12.385695999999999 
+            text = "but" 
+        intervals [27]:
+            xmin = 12.385695999999999 
+            xmax = 12.500280999999999 
+            text = "if" 
+        intervals [28]:
+            xmin = 12.500280999999999 
+            xmax = 12.599788 
+            text = "you're" 
+        intervals [29]:
+            xmin = 12.599788 
+            xmax = 12.747541 
+            text = "at" 
+        intervals [30]:
+            xmin = 12.747541 
+            xmax = 12.771665 
+            text = "the" 
+        intervals [31]:
+            xmin = 12.771665 
+            xmax = 13.070187000000001 
+            text = "top" 
+        intervals [32]:
+            xmin = 13.070187000000001 
+            xmax = 13.112401999999999 
+            text = "the" 
+        intervals [33]:
+            xmin = 13.112401999999999 
+            xmax = 13.383786000000001 
+            text = "cliff" 
+        intervals [34]:
+            xmin = 13.383786000000001 
+            xmax = 13.745635999999999 
+            text = "go" 
+        intervals [35]:
+            xmin = 13.745635999999999 
+            xmax = 13.908467 
+            text = "about" 
+        intervals [36]:
+            xmin = 13.908467 
+            xmax = 14.077328 
+            text = "an" 
+        intervals [37]:
+            xmin = 14.077328 
+            xmax = 14.276343000000001 
+            text = "inch" 
+        intervals [38]:
+            xmin = 14.276343000000001 
+            xmax = 14.445204 
+            text = "to" 
+        intervals [39]:
+            xmin = 14.445204 
+            xmax = 14.529634 
+            text = "the" 
+        intervals [40]:
+            xmin = 14.529634 
+            xmax = 14.924649 
+            text = "left" 
+        intervals [41]:
+            xmin = 14.924649 
+            xmax = 16.263480000000001 
+            text = "and" 
+        intervals [42]:
+            xmin = 16.263480000000001 
+            xmax = 16.393141 
+            text = "what" 
+        intervals [43]:
+            xmin = 16.393141 
+            xmax = 16.429324999999999 
+            text = "you're" 
+        intervals [44]:
+            xmin = 16.429324999999999 
+            xmax = 16.610247999999999 
+            text = "gonna" 
+        intervals [45]:
+            xmin = 16.610247999999999 
+            xmax = 16.694679000000001 
+            text = "do" 
+        intervals [46]:
+            xmin = 16.694679000000001 
+            xmax = 16.782124 
+            text = "is" 
+        intervals [47]:
+            xmin = 16.782124 
+            xmax = 16.815294000000002 
+            text = "you're" 
+        intervals [48]:
+            xmin = 16.815294000000002 
+            xmax = 16.987169999999999 
+            text = "gonna" 
+        intervals [49]:
+            xmin = 16.987169999999999 
+            xmax = 17.095724000000001 
+            text = "go" 
+        intervals [50]:
+            xmin = 17.095724000000001 
+            xmax = 17.376154 
+            text = "down" 
+        intervals [51]:
+            xmin = 17.376154 
+            xmax = 17.448523000000002 
+            text = "you're" 
+        intervals [52]:
+            xmin = 17.448523000000002 
+            xmax = 17.734983 
+            text = "gonna" 
+        intervals [53]:
+            xmin = 17.734983 
+            xmax = 18.169198000000002 
+            text = "dip" 
+        intervals [54]:
+            xmin = 18.169198000000002 
+            xmax = 18.966117731310948 
+            text = "" 
+        intervals [55]:
+            xmin = 18.966117731310948 
+            xmax = 19.315047 
+            text = "around" 
+        intervals [56]:
+            xmin = 19.315047 
+            xmax = 19.393446999999998 
+            text = "the" 
+        intervals [57]:
+            xmin = 19.393446999999998 
+            xmax = 19.818615000000001 
+            text = "lefthand" 
+        intervals [58]:
+            xmin = 19.818615000000001 
+            xmax = 20.032706999999998 
+            text = "side" 
+        intervals [59]:
+            xmin = 20.032706999999998 
+            xmax = 20.141259999999999 
+            text = "of" 
+        intervals [60]:
+            xmin = 20.141259999999999 
+            xmax = 20.171413999999999 
+            text = "the" 
+        intervals [61]:
+            xmin = 20.171413999999999 
+            xmax = 20.705136 
+            text = "cliff" 
+        intervals [62]:
+            xmin = 20.705136 
+            xmax = 21.254563578798432 
+            text = "" 
+        intervals [63]:
+            xmin = 21.254563578798432 
+            xmax = 21.455969 
+            text = "and" 
+        intervals [64]:
+            xmin = 21.455969 
+            xmax = 21.757505999999999 
+            text = "then" 
+        intervals [65]:
+            xmin = 21.757505999999999 
+            xmax = 21.850982999999999 
+            text = "do" 
+        intervals [66]:
+            xmin = 21.850982999999999 
+            xmax = 21.878121 
+            text = "you" 
+        intervals [67]:
+            xmin = 21.878121 
+            xmax = 21.998736000000001 
+            text = "have" 
+        intervals [68]:
+            xmin = 21.998736000000001 
+            xmax = 22.043966999999999 
+            text = "a" 
+        intervals [69]:
+            xmin = 22.043966999999999 
+            xmax = 22.565626999999999 
+            text = "forage" 
+        intervals [70]:
+            xmin = 22.565626999999999 
+            xmax = 22.78575 
+            text = "right" 
+        intervals [71]:
+            xmin = 22.78575 
+            xmax = 23.084271999999999 
+            text = "below" 
+        intervals [72]:
+            xmin = 23.084271999999999 
+            xmax = 23.452148000000001 
+            text = "the" 
+        intervals [73]:
+            xmin = 23.452148000000001 
+            xmax = 24.031099999999999 
+            text = "cliff" 
+        intervals [74]:
+            xmin = 24.031099999999999 
+            xmax = 24.893504 
+            text = "what" 
+        intervals [75]:
+            xmin = 24.893504 
+            xmax = 24.932704000000001 
+            text = "do" 
+        intervals [76]:
+            xmin = 24.932704000000001 
+            xmax = 25.035226999999999 
+            text = "you" 
+        intervals [77]:
+            xmin = 25.035226999999999 
+            xmax = 25.140764999999998 
+            text = "ha-" 
+        intervals [78]:
+            xmin = 25.140764999999998 
+            xmax = 25.231225999999999 
+            text = "do" 
+        intervals [79]:
+            xmin = 25.231225999999999 
+            xmax = 25.318671999999999 
+            text = "you" 
+        intervals [80]:
+            xmin = 25.318671999999999 
+            xmax = 25.388026 
+            text = "have" 
+        intervals [81]:
+            xmin = 25.388026 
+            xmax = 25.737808999999999 
+            text = "anything" 
+        intervals [82]:
+            xmin = 25.737808999999999 
+            xmax = 25.969992999999999 
+            text = "below" 
+        intervals [83]:
+            xmin = 25.969992999999999 
+            xmax = 26.000146999999998 
+            text = "the" 
+        intervals [84]:
+            xmin = 26.000146999999998 
+            xmax = 26.325807999999999 
+            text = "cliff" 
+        intervals [85]:
+            xmin = 26.325807999999999 
+            xmax = 31.957753002808001 
+            text = "" 
+        intervals [86]:
+            xmin = 31.957753002808001 
+            xmax = 32.437987 
+            text = "okay" 
+        intervals [87]:
+            xmin = 32.437987 
+            xmax = 34.886830675809023 
+            text = "" 
+        intervals [88]:
+            xmin = 34.886830675809023 
+            xmax = 35.47448 
+            text = "okay" 
+        intervals [89]:
+            xmin = 35.47448 
+            xmax = 35.794110000000003 
+            text = "yup" 
+        intervals [90]:
+            xmin = 35.794110000000003 
+            xmax = 35.904434000000002 
+            text = "I've" 
+        intervals [91]:
+            xmin = 35.904434000000002 
+            xmax = 36.090859999999999 
+            text = "got" 
+        intervals [92]:
+            xmin = 36.090859999999999 
+            xmax = 36.330846999999999 
+            text = "that" 
+        intervals [93]:
+            xmin = 36.330846999999999 
+            xmax = 36.436385000000001 
+            text = "and" 
+        intervals [94]:
+            xmin = 36.436385000000001 
+            xmax = 36.499707999999998 
+            text = "you" 
+        intervals [95]:
+            xmin = 36.499707999999998 
+            xmax = 36.665554 
+            text = "don't" 
+        intervals [96]:
+            xmin = 36.665554 
+            xmax = 36.771092000000003 
+            text = "have" 
+        intervals [97]:
+            xmin = 36.771092000000003 
+            xmax = 37.202291000000002 
+            text = "anything" 
+        intervals [98]:
+            xmin = 37.202291000000002 
+            xmax = 37.588259000000001 
+            text = "directly" 
+        intervals [99]:
+            xmin = 37.588259000000001 
+            xmax = 37.880750999999997 
+            text = "below" 
+        intervals [100]:
+            xmin = 37.880750999999997 
+            xmax = 37.925981 
+            text = "the" 
+        intervals [101]:
+            xmin = 37.925981 
+            xmax = 38.396386 
+            text = "cliff" 
+        intervals [102]:
+            xmin = 38.396386 
+            xmax = 39.201490999999997 
+            text = "okay" 
+        intervals [103]:
+            xmin = 39.201490999999997 
+            xmax = 39.738232000000004 
+            text = "what" 
+        intervals [104]:
+            xmin = 39.738232000000004 
+            xmax = 39.804569999999998 
+            text = "you" 
+        intervals [105]:
+            xmin = 39.804569999999998 
+            xmax = 40.127215 
+            text = "wanna" 
+        intervals [106]:
+            xmin = 40.127215 
+            xmax = 40.706167999999998 
+            text = "do" 
+        intervals [107]:
+            xmin = 40.706167999999998 
+            xmax = 41.212750999999997 
+            text = "is" 
+        intervals [108]:
+            xmin = 41.212750999999997 
+            xmax = 41.610781000000003 
+            text = "after" 
+        intervals [109]:
+            xmin = 41.610781000000003 
+            xmax = 41.852010999999997 
+            text = "you're" 
+        intervals [110]:
+            xmin = 41.852010999999997 
+            xmax = 42.271147999999997 
+            text = "below" 
+        intervals [111]:
+            xmin = 42.271147999999997 
+            xmax = 42.322409999999998 
+            text = "the" 
+        intervals [112]:
+            xmin = 42.322409999999998 
+            xmax = 43.052131000000003 
+            text = "cliff" 
+        intervals [113]:
+            xmin = 43.052131000000003 
+            xmax = 44.596009000000002 
+            text = "um" 
+        intervals [114]:
+            xmin = 44.596009000000002 
+            xmax = 45.168931000000001 
+            text = "kind" 
+        intervals [115]:
+            xmin = 45.168931000000001 
+            xmax = 45.319699999999997 
+            text = "of" 
+        intervals [116]:
+            xmin = 45.319699999999997 
+            xmax = 45.913728999999996 
+            text = "make" 
+        intervals [117]:
+            xmin = 45.913728999999996 
+            xmax = 48.289853999999998 
+            text = "um" 
+        intervals [118]:
+            xmin = 48.289853999999998 
+            xmax = 48.841667999999999 
+            text = "kind" 
+        intervals [119]:
+            xmin = 48.841667999999999 
+            xmax = 49.055759999999999 
+            text = "of" 
+        intervals [120]:
+            xmin = 49.055759999999999 
+            xmax = 49.502035999999997 
+            text = "just" 
+        intervals [121]:
+            xmin = 49.502035999999997 
+            xmax = 49.839758000000003 
+            text = "dip" 
+        intervals [122]:
+            xmin = 49.839758000000003 
+            xmax = 50.376494999999998 
+            text = "down" 
+        intervals [123]:
+            xmin = 50.376494999999998 
+            xmax = 50.566464000000003 
+            text = "so" 
+        intervals [124]:
+            xmin = 50.566464000000003 
+            xmax = 50.786586 
+            text = "that" 
+        intervals [125]:
+            xmin = 50.786586 
+            xmax = 51.106222000000002 
+            text = "you're" 
+        intervals [126]:
+            xmin = 51.106222000000002 
+            xmax = 52.112964303303691 
+            text = "" 
+        intervals [127]:
+            xmin = 52.112964303303691 
+            xmax = 52.574713000000003 
+            text = "parallel" 
+        intervals [128]:
+            xmin = 52.574713000000003 
+            xmax = 52.870218999999999 
+            text = "with" 
+        intervals [129]:
+            xmin = 52.870218999999999 
+            xmax = 52.933542000000003 
+            text = "the" 
+        intervals [130]:
+            xmin = 52.933542000000003 
+            xmax = 53.397910000000003 
+            text = "bottom" 
+        intervals [131]:
+            xmin = 53.397910000000003 
+            xmax = 53.542648 
+            text = "of" 
+        intervals [132]:
+            xmin = 53.542648 
+            xmax = 53.624063999999997 
+            text = "the" 
+        intervals [133]:
+            xmin = 53.624063999999997 
+            xmax = 53.783878999999999 
+            text = "old" 
+        intervals [134]:
+            xmin = 53.783878999999999 
+            xmax = 54.254277000000002 
+            text = "pine" 
+        intervals [135]:
+            xmin = 54.254277000000002 
+            xmax = 55.995879271531848 
+            text = "" 
+        intervals [136]:
+            xmin = 55.995879271531848 
+            xmax = 56.156987000000001 
+            text = "but" 
+        intervals [137]:
+            xmin = 56.156987000000001 
+            xmax = 56.434401999999999 
+            text = "not" 
+        intervals [138]:
+            xmin = 56.434401999999999 
+            xmax = 56.741970999999999 
+            text = "you're" 
+        intervals [139]:
+            xmin = 56.741970999999999 
+            xmax = 56.962093000000003 
+            text = "gonna" 
+        intervals [140]:
+            xmin = 56.962093000000003 
+            xmax = 57.085723000000002 
+            text = "be" 
+        intervals [141]:
+            xmin = 57.085723000000002 
+            xmax = 57.354092000000001 
+            text = "about" 
+        intervals [142]:
+            xmin = 57.354092000000001 
+            xmax = 57.522953000000001 
+            text = "two" 
+        intervals [143]:
+            xmin = 57.522953000000001 
+            xmax = 57.890828999999997 
+            text = "inches" 
+        intervals [144]:
+            xmin = 57.890828999999997 
+            xmax = 58.035567 
+            text = "to" 
+        intervals [145]:
+            xmin = 58.035567 
+            xmax = 58.107936000000002 
+            text = "the" 
+        intervals [146]:
+            xmin = 58.107936000000002 
+            xmax = 58.415505000000003 
+            text = "left" 
+        intervals [147]:
+            xmin = 58.415505000000003 
+            xmax = 58.502949999999998 
+            text = "of" 
+        intervals [148]:
+            xmin = 58.502949999999998 
+            xmax = 58.584366000000003 
+            text = "the" 
+        intervals [149]:
+            xmin = 58.584366000000003 
+            xmax = 58.723072999999999 
+            text = "old" 
+        intervals [150]:
+            xmin = 58.723072999999999 
+            xmax = 59.18141 
+            text = "pine" 
+        intervals [151]:
+            xmin = 59.18141 
+            xmax = 64.156499999999994 
+            text = "um" 
+        intervals [152]:
+            xmin = 64.156499999999994 
+            xmax = 65.326250000000002 
+            text = "you're" 
+        intervals [153]:
+            xmin = 65.326250000000002 
+            xmax = 65.552488999999994 
+            text = "kind" 
+        intervals [154]:
+            xmin = 65.552488999999994 
+            xmax = 65.807209 
+            text = "of" 
+        intervals [155]:
+            xmin = 65.807209 
+            xmax = 67.352233999999996 
+            text = "where" 
+        intervals [156]:
+            xmin = 67.352233999999996 
+            xmax = 67.485857999999993 
+            text = "you're" 
+        intervals [157]:
+            xmin = 67.485857999999993 
+            xmax = 67.949365 
+            text = "starting" 
+        intervals [158]:
+            xmin = 67.949365 
+            xmax = 68.270897000000005 
+            text = "above" 
+        intervals [159]:
+            xmin = 68.270897000000005 
+            xmax = 68.321005999999997 
+            text = "the" 
+        intervals [160]:
+            xmin = 68.321005999999997 
+            xmax = 68.600780999999998 
+            text = "cliff" 
+        intervals [161]:
+            xmin = 68.600780999999998 
+            xmax = 68.730228999999994 
+            text = "and" 
+        intervals [162]:
+            xmin = 68.730228999999994 
+            xmax = 68.801216999999994 
+            text = "so" 
+        intervals [163]:
+            xmin = 68.801216999999994 
+            xmax = 68.951543000000001 
+            text = "you're" 
+        intervals [164]:
+            xmin = 68.951543000000001 
+            xmax = 69.235494000000003 
+            text = "going" 
+        intervals [165]:
+            xmin = 69.235494000000003 
+            xmax = 69.878557999999998 
+            text = "down" 
+        intervals [166]:
+            xmin = 69.878557999999998 
+            xmax = 71.093703000000005 
+            text = "to" 
+        intervals [167]:
+            xmin = 71.093703000000005 
+            xmax = 71.185569000000001 
+            text = "the" 
+        intervals [168]:
+            xmin = 71.185569000000001 
+            xmax = 71.440290000000005 
+            text = "side" 
+        intervals [169]:
+            xmin = 71.440290000000005 
+            xmax = 71.536332000000002 
+            text = "of" 
+        intervals [170]:
+            xmin = 71.536332000000002 
+            xmax = 71.573913000000005 
+            text = "the" 
+        intervals [171]:
+            xmin = 71.573913000000005 
+            xmax = 71.820282000000006 
+            text = "cliff" 
+        intervals [172]:
+            xmin = 71.820282000000006 
+            xmax = 71.933026999999996 
+            text = "on" 
+        intervals [173]:
+            xmin = 71.933026999999996 
+            xmax = 72.008189999999999 
+            text = "the" 
+        intervals [174]:
+            xmin = 72.008189999999999 
+            xmax = 72.396534000000003 
+            text = "left" 
+        intervals [175]:
+            xmin = 72.396534000000003 
+            xmax = 72.542685000000006 
+            text = "and" 
+        intervals [176]:
+            xmin = 72.542685000000006 
+            xmax = 72.839162999999999 
+            text = "then" 
+        intervals [177]:
+            xmin = 72.839162999999999 
+            xmax = 73.878335000000007 
+            text = "kind" 
+        intervals [178]:
+            xmin = 73.878335000000007 
+            xmax = 74.012314000000003 
+            text = "of" 
+        intervals [179]:
+            xmin = 74.012314000000003 
+            xmax = 74.515480999999994 
+            text = "curve" 
+        intervals [180]:
+            xmin = 74.515480999999994 
+            xmax = 74.548231000000001 
+            text = "a" 
+        intervals [181]:
+            xmin = 74.548231000000001 
+            xmax = 74.744733999999994 
+            text = "little" 
+        intervals [182]:
+            xmin = 74.744733999999994 
+            xmax = 74.988874999999993 
+            text = "bit" 
+        intervals [183]:
+            xmin = 74.988874999999993 
+            xmax = 75.378902999999994 
+            text = "to" 
+        intervals [184]:
+            xmin = 75.378902999999994 
+            xmax = 75.489063999999999 
+            text = "the" 
+        intervals [185]:
+            xmin = 75.489063999999999 
+            xmax = 76.054755 
+            text = "left" 
+        intervals [186]:
+            xmin = 76.054755 
+            xmax = 76.608528000000007 
+            text = "make" 
+        intervals [187]:
+            xmin = 76.608528000000007 
+            xmax = 76.638300999999998 
+            text = "a" 
+        intervals [188]:
+            xmin = 76.638300999999998 
+            xmax = 76.900305000000003 
+            text = "big" 
+        intervals [189]:
+            xmin = 76.900305000000003 
+            xmax = 77.275447 
+            text = "dip" 
+        intervals [190]:
+            xmin = 77.275447 
+            xmax = 77.436222999999998 
+            text = "so" 
+        intervals [191]:
+            xmin = 77.436222999999998 
+            xmax = 77.561269999999993 
+            text = "that" 
+        intervals [192]:
+            xmin = 77.561269999999993 
+            xmax = 77.686317000000003 
+            text = "you're" 
+        intervals [193]:
+            xmin = 77.686317000000003 
+            xmax = 77.912593999999999 
+            text = "right" 
+        intervals [194]:
+            xmin = 77.912593999999999 
+            xmax = 78.383009999999999 
+            text = "down" 
+        intervals [195]:
+            xmin = 78.383009999999999 
+            xmax = 78.737305000000006 
+            text = "near" 
+        intervals [196]:
+            xmin = 78.737305000000006 
+            xmax = 78.814715000000007 
+            text = "the" 
+        intervals [197]:
+            xmin = 78.814715000000007 
+            xmax = 78.999308999999997 
+            text = "old" 
+        intervals [198]:
+            xmin = 78.999308999999997 
+            xmax = 79.335746 
+            text = "pine" 
+        intervals [199]:
+            xmin = 79.335746 
+            xmax = 79.502476000000001 
+            text = "but" 
+        intervals [200]:
+            xmin = 79.502476000000001 
+            xmax = 79.716842999999997 
+            text = "about" 
+        intervals [201]:
+            xmin = 79.716842999999997 
+            xmax = 79.755548000000005 
+            text = "a" 
+        intervals [202]:
+            xmin = 79.755548000000005 
+            xmax = 80.011596999999995 
+            text = "couple" 
+        intervals [203]:
+            xmin = 80.011596999999995 
+            xmax = 80.342079999999996 
+            text = "inches" 
+        intervals [204]:
+            xmin = 80.342079999999996 
+            xmax = 80.735085999999995 
+            text = "away" 
+        intervals [205]:
+            xmin = 80.735085999999995 
+            xmax = 80.812495999999996 
+            text = "on" 
+        intervals [206]:
+            xmin = 80.812495999999996 
+            xmax = 80.866088000000005 
+            text = "the" 
+        intervals [207]:
+            xmin = 80.866088000000005 
+            xmax = 81.250162000000003 
+            text = "left" 
+        intervals [208]:
+            xmin = 81.250162000000003 
+            xmax = 84.647266999999999 
+            text = "okay" 
+        intervals [209]:
+            xmin = 84.647266999999999 
+            xmax = 84.799109999999999 
+            text = "and" 
+        intervals [210]:
+            xmin = 84.799109999999999 
+            xmax = 85.052182000000002 
+            text = "then" 
+        intervals [211]:
+            xmin = 85.052182000000002 
+            xmax = 85.168296999999995 
+            text = "what" 
+        intervals [212]:
+            xmin = 85.168296999999995 
+            xmax = 85.236776000000006 
+            text = "you're" 
+        intervals [213]:
+            xmin = 85.236776000000006 
+            xmax = 85.486869999999996 
+            text = "gonna" 
+        intervals [214]:
+            xmin = 85.486869999999996 
+            xmax = 85.862013000000005 
+            text = "do" 
+        intervals [215]:
+            xmin = 85.862013000000005 
+            xmax = 85.901752999999999 
+            text = "is" 
+        intervals [216]:
+            xmin = 85.901752999999999 
+            xmax = 85.975150999999997 
+            text = "you're" 
+        intervals [217]:
+            xmin = 85.975150999999997 
+            xmax = 86.305633 
+            text = "gonna" 
+        intervals [218]:
+            xmin = 86.305633 
+            xmax = 86.624206000000001 
+            text = "move" 
+        intervals [219]:
+            xmin = 86.624206000000001 
+            xmax = 86.805823000000004 
+            text = "to" 
+        intervals [220]:
+            xmin = 86.805823000000004 
+            xmax = 86.877278000000004 
+            text = "the" 
+        intervals [221]:
+            xmin = 86.877278000000004 
+            xmax = 87.404947000000007 
+            text = "right" 
+        intervals [222]:
+            xmin = 87.404947000000007 
+            xmax = 88.498248881308584 
+            text = "" 
+        intervals [223]:
+            xmin = 88.498248881308584 
+            xmax = 88.788118999999995 
+            text = "up" 
+        intervals [224]:
+            xmin = 88.788118999999995 
+            xmax = 89.532754999999995 
+            text = "around" 
+        intervals [225]:
+            xmin = 89.532754999999995 
+            xmax = 89.928579872349772 
+            text = "" 
+        intervals [226]:
+            xmin = 89.928579872349772 
+            xmax = 90.115677000000005 
+            text = "to" 
+        intervals [227]:
+            xmin = 90.115677000000005 
+            xmax = 90.172089 
+            text = "the" 
+        intervals [228]:
+            xmin = 90.172089 
+            xmax = 90.491755999999995 
+            text = "top" 
+        intervals [229]:
+            xmin = 90.491755999999995 
+            xmax = 90.536885999999996 
+            text = "of" 
+        intervals [230]:
+            xmin = 90.536885999999996 
+            xmax = 90.597058000000004 
+            text = "the" 
+        intervals [231]:
+            xmin = 90.597058000000004 
+            xmax = 90.796379999999999 
+            text = "old" 
+        intervals [232]:
+            xmin = 90.796379999999999 
+            xmax = 91.221349000000004 
+            text = "pine" 
+        intervals [233]:
+            xmin = 91.221349000000004 
+            xmax = 95.203762999999995 
+            text = "yup" 
+        intervals [234]:
+            xmin = 95.203762999999995 
+            xmax = 96.470832999999999 
+            text = "and" 
+        intervals [235]:
+            xmin = 96.470832999999999 
+            xmax = 96.535066999999998 
+            text = "you're" 
+        intervals [236]:
+            xmin = 96.535066999999998 
+            xmax = 96.724975000000001 
+            text = "gonna" 
+        intervals [237]:
+            xmin = 96.724975000000001 
+            xmax = 97.088035000000005 
+            text = "go" 
+        intervals [238]:
+            xmin = 97.088035000000005 
+            xmax = 97.892352000000002 
+            text = "horizontal" 
+        intervals [239]:
+            xmin = 97.892352000000002 
+            xmax = 98.093432000000007 
+            text = "for" 
+        intervals [240]:
+            xmin = 98.093432000000007 
+            xmax = 98.216313999999997 
+            text = "a" 
+        intervals [241]:
+            xmin = 98.216313999999997 
+            xmax = 98.406222 
+            text = "couple" 
+        intervals [242]:
+            xmin = 98.406222 
+            xmax = 98.970360999999997 
+            text = "inches" 
+        intervals [243]:
+            xmin = 98.970360999999997 
+            xmax = 99.886382999999995 
+            text = "do" 
+        intervals [244]:
+            xmin = 99.886382999999995 
+            xmax = 99.936653000000007 
+            text = "you" 
+        intervals [245]:
+            xmin = 99.936653000000007 
+            xmax = 100.006472 
+            text = "have" 
+        intervals [246]:
+            xmin = 100.006472 
+            xmax = 100.042778 
+            text = "a" 
+        intervals [247]:
+            xmin = 100.042778 
+            xmax = 100.40304500000001 
+            text = "pine" 
+        intervals [248]:
+            xmin = 100.40304500000001 
+            xmax = 101.095652 
+            text = "forest" 
+        intervals [249]:
+            xmin = 101.095652 
+            xmax = 101.961405 
+            text = "on" 
+        intervals [250]:
+            xmin = 101.961405 
+            xmax = 102.11500700000001 
+            text = "the" 
+        intervals [251]:
+            xmin = 102.11500700000001 
+            xmax = 102.39987000000001 
+            text = "right" 
+        intervals [252]:
+            xmin = 102.39987000000001 
+            xmax = 102.779687 
+            text = "okay" 
+        intervals [253]:
+            xmin = 102.779687 
+            xmax = 103.23211499999999 
+            text = "so" 
+        intervals [254]:
+            xmin = 103.23211499999999 
+            xmax = 103.53652700000001 
+            text = "kinda" 
+        intervals [255]:
+            xmin = 103.53652700000001 
+            xmax = 103.85211 
+            text = "go" 
+        intervals [256]:
+            xmin = 103.85211 
+            xmax = 104.55868 
+            text = "along" 
+        intervals [257]:
+            xmin = 104.55868 
+            xmax = 104.81840200000001 
+            text = "the" 
+        intervals [258]:
+            xmin = 104.81840200000001 
+            xmax = 105.106058 
+            text = "edge" 
+        intervals [259]:
+            xmin = 105.106058 
+            xmax = 105.276417 
+            text = "of" 
+        intervals [260]:
+            xmin = 105.276417 
+            xmax = 105.42164099999999 
+            text = "the" 
+        intervals [261]:
+            xmin = 105.42164099999999 
+            xmax = 105.75956600000001 
+            text = "pine" 
+        intervals [262]:
+            xmin = 105.75956600000001 
+            xmax = 106.06118499999999 
+            text = "forest" 
+        intervals [263]:
+            xmin = 106.06118499999999 
+            xmax = 106.20640899999999 
+            text = "on" 
+        intervals [264]:
+            xmin = 106.20640899999999 
+            xmax = 106.25667799999999 
+            text = "the" 
+        intervals [265]:
+            xmin = 106.25667799999999 
+            xmax = 106.70631400000001 
+            text = "left" 
+        intervals [266]:
+            xmin = 106.70631400000001 
+            xmax = 108.071971 
+            text = "and" 
+        intervals [267]:
+            xmin = 108.071971 
+            xmax = 108.368005 
+            text = "then" 
+        intervals [268]:
+            xmin = 108.368005 
+            xmax = 108.47413 
+            text = "you" 
+        intervals [269]:
+            xmin = 108.47413 
+            xmax = 108.728272 
+            text = "should" 
+        intervals [270]:
+            xmin = 108.728272 
+            xmax = 109.17232 
+            text = "be" 
+        intervals [271]:
+            xmin = 109.17232 
+            xmax = 109.33430300000001 
+            text = "at" 
+        intervals [272]:
+            xmin = 109.33430300000001 
+            xmax = 109.376194 
+            text = "the" 
+        intervals [273]:
+            xmin = 109.376194 
+            xmax = 109.649884 
+            text = "bottom" 
+        intervals [274]:
+            xmin = 109.649884 
+            xmax = 109.733667 
+            text = "of" 
+        intervals [275]:
+            xmin = 109.733667 
+            xmax = 109.758802 
+            text = "the" 
+        intervals [276]:
+            xmin = 109.758802 
+            xmax = 110.02970000000001 
+            text = "pine" 
+        intervals [277]:
+            xmin = 110.02970000000001 
+            xmax = 110.36203999999999 
+            text = "forest" 
+        intervals [278]:
+            xmin = 110.36203999999999 
+            xmax = 110.599425 
+            text = "kinda" 
+        intervals [279]:
+            xmin = 110.599425 
+            xmax = 110.74744200000001 
+            text = "right" 
+        intervals [280]:
+            xmin = 110.74744200000001 
+            xmax = 110.915008 
+            text = "in" 
+        intervals [281]:
+            xmin = 110.915008 
+            xmax = 110.965278 
+            text = "the" 
+        intervals [282]:
+            xmin = 110.965278 
+            xmax = 111.28923899999999 
+            text = "middle" 
+        intervals [283]:
+            xmin = 111.28923899999999 
+            xmax = 112.104722 
+            text = "of" 
+        intervals [284]:
+            xmin = 112.104722 
+            xmax = 112.20246899999999 
+            text = "the" 
+        intervals [285]:
+            xmin = 112.20246899999999 
+            xmax = 112.70796 
+            text = "words" 
+        intervals [286]:
+            xmin = 112.70796 
+            xmax = 114.19995818577007 
+            text = "" 
+        intervals [287]:
+            xmin = 114.19995818577007 
+            xmax = 114.59866 
+            text = "and" 
+        intervals [288]:
+            xmin = 114.59866 
+            xmax = 114.674064 
+            text = "you're" 
+        intervals [289]:
+            xmin = 114.674064 
+            xmax = 114.886315 
+            text = "gonna" 
+        intervals [290]:
+            xmin = 114.886315 
+            xmax = 115.014782 
+            text = "go" 
+        intervals [291]:
+            xmin = 115.014782 
+            xmax = 115.523066 
+            text = "down" 
+        intervals [292]:
+            xmin = 115.523066 
+            xmax = 115.590093 
+            text = "a" 
+        intervals [293]:
+            xmin = 115.590093 
+            xmax = 115.902883 
+            text = "couple" 
+        intervals [294]:
+            xmin = 115.902883 
+            xmax = 116.52008499999999 
+            text = "inches" 
+        intervals [295]:
+            xmin = 116.52008499999999 
+            xmax = 117.26976089730026 
+            text = "" 
+        intervals [296]:
+            xmin = 117.26976089730026 
+            xmax = 117.410971 
+            text = "and" 
+        intervals [297]:
+            xmin = 117.410971 
+            xmax = 117.461241 
+            text = "do" 
+        intervals [298]:
+            xmin = 117.461241 
+            xmax = 117.53106 
+            text = "you" 
+        intervals [299]:
+            xmin = 117.53106 
+            xmax = 117.575744 
+            text = "have" 
+        intervals [300]:
+            xmin = 117.575744 
+            xmax = 117.609258 
+            text = "a" 
+        intervals [301]:
+            xmin = 117.609258 
+            xmax = 118.198532 
+            text = "bakery" 
+        intervals [302]:
+            xmin = 118.198532 
+            xmax = 118.92748257168718 
+            text = "" 
+        intervals [303]:
+            xmin = 118.92748257168718 
+            xmax = 119.312847 
+            text = "okay" 
+        intervals [304]:
+            xmin = 119.312847 
+            xmax = 119.90719346801608 
+            text = "" 
+        intervals [305]:
+            xmin = 119.90719346801608 
+            xmax = 120.105988 
+            text = "you" 
+        intervals [306]:
+            xmin = 120.105988 
+            xmax = 120.374093 
+            text = "should" 
+        intervals [307]:
+            xmin = 120.374093 
+            xmax = 121.00805200000001 
+            text = "be" 
+        intervals [308]:
+            xmin = 121.00805200000001 
+            xmax = 121.44093100000001 
+            text = "about" 
+        intervals [309]:
+            xmin = 121.44093100000001 
+            xmax = 121.848675 
+            text = "a-" 
+        intervals [310]:
+            xmin = 121.848675 
+            xmax = 122.09723200000001 
+            text = "you-" 
+        intervals [311]:
+            xmin = 122.09723200000001 
+            xmax = 122.745154 
+            text = "above" 
+        intervals [312]:
+            xmin = 122.745154 
+            xmax = 122.78425300000001 
+            text = "the" 
+        intervals [313]:
+            xmin = 122.78425300000001 
+            xmax = 123.32604499999999 
+            text = "bakery" 
+        intervals [314]:
+            xmin = 123.32604499999999 
+            xmax = 123.638835 
+            text = "on" 
+        intervals [315]:
+            xmin = 123.638835 
+            xmax = 123.730996 
+            text = "the" 
+        intervals [316]:
+            xmin = 123.730996 
+            xmax = 124.370541 
+            text = "left" 
+        intervals [317]:
+            xmin = 124.370541 
+            xmax = 125.311699 
+            text = "and" 
+        intervals [318]:
+            xmin = 125.311699 
+            xmax = 125.428995 
+            text = "you're" 
+        intervals [319]:
+            xmin = 125.428995 
+            xmax = 125.579804 
+            text = "just" 
+        intervals [320]:
+            xmin = 125.579804 
+            xmax = 125.77529800000001 
+            text = "gonna" 
+        intervals [321]:
+            xmin = 125.77529800000001 
+            xmax = 126.30033899999999 
+            text = "curve" 
+        intervals [322]:
+            xmin = 126.30033899999999 
+            xmax = 126.574028 
+            text = "all" 
+        intervals [323]:
+            xmin = 126.574028 
+            xmax = 126.649433 
+            text = "the" 
+        intervals [324]:
+            xmin = 126.649433 
+            xmax = 126.81979200000001 
+            text = "way" 
+        intervals [325]:
+            xmin = 126.81979200000001 
+            xmax = 127.09348300000001 
+            text = "around" 
+        intervals [326]:
+            xmin = 127.09348300000001 
+            xmax = 127.12420299999999 
+            text = "the" 
+        intervals [327]:
+            xmin = 127.12420299999999 
+            xmax = 127.456543 
+            text = "bakery" 
+        intervals [328]:
+            xmin = 127.456543 
+            xmax = 127.598974 
+            text = "on" 
+        intervals [329]:
+            xmin = 127.598974 
+            xmax = 127.677172 
+            text = "the" 
+        intervals [330]:
+            xmin = 127.677172 
+            xmax = 128.104465 
+            text = "right" 
+        intervals [331]:
+            xmin = 128.104465 
+            xmax = 128.31112999999999 
+            text = "so" 
+        intervals [332]:
+            xmin = 128.31112999999999 
+            xmax = 128.40329199999999 
+            text = "that" 
+        intervals [333]:
+            xmin = 128.40329199999999 
+            xmax = 128.53455199999999 
+            text = "you're" 
+        intervals [334]:
+            xmin = 128.53455199999999 
+            xmax = 128.679776 
+            text = "at" 
+        intervals [335]:
+            xmin = 128.679776 
+            xmax = 128.713289 
+            text = "the" 
+        intervals [336]:
+            xmin = 128.713289 
+            xmax = 128.95625999999999 
+            text = "bottom" 
+        intervals [337]:
+            xmin = 128.95625999999999 
+            xmax = 129.08472699999999 
+            text = "of" 
+        intervals [338]:
+            xmin = 129.08472699999999 
+            xmax = 129.10986199999999 
+            text = "the" 
+        intervals [339]:
+            xmin = 129.10986199999999 
+            xmax = 129.690752 
+            text = "bakery" 
+        intervals [340]:
+            xmin = 129.690752 
+            xmax = 132.96863825170476 
+            text = "" 
+        intervals [341]:
+            xmin = 132.96863825170476 
+            xmax = 133.25990300000001 
+            text = "yup" 
+        intervals [342]:
+            xmin = 133.25990300000001 
+            xmax = 133.402334 
+            text = "so" 
+        intervals [343]:
+            xmin = 133.402334 
+            xmax = 133.494495 
+            text = "you're" 
+        intervals [344]:
+            xmin = 133.494495 
+            xmax = 133.843591 
+            text = "curving" 
+        intervals [345]:
+            xmin = 133.843591 
+            xmax = 133.98881499999999 
+            text = "like" 
+        intervals [346]:
+            xmin = 133.98881499999999 
+            xmax = 134.170345 
+            text = "all" 
+        intervals [347]:
+            xmin = 134.170345 
+            xmax = 134.22340800000001 
+            text = "the" 
+        intervals [348]:
+            xmin = 134.22340800000001 
+            xmax = 134.37142499999999 
+            text = "way" 
+        intervals [349]:
+            xmin = 134.37142499999999 
+            xmax = 134.79093 
+            text = "around" 
+        intervals [350]:
+            xmin = 134.79093 
+            xmax = 135.10705300000001 
+            text = "from" 
+        intervals [351]:
+            xmin = 135.10705300000001 
+            xmax = 135.156193 
+            text = "the" 
+        intervals [352]:
+            xmin = 135.156193 
+            xmax = 135.54997299999999 
+            text = "top" 
+        intervals [353]:
+            xmin = 135.54997299999999 
+            xmax = 136.27186180452583 
+            text = "" 
+        intervals [354]:
+            xmin = 136.27186180452583 
+            xmax = 136.47995800000001 
+            text = "so" 
+        intervals [355]:
+            xmin = 136.47995800000001 
+            xmax = 136.555363 
+            text = "are" 
+        intervals [356]:
+            xmin = 136.555363 
+            xmax = 136.66707400000001 
+            text = "you" 
+        intervals [357]:
+            xmin = 136.66707400000001 
+            xmax = 136.82346899999999 
+            text = "at" 
+        intervals [358]:
+            xmin = 136.82346899999999 
+            xmax = 136.843018 
+            text = "the" 
+        intervals [359]:
+            xmin = 136.843018 
+            xmax = 137.09157500000001 
+            text = "bottom" 
+        intervals [360]:
+            xmin = 137.09157500000001 
+            xmax = 137.15301600000001 
+            text = "of" 
+        intervals [361]:
+            xmin = 137.15301600000001 
+            xmax = 137.17535799999999 
+            text = "the" 
+        intervals [362]:
+            xmin = 137.17535799999999 
+            xmax = 137.58589499999999 
+            text = "bakery" 
+        intervals [363]:
+            xmin = 137.58589499999999 
+            xmax = 138.27291600000001 
+            text = "okay" 
+        intervals [364]:
+            xmin = 138.27291600000001 
+            xmax = 138.453304 
+            text = "do" 
+        intervals [365]:
+            xmin = 138.453304 
+            xmax = 138.517538 
+            text = "you" 
+        intervals [366]:
+            xmin = 138.517538 
+            xmax = 138.57339300000001 
+            text = "have" 
+        intervals [367]:
+            xmin = 138.57339300000001 
+            xmax = 138.60969900000001 
+            text = "a" 
+        intervals [368]:
+            xmin = 138.60969900000001 
+            xmax = 139.07050599999999 
+            text = "canal" 
+        intervals [369]:
+            xmin = 139.07050599999999 
+            xmax = 139.126361 
+            text = "on" 
+        intervals [370]:
+            xmin = 139.126361 
+            xmax = 139.196181 
+            text = "the" 
+        intervals [371]:
+            xmin = 139.196181 
+            xmax = 139.60113200000001 
+            text = "left" 
+        intervals [372]:
+            xmin = 139.60113200000001 
+            xmax = 145.69546320473364 
+            text = "" 
+        intervals [373]:
+            xmin = 145.69546320473364 
+            xmax = 145.853567 
+            text = "oh" 
+        intervals [374]:
+            xmin = 145.853567 
+            xmax = 146.16348400000001 
+            text = "yeah" 
+        intervals [375]:
+            xmin = 146.16348400000001 
+            xmax = 146.65148500000001 
+            text = "below" 
+        intervals [376]:
+            xmin = 146.65148500000001 
+            xmax = 146.693116 
+            text = "the" 
+        intervals [377]:
+            xmin = 146.693116 
+            xmax = 147.03078600000001 
+            text = "bakery" 
+        intervals [378]:
+            xmin = 147.03078600000001 
+            xmax = 147.231166 
+            text = "kind" 
+        intervals [379]:
+            xmin = 147.231166 
+            xmax = 147.41495699999999 
+            text = "of" 
+        intervals [380]:
+            xmin = 147.41495699999999 
+            xmax = 148.087739 
+            text = "okay" 
+        intervals [381]:
+            xmin = 148.087739 
+            xmax = 148.184877 
+            text = "do" 
+        intervals [382]:
+            xmin = 148.184877 
+            xmax = 148.24963600000001 
+            text = "you" 
+        intervals [383]:
+            xmin = 148.24963600000001 
+            xmax = 148.33983499999999 
+            text = "have" 
+        intervals [384]:
+            xmin = 148.33983499999999 
+            xmax = 148.527173 
+            text = "you" 
+        intervals [385]:
+            xmin = 148.527173 
+            xmax = 148.640501 
+            text = "don't" 
+        intervals [386]:
+            xmin = 148.640501 
+            xmax = 148.758454 
+            text = "have" 
+        intervals [387]:
+            xmin = 148.758454 
+            xmax = 149.10075000000001 
+            text = "anything" 
+        intervals [388]:
+            xmin = 149.10075000000001 
+            xmax = 149.26958500000001 
+            text = "right" 
+        intervals [389]:
+            xmin = 149.26958500000001 
+            xmax = 149.34128200000001 
+            text = "to" 
+        intervals [390]:
+            xmin = 149.34128200000001 
+            xmax = 149.39447699999999 
+            text = "the" 
+        intervals [391]:
+            xmin = 149.39447699999999 
+            xmax = 149.695142 
+            text = "left" 
+        intervals [392]:
+            xmin = 149.695142 
+            xmax = 149.84316200000001 
+            text = "of" 
+        intervals [393]:
+            xmin = 149.84316200000001 
+            xmax = 150.111448 
+            text = "the" 
+        intervals [394]:
+            xmin = 150.111448 
+            xmax = 150.638769 
+            text = "bakery" 
+        intervals [395]:
+            xmin = 150.638769 
+            xmax = 152.50639614499732 
+            text = "" 
+        intervals [396]:
+            xmin = 152.50639614499732 
+            xmax = 152.78736699999999 
+            text = "okay" 
+        intervals [397]:
+            xmin = 152.78736699999999 
+            xmax = 152.87987899999999 
+            text = "I" 
+        intervals [398]:
+            xmin = 152.87987899999999 
+            xmax = 153.07646800000001 
+            text = "have" 
+        intervals [399]:
+            xmin = 153.07646800000001 
+            xmax = 153.21754999999999 
+            text = "that" 
+        intervals [400]:
+            xmin = 153.21754999999999 
+            xmax = 153.599163 
+            text = "too" 
+        intervals [401]:
+            xmin = 153.599163 
+            xmax = 154.1562768436317 
+            text = "" 
+        intervals [402]:
+            xmin = 154.1562768436317 
+            xmax = 154.78563299999999 
+            text = "um" 
+        intervals [403]:
+            xmin = 154.78563299999999 
+            xmax = 155.33225563946684 
+            text = "" 
+        intervals [404]:
+            xmin = 155.33225563946684 
+            xmax = 155.761638 
+            text = "about" 
+        intervals [405]:
+            xmin = 155.761638 
+            xmax = 155.874966 
+            text = "an" 
+        intervals [406]:
+            xmin = 155.874966 
+            xmax = 156.177944 
+            text = "inch" 
+        intervals [407]:
+            xmin = 156.177944 
+            xmax = 156.510989 
+            text = "away" 
+        intervals [408]:
+            xmin = 156.510989 
+            xmax = 156.730706 
+            text = "from" 
+        intervals [409]:
+            xmin = 156.730706 
+            xmax = 156.79315099999999 
+            text = "the" 
+        intervals [410]:
+            xmin = 156.79315099999999 
+            xmax = 157.34360000000001 
+            text = "bakery" 
+        intervals [411]:
+            xmin = 157.34360000000001 
+            xmax = 157.44999000000001 
+            text = "I" 
+        intervals [412]:
+            xmin = 157.44999000000001 
+            xmax = 157.51706100000001 
+            text = "have" 
+        intervals [413]:
+            xmin = 157.51706100000001 
+            xmax = 157.56563 
+            text = "a" 
+        intervals [414]:
+            xmin = 157.56563 
+            xmax = 158.016626 
+            text = "canal" 
+        intervals [415]:
+            xmin = 158.016626 
+            xmax = 158.76829000000001 
+            text = "so" 
+        intervals [416]:
+            xmin = 158.76829000000001 
+            xmax = 158.81454600000001 
+            text = "you're" 
+        intervals [417]:
+            xmin = 158.81454600000001 
+            xmax = 159.00882200000001 
+            text = "just" 
+        intervals [418]:
+            xmin = 159.00882200000001 
+            xmax = 159.210037 
+            text = "gonna" 
+        intervals [419]:
+            xmin = 159.210037 
+            xmax = 159.82987 
+            text = "go" 
+        intervals [420]:
+            xmin = 159.82987 
+            xmax = 160.195291 
+            text = "into" 
+        intervals [421]:
+            xmin = 160.195291 
+            xmax = 160.51908499999999 
+            text = "open" 
+        intervals [422]:
+            xmin = 160.51908499999999 
+            xmax = 160.90532400000001 
+            text = "space" 
+        intervals [423]:
+            xmin = 160.90532400000001 
+            xmax = 161.199051 
+            text = "for" 
+        intervals [424]:
+            xmin = 161.199051 
+            xmax = 161.60314099999999 
+            text = "about" 
+        intervals [425]:
+            xmin = 161.60314099999999 
+            xmax = 161.95996400000001 
+            text = "an" 
+        intervals [426]:
+            xmin = 161.95996400000001 
+            xmax = 162.17968099999999 
+            text = "inch" 
+        intervals [427]:
+            xmin = 162.17968099999999 
+            xmax = 162.239814 
+            text = "or" 
+        intervals [428]:
+            xmin = 162.239814 
+            xmax = 162.80413999999999 
+            text = "two" 
+        intervals [429]:
+            xmin = 162.80413999999999 
+            xmax = 163.45172600000001 
+            text = "and" 
+        intervals [430]:
+            xmin = 163.45172600000001 
+            xmax = 163.703822 
+            text = "then" 
+        intervals [431]:
+            xmin = 163.703822 
+            xmax = 163.80096 
+            text = "you're" 
+        intervals [432]:
+            xmin = 163.80096 
+            xmax = 164.02761599999999 
+            text = "gonna" 
+        intervals [433]:
+            xmin = 164.02761599999999 
+            xmax = 164.457798 
+            text = "dip" 
+        intervals [434]:
+            xmin = 164.457798 
+            xmax = 164.871792 
+            text = "down" 
+        intervals [435]:
+            xmin = 164.871792 
+            xmax = 165.07994500000001 
+            text = "to" 
+        intervals [436]:
+            xmin = 165.07994500000001 
+            xmax = 165.13082600000001 
+            text = "the" 
+        intervals [437]:
+            xmin = 165.13082600000001 
+            xmax = 165.54481999999999 
+            text = "crane" 
+        intervals [438]:
+            xmin = 165.54481999999999 
+            xmax = 165.977811 
+            text = "bay" 
+        intervals [439]:
+            xmin = 165.977811 
+            xmax = 167.063502 
+            text = "and" 
+        intervals [440]:
+            xmin = 167.063502 
+            xmax = 167.263431 
+            text = "there's" 
+        intervals [441]:
+            xmin = 167.263431 
+            xmax = 167.55527900000001 
+            text = "kind" 
+        intervals [442]:
+            xmin = 167.55527900000001 
+            xmax = 167.95898399999999 
+            text = "of" 
+        intervals [443]:
+            xmin = 167.95898399999999 
+            xmax = 169.11635899999999 
+            text = "a" 
+        intervals [444]:
+            xmin = 169.11635899999999 
+            xmax = 169.49087499999999 
+            text = "dip" 
+        intervals [445]:
+            xmin = 169.49087499999999 
+            xmax = 169.758386 
+            text = "at" 
+        intervals [446]:
+            xmin = 169.758386 
+            xmax = 169.82878400000001 
+            text = "the" 
+        intervals [447]:
+            xmin = 169.82878400000001 
+            xmax = 170.06250399999999 
+            text = "top" 
+        intervals [448]:
+            xmin = 170.06250399999999 
+            xmax = 170.11991499999999 
+            text = "of" 
+        intervals [449]:
+            xmin = 170.11991499999999 
+            xmax = 170.14794699999999 
+            text = "the" 
+        intervals [450]:
+            xmin = 170.14794699999999 
+            xmax = 170.41705300000001 
+            text = "crane" 
+        intervals [451]:
+            xmin = 170.41705300000001 
+            xmax = 170.68616 
+            text = "bay" 
+        intervals [452]:
+            xmin = 170.68616 
+            xmax = 170.97208599999999 
+            text = "do" 
+        intervals [453]:
+            xmin = 170.97208599999999 
+            xmax = 171.04310000000001 
+            text = "you" 
+        intervals [454]:
+            xmin = 171.04310000000001 
+            xmax = 171.22063399999999 
+            text = "see" 
+        intervals [455]:
+            xmin = 171.22063399999999 
+            xmax = 171.603737 
+            text = "that" 
+        intervals [456]:
+            xmin = 171.603737 
+            xmax = 172.13261399999999 
+            text = "okay" 
+        intervals [457]:
+            xmin = 172.13261399999999 
+            xmax = 172.33444299999999 
+            text = "so" 
+        intervals [458]:
+            xmin = 172.33444299999999 
+            xmax = 172.511979 
+            text = "just" 
+        intervals [459]:
+            xmin = 172.511979 
+            xmax = 172.78669099999999 
+            text = "curve" 
+        intervals [460]:
+            xmin = 172.78669099999999 
+            xmax = 173.166056 
+            text = "along" 
+        intervals [461]:
+            xmin = 173.166056 
+            xmax = 173.24454499999999 
+            text = "that" 
+        intervals [462]:
+            xmin = 173.24454499999999 
+            xmax = 173.448249 
+            text = "whole" 
+        intervals [463]:
+            xmin = 173.448249 
+            xmax = 173.651948 
+            text = "dip" 
+        intervals [464]:
+            xmin = 173.651948 
+            xmax = 173.78836999999999 
+            text = "like" 
+        intervals [465]:
+            xmin = 173.78836999999999 
+            xmax = 173.906104 
+            text = "go" 
+        intervals [466]:
+            xmin = 173.906104 
+            xmax = 174.19015999999999 
+            text = "along" 
+        intervals [467]:
+            xmin = 174.19015999999999 
+            xmax = 174.23127400000001 
+            text = "the" 
+        intervals [468]:
+            xmin = 174.23127400000001 
+            xmax = 174.795649 
+            text = "coast" 
+        intervals [469]:
+            xmin = 174.795649 
+            xmax = 175.825366 
+            text = "and" 
+        intervals [470]:
+            xmin = 175.825366 
+            xmax = 175.94870599999999 
+            text = "then" 
+        intervals [471]:
+            xmin = 175.94870599999999 
+            xmax = 176.02345800000001 
+            text = "do" 
+        intervals [472]:
+            xmin = 176.02345800000001 
+            xmax = 176.13184799999999 
+            text = "you" 
+        intervals [473]:
+            xmin = 176.13184799999999 
+            xmax = 176.20099300000001 
+            text = "have" 
+        intervals [474]:
+            xmin = 176.20099300000001 
+            xmax = 176.28322 
+            text = "an" 
+        intervals [475]:
+            xmin = 176.28322 
+            xmax = 176.59717699999999 
+            text = "edge" 
+        intervals [476]:
+            xmin = 176.59717699999999 
+            xmax = 176.73173 
+            text = "on" 
+        intervals [477]:
+            xmin = 176.73173 
+            xmax = 176.79526899999999 
+            text = "the" 
+        intervals [478]:
+            xmin = 176.79526899999999 
+            xmax = 177.07371900000001 
+            text = "left" 
+        intervals [479]:
+            xmin = 177.07371900000001 
+            xmax = 177.16529 
+            text = "of" 
+        intervals [480]:
+            xmin = 177.16529 
+            xmax = 177.19705999999999 
+            text = "the" 
+        intervals [481]:
+            xmin = 177.19705999999999 
+            xmax = 177.49046000000001 
+            text = "crane" 
+        intervals [482]:
+            xmin = 177.49046000000001 
+            xmax = 177.922158 
+            text = "bay" 
+        intervals [483]:
+            xmin = 177.922158 
+            xmax = 178.07536999999999 
+            text = "a" 
+        intervals [484]:
+            xmin = 178.07536999999999 
+            xmax = 178.210465 
+            text = "little" 
+        intervals [485]:
+            xmin = 178.210465 
+            xmax = 178.34555900000001 
+            text = "bit" 
+        intervals [486]:
+            xmin = 178.34555900000001 
+            xmax = 178.43234200000001 
+            text = "do" 
+        intervals [487]:
+            xmin = 178.43234200000001 
+            xmax = 178.495881 
+            text = "you" 
+        intervals [488]:
+            xmin = 178.495881 
+            xmax = 178.61735300000001 
+            text = "have" 
+        intervals [489]:
+            xmin = 178.61735300000001 
+            xmax = 178.79862600000001 
+            text = "wheat" 
+        intervals [490]:
+            xmin = 178.79862600000001 
+            xmax = 179.42653999999999 
+            text = "fields" 
+        intervals [491]:
+            xmin = 179.42653999999999 
+            xmax = 183.319253 
+            text = "wuuhh-" 
+        intervals [492]:
+            xmin = 183.319253 
+            xmax = 184.58069699999999 
+            text = "okay" 
+        intervals [493]:
+            xmin = 184.58069699999999 
+            xmax = 186.61021500000001 
+            text = "okay" 
+        intervals [494]:
+            xmin = 186.61021500000001 
+            xmax = 187.40511799999999 
+            text = "I" 
+        intervals [495]:
+            xmin = 187.40511799999999 
+            xmax = 187.67796100000001 
+            text = "have" 
+        intervals [496]:
+            xmin = 187.67796100000001 
+            xmax = 188.00686899999999 
+            text = "wheat" 
+        intervals [497]:
+            xmin = 188.00686899999999 
+            xmax = 188.56956 
+            text = "fields" 
+        intervals [498]:
+            xmin = 188.56956 
+            xmax = 188.95557299999999 
+            text = "too" 
+        intervals [499]:
+            xmin = 188.95557299999999 
+            xmax = 189.06806800000001 
+            text = "that" 
+        intervals [500]:
+            xmin = 189.06806800000001 
+            xmax = 189.31291100000001 
+            text = "are" 
+        intervals [501]:
+            xmin = 189.31291100000001 
+            xmax = 189.57981100000001 
+            text = "that" 
+        intervals [502]:
+            xmin = 189.57981100000001 
+            xmax = 189.818037 
+            text = "same" 
+        intervals [503]:
+            xmin = 189.818037 
+            xmax = 190.14228800000001 
+            text = "spot" 
+        intervals [504]:
+            xmin = 190.14228800000001 
+            xmax = 190.27243000000001 
+            text = "that" 
+        intervals [505]:
+            xmin = 190.27243000000001 
+            xmax = 190.35624999999999 
+            text = "you" 
+        intervals [506]:
+            xmin = 190.35624999999999 
+            xmax = 190.62976699999999 
+            text = "have" 
+        intervals [507]:
+            xmin = 190.62976699999999 
+            xmax = 191.25841700000001 
+            text = "but" 
+        intervals [508]:
+            xmin = 191.25841700000001 
+            xmax = 191.63560699999999 
+            text = "then" 
+        intervals [509]:
+            xmin = 191.63560699999999 
+            xmax = 192.676739 
+            text = "right" 
+        intervals [510]:
+            xmin = 192.676739 
+            xmax = 193.33627000000001 
+            text = "next" 
+        intervals [511]:
+            xmin = 193.33627000000001 
+            xmax = 193.995801 
+            text = "to" 
+        intervals [512]:
+            xmin = 193.995801 
+            xmax = 195.43838700000001 
+            text = "right" 
+        intervals [513]:
+            xmin = 195.43838700000001 
+            xmax = 196.386876 
+            text = "below" 
+        intervals [514]:
+            xmin = 196.386876 
+            xmax = 196.93611799999999 
+            text = "where" 
+        intervals [515]:
+            xmin = 196.93611799999999 
+            xmax = 197.13022699999999 
+            text = "your" 
+        intervals [516]:
+            xmin = 197.13022699999999 
+            xmax = 197.35742300000001 
+            text = "wheat" 
+        intervals [517]:
+            xmin = 197.35742300000001 
+            xmax = 197.61329499999999 
+            text = "fields" 
+        intervals [518]:
+            xmin = 197.61329499999999 
+            xmax = 198.136067 
+            text = "are" 
+        intervals [519]:
+            xmin = 198.136067 
+            xmax = 198.63016400000001 
+            text = "I" 
+        intervals [520]:
+            xmin = 198.63016400000001 
+            xmax = 198.75810000000001 
+            text = "have" 
+        intervals [521]:
+            xmin = 198.75810000000001 
+            xmax = 199.03382400000001 
+            text = "another" 
+        intervals [522]:
+            xmin = 199.03382400000001 
+            xmax = 199.22352100000001 
+            text = "set" 
+        intervals [523]:
+            xmin = 199.22352100000001 
+            xmax = 199.331605 
+            text = "of" 
+        intervals [524]:
+            xmin = 199.331605 
+            xmax = 199.51468499999999 
+            text = "wheat" 
+        intervals [525]:
+            xmin = 199.51468499999999 
+            xmax = 199.814673 
+            text = "fields" 
+        intervals [526]:
+            xmin = 199.814673 
+            xmax = 200.12568899999999 
+            text = "and" 
+        intervals [527]:
+            xmin = 200.12568899999999 
+            xmax = 200.62860800000001 
+            text = "they" 
+        intervals [528]:
+            xmin = 200.62860800000001 
+            xmax = 201.15579199999999 
+            text = "are" 
+        intervals [529]:
+            xmin = 201.15579199999999 
+            xmax = 202.91380599999999 
+            text = "horizontal" 
+        intervals [530]:
+            xmin = 202.91380599999999 
+            xmax = 203.396873 
+            text = "to" 
+        intervals [531]:
+            xmin = 203.396873 
+            xmax = 203.716713 
+            text = "where" 
+        intervals [532]:
+            xmin = 203.716713 
+            xmax = 203.756417 
+            text = "the" 
+        intervals [533]:
+            xmin = 203.756417 
+            xmax = 204.10272599999999 
+            text = "crane" 
+        intervals [534]:
+            xmin = 204.10272599999999 
+            xmax = 204.40271300000001 
+            text = "is" 
+        intervals [535]:
+            xmin = 204.40271300000001 
+            xmax = 204.68726100000001 
+            text = "the" 
+        intervals [536]:
+            xmin = 204.68726100000001 
+            xmax = 204.84828300000001 
+            text = "word" 
+        intervals [537]:
+            xmin = 204.84828300000001 
+            xmax = 205.238708 
+            text = "crane" 
+        intervals [538]:
+            xmin = 205.238708 
+            xmax = 206.16513900000001 
+            text = "so" 
+        intervals [539]:
+            xmin = 206.16513900000001 
+            xmax = 206.346013 
+            text = "just" 
+        intervals [540]:
+            xmin = 206.346013 
+            xmax = 206.47615500000001 
+            text = "like" 
+        intervals [541]:
+            xmin = 206.47615500000001 
+            xmax = 206.65702999999999 
+            text = "right" 
+        intervals [542]:
+            xmin = 206.65702999999999 
+            xmax = 206.93054699999999 
+            text = "below" 
+        intervals [543]:
+            xmin = 206.93054699999999 
+            xmax = 207.00333800000001 
+            text = "the" 
+        intervals [544]:
+            xmin = 207.00333800000001 
+            xmax = 207.19524200000001 
+            text = "other" 
+        intervals [545]:
+            xmin = 207.19524200000001 
+            xmax = 207.36949899999999 
+            text = "wheat" 
+        intervals [546]:
+            xmin = 207.36949899999999 
+            xmax = 207.72683699999999 
+            text = "fields" 
+        intervals [547]:
+            xmin = 207.72683699999999 
+            xmax = 208.24519799999999 
+            text = "so" 
+        intervals [548]:
+            xmin = 208.24519799999999 
+            xmax = 208.32240100000001 
+            text = "you're" 
+        intervals [549]:
+            xmin = 208.32240100000001 
+            xmax = 208.58930100000001 
+            text = "gonna" 
+        intervals [550]:
+            xmin = 208.58930100000001 
+            xmax = 208.96428499999999 
+            text = "go" 
+        intervals [551]:
+            xmin = 208.96428499999999 
+            xmax = 209.59072900000001 
+            text = "around" 
+        intervals [552]:
+            xmin = 209.59072900000001 
+            xmax = 210.698035 
+            text = "um" 
+        intervals [553]:
+            xmin = 210.698035 
+            xmax = 210.929643 
+            text = "the" 
+        intervals [554]:
+            xmin = 210.929643 
+            xmax = 211.335508 
+            text = "coast" 
+        intervals [555]:
+            xmin = 211.335508 
+            xmax = 211.42815100000001 
+            text = "of" 
+        intervals [556]:
+            xmin = 211.42815100000001 
+            xmax = 211.492119 
+            text = "the" 
+        intervals [557]:
+            xmin = 211.492119 
+            xmax = 211.920042 
+            text = "crane" 
+        intervals [558]:
+            xmin = 211.920042 
+            xmax = 212.35237599999999 
+            text = "bay" 
+        intervals [559]:
+            xmin = 212.35237599999999 
+            xmax = 213.09131600000001 
+            text = "dip" 
+        intervals [560]:
+            xmin = 213.09131600000001 
+            xmax = 213.719966 
+            text = "down" 
+        intervals [561]:
+            xmin = 213.719966 
+            xmax = 214.992706 
+            text = "um" 
+        intervals [562]:
+            xmin = 214.992706 
+            xmax = 215.34121999999999 
+            text = "about" 
+        intervals [563]:
+            xmin = 215.34121999999999 
+            xmax = 215.37210099999999 
+            text = "an" 
+        intervals [564]:
+            xmin = 215.37210099999999 
+            xmax = 215.76693800000001 
+            text = "inch" 
+        intervals [565]:
+            xmin = 215.76693800000001 
+            xmax = 216.073542 
+            text = "do" 
+        intervals [566]:
+            xmin = 216.073542 
+            xmax = 216.13750999999999 
+            text = "you" 
+        intervals [567]:
+            xmin = 216.13750999999999 
+            xmax = 216.20368400000001 
+            text = "have" 
+        intervals [568]:
+            xmin = 216.20368400000001 
+            xmax = 216.309562 
+            text = "a" 
+        intervals [569]:
+            xmin = 216.309562 
+            xmax = 216.72866200000001 
+            text = "rocket" 
+        intervals [570]:
+            xmin = 216.72866200000001 
+            xmax = 217.48422199999999 
+            text = "warehouse" 
+        intervals [571]:
+            xmin = 217.48422199999999 
+            xmax = 218.096251 
+            text = "okay" 
+        intervals [572]:
+            xmin = 218.096251 
+            xmax = 218.33006399999999 
+            text = "so" 
+        intervals [573]:
+            xmin = 218.33006399999999 
+            xmax = 218.39182600000001 
+            text = "you're" 
+        intervals [574]:
+            xmin = 218.39182600000001 
+            xmax = 218.660932 
+            text = "gonna" 
+        intervals [575]:
+            xmin = 218.660932 
+            xmax = 218.852836 
+            text = "just" 
+        intervals [576]:
+            xmin = 218.852836 
+            xmax = 219.221203 
+            text = "go" 
+        intervals [577]:
+            xmin = 219.221203 
+            xmax = 220.28336899999999 
+            text = "along" 
+        intervals [578]:
+            xmin = 220.28336899999999 
+            xmax = 220.32307299999999 
+            text = "the" 
+        intervals [579]:
+            xmin = 220.32307299999999 
+            xmax = 220.70908600000001 
+            text = "top" 
+        intervals [580]:
+            xmin = 220.70908600000001 
+            xmax = 220.803935 
+            text = "of" 
+        intervals [581]:
+            xmin = 220.803935 
+            xmax = 220.86128500000001 
+            text = "the" 
+        intervals [582]:
+            xmin = 220.86128500000001 
+            xmax = 221.18112500000001 
+            text = "rocket" 
+        intervals [583]:
+            xmin = 221.18112500000001 
+            xmax = 221.82962699999999 
+            text = "warehouse" 
+        intervals [584]:
+            xmin = 221.82962699999999 
+            xmax = 223.69455300000001 
+            text = "um" 
+        intervals [585]:
+            xmin = 223.69455300000001 
+            xmax = 225.35510099999999 
+            text = "go" 
+        intervals [586]:
+            xmin = 225.35510099999999 
+            xmax = 225.542452 
+            text = "let's" 
+        intervals [587]:
+            xmin = 225.542452 
+            xmax = 225.66837699999999 
+            text = "see" 
+        intervals [588]:
+            xmin = 225.66837699999999 
+            xmax = 225.80505500000001 
+            text = "do" 
+        intervals [589]:
+            xmin = 225.80505500000001 
+            xmax = 225.90532300000001 
+            text = "you" 
+        intervals [590]:
+            xmin = 225.90532300000001 
+            xmax = 226.28682900000001 
+            text = "have" 
+        intervals [591]:
+            xmin = 226.28682900000001 
+            xmax = 226.50692900000001 
+            text = "an" 
+        intervals [592]:
+            xmin = 226.50692900000001 
+            xmax = 226.72702899999999 
+            text = "old" 
+        intervals [593]:
+            xmin = 226.72702899999999 
+            xmax = 227.28216900000001 
+            text = "lighthouse" 
+        intervals [594]:
+            xmin = 227.28216900000001 
+            xmax = 227.84218999999999 
+            text = "at" 
+        intervals [595]:
+            xmin = 227.84218999999999 
+            xmax = 227.859309 
+            text = "the" 
+        intervals [596]:
+            xmin = 227.859309 
+            xmax = 228.179677 
+            text = "bottom" 
+        intervals [597]:
+            xmin = 228.179677 
+            xmax = 228.48048 
+            text = "okay" 
+        intervals [598]:
+            xmin = 228.48048 
+            xmax = 229.31196199999999 
+            text = "okay" 
+        intervals [599]:
+            xmin = 229.31196199999999 
+            xmax = 229.44646700000001 
+            text = "so" 
+        intervals [600]:
+            xmin = 229.44646700000001 
+            xmax = 229.632329 
+            text = "just" 
+        intervals [601]:
+            xmin = 229.632329 
+            xmax = 229.83775499999999 
+            text = "go" 
+        intervals [602]:
+            xmin = 229.83775499999999 
+            xmax = 230.123885 
+            text = "around" 
+        intervals [603]:
+            xmin = 230.123885 
+            xmax = 230.155677 
+            text = "the" 
+        intervals [604]:
+            xmin = 230.155677 
+            xmax = 230.456581 
+            text = "top" 
+        intervals [605]:
+            xmin = 230.456581 
+            xmax = 230.493437 
+            text = "of" 
+        intervals [606]:
+            xmin = 230.493437 
+            xmax = 230.62522300000001 
+            text = "the" 
+        intervals [607]:
+            xmin = 230.62522300000001 
+            xmax = 230.776848 
+            text = "w-" 
+        intervals [608]:
+            xmin = 230.776848 
+            xmax = 231.53251499999999 
+            text = "rocket" 
+        intervals [609]:
+            xmin = 231.53251499999999 
+            xmax = 232.31753699999999 
+            text = "warehouse" 
+        intervals [610]:
+            xmin = 232.31753699999999 
+            xmax = 232.97293999999999 
+            text = "um" 
+        intervals [611]:
+            xmin = 232.97293999999999 
+            xmax = 233.56720899999999 
+            text = "curve" 
+        intervals [612]:
+            xmin = 233.56720899999999 
+            xmax = 234.10767200000001 
+            text = "mostly" 
+        intervals [613]:
+            xmin = 234.10767200000001 
+            xmax = 234.24462299999999 
+            text = "to" 
+        intervals [614]:
+            xmin = 234.24462299999999 
+            xmax = 234.51852500000001 
+            text = "the" 
+        intervals [615]:
+            xmin = 234.51852500000001 
+            xmax = 234.86579399999999 
+            text = "edge" 
+        intervals [616]:
+            xmin = 234.86579399999999 
+            xmax = 235.014972 
+            text = "of" 
+        intervals [617]:
+            xmin = 235.014972 
+            xmax = 235.09078400000001 
+            text = "the" 
+        intervals [618]:
+            xmin = 235.09078400000001 
+            xmax = 235.577449 
+            text = "lefthand" 
+        intervals [619]:
+            xmin = 235.577449 
+            xmax = 236.007867 
+            text = "page" 
+        intervals [620]:
+            xmin = 236.007867 
+            xmax = 236.24507600000001 
+            text = "but" 
+        intervals [621]:
+            xmin = 236.24507600000001 
+            xmax = 236.39180899999999 
+            text = "just" 
+        intervals [622]:
+            xmin = 236.39180899999999 
+            xmax = 236.52876000000001 
+            text = "keep" 
+        intervals [623]:
+            xmin = 236.52876000000001 
+            xmax = 236.77820600000001 
+            text = "going" 
+        intervals [624]:
+            xmin = 236.77820600000001 
+            xmax = 237.12547499999999 
+            text = "down" 
+        intervals [625]:
+            xmin = 237.12547499999999 
+            xmax = 237.32845499999999 
+            text = "and" 
+        intervals [626]:
+            xmin = 237.32845499999999 
+            xmax = 237.585238 
+            text = "then" 
+        intervals [627]:
+            xmin = 237.585238 
+            xmax = 238.78599500000001 
+            text = "um" 
+        intervals [628]:
+            xmin = 238.78599500000001 
+            xmax = 239.473196 
+            text = "and" 
+        intervals [629]:
+            xmin = 239.473196 
+            xmax = 240.04300900000001 
+            text = "at" 
+        intervals [630]:
+            xmin = 240.04300900000001 
+            xmax = 240.226426 
+            text = "the" 
+        intervals [631]:
+            xmin = 240.226426 
+            xmax = 240.60304099999999 
+            text = "left" 
+        intervals [632]:
+            xmin = 240.60304099999999 
+            xmax = 240.960092 
+            text = "of" 
+        intervals [633]:
+            xmin = 240.960092 
+            xmax = 241.45729399999999 
+            text = "the" 
+        intervals [634]:
+            xmin = 241.45729399999999 
+            xmax = 241.84369100000001 
+            text = "old" 
+        intervals [635]:
+            xmin = 241.84369100000001 
+            xmax = 242.359703 
+            text = "lighthouse" 
+        intervals [636]:
+            xmin = 242.359703 
+            xmax = 243.85654400000001 
+            text = "that's" 
+        intervals [637]:
+            xmin = 243.85654400000001 
+            xmax = 243.96269899999999 
+            text = "it" 
+    item [2]:
+        class = "TextTier" 
+        name = "tones" 
+        xmin = 0 
+        xmax = 250.45726300000001 
+        points: size = 473 
+        points [1]:
+            time = 1.902374 
+            mark = "H*" 
+        points [2]:
+            time = 2.1242809999999999 
+            mark = "L-L%" 
+        points [3]:
+            time = 2.5208819999999998 
+            mark = "H*" 
+        points [4]:
+            time = 2.8838270000000001 
+            mark = "L-" 
+        points [5]:
+            time = 3.554878 
+            mark = "H*" 
+        points [6]:
+            time = 3.6515559999999998 
+            mark = "L-" 
+        points [7]:
+            time = 4.1120080000000003 
+            mark = "H*" 
+        points [8]:
+            time = 4.3669659999999997 
+            mark = "!H*" 
+        points [9]:
+            time = 4.8391099999999998 
+            mark = "!H*" 
+        points [10]:
+            time = 5.1696109999999997 
+            mark = "L-H%" 
+        points [11]:
+            time = 6.5954430000000004 
+            mark = "H*" 
+        points [12]:
+            time = 6.9645349999999997 
+            mark = "H*" 
+        points [13]:
+            time = 7.2523400000000002 
+            mark = "H-H%" 
+        points [14]:
+            time = 8.9835460000000005 
+            mark = "H*" 
+        points [15]:
+            time = 9.4471089999999993 
+            mark = "L-" 
+        points [16]:
+            time = 9.7632359999999991 
+            mark = "*?" 
+        points [17]:
+            time = 10.290746 
+            mark = "H*" 
+        points [18]:
+            time = 10.531663 
+            mark = "!H-" 
+        points [19]:
+            time = 10.655309000000001 
+            mark = "H*" 
+        points [20]:
+            time = 10.782788 
+            mark = "H-" 
+        points [21]:
+            time = 11.554004000000001 
+            mark = "H*" 
+        points [22]:
+            time = 12.025831 
+            mark = "*?" 
+        points [23]:
+            time = 12.222913999999999 
+            mark = "L-L%" 
+        points [24]:
+            time = 12.896353 
+            mark = "H*" 
+        points [25]:
+            time = 13.355165 
+            mark = "L-L%" 
+        points [26]:
+            time = 13.588398 
+            mark = "H*" 
+        points [27]:
+            time = 14.128855 
+            mark = "!H*" 
+        points [28]:
+            time = 14.618781 
+            mark = "!H*" 
+        points [29]:
+            time = 14.899995000000001 
+            mark = "L-L%" 
+        points [30]:
+            time = 15.899607 
+            mark = "H*" 
+        points [31]:
+            time = 16.237942 
+            mark = "L-" 
+        points [32]:
+            time = 16.307983 
+            mark = "H*" 
+        points [33]:
+            time = 16.658579 
+            mark = "H*" 
+        points [34]:
+            time = 17.220103000000002 
+            mark = "L*" 
+        points [35]:
+            time = 17.359772 
+            mark = "L-H%" 
+        points [36]:
+            time = 17.923019 
+            mark = "H*" 
+        points [37]:
+            time = 18.144914 
+            mark = "L-L%" 
+        points [38]:
+            time = 19.212517999999999 
+            mark = "H*" 
+        points [39]:
+            time = 19.300879999999999 
+            mark = "H-" 
+        points [40]:
+            time = 19.445520999999999 
+            mark = "L*" 
+        points [41]:
+            time = 19.933461999999999 
+            mark = "H*" 
+        points [42]:
+            time = 20.355519999999999 
+            mark = "L*" 
+        points [43]:
+            time = 20.691863999999999 
+            mark = "L-H%" 
+        points [44]:
+            time = 21.524175 
+            mark = "H*" 
+        points [45]:
+            time = 21.735102999999999 
+            mark = "!H-" 
+        points [46]:
+            time = 22.253872000000001 
+            mark = "L*" 
+        points [47]:
+            time = 22.538910000000001 
+            mark = "L-H%" 
+        points [48]:
+            time = 22.661476 
+            mark = "H*" 
+        points [49]:
+            time = 23.016998999999998 
+            mark = "*?" 
+        points [50]:
+            time = 23.772428999999999 
+            mark = "H*" 
+        points [51]:
+            time = 24.015405999999999 
+            mark = "H-H%" 
+        points [52]:
+            time = 24.857291 
+            mark = "H*" 
+        points [53]:
+            time = 25.164109 
+            mark = "%r" 
+        points [54]:
+            time = 25.432044999999999 
+            mark = "L*" 
+        points [55]:
+            time = 25.846875000000001 
+            mark = "*?" 
+        points [56]:
+            time = 26.138542000000001 
+            mark = "*?" 
+        points [57]:
+            time = 26.310417000000001 
+            mark = "H-H%" 
+        points [58]:
+            time = 32.005595999999997 
+            mark = "H*" 
+        points [59]:
+            time = 32.227347000000002 
+            mark = "L*" 
+        points [60]:
+            time = 32.422395999999999 
+            mark = "H-H%" 
+        points [61]:
+            time = 34.938549000000002 
+            mark = "H*" 
+        points [62]:
+            time = 35.151656000000003 
+            mark = "L*" 
+        points [63]:
+            time = 35.441656999999999 
+            mark = "L-H%" 
+        points [64]:
+            time = 35.63279 
+            mark = "H*" 
+        points [65]:
+            time = 35.779988000000003 
+            mark = "H-" 
+        points [66]:
+            time = 35.835926999999998 
+            mark = "*?" 
+        points [67]:
+            time = 35.967044999999999 
+            mark = "*?" 
+        points [68]:
+            time = 36.155169000000001 
+            mark = "H*" 
+        points [69]:
+            time = 36.318247999999997 
+            mark = "L-L%" 
+        points [70]:
+            time = 36.573436999999998 
+            mark = "H*" 
+        points [71]:
+            time = 37.177604000000002 
+            mark = "!H-" 
+        points [72]:
+            time = 37.365918000000001 
+            mark = "L*" 
+        points [73]:
+            time = 37.793574999999997 
+            mark = "*?" 
+        points [74]:
+            time = 38.071646999999999 
+            mark = "H*" 
+        points [75]:
+            time = 38.379881307692003 
+            mark = "H-H%" 
+        points [76]:
+            time = 38.901882000000001 
+            mark = "H*" 
+        points [77]:
+            time = 39.178702000000001 
+            mark = "L-L%" 
+        points [78]:
+            time = 39.767893000000001 
+            mark = "*?" 
+        points [79]:
+            time = 40.321646000000001 
+            mark = "H*" 
+        points [80]:
+            time = 40.623730000000002 
+            mark = "L-H%" 
+        points [81]:
+            time = 40.806652 
+            mark = "H*" 
+        points [82]:
+            time = 41.180137999999999 
+            mark = "!H-" 
+        points [83]:
+            time = 41.339874999999999 
+            mark = "L*" 
+        points [84]:
+            time = 41.826855000000002 
+            mark = "H-" 
+        points [85]:
+            time = 42.181021999999999 
+            mark = "H*" 
+        points [86]:
+            time = 42.691654999999997 
+            mark = "H*" 
+        points [87]:
+            time = 43.037793000000001 
+            mark = "L-H%" 
+        points [88]:
+            time = 45.084986999999998 
+            mark = "H*" 
+        points [89]:
+            time = 45.396602999999999 
+            mark = "!H*" 
+        points [90]:
+            time = 45.892640999999998 
+            mark = "L-" 
+        points [91]:
+            time = 48.801426999999997 
+            mark = "H*" 
+        points [92]:
+            time = 49.016970999999998 
+            mark = "L-" 
+        points [93]:
+            time = 49.297939999999997 
+            mark = "*?" 
+        points [94]:
+            time = 49.653849999999998 
+            mark = "H*" 
+        points [95]:
+            time = 50.011958 
+            mark = "!H*" 
+        points [96]:
+            time = 50.348092000000001 
+            mark = "L-L%" 
+        points [97]:
+            time = 50.511749999999999 
+            mark = "H*" 
+        points [98]:
+            time = 50.899771000000001 
+            mark = "!H*" 
+        points [99]:
+            time = 51.080123999999998 
+            mark = "!H-" 
+        points [100]:
+            time = 52.293000999999997 
+            mark = "H*" 
+        points [101]:
+            time = 52.904980000000002 
+            mark = "L-" 
+        points [102]:
+            time = 53.144564000000003 
+            mark = "L*" 
+        points [103]:
+            time = 53.363312999999998 
+            mark = "L-H%" 
+        points [104]:
+            time = 53.694042000000003 
+            mark = "*?" 
+        points [105]:
+            time = 53.933624999999999 
+            mark = "L*" 
+        points [106]:
+            time = 54.227896000000001 
+            mark = "L-H%" 
+        points [107]:
+            time = 56.066324000000002 
+            mark = "*?" 
+        points [108]:
+            time = 56.246246999999997 
+            mark = "H*" 
+        points [109]:
+            time = 56.461832999999999 
+            mark = "%r" 
+        points [110]:
+            time = 56.693897999999997 
+            mark = "H*" 
+        points [111]:
+            time = 57.039751000000003 
+            mark = "!H*" 
+        points [112]:
+            time = 57.194349000000003 
+            mark = "*?" 
+        points [113]:
+            time = 57.333742999999998 
+            mark = "L-" 
+        points [114]:
+            time = 57.482227000000002 
+            mark = "H*" 
+        points [115]:
+            time = 57.591320000000003 
+            mark = "*?" 
+        points [116]:
+            time = 58.230711999999997 
+            mark = "L*" 
+        points [117]:
+            time = 58.640774 
+            mark = "*?" 
+        points [118]:
+            time = 58.867516000000002 
+            mark = "*?" 
+        points [119]:
+            time = 59.135007999999999 
+            mark = "H-H%" 
+        points [120]:
+            time = 65.451927999999995 
+            mark = "H*" 
+        points [121]:
+            time = 65.757987 
+            mark = "L-" 
+        points [122]:
+            time = 67.364827000000005 
+            mark = "%r" 
+        points [123]:
+            time = 67.691318999999993 
+            mark = "H*" 
+        points [124]:
+            time = 67.918591000000006 
+            mark = "H-L%" 
+        points [125]:
+            time = 68.167074999999997 
+            mark = "H*" 
+        points [126]:
+            time = 68.462559999999996 
+            mark = "*?" 
+        points [127]:
+            time = 68.580209999999994 
+            mark = "!H-L%" 
+        points [128]:
+            time = 69.057097999999996 
+            mark = "H*" 
+        points [129]:
+            time = 69.369381000000004 
+            mark = "H*" 
+        points [130]:
+            time = 69.867285999999993 
+            mark = "H-L%" 
+        points [131]:
+            time = 71.364379 
+            mark = "H*" 
+        points [132]:
+            time = 71.801593999999994 
+            mark = "L-" 
+        points [133]:
+            time = 72.089834999999994 
+            mark = "H*" 
+        points [134]:
+            time = 72.376450000000006 
+            mark = "L-L%" 
+        points [135]:
+            time = 72.636367000000007 
+            mark = "H*" 
+        points [136]:
+            time = 73.725330999999997 
+            mark = "%r" 
+        points [137]:
+            time = 73.815251000000004 
+            mark = "H*" 
+        points [138]:
+            time = 74.276651999999999 
+            mark = "H*" 
+        points [139]:
+            time = 74.606498000000002 
+            mark = "!H*" 
+        points [140]:
+            time = 74.844271000000006 
+            mark = "!H*" 
+        points [141]:
+            time = 74.942374999999998 
+            mark = "L-" 
+        points [142]:
+            time = 75.218453999999994 
+            mark = "H*" 
+        points [143]:
+            time = 75.657548000000006 
+            mark = "L*" 
+        points [144]:
+            time = 75.981772000000007 
+            mark = "L-H%" 
+        points [145]:
+            time = 76.514694000000006 
+            mark = "H*" 
+        points [146]:
+            time = 76.792428999999998 
+            mark = "H*" 
+        points [147]:
+            time = 77.048185000000004 
+            mark = "H*" 
+        points [148]:
+            time = 77.259984000000003 
+            mark = "!H-L%" 
+        points [149]:
+            time = 77.389865 
+            mark = "*?" 
+        points [150]:
+            time = 77.799475000000001 
+            mark = "H*" 
+        points [151]:
+            time = 78.035250000000005 
+            mark = "*?" 
+        points [152]:
+            time = 78.340958999999998 
+            mark = "!H-L%" 
+        points [153]:
+            time = 78.594722000000004 
+            mark = "H*" 
+        points [154]:
+            time = 78.890439999999998 
+            mark = "H*" 
+        points [155]:
+            time = 79.206138999999993 
+            mark = "H*" 
+        points [156]:
+            time = 79.479878999999997 
+            mark = "L-" 
+        points [157]:
+            time = 79.641729999999995 
+            mark = "H*" 
+        points [158]:
+            time = 80.097296999999998 
+            mark = "H*" 
+        points [159]:
+            time = 80.482928999999999 
+            mark = "H*" 
+        points [160]:
+            time = 80.706136000000001 
+            mark = "!H-L%" 
+        points [161]:
+            time = 80.774652000000003 
+            mark = "*?" 
+        points [162]:
+            time = 80.919051999999994 
+            mark = "L*" 
+        points [163]:
+            time = 81.209391999999994 
+            mark = "L-H%" 
+        points [164]:
+            time = 84.399218000000005 
+            mark = "H*" 
+        points [165]:
+            time = 84.621007000000006 
+            mark = "L-" 
+        points [166]:
+            time = 84.824815999999998 
+            mark = "H*" 
+        points [167]:
+            time = 85.032618999999997 
+            mark = "!H-" 
+        points [168]:
+            time = 85.606071999999998 
+            mark = "H*" 
+        points [169]:
+            time = 85.819868999999997 
+            mark = "!H-H%" 
+        points [170]:
+            time = 86.387333999999996 
+            mark = "H*" 
+        points [171]:
+            time = 86.605125999999998 
+            mark = "H-" 
+        points [172]:
+            time = 87.034942999999998 
+            mark = "H+!H*" 
+        points [173]:
+            time = 87.382385999999997 
+            mark = "L-H%" 
+        points [174]:
+            time = 88.565270999999996 
+            mark = "H*" 
+        points [175]:
+            time = 89.074820000000003 
+            mark = "L*" 
+        points [176]:
+            time = 89.471421000000007 
+            mark = "L-H%" 
+        points [177]:
+            time = 90.320036000000002 
+            mark = "L*" 
+        points [178]:
+            time = 90.665678999999997 
+            mark = "H*" 
+        points [179]:
+            time = 90.973992999999993 
+            mark = "L*" 
+        points [180]:
+            time = 91.152223000000006 
+            mark = "L-H%" 
+        points [181]:
+            time = 94.914332999999999 
+            mark = "L*" 
+        points [182]:
+            time = 95.177021999999994 
+            mark = "L-H%" 
+        points [183]:
+            time = 96.295528000000004 
+            mark = "H*" 
+        points [184]:
+            time = 96.629118000000005 
+            mark = "*?" 
+        points [185]:
+            time = 96.902961000000005 
+            mark = "!H*" 
+        points [186]:
+            time = 97.030439999999999 
+            mark = "!H-" 
+        points [187]:
+            time = 97.285398000000001 
+            mark = "H*" 
+        points [188]:
+            time = 97.512027000000003 
+            mark = "L*" 
+        points [189]:
+            time = 97.874427999999995 
+            mark = "L-H%" 
+        points [190]:
+            time = 98.265912190363153 
+            mark = "*?" 
+        points [191]:
+            time = 98.489362999999997 
+            mark = "L*" 
+        points [192]:
+            time = 98.909574000000006 
+            mark = "L-H%" 
+        points [193]:
+            time = 100.25863200000001 
+            mark = "H*" 
+        points [194]:
+            time = 100.579795 
+            mark = "*?" 
+        points [195]:
+            time = 101.05647 
+            mark = "H-H%" 
+        points [196]:
+            time = 101.74951299999999 
+            mark = "H*" 
+        points [197]:
+            time = 102.16195500000001 
+            mark = "L*" 
+        points [198]:
+            time = 102.337749 
+            mark = "H-H%" 
+        points [199]:
+            time = 102.465962 
+            mark = "H*" 
+        points [200]:
+            time = 102.601957 
+            mark = "*?" 
+        points [201]:
+            time = 102.771511 
+            mark = "L-L%" 
+        points [202]:
+            time = 103.362095 
+            mark = "H*" 
+        points [203]:
+            time = 103.696781 
+            mark = "!H*" 
+        points [204]:
+            time = 104.07879699999999 
+            mark = "!H*" 
+        points [205]:
+            time = 104.48900999999999 
+            mark = "H-" 
+        points [206]:
+            time = 104.903689 
+            mark = "H*" 
+        points [207]:
+            time = 105.08624500000001 
+            mark = "H-" 
+        points [208]:
+            time = 105.640675 
+            mark = "H*" 
+        points [209]:
+            time = 105.829993 
+            mark = "*?" 
+        points [210]:
+            time = 106.353998 
+            mark = "L*" 
+        points [211]:
+            time = 106.67854199999999 
+            mark = "L-H%" 
+        points [212]:
+            time = 108.12886 
+            mark = "H*" 
+        points [213]:
+            time = 108.335081 
+            mark = "!H-" 
+        points [214]:
+            time = 108.865846 
+            mark = "H*" 
+        points [215]:
+            time = 109.116015 
+            mark = "!H-" 
+        points [216]:
+            time = 109.511554 
+            mark = "L*" 
+        points [217]:
+            time = 109.61973500000001 
+            mark = "H-" 
+        points [218]:
+            time = 109.947667 
+            mark = "H*" 
+        points [219]:
+            time = 110.126842 
+            mark = "!H*" 
+        points [220]:
+            time = 110.640704 
+            mark = "!H*" 
+        points [221]:
+            time = 111.274351 
+            mark = "L-L%" 
+        points [222]:
+            time = 112.00988 
+            mark = "*?" 
+        points [223]:
+            time = 112.300618 
+            mark = "L*" 
+        points [224]:
+            time = 112.69149299999999 
+            mark = "L-L%" 
+        points [225]:
+            time = 114.34931400000001 
+            mark = "H*" 
+        points [226]:
+            time = 115.17757899999999 
+            mark = "L*" 
+        points [227]:
+            time = 115.498121 
+            mark = "L-H%" 
+        points [228]:
+            time = 115.67453999999999 
+            mark = "*?" 
+        points [229]:
+            time = 116.002466 
+            mark = "L*" 
+        points [230]:
+            time = 116.47914 
+            mark = "L-H%" 
+        points [231]:
+            time = 117.743132 
+            mark = "L*" 
+        points [232]:
+            time = 118.17617 
+            mark = "H-H%" 
+        points [233]:
+            time = 118.993273 
+            mark = "H*" 
+        points [234]:
+            time = 119.144403 
+            mark = "*?" 
+        points [235]:
+            time = 119.298822 
+            mark = "L-L%" 
+        points [236]:
+            time = 120.03352599999999 
+            mark = "H*" 
+        points [237]:
+            time = 120.454656 
+            mark = "H*" 
+        points [238]:
+            time = 120.96897300000001 
+            mark = "!H-" 
+        points [239]:
+            time = 121.220141 
+            mark = "X*?" 
+        points [240]:
+            time = 121.41283900000001 
+            mark = "L-" 
+        points [241]:
+            time = 122.545371 
+            mark = "L+H*" 
+        points [242]:
+            time = 122.913864 
+            mark = "!H*" 
+        points [243]:
+            time = 123.272215 
+            mark = "L-" 
+        points [244]:
+            time = 123.431106 
+            mark = "H*" 
+        points [245]:
+            time = 123.819883 
+            mark = "!H*" 
+        points [246]:
+            time = 124.352136 
+            mark = "L-L%" 
+        points [247]:
+            time = 125.09107400000001 
+            mark = "H*" 
+        points [248]:
+            time = 126.01285300000001 
+            mark = "H*" 
+        points [249]:
+            time = 126.27749300000001 
+            mark = "H-L%" 
+        points [250]:
+            time = 126.42319500000001 
+            mark = "L*+H" 
+        points [251]:
+            time = 126.916793 
+            mark = "H*" 
+        points [252]:
+            time = 127.05654699999999 
+            mark = "H-" 
+        points [253]:
+            time = 127.226035 
+            mark = "X*?" 
+        points [254]:
+            time = 127.698819 
+            mark = "X*?" 
+        points [255]:
+            time = 128.071729 
+            mark = "L-H%" 
+        points [256]:
+            time = 128.494123 
+            mark = "X*?" 
+        points [257]:
+            time = 128.8331 
+            mark = "X*?" 
+        points [258]:
+            time = 129.22559899999999 
+            mark = "X*?" 
+        points [259]:
+            time = 129.65834599999999 
+            mark = "L-H%" 
+        points [260]:
+            time = 133.04516000000001 
+            mark = "H*" 
+        points [261]:
+            time = 133.21898899999999 
+            mark = "L-L%" 
+        points [262]:
+            time = 133.30522099999999 
+            mark = "%H" 
+        points [263]:
+            time = 133.638251 
+            mark = "!H*" 
+        points [264]:
+            time = 133.88505000000001 
+            mark = "*?" 
+        points [265]:
+            time = 134.09319400000001 
+            mark = "!H*" 
+        points [266]:
+            time = 134.76222799999999 
+            mark = "!H-L%" 
+        points [267]:
+            time = 135.28556 
+            mark = "L*" 
+        points [268]:
+            time = 135.517492 
+            mark = "L-L%" 
+        points [269]:
+            time = 136.438748 
+            mark = "*?" 
+        points [270]:
+            time = 136.92083099999999 
+            mark = "H*" 
+        points [271]:
+            time = 137.25937300000001 
+            mark = "H*" 
+        points [272]:
+            time = 137.48958200000001 
+            mark = "H-H%" 
+        points [273]:
+            time = 137.88499899999999 
+            mark = "H*" 
+        points [274]:
+            time = 138.24249900000001 
+            mark = "L-L%" 
+        points [275]:
+            time = 138.89560499999999 
+            mark = "L*" 
+        points [276]:
+            time = 139.253106 
+            mark = "L*" 
+        points [277]:
+            time = 139.536417 
+            mark = "H-H%" 
+        points [278]:
+            time = 141.473939 
+            mark = "L*" 
+        points [279]:
+            time = 142.15914699999999 
+            mark = "H-H%" 
+        points [280]:
+            time = 145.05977100000001 
+            mark = "H*" 
+        points [281]:
+            time = 145.384772 
+            mark = "H*" 
+        points [282]:
+            time = 145.555397 
+            mark = "L-L%" 
+        points [283]:
+            time = 145.78018900000001 
+            mark = "H*" 
+        points [284]:
+            time = 146.13768899999999 
+            mark = "L-L%" 
+        points [285]:
+            time = 146.47352100000001 
+            mark = "X*?" 
+        points [286]:
+            time = 146.62789599999999 
+            mark = "-X?" 
+        points [287]:
+            time = 146.787688 
+            mark = "L*" 
+        points [288]:
+            time = 147.37438299999999 
+            mark = "H-H%" 
+        points [289]:
+            time = 147.89539600000001 
+            mark = "H*" 
+        points [290]:
+            time = 148.06602100000001 
+            mark = "L-L%" 
+        points [291]:
+            time = 148.37049999999999 
+            mark = "%r" 
+        points [292]:
+            time = 148.49123 
+            mark = "H*" 
+        points [293]:
+            time = 149.17643899999999 
+            mark = "H*" 
+        points [294]:
+            time = 149.520398 
+            mark = "!H*" 
+        points [295]:
+            time = 150.08914799999999 
+            mark = "H-" 
+        points [296]:
+            time = 150.35997900000001 
+            mark = "L*" 
+        points [297]:
+            time = 150.61998 
+            mark = "H-H%" 
+        points [298]:
+            time = 152.56608700000001 
+            mark = "H*" 
+        points [299]:
+            time = 152.765311 
+            mark = "L-" 
+        points [300]:
+            time = 152.82727199999999 
+            mark = "H*" 
+        points [301]:
+            time = 153.360814 
+            mark = "H*" 
+        points [302]:
+            time = 153.56517700000001 
+            mark = "L-L%" 
+        points [303]:
+            time = 155.56810400000001 
+            mark = "H*" 
+        points [304]:
+            time = 155.717062 
+            mark = "!H-" 
+        points [305]:
+            time = 156.025813 
+            mark = "L*+H" 
+        points [306]:
+            time = 156.38873000000001 
+            mark = "!H*" 
+        points [307]:
+            time = 156.98727199999999 
+            mark = "!H*" 
+        points [308]:
+            time = 157.33478199999999 
+            mark = "L-" 
+        points [309]:
+            time = 157.38810599999999 
+            mark = "H*" 
+        points [310]:
+            time = 157.72664800000001 
+            mark = "H*" 
+        points [311]:
+            time = 158.002567 
+            mark = "L-L%" 
+        points [312]:
+            time = 158.68268800000001 
+            mark = "%H" 
+        points [313]:
+            time = 159.58727200000001 
+            mark = "H*" 
+        points [314]:
+            time = 159.806647 
+            mark = "!H-" 
+        points [315]:
+            time = 160.30069604835833 
+            mark = "H*" 
+        points [316]:
+            time = 160.82363737323828 
+            mark = "L-" 
+        points [317]:
+            time = 162.05310580726456 
+            mark = "H8" 
+        points [318]:
+            time = 164.28622899999999 
+            mark = "H*" 
+        points [319]:
+            time = 164.700604 
+            mark = "L*" 
+        points [320]:
+            time = 164.838729 
+            mark = "L-H%" 
+        points [321]:
+            time = 165.46435500000001 
+            mark = "H*" 
+        points [322]:
+            time = 165.72164699999999 
+            mark = "L*" 
+        points [323]:
+            time = 165.96205499999999 
+            mark = "L-H%" 
+        points [324]:
+            time = 166.73906299999999 
+            mark = "H*" 
+        points [325]:
+            time = 167.04184599999999 
+            mark = "L-" 
+        points [326]:
+            time = 167.45800199999999 
+            mark = "H*" 
+        points [327]:
+            time = 167.92946000000001 
+            mark = "L-" 
+        points [328]:
+            time = 169.298069 
+            mark = "L+H*" 
+        points [329]:
+            time = 169.937343 
+            mark = "H*" 
+        points [330]:
+            time = 170.32705999999999 
+            mark = "*?" 
+        points [331]:
+            time = 170.50824499999999 
+            mark = "*?" 
+        points [332]:
+            time = 170.651825 
+            mark = "H-L%" 
+        points [333]:
+            time = 171.171448 
+            mark = "H*" 
+        points [334]:
+            time = 171.397166 
+            mark = "H-H%" 
+        points [335]:
+            time = 171.92010400000001 
+            mark = "H*" 
+        points [336]:
+            time = 172.09445099999999 
+            mark = "L-" 
+        points [337]:
+            time = 172.67219 
+            mark = "H*" 
+        points [338]:
+            time = 172.96594099999999 
+            mark = "*?" 
+        points [339]:
+            time = 173.11660499999999 
+            mark = "!H-L%" 
+        points [340]:
+            time = 173.331975 
+            mark = "H*" 
+        points [341]:
+            time = 173.53025299999999 
+            mark = "*?" 
+        points [342]:
+            time = 173.629391 
+            mark = "L-L%" 
+        points [343]:
+            time = 173.84476100000001 
+            mark = "H*" 
+        points [344]:
+            time = 174.409593 
+            mark = "L*" 
+        points [345]:
+            time = 174.76909699999999 
+            mark = "L-H%" 
+        points [346]:
+            time = 176.43944400000001 
+            mark = "X*?" 
+        points [347]:
+            time = 176.880256 
+            mark = "L*" 
+        points [348]:
+            time = 177.36415700000001 
+            mark = "H*" 
+        points [349]:
+            time = 177.57154299999999 
+            mark = "H*" 
+        points [350]:
+            time = 177.740219 
+            mark = "H-L%" 
+        points [351]:
+            time = 178.11453599999999 
+            mark = "H*" 
+        points [352]:
+            time = 178.31965 
+            mark = "H-" 
+        points [353]:
+            time = 178.66834499999999 
+            mark = "L*" 
+        points [354]:
+            time = 178.948668 
+            mark = "H*" 
+        points [355]:
+            time = 179.403457 
+            mark = "H-L%" 
+        points [356]:
+            time = 184.045669 
+            mark = "H*" 
+        points [357]:
+            time = 184.56305499999999 
+            mark = "L-L%" 
+        points [358]:
+            time = 186.13659999999999 
+            mark = "H*" 
+        points [359]:
+            time = 186.36498700000001 
+            mark = "*?" 
+        points [360]:
+            time = 186.599762 
+            mark = "L-L%" 
+        points [361]:
+            time = 187.862056 
+            mark = "H*" 
+        points [362]:
+            time = 188.16069100000001 
+            mark = "*?" 
+        points [363]:
+            time = 188.550577 
+            mark = "H-" 
+        points [364]:
+            time = 188.74966800000001 
+            mark = "H*" 
+        points [365]:
+            time = 188.93355 
+            mark = "L-L%" 
+        points [366]:
+            time = 189.46999099999999 
+            mark = "H*" 
+        points [367]:
+            time = 189.706411 
+            mark = "H*" 
+        points [368]:
+            time = 189.997457 
+            mark = "!H*" 
+        points [369]:
+            time = 190.117107 
+            mark = "L-" 
+        points [370]:
+            time = 190.29815300000001 
+            mark = "H*" 
+        points [371]:
+            time = 190.61418900000001 
+            mark = "L-H%" 
+        points [372]:
+            time = 191.31930199999999 
+            mark = "H*" 
+        points [373]:
+            time = 191.606877 
+            mark = "L-" 
+        points [374]:
+            time = 192.448745 
+            mark = "*?" 
+        points [375]:
+            time = 192.80757500000001 
+            mark = "H*" 
+        points [376]:
+            time = 193.56772699999999 
+            mark = "*?" 
+        points [377]:
+            time = 193.93599900000001 
+            mark = "L-H%" 
+        points [378]:
+            time = 195.30049600000001 
+            mark = "*?" 
+        points [379]:
+            time = 196.06064799999999 
+            mark = "L*" 
+        points [380]:
+            time = 196.37123299999999 
+            mark = "L-H%" 
+        points [381]:
+            time = 196.83799200000001 
+            mark = "H*" 
+        points [382]:
+            time = 197.19694200000001 
+            mark = "H*" 
+        points [383]:
+            time = 197.47384700000001 
+            mark = "*?" 
+        points [384]:
+            time = 197.66121100000001 
+            mark = "*?" 
+        points [385]:
+            time = 197.88311899999999 
+            mark = "H-H%" 
+        points [386]:
+            time = 198.865207 
+            mark = "H*" 
+        points [387]:
+            time = 199.37115600000001 
+            mark = "H*" 
+        points [388]:
+            time = 199.781374 
+            mark = "!H-L%" 
+        points [389]:
+            time = 200.52320499999999 
+            mark = "H*" 
+        points [390]:
+            time = 200.75908699999999 
+            mark = "!H*" 
+        points [391]:
+            time = 201.09841599999999 
+            mark = "H-" 
+        points [392]:
+            time = 202.48498499999999 
+            mark = "H*" 
+        points [393]:
+            time = 203.11543900000001 
+            mark = "!H*" 
+        points [394]:
+            time = 203.35877199999999 
+            mark = "!H-" 
+        points [395]:
+            time = 203.59380899999999 
+            mark = "H*" 
+        points [396]:
+            time = 203.97816399999999 
+            mark = "!H*" 
+        points [397]:
+            time = 204.38464099999999 
+            mark = "L-L%" 
+        points [398]:
+            time = 204.77680599999999 
+            mark = "L*" 
+        points [399]:
+            time = 205.00493599999999 
+            mark = "L*" 
+        points [400]:
+            time = 205.185563 
+            mark = "L-H%" 
+        points [401]:
+            time = 206.52806799999999 
+            mark = "X*?" 
+        points [402]:
+            time = 207.26723100000001 
+            mark = "*?" 
+        points [403]:
+            time = 207.45700400000001 
+            mark = "*?" 
+        points [404]:
+            time = 207.700062 
+            mark = "H-H%" 
+        points [405]:
+            time = 208.72531799999999 
+            mark = "H*" 
+        points [406]:
+            time = 208.91825399999999 
+            mark = "L-" 
+        points [407]:
+            time = 209.212402 
+            mark = "X*?" 
+        points [408]:
+            time = 209.551098 
+            mark = "L-H%" 
+        points [409]:
+            time = 211.110128 
+            mark = "H*" 
+        points [410]:
+            time = 211.80279899999999 
+            mark = "H*" 
+        points [411]:
+            time = 212.04001500000001 
+            mark = "*?" 
+        points [412]:
+            time = 212.30886000000001 
+            mark = "!H-L%" 
+        points [413]:
+            time = 212.992041 
+            mark = "H*" 
+        points [414]:
+            time = 213.22609399999999 
+            mark = "*?" 
+        points [415]:
+            time = 213.637269 
+            mark = "!H-L%" 
+        points [416]:
+            time = 215.45205899999999 
+            mark = "L*" 
+        points [417]:
+            time = 215.725177 
+            mark = "L-H%" 
+        points [418]:
+            time = 216.39529899999999 
+            mark = "H*" 
+        points [419]:
+            time = 216.82861399999999 
+            mark = "*?" 
+        points [420]:
+            time = 217.309372 
+            mark = "H-L%" 
+        points [421]:
+            time = 217.853385 
+            mark = "H*" 
+        points [422]:
+            time = 218.07794999999999 
+            mark = "L-L%" 
+        points [423]:
+            time = 218.95406800000001 
+            mark = "H*" 
+        points [424]:
+            time = 219.16914399999999 
+            mark = "H-L%" 
+        points [425]:
+            time = 219.97251399999999 
+            mark = "H*" 
+        points [426]:
+            time = 220.24768399999999 
+            mark = "H-" 
+        points [427]:
+            time = 220.53867 
+            mark = "X*?" 
+        points [428]:
+            time = 220.96249599999999 
+            mark = "H*" 
+        points [429]:
+            time = 221.29143500000001 
+            mark = "L*" 
+        points [430]:
+            time = 221.79133899999999 
+            mark = "L-H%" 
+        points [431]:
+            time = 224.84650999999999 
+            mark = "H*" 
+        points [432]:
+            time = 225.31778 
+            mark = "!H-" 
+        points [433]:
+            time = 225.43164300000001 
+            mark = "X*?" 
+        points [434]:
+            time = 225.64355599999999 
+            mark = "L-" 
+        points [435]:
+            time = 225.99147300000001 
+            mark = "H*" 
+        points [436]:
+            time = 226.60823500000001 
+            mark = "X*?" 
+        points [437]:
+            time = 226.80117100000001 
+            mark = "X*?" 
+        points [438]:
+            time = 227.260808 
+            mark = "H-H%" 
+        points [439]:
+            time = 227.94314900000001 
+            mark = "X*?" 
+        points [440]:
+            time = 228.121172 
+            mark = "H-H%" 
+        points [441]:
+            time = 228.286677 
+            mark = "H*" 
+        points [442]:
+            time = 228.46364700000001 
+            mark = "L-L%" 
+        points [443]:
+            time = 229.15452999999999 
+            mark = "H*" 
+        points [444]:
+            time = 229.281046 
+            mark = "L-L%" 
+        points [445]:
+            time = 229.733338 
+            mark = "H*" 
+        points [446]:
+            time = 230.29949400000001 
+            mark = "H*" 
+        points [447]:
+            time = 231.330592 
+            mark = "H*" 
+        points [448]:
+            time = 231.62152399999999 
+            mark = "!H*" 
+        points [449]:
+            time = 231.823948 
+            mark = "*?" 
+        points [450]:
+            time = 232.07065299999999 
+            mark = "!H-L%" 
+        points [451]:
+            time = 233.19902999999999 
+            mark = "H*" 
+        points [452]:
+            time = 233.52480700000001 
+            mark = "H-" 
+        points [453]:
+            time = 233.860072 
+            mark = "H*" 
+        points [454]:
+            time = 234.679259 
+            mark = "!H*" 
+        points [455]:
+            time = 235.97920300000001 
+            mark = "H-L%" 
+        points [456]:
+            time = 236.61177799999999 
+            mark = "H*" 
+        points [457]:
+            time = 236.88062300000001 
+            mark = "L*" 
+        points [458]:
+            time = 237.098861 
+            mark = "L-H%" 
+        points [459]:
+            time = 237.364543 
+            mark = "H*" 
+        points [460]:
+            time = 237.557479 
+            mark = "H-" 
+        points [461]:
+            time = 239.154731 
+            mark = "H*" 
+        points [462]:
+            time = 239.423576 
+            mark = "!H-" 
+        points [463]:
+            time = 239.68609499999999 
+            mark = "*?" 
+        points [464]:
+            time = 240.32816 
+            mark = "L*" 
+        points [465]:
+            time = 241.672777 
+            mark = "L*" 
+        points [466]:
+            time = 241.91058000000001 
+            mark = "L*" 
+        points [467]:
+            time = 242.322587 
+            mark = "L-L%" 
+        points [468]:
+            time = 243.69963200000001 
+            mark = "L*" 
+        points [469]:
+            time = 243.893193 
+            mark = "H*" 
+        points [470]:
+            time = 243.94849600000001 
+            mark = "H-H%" 
+        points [471]:
+            time = 249.27381600000001 
+            mark = "H*" 
+        points [472]:
+            time = 249.44144900000001 
+            mark = "H-" 
+        points [473]:
+            time = 249.45726300000001 
+            mark = "X%?" 
+    item [3]:
+        class = "TextTier" 
+        name = "breaks" 
+        xmin = 0 
+        xmax = 250.46991499999999 
+        points: size = 613 
+        points [1]:
+            time = 2.1567270000000001 
+            mark = "4" 
+        points [2]:
+            time = 2.3225820000000001 
+            mark = "2" 
+        points [3]:
+            time = 2.6838880000000001 
+            mark = "2-" 
+        points [4]:
+            time = 2.917484 
+            mark = "3" 
+        points [5]:
+            time = 3.3294730000000001 
+            mark = "1" 
+        points [6]:
+            time = 3.6558920000000001 
+            mark = "3-" 
+        points [7]:
+            time = 3.8163290000000001 
+            mark = "1" 
+        points [8]:
+            time = 3.86686 
+            mark = "1" 
+        points [9]:
+            time = 4.2425430000000004 
+            mark = "1" 
+        points [10]:
+            time = 4.6907269999999999 
+            mark = "1" 
+        points [11]:
+            time = 5.1790539999999998 
+            mark = "4" 
+        points [12]:
+            time = 6.3889310000000004 
+            mark = "X" 
+        points [13]:
+            time = 6.7316549999999999 
+            mark = "1" 
+        points [14]:
+            time = 6.7799889999999996 
+            mark = "1" 
+        points [15]:
+            time = 7.2655219999999998 
+            mark = "4" 
+        points [16]:
+            time = 9.4976389999999995 
+            mark = "3p" 
+        points [17]:
+            time = 9.8029130000000002 
+            mark = "1" 
+        points [18]:
+            time = 10.004580000000001 
+            mark = "1" 
+        points [19]:
+            time = 10.563746 
+            mark = "3-" 
+        points [20]:
+            time = 10.820558999999999 
+            mark = "3-" 
+        points [21]:
+            time = 11.704998 
+            mark = "2" 
+        points [22]:
+            time = 11.764582000000001 
+            mark = "1" 
+        points [23]:
+            time = 12.243855999999999 
+            mark = "4" 
+        points [24]:
+            time = 12.378748 
+            mark = "1-" 
+        points [25]:
+            time = 12.488747 
+            mark = "1" 
+        points [26]:
+            time = 12.580413999999999 
+            mark = "1" 
+        points [27]:
+            time = 12.736247000000001 
+            mark = "1" 
+        points [28]:
+            time = 12.763747 
+            mark = "1" 
+        points [29]:
+            time = 13.057079999999999 
+            mark = "1" 
+        points [30]:
+            time = 13.102912999999999 
+            mark = "1" 
+        points [31]:
+            time = 13.36899 
+            mark = "4-" 
+        points [32]:
+            time = 13.730829 
+            mark = "2" 
+        points [33]:
+            time = 13.891246000000001 
+            mark = "1" 
+        points [34]:
+            time = 14.065412 
+            mark = "1" 
+        points [35]:
+            time = 14.257911999999999 
+            mark = "1" 
+        points [36]:
+            time = 14.427495 
+            mark = "1" 
+        points [37]:
+            time = 14.514578999999999 
+            mark = "1" 
+        points [38]:
+            time = 14.913176999999999 
+            mark = "4" 
+        points [39]:
+            time = 16.248926999999998 
+            mark = "3" 
+        points [40]:
+            time = 16.382092 
+            mark = "1" 
+        points [41]:
+            time = 16.424848000000001 
+            mark = "1" 
+        points [42]:
+            time = 16.604422 
+            mark = "1" 
+        points [43]:
+            time = 16.689933 
+            mark = "1" 
+        points [44]:
+            time = 16.772594000000002 
+            mark = "1" 
+        points [45]:
+            time = 16.806799000000002 
+            mark = "1" 
+        points [46]:
+            time = 16.977820999999999 
+            mark = "1" 
+        points [47]:
+            time = 17.083285 
+            mark = "1" 
+        points [48]:
+            time = 17.365473000000001 
+            mark = "4-" 
+        points [49]:
+            time = 17.439682999999999 
+            mark = "1" 
+        points [50]:
+            time = 17.727488000000001 
+            mark = "1" 
+        points [51]:
+            time = 18.155899000000002 
+            mark = "4" 
+        points [52]:
+            time = 19.306581000000001 
+            mark = "3-" 
+        points [53]:
+            time = 19.388399 
+            mark = "1" 
+        points [54]:
+            time = 19.810417000000001 
+            mark = "1" 
+        points [55]:
+            time = 20.024875999999999 
+            mark = "1" 
+        points [56]:
+            time = 20.133189999999999 
+            mark = "1" 
+        points [57]:
+            time = 20.164545 
+            mark = "1" 
+        points [58]:
+            time = 20.697565000000001 
+            mark = "4" 
+        points [59]:
+            time = 21.447215 
+            mark = "1" 
+        points [60]:
+            time = 21.749355000000001 
+            mark = "3" 
+        points [61]:
+            time = 21.846267999999998 
+            mark = "1" 
+        points [62]:
+            time = 21.871921 
+            mark = "1" 
+        points [63]:
+            time = 21.985935999999999 
+            mark = "1" 
+        points [64]:
+            time = 22.034393000000001 
+            mark = "1" 
+        points [65]:
+            time = 22.553162 
+            mark = "4" 
+        points [66]:
+            time = 22.779167000000001 
+            mark = "1" 
+        points [67]:
+            time = 23.076042000000001 
+            mark = "1" 
+        points [68]:
+            time = 23.446204000000002 
+            mark = "2p" 
+        points [69]:
+            time = 24.021812000000001 
+            mark = "4" 
+        points [70]:
+            time = 24.885936999999998 
+            mark = "1" 
+        points [71]:
+            time = 24.927603999999999 
+            mark = "1" 
+        points [72]:
+            time = 25.023958 
+            mark = "1" 
+        points [73]:
+            time = 25.132755 
+            mark = "1p" 
+        points [74]:
+            time = 25.221875000000001 
+            mark = "1" 
+        points [75]:
+            time = 25.307811999999998 
+            mark = "1" 
+        points [76]:
+            time = 25.378125000000001 
+            mark = "1" 
+        points [77]:
+            time = 25.732292000000001 
+            mark = "2-" 
+        points [78]:
+            time = 25.964062999999999 
+            mark = "1" 
+        points [79]:
+            time = 25.995312999999999 
+            mark = "1" 
+        points [80]:
+            time = 26.318511999999998 
+            mark = "4" 
+        points [81]:
+            time = 32.431809999999999 
+            mark = "4" 
+        points [82]:
+            time = 35.463627000000002 
+            mark = "4" 
+        points [83]:
+            time = 35.786579000000003 
+            mark = "3" 
+        points [84]:
+            time = 35.896354000000002 
+            mark = "1" 
+        points [85]:
+            time = 36.083854000000002 
+            mark = "1" 
+        points [86]:
+            time = 36.324838999999997 
+            mark = "4" 
+        points [87]:
+            time = 36.430208999999998 
+            mark = "1" 
+        points [88]:
+            time = 36.492708999999998 
+            mark = "1" 
+        points [89]:
+            time = 36.654167000000001 
+            mark = "1" 
+        points [90]:
+            time = 36.766145999999999 
+            mark = "1" 
+        points [91]:
+            time = 37.190443000000002 
+            mark = "3" 
+        points [92]:
+            time = 37.576855000000002 
+            mark = "1" 
+        points [93]:
+            time = 37.865468 
+            mark = "2-" 
+        points [94]:
+            time = 37.920605000000002 
+            mark = "1" 
+        points [95]:
+            time = 38.262568999999999 
+            mark = "4" 
+        points [96]:
+            time = 39.187489999999997 
+            mark = "4" 
+        points [97]:
+            time = 39.733103999999997 
+            mark = "1" 
+        points [98]:
+            time = 39.798208000000002 
+            mark = "1" 
+        points [99]:
+            time = 40.113312999999998 
+            mark = "2-" 
+        points [100]:
+            time = 40.652374999999999 
+            mark = "4" 
+        points [101]:
+            time = 41.206502 
+            mark = "3" 
+        points [102]:
+            time = 41.602896000000001 
+            mark = "1" 
+        points [103]:
+            time = 41.845084 
+            mark = "3-" 
+        points [104]:
+            time = 42.264355000000002 
+            mark = "2p" 
+        points [105]:
+            time = 42.311230000000002 
+            mark = "1" 
+        points [106]:
+            time = 43.040975000000003 
+            mark = "4" 
+        points [107]:
+            time = 44.587642000000002 
+            mark = "X" 
+        points [108]:
+            time = 45.161047000000003 
+            mark = "0" 
+        points [109]:
+            time = 45.312638 
+            mark = "1" 
+        points [110]:
+            time = 45.905822999999998 
+            mark = "3p" 
+        points [111]:
+            time = 48.282941999999998 
+            mark = "X" 
+        points [112]:
+            time = 48.834381 
+            mark = "1" 
+        points [113]:
+            time = 49.031135999999996 
+            mark = "3" 
+        points [114]:
+            time = 49.496125999999997 
+            mark = "2" 
+        points [115]:
+            time = 49.834668000000001 
+            mark = "2" 
+        points [116]:
+            time = 50.370061 
+            mark = "4-" 
+        points [117]:
+            time = 50.561230000000002 
+            mark = "1" 
+        points [118]:
+            time = 50.727896000000001 
+            mark = "1" 
+        points [119]:
+            time = 51.095064999999998 
+            mark = "3p" 
+        points [120]:
+            time = 52.566437999999998 
+            mark = "2" 
+        points [121]:
+            time = 52.863312999999998 
+            mark = "1-" 
+        points [122]:
+            time = 52.920605000000002 
+            mark = "3" 
+        points [123]:
+            time = 53.389353999999997 
+            mark = "4-" 
+        points [124]:
+            time = 53.535187999999998 
+            mark = "1" 
+        points [125]:
+            time = 53.618521000000001 
+            mark = "1" 
+        points [126]:
+            time = 53.774771000000001 
+            mark = "1" 
+        points [127]:
+            time = 54.246125999999997 
+            mark = "4" 
+        points [128]:
+            time = 56.152687 
+            mark = "2-" 
+        points [129]:
+            time = 56.420355000000001 
+            mark = "2p" 
+        points [130]:
+            time = 56.738518999999997 
+            mark = "1" 
+        points [131]:
+            time = 56.957304999999998 
+            mark = "1" 
+        points [132]:
+            time = 57.082228999999998 
+            mark = "1" 
+        points [133]:
+            time = 57.350256999999999 
+            mark = "3" 
+        points [134]:
+            time = 57.506472000000002 
+            mark = "1" 
+        points [135]:
+            time = 57.882227999999998 
+            mark = "2" 
+        points [136]:
+            time = 58.027681999999999 
+            mark = "1" 
+        points [137]:
+            time = 58.100408999999999 
+            mark = "1" 
+        points [138]:
+            time = 58.406469000000001 
+            mark = "2" 
+        points [139]:
+            time = 58.497377999999998 
+            mark = "1" 
+        points [140]:
+            time = 58.567073999999998 
+            mark = "1" 
+        points [141]:
+            time = 58.712527999999999 
+            mark = "1" 
+        points [142]:
+            time = 59.170102999999997 
+            mark = "4" 
+        points [143]:
+            time = 64.148899 
+            mark = "X" 
+        points [144]:
+            time = 65.318591999999995 
+            mark = "1" 
+        points [145]:
+            time = 65.548894000000004 
+            mark = "0" 
+        points [146]:
+            time = 65.797377999999995 
+            mark = "3p" 
+        points [147]:
+            time = 67.334410000000005 
+            mark = "2p" 
+        points [148]:
+            time = 67.479198999999994 
+            mark = "1" 
+        points [149]:
+            time = 67.936773000000002 
+            mark = "4-" 
+        points [150]:
+            time = 68.268241000000003 
+            mark = "1" 
+        points [151]:
+            time = 68.318439999999995 
+            mark = "1" 
+        points [152]:
+            time = 68.588201999999995 
+            mark = "4-" 
+        points [153]:
+            time = 68.721648999999999 
+            mark = "1" 
+        points [154]:
+            time = 68.792900000000003 
+            mark = "1" 
+        points [155]:
+            time = 68.943498000000005 
+            mark = "1" 
+        points [156]:
+            time = 69.230119000000002 
+            mark = "1" 
+        points [157]:
+            time = 69.874611999999999 
+            mark = "4" 
+        points [158]:
+            time = 71.089093000000005 
+            mark = "1" 
+        points [159]:
+            time = 71.181394999999995 
+            mark = "1" 
+        points [160]:
+            time = 71.437248999999994 
+            mark = "0" 
+        points [161]:
+            time = 71.532788999999994 
+            mark = "1" 
+        points [162]:
+            time = 71.568414000000004 
+            mark = "1" 
+        points [163]:
+            time = 71.814549 
+            mark = "3-" 
+        points [164]:
+            time = 71.929520999999994 
+            mark = "1" 
+        points [165]:
+            time = 72.002391000000003 
+            mark = "1" 
+        points [166]:
+            time = 72.386166000000003 
+            mark = "4" 
+        points [167]:
+            time = 72.540002000000001 
+            mark = "0" 
+        points [168]:
+            time = 72.833100999999999 
+            mark = "2p" 
+        points [169]:
+            time = 73.872699999999995 
+            mark = "0" 
+        points [170]:
+            time = 73.993364999999997 
+            mark = "2-" 
+        points [171]:
+            time = 74.502596999999994 
+            mark = "2" 
+        points [172]:
+            time = 74.536331000000004 
+            mark = "1" 
+        points [173]:
+            time = 74.729910000000004 
+            mark = "1" 
+        points [174]:
+            time = 74.978144 
+            mark = "3-" 
+        points [175]:
+            time = 75.370277000000002 
+            mark = "2p" 
+        points [176]:
+            time = 75.485668000000004 
+            mark = "1" 
+        points [177]:
+            time = 76.040672999999998 
+            mark = "4" 
+        points [178]:
+            time = 76.582947000000004 
+            mark = "1" 
+        points [179]:
+            time = 76.620718999999994 
+            mark = "1" 
+        points [180]:
+            time = 76.889841000000004 
+            mark = "1" 
+        points [181]:
+            time = 77.261982000000003 
+            mark = "4-" 
+        points [182]:
+            time = 77.425830000000005 
+            mark = "1" 
+        points [183]:
+            time = 77.553708999999998 
+            mark = "1" 
+        points [184]:
+            time = 77.677591000000007 
+            mark = "1" 
+        points [185]:
+            time = 77.905373999999995 
+            mark = "1" 
+        points [186]:
+            time = 78.362931000000003 
+            mark = "4" 
+        points [187]:
+            time = 78.732590000000002 
+            mark = "1" 
+        points [188]:
+            time = 78.806520000000006 
+            mark = "1" 
+        points [189]:
+            time = 78.992343000000005 
+            mark = "1" 
+        points [190]:
+            time = 79.326025000000001 
+            mark = "1" 
+        points [191]:
+            time = 79.493865 
+            mark = "3" 
+        points [192]:
+            time = 79.673699999999997 
+            mark = "1" 
+        points [193]:
+            time = 79.747630000000001 
+            mark = "1" 
+        points [194]:
+            time = 80.003386000000006 
+            mark = "1" 
+        points [195]:
+            time = 80.335070000000002 
+            mark = "1" 
+        points [196]:
+            time = 80.720506 
+            mark = "4-" 
+        points [197]:
+            time = 80.806621000000007 
+            mark = "1" 
+        points [198]:
+            time = 80.858571999999995 
+            mark = "1" 
+        points [199]:
+            time = 81.240207999999996 
+            mark = "4" 
+        points [200]:
+            time = 84.621958000000006 
+            mark = "3" 
+        points [201]:
+            time = 84.792846999999995 
+            mark = "1" 
+        points [202]:
+            time = 85.037445000000005 
+            mark = "3" 
+        points [203]:
+            time = 85.156501000000006 
+            mark = "1" 
+        points [204]:
+            time = 85.226433999999998 
+            mark = "1" 
+        points [205]:
+            time = 85.478194000000002 
+            mark = "1" 
+        points [206]:
+            time = 85.847356000000005 
+            mark = "4" 
+        points [207]:
+            time = 85.893804000000003 
+            mark = "1" 
+        points [208]:
+            time = 85.969730999999996 
+            mark = "1" 
+        points [209]:
+            time = 86.295421000000005 
+            mark = "1" 
+        points [210]:
+            time = 86.615116999999998 
+            mark = "3p" 
+        points [211]:
+            time = 86.798941999999997 
+            mark = "1" 
+        points [212]:
+            time = 86.870873000000003 
+            mark = "1" 
+        points [213]:
+            time = 87.396373999999994 
+            mark = "4" 
+        points [214]:
+            time = 88.777614 
+            mark = "2" 
+        points [215]:
+            time = 89.524358000000007 
+            mark = "4-" 
+        points [216]:
+            time = 90.112650000000002 
+            mark = "1" 
+        points [217]:
+            time = 90.166569999999993 
+            mark = "1" 
+        points [218]:
+            time = 90.485944000000003 
+            mark = "1" 
+        points [219]:
+            time = 90.528803999999994 
+            mark = "1" 
+        points [220]:
+            time = 90.589636999999996 
+            mark = "1" 
+        points [221]:
+            time = 90.791493000000003 
+            mark = "1" 
+        points [222]:
+            time = 91.212756999999996 
+            mark = "4" 
+        points [223]:
+            time = 95.197761 
+            mark = "4" 
+        points [224]:
+            time = 96.465584000000007 
+            mark = "2" 
+        points [225]:
+            time = 96.520303999999996 
+            mark = "1" 
+        points [226]:
+            time = 96.704440000000005 
+            mark = "1" 
+        points [227]:
+            time = 97.063490000000002 
+            mark = "3-" 
+        points [228]:
+            time = 97.884106000000003 
+            mark = "4" 
+        points [229]:
+            time = 98.078599999999994 
+            mark = "1" 
+        points [230]:
+            time = 98.385493999999994 
+            mark = "1" 
+        points [231]:
+            time = 98.961132000000006 
+            mark = "4" 
+        points [232]:
+            time = 99.84957 
+            mark = "1" 
+        points [233]:
+            time = 99.873234999999994 
+            mark = "0" 
+        points [234]:
+            time = 99.930706999999998 
+            mark = "1" 
+        points [235]:
+            time = 99.991558999999995 
+            mark = "1" 
+        points [236]:
+            time = 100.028746 
+            mark = "1" 
+        points [237]:
+            time = 100.39385799999999 
+            mark = "1" 
+        points [238]:
+            time = 101.088916 
+            mark = "4" 
+        points [239]:
+            time = 101.948972 
+            mark = "2p" 
+        points [240]:
+            time = 102.101102 
+            mark = "1" 
+        points [241]:
+            time = 102.39130299999999 
+            mark = "4" 
+        points [242]:
+            time = 102.775659 
+            mark = "4" 
+        points [243]:
+            time = 103.220106 
+            mark = "1" 
+        points [244]:
+            time = 103.531128 
+            mark = "1" 
+        points [245]:
+            time = 103.838769 
+            mark = "2p" 
+        points [246]:
+            time = 104.54871 
+            mark = "3p" 
+        points [247]:
+            time = 104.798889 
+            mark = "1" 
+        points [248]:
+            time = 105.096388 
+            mark = "3" 
+        points [249]:
+            time = 105.265421 
+            mark = "1" 
+        points [250]:
+            time = 105.404028 
+            mark = "1" 
+        points [251]:
+            time = 105.748857 
+            mark = "1" 
+        points [252]:
+            time = 106.046356 
+            mark = "1" 
+        points [253]:
+            time = 106.188344 
+            mark = "1" 
+        points [254]:
+            time = 106.239054 
+            mark = "1" 
+        points [255]:
+            time = 106.700791 
+            mark = "4" 
+        points [256]:
+            time = 108.054485 
+            mark = "1" 
+        points [257]:
+            time = 108.351984 
+            mark = "3p" 
+        points [258]:
+            time = 108.46354599999999 
+            mark = "1" 
+        points [259]:
+            time = 108.71371600000001 
+            mark = "1" 
+        points [260]:
+            time = 109.156583 
+            mark = "3p" 
+        points [261]:
+            time = 109.322236 
+            mark = "1" 
+        points [262]:
+            time = 109.362804 
+            mark = "1" 
+        points [263]:
+            time = 109.62987699999999 
+            mark = "3-" 
+        points [264]:
+            time = 109.72116200000001 
+            mark = "1" 
+        points [265]:
+            time = 109.744827 
+            mark = "1" 
+        points [266]:
+            time = 110.0119 
+            mark = "1" 
+        points [267]:
+            time = 110.356728 
+            mark = "1" 
+        points [268]:
+            time = 110.586613 
+            mark = "1" 
+        points [269]:
+            time = 110.738744 
+            mark = "1" 
+        points [270]:
+            time = 110.90439600000001 
+            mark = "1" 
+        points [271]:
+            time = 111.282647 
+            mark = "4" 
+        points [272]:
+            time = 112.087636 
+            mark = "1" 
+        points [273]:
+            time = 112.18905599999999 
+            mark = "1" 
+        points [274]:
+            time = 112.697023 
+            mark = "4" 
+        points [275]:
+            time = 114.585961 
+            mark = "2p" 
+        points [276]:
+            time = 114.66371700000001 
+            mark = "1" 
+        points [277]:
+            time = 114.869938 
+            mark = "1" 
+        points [278]:
+            time = 115.001784 
+            mark = "1" 
+        points [279]:
+            time = 115.517477 
+            mark = "4" 
+        points [280]:
+            time = 115.57312 
+            mark = "1" 
+        points [281]:
+            time = 115.89090299999999 
+            mark = "1" 
+        points [282]:
+            time = 116.51293099999999 
+            mark = "4" 
+        points [283]:
+            time = 117.40206499999999 
+            mark = "1" 
+        points [284]:
+            time = 117.44601400000001 
+            mark = "1" 
+        points [285]:
+            time = 117.517008 
+            mark = "1" 
+        points [286]:
+            time = 117.557576 
+            mark = "1" 
+        points [287]:
+            time = 117.598144 
+            mark = "1" 
+        points [288]:
+            time = 118.192761 
+            mark = "4" 
+        points [289]:
+            time = 119.30711700000001 
+            mark = "4" 
+        points [290]:
+            time = 120.09437800000001 
+            mark = "1" 
+        points [291]:
+            time = 120.36483200000001 
+            mark = "1" 
+        points [292]:
+            time = 121.002155 
+            mark = "3p" 
+        points [293]:
+            time = 121.429743 
+            mark = "3" 
+        points [294]:
+            time = 121.842761 
+            mark = "1p" 
+        points [295]:
+            time = 122.088859 
+            mark = "1p" 
+        points [296]:
+            time = 122.731308 
+            mark = "1" 
+        points [297]:
+            time = 122.775256 
+            mark = "1" 
+        points [298]:
+            time = 123.312783 
+            mark = "3" 
+        points [299]:
+            time = 123.627185 
+            mark = "1" 
+        points [300]:
+            time = 123.72522499999999 
+            mark = "1" 
+        points [301]:
+            time = 124.361814 
+            mark = "4" 
+        points [302]:
+            time = 125.299218 
+            mark = "2p" 
+        points [303]:
+            time = 125.415184 
+            mark = "1" 
+        points [304]:
+            time = 125.569805 
+            mark = "1" 
+        points [305]:
+            time = 125.760107 
+            mark = "1" 
+        points [306]:
+            time = 126.289387 
+            mark = "4-" 
+        points [307]:
+            time = 126.568896 
+            mark = "1" 
+        points [308]:
+            time = 126.637286 
+            mark = "1" 
+        points [309]:
+            time = 126.80380100000001 
+            mark = "1" 
+        points [310]:
+            time = 127.071414 
+            mark = "3-" 
+        points [311]:
+            time = 127.11006999999999 
+            mark = "1" 
+        points [312]:
+            time = 127.446073 
+            mark = "1" 
+        points [313]:
+            time = 127.58582699999999 
+            mark = "1" 
+        points [314]:
+            time = 127.669084 
+            mark = "1" 
+        points [315]:
+            time = 128.09753499999999 
+            mark = "4" 
+        points [316]:
+            time = 128.30084600000001 
+            mark = "1" 
+        points [317]:
+            time = 128.390051 
+            mark = "1" 
+        points [318]:
+            time = 128.514937 
+            mark = "1" 
+        points [319]:
+            time = 128.666585 
+            mark = "1" 
+        points [320]:
+            time = 128.69929300000001 
+            mark = "1" 
+        points [321]:
+            time = 128.94906499999999 
+            mark = "1" 
+        points [322]:
+            time = 129.07395199999999 
+            mark = "1" 
+        points [323]:
+            time = 129.09773999999999 
+            mark = "1" 
+        points [324]:
+            time = 129.68038300000001 
+            mark = "4" 
+        points [325]:
+            time = 133.24735699999999 
+            mark = "4-" 
+        points [326]:
+            time = 133.39145199999999 
+            mark = "1" 
+        points [327]:
+            time = 133.486604 
+            mark = "1" 
+        points [328]:
+            time = 133.83450099999999 
+            mark = "2-" 
+        points [329]:
+            time = 133.974255 
+            mark = "2-" 
+        points [330]:
+            time = 134.161584 
+            mark = "1" 
+        points [331]:
+            time = 134.21510699999999 
+            mark = "1" 
+        points [332]:
+            time = 134.36080699999999 
+            mark = "1" 
+        points [333]:
+            time = 134.77870200000001 
+            mark = "4" 
+        points [334]:
+            time = 135.08931200000001 
+            mark = "1" 
+        points [335]:
+            time = 135.14283499999999 
+            mark = "1" 
+        points [336]:
+            time = 135.53693999999999 
+            mark = "4" 
+        points [337]:
+            time = 136.46853899999999 
+            mark = "1" 
+        points [338]:
+            time = 136.54437300000001 
+            mark = "1" 
+        points [339]:
+            time = 136.65812299999999 
+            mark = "1" 
+        points [340]:
+            time = 136.80978999999999 
+            mark = "1" 
+        points [341]:
+            time = 136.836873 
+            mark = "1" 
+        points [342]:
+            time = 137.08333200000001 
+            mark = "1" 
+        points [343]:
+            time = 137.140207 
+            mark = "1" 
+        points [344]:
+            time = 137.164582 
+            mark = "1" 
+        points [345]:
+            time = 137.50080700000001 
+            mark = "4" 
+        points [346]:
+            time = 138.254704 
+            mark = "4" 
+        points [347]:
+            time = 138.446022 
+            mark = "1" 
+        points [348]:
+            time = 138.50018800000001 
+            mark = "1" 
+        points [349]:
+            time = 138.56247999999999 
+            mark = "1" 
+        points [350]:
+            time = 138.59497999999999 
+            mark = "1" 
+        points [351]:
+            time = 139.06081399999999 
+            mark = "2-" 
+        points [352]:
+            time = 139.11768900000001 
+            mark = "1" 
+        points [353]:
+            time = 139.179981 
+            mark = "1" 
+        points [354]:
+            time = 139.58385200000001 
+            mark = "4" 
+        points [355]:
+            time = 141.34393800000001 
+            mark = "1" 
+        points [356]:
+            time = 141.39810499999999 
+            mark = "1" 
+        points [357]:
+            time = 141.81789699999999 
+            mark = "1" 
+        points [358]:
+            time = 142.164838 
+            mark = "4" 
+        points [359]:
+            time = 145.26560499999999 
+            mark = "1" 
+        points [360]:
+            time = 145.57706400000001 
+            mark = "4" 
+        points [361]:
+            time = 145.84247999999999 
+            mark = "1" 
+        points [362]:
+            time = 146.146334 
+            mark = "4" 
+        points [363]:
+            time = 146.63872900000001 
+            mark = "3-" 
+        points [364]:
+            time = 146.687479 
+            mark = "1" 
+        points [365]:
+            time = 147.01518799999999 
+            mark = "2" 
+        points [366]:
+            time = 147.21831299999999 
+            mark = "1" 
+        points [367]:
+            time = 147.40411700000001 
+            mark = "4" 
+        points [368]:
+            time = 148.070178 
+            mark = "4" 
+        points [369]:
+            time = 148.17164600000001 
+            mark = "1" 
+        points [370]:
+            time = 148.23935499999999 
+            mark = "1" 
+        points [371]:
+            time = 148.319951 
+            mark = "1p" 
+        points [372]:
+            time = 148.51560499999999 
+            mark = "1" 
+        points [373]:
+            time = 148.62393800000001 
+            mark = "1" 
+        points [374]:
+            time = 148.74852200000001 
+            mark = "1" 
+        points [375]:
+            time = 149.087109 
+            mark = "2p" 
+        points [376]:
+            time = 149.257689 
+            mark = "1" 
+        points [377]:
+            time = 149.32539700000001 
+            mark = "1" 
+        points [378]:
+            time = 149.38498100000001 
+            mark = "1" 
+        points [379]:
+            time = 149.68478099999999 
+            mark = "2" 
+        points [380]:
+            time = 149.829148 
+            mark = "1" 
+        points [381]:
+            time = 150.09214800000001 
+            mark = "3p" 
+        points [382]:
+            time = 150.62142800000001 
+            mark = "4" 
+        points [383]:
+            time = 152.765311 
+            mark = "3" 
+        points [384]:
+            time = 152.867897 
+            mark = "1" 
+        points [385]:
+            time = 153.065606 
+            mark = "1" 
+        points [386]:
+            time = 153.203731 
+            mark = "1" 
+        points [387]:
+            time = 153.59491499999999 
+            mark = "4" 
+        points [388]:
+            time = 154.777016 
+            mark = "X" 
+        points [389]:
+            time = 155.74685400000001 
+            mark = "3" 
+        points [390]:
+            time = 155.86602099999999 
+            mark = "1" 
+        points [391]:
+            time = 156.16664599999999 
+            mark = "1" 
+        points [392]:
+            time = 156.49703500000001 
+            mark = "2p" 
+        points [393]:
+            time = 156.71914699999999 
+            mark = "1" 
+        points [394]:
+            time = 156.78143800000001 
+            mark = "1" 
+        points [395]:
+            time = 157.337547 
+            mark = "3" 
+        points [396]:
+            time = 157.43956399999999 
+            mark = "1" 
+        points [397]:
+            time = 157.50998100000001 
+            mark = "1" 
+        points [398]:
+            time = 157.553314 
+            mark = "1" 
+        points [399]:
+            time = 158.00809699999999 
+            mark = "4" 
+        points [400]:
+            time = 158.75581299999999 
+            mark = "1" 
+        points [401]:
+            time = 158.80727099999999 
+            mark = "1" 
+        points [402]:
+            time = 158.99685500000001 
+            mark = "1" 
+        points [403]:
+            time = 159.19998000000001 
+            mark = "2p" 
+        points [404]:
+            time = 159.820189 
+            mark = "3p" 
+        points [405]:
+            time = 160.18310500000001 
+            mark = "1" 
+        points [406]:
+            time = 160.50539699999999 
+            mark = "1" 
+        points [407]:
+            time = 160.895397 
+            mark = "3" 
+        points [408]:
+            time = 161.19331399999999 
+            mark = "2p" 
+        points [409]:
+            time = 161.60314099999999 
+            mark = "2p" 
+        points [410]:
+            time = 161.95996400000001 
+            mark = "1" 
+        points [411]:
+            time = 162.17968099999999 
+            mark = "1" 
+        points [412]:
+            time = 162.239814 
+            mark = "1" 
+        points [413]:
+            time = 162.48265799999999 
+            mark = "4" 
+        points [414]:
+            time = 163.69039699999999 
+            mark = "3p" 
+        points [415]:
+            time = 164.86039600000001 
+            mark = "4" 
+        points [416]:
+            time = 165.534772 
+            mark = "1" 
+        points [417]:
+            time = 165.973116 
+            mark = "4" 
+        points [418]:
+            time = 167.058437 
+            mark = "3p" 
+        points [419]:
+            time = 167.25891200000001 
+            mark = "1" 
+        points [420]:
+            time = 167.55201700000001 
+            mark = "0" 
+        points [421]:
+            time = 167.94881599999999 
+            mark = "3p" 
+        points [422]:
+            time = 169.11004800000001 
+            mark = "1" 
+        points [423]:
+            time = 169.479254 
+            mark = "2" 
+        points [424]:
+            time = 169.74932100000001 
+            mark = "1" 
+        points [425]:
+            time = 169.810856 
+            mark = "1" 
+        points [426]:
+            time = 170.053574 
+            mark = "1" 
+        points [427]:
+            time = 170.10143400000001 
+            mark = "1" 
+        points [428]:
+            time = 170.13220200000001 
+            mark = "1" 
+        points [429]:
+            time = 170.405688 
+            mark = "1" 
+        points [430]:
+            time = 170.67940300000001 
+            mark = "4" 
+        points [431]:
+            time = 170.959497 
+            mark = "0" 
+        points [432]:
+            time = 171.03128699999999 
+            mark = "1" 
+        points [433]:
+            time = 171.202215 
+            mark = "1" 
+        points [434]:
+            time = 171.41203400000001 
+            mark = "4" 
+        points [435]:
+            time = 172.12180000000001 
+            mark = "3" 
+        points [436]:
+            time = 172.32691399999999 
+            mark = "1" 
+        points [437]:
+            time = 172.49784299999999 
+            mark = "1" 
+        points [438]:
+            time = 172.76791 
+            mark = "2-" 
+        points [439]:
+            time = 173.15746999999999 
+            mark = "4-" 
+        points [440]:
+            time = 173.22941800000001 
+            mark = "1" 
+        points [441]:
+            time = 173.437951 
+            mark = "1" 
+        points [442]:
+            time = 173.645028 
+            mark = "4" 
+        points [443]:
+            time = 173.77297100000001 
+            mark = "1" 
+        points [444]:
+            time = 173.89604 
+            mark = "1" 
+        points [445]:
+            time = 174.17636300000001 
+            mark = "1" 
+        points [446]:
+            time = 174.22080500000001 
+            mark = "1" 
+        points [447]:
+            time = 174.787036 
+            mark = "4" 
+        points [448]:
+            time = 175.81384499999999 
+            mark = "1" 
+        points [449]:
+            time = 175.936913 
+            mark = "2-" 
+        points [450]:
+            time = 176.00870399999999 
+            mark = "0" 
+        points [451]:
+            time = 176.12151600000001 
+            mark = "1" 
+        points [452]:
+            time = 176.189888 
+            mark = "1" 
+        points [453]:
+            time = 176.265097 
+            mark = "1" 
+        points [454]:
+            time = 176.57960499999999 
+            mark = "2" 
+        points [455]:
+            time = 176.723186 
+            mark = "1" 
+        points [456]:
+            time = 176.788139 
+            mark = "1" 
+        points [457]:
+            time = 177.06162499999999 
+            mark = "1" 
+        points [458]:
+            time = 177.15734499999999 
+            mark = "1" 
+        points [459]:
+            time = 177.18469300000001 
+            mark = "1" 
+        points [460]:
+            time = 177.478691 
+            mark = "1" 
+        points [461]:
+            time = 177.74989500000001 
+            mark = "4" 
+        points [462]:
+            time = 178.066675 
+            mark = "1" 
+        points [463]:
+            time = 178.203418 
+            mark = "1" 
+        points [464]:
+            time = 178.334306 
+            mark = "3" 
+        points [465]:
+            time = 178.42220699999999 
+            mark = "0" 
+        points [466]:
+            time = 178.48374200000001 
+            mark = "1-" 
+        points [467]:
+            time = 178.60681 
+            mark = "1" 
+        points [468]:
+            time = 178.787995 
+            mark = "1" 
+        points [469]:
+            time = 179.41589999999999 
+            mark = "4" 
+        points [470]:
+            time = 183.068522 
+            mark = "X" 
+        points [471]:
+            time = 184.57290800000001 
+            mark = "4" 
+        points [472]:
+            time = 186.601145 
+            mark = "4" 
+        points [473]:
+            time = 187.39593300000001 
+            mark = "1-" 
+        points [474]:
+            time = 187.67264299999999 
+            mark = "1" 
+        points [475]:
+            time = 187.99893 
+            mark = "1" 
+        points [476]:
+            time = 188.56301999999999 
+            mark = "3p" 
+        points [477]:
+            time = 188.948758 
+            mark = "4" 
+        points [478]:
+            time = 189.063514 
+            mark = "1" 
+        points [479]:
+            time = 189.305464 
+            mark = "2p" 
+        points [480]:
+            time = 189.573554 
+            mark = "1" 
+        points [481]:
+            time = 189.806017 
+            mark = "1" 
+        points [482]:
+            time = 190.127363 
+            mark = "3" 
+        points [483]:
+            time = 190.25726900000001 
+            mark = "1" 
+        points [484]:
+            time = 190.35298900000001 
+            mark = "1" 
+        points [485]:
+            time = 190.61891 
+            mark = "4" 
+        points [486]:
+            time = 191.24187800000001 
+            mark = "1" 
+        points [487]:
+            time = 191.61793800000001 
+            mark = "3" 
+        points [488]:
+            time = 192.66316800000001 
+            mark = "2p" 
+        points [489]:
+            time = 193.32956799999999 
+            mark = "2p" 
+        points [490]:
+            time = 193.97710799999999 
+            mark = "4-" 
+        points [491]:
+            time = 195.43296599999999 
+            mark = "2p" 
+        points [492]:
+            time = 196.37676300000001 
+            mark = "4" 
+        points [493]:
+            time = 196.92345599999999 
+            mark = "1" 
+        points [494]:
+            time = 197.12173300000001 
+            mark = "1" 
+        points [495]:
+            time = 197.34052199999999 
+            mark = "1" 
+        points [496]:
+            time = 197.596915 
+            mark = "1" 
+        points [497]:
+            time = 197.87839700000001 
+            mark = "4" 
+        points [498]:
+            time = 198.61494200000001 
+            mark = "1-" 
+        points [499]:
+            time = 198.74242100000001 
+            mark = "1" 
+        points [500]:
+            time = 199.02570800000001 
+            mark = "1" 
+        points [501]:
+            time = 199.21928700000001 
+            mark = "1" 
+        points [502]:
+            time = 199.313715 
+            mark = "1" 
+        points [503]:
+            time = 199.50257300000001 
+            mark = "1" 
+        points [504]:
+            time = 199.802164 
+            mark = "4" 
+        points [505]:
+            time = 200.10955799999999 
+            mark = "2p" 
+        points [506]:
+            time = 200.622344 
+            mark = "1" 
+        points [507]:
+            time = 201.145386 
+            mark = "3p" 
+        points [508]:
+            time = 202.902522 
+            mark = "1" 
+        points [509]:
+            time = 203.383658 
+            mark = "3p" 
+        points [510]:
+            time = 203.70717999999999 
+            mark = "1" 
+        points [511]:
+            time = 203.74865700000001 
+            mark = "1" 
+        points [512]:
+            time = 204.09706600000001 
+            mark = "1" 
+        points [513]:
+            time = 204.39293599999999 
+            mark = "4" 
+        points [514]:
+            time = 204.67333400000001 
+            mark = "1" 
+        points [515]:
+            time = 204.840844 
+            mark = "1" 
+        points [516]:
+            time = 205.195033 
+            mark = "4" 
+        points [517]:
+            time = 206.15507400000001 
+            mark = "1" 
+        points [518]:
+            time = 206.33448799999999 
+            mark = "1" 
+        points [519]:
+            time = 206.466689 
+            mark = "1" 
+        points [520]:
+            time = 206.636661 
+            mark = "1" 
+        points [521]:
+            time = 206.910504 
+            mark = "2" 
+        points [522]:
+            time = 206.98604700000001 
+            mark = "1" 
+        points [523]:
+            time = 207.17962600000001 
+            mark = "1" 
+        points [524]:
+            time = 207.34959799999999 
+            mark = "1" 
+        points [525]:
+            time = 207.70835700000001 
+            mark = "4" 
+        points [526]:
+            time = 208.95031700000001 
+            mark = "3-" 
+        points [527]:
+            time = 209.56970999999999 
+            mark = "4" 
+        points [528]:
+            time = 210.686834 
+            mark = "X" 
+        points [529]:
+            time = 210.923518 
+            mark = "1" 
+        points [530]:
+            time = 211.32520400000001 
+            mark = "2-" 
+        points [531]:
+            time = 211.41692800000001 
+            mark = "1" 
+        points [532]:
+            time = 211.48334800000001 
+            mark = "1" 
+        points [533]:
+            time = 211.910337 
+            mark = "1" 
+        points [534]:
+            time = 212.337627 
+            mark = "4" 
+        points [535]:
+            time = 213.080601 
+            mark = "1" 
+        points [536]:
+            time = 213.706852 
+            mark = "4" 
+        points [537]:
+            time = 214.981112 
+            mark = "X" 
+        points [538]:
+            time = 215.332571 
+            mark = "1" 
+        points [539]:
+            time = 215.36420000000001 
+            mark = "1" 
+        points [540]:
+            time = 215.74690899999999 
+            mark = "4" 
+        points [541]:
+            time = 216.063197 
+            mark = "0" 
+        points [542]:
+            time = 216.12012899999999 
+            mark = "1" 
+        points [543]:
+            time = 216.19287499999999 
+            mark = "1" 
+        points [544]:
+            time = 216.29724999999999 
+            mark = "1" 
+        points [545]:
+            time = 216.71475000000001 
+            mark = "2-" 
+        points [546]:
+            time = 217.34100100000001 
+            mark = "4" 
+        points [547]:
+            time = 218.086376 
+            mark = "4" 
+        points [548]:
+            time = 218.31832900000001 
+            mark = "1" 
+        points [549]:
+            time = 218.378424 
+            mark = "1" 
+        points [550]:
+            time = 218.653594 
+            mark = "2" 
+        points [551]:
+            time = 218.840204 
+            mark = "1" 
+        points [552]:
+            time = 219.211082 
+            mark = "4-" 
+        points [553]:
+            time = 220.272988 
+            mark = "3" 
+        points [554]:
+            time = 220.70630199999999 
+            mark = "1" 
+        points [555]:
+            time = 220.79486299999999 
+            mark = "1" 
+        points [556]:
+            time = 220.84863200000001 
+            mark = "1" 
+        points [557]:
+            time = 221.168083 
+            mark = "1" 
+        points [558]:
+            time = 221.816225 
+            mark = "4" 
+        points [559]:
+            time = 223.68320299999999 
+            mark = "X" 
+        points [560]:
+            time = 225.33902699999999 
+            mark = "3p" 
+        points [561]:
+            time = 225.53285500000001 
+            mark = "1" 
+        points [562]:
+            time = 225.65937099999999 
+            mark = "3" 
+        points [563]:
+            time = 225.79537500000001 
+            mark = "0" 
+        points [564]:
+            time = 225.89658700000001 
+            mark = "1" 
+        points [565]:
+            time = 226.27013400000001 
+            mark = "2p" 
+        points [566]:
+            time = 226.492097 
+            mark = "1" 
+        points [567]:
+            time = 226.71607399999999 
+            mark = "1" 
+        points [568]:
+            time = 227.27186900000001 
+            mark = "4" 
+        points [569]:
+            time = 227.829285 
+            mark = "1" 
+        points [570]:
+            time = 227.85142500000001 
+            mark = "1" 
+        points [571]:
+            time = 228.17087599999999 
+            mark = "4" 
+        points [572]:
+            time = 228.468187 
+            mark = "4" 
+        points [573]:
+            time = 229.30011500000001 
+            mark = "3" 
+        points [574]:
+            time = 229.43919 
+            mark = "1" 
+        points [575]:
+            time = 229.619474 
+            mark = "1" 
+        points [576]:
+            time = 229.821898 
+            mark = "1" 
+        points [577]:
+            time = 230.10972100000001 
+            mark = "1" 
+        points [578]:
+            time = 230.14767499999999 
+            mark = "1" 
+        points [579]:
+            time = 230.441823 
+            mark = "1" 
+        points [580]:
+            time = 230.48294100000001 
+            mark = "1" 
+        points [581]:
+            time = 230.612619 
+            mark = "1" 
+        points [582]:
+            time = 230.76425399999999 
+            mark = "1p" 
+        points [583]:
+            time = 231.522706 
+            mark = "1" 
+        points [584]:
+            time = 232.08569900000001 
+            mark = "4" 
+        points [585]:
+            time = 232.95978500000001 
+            mark = "X" 
+        points [586]:
+            time = 233.55643599999999 
+            mark = "3p" 
+        points [587]:
+            time = 234.09728799999999 
+            mark = "1" 
+        points [588]:
+            time = 234.23961800000001 
+            mark = "1" 
+        points [589]:
+            time = 234.50530000000001 
+            mark = "2p" 
+        points [590]:
+            time = 234.853217 
+            mark = "1" 
+        points [591]:
+            time = 235.00503499999999 
+            mark = "1" 
+        points [592]:
+            time = 235.08410699999999 
+            mark = "1" 
+        points [593]:
+            time = 235.568028 
+            mark = "2p" 
+        points [594]:
+            time = 235.99185399999999 
+            mark = "4" 
+        points [595]:
+            time = 236.23223200000001 
+            mark = "1" 
+        points [596]:
+            time = 236.377724 
+            mark = "1" 
+        points [597]:
+            time = 236.52005399999999 
+            mark = "1" 
+        points [598]:
+            time = 236.76992200000001 
+            mark = "1" 
+        points [599]:
+            time = 237.114676 
+            mark = "4" 
+        points [600]:
+            time = 237.32026300000001 
+            mark = "1" 
+        points [601]:
+            time = 237.576457 
+            mark = "3" 
+        points [602]:
+            time = 238.76936799999999 
+            mark = "X" 
+        points [603]:
+            time = 239.46153100000001 
+            mark = "3p" 
+        points [604]:
+            time = 240.03401199999999 
+            mark = "2p" 
+        points [605]:
+            time = 240.22062199999999 
+            mark = "1" 
+        points [606]:
+            time = 240.59160499999999 
+            mark = "2p" 
+        points [607]:
+            time = 240.94830899999999 
+            mark = "2p" 
+        points [608]:
+            time = 241.440505 
+            mark = "2p" 
+        points [609]:
+            time = 241.833156 
+            mark = "1" 
+        points [610]:
+            time = 242.34194299999999 
+            mark = "4" 
+        points [611]:
+            time = 243.84895 
+            mark = "1" 
+        points [612]:
+            time = 243.95126099999999 
+            mark = "4" 
+        points [613]:
+            time = 249.46991499999999 
+            mark = "4" 
+    item [4]:
+        class = "TextTier" 
+        name = "misc" 
+        xmin = 0 
+        xmax = 244.56690699999999 
+        points: size = 255 
+        points [1]:
+            time = 3.659519 
+            mark = "glot<" 
+        points [2]:
+            time = 3.6885340000000002 
+            mark = "glot>" 
+        points [3]:
+            time = 4.631367 
+            mark = "2fv" 
+        points [4]:
+            time = 5.2025670000000002 
+            mark = "sil<" 
+        points [5]:
+            time = 5.8616609999999998 
+            mark = "sil>" 
+        points [6]:
+            time = 7.2787030000000001 
+            mark = "sil<" 
+        points [7]:
+            time = 8.8780909999999995 
+            mark = "sil>" 
+        points [8]:
+            time = 10.842188 
+            mark = "sil<" 
+        points [9]:
+            time = 11.296963 
+            mark = "sil>" 
+        points [10]:
+            time = 16.339003000000002 
+            mark = "glot<" 
+        points [11]:
+            time = 16.389533 
+            mark = "glot>" 
+        points [12]:
+            time = 19.708483999999999 
+            mark = "2fv" 
+        points [13]:
+            time = 21.592583999999999 
+            mark = "2fv" 
+        points [14]:
+            time = 24.041059000000001 
+            mark = "other" 
+        points [15]:
+            time = 24.810661 
+            mark = "other" 
+        points [16]:
+            time = 26.330824 
+            mark = "other" 
+        points [17]:
+            time = 31.944081000000001 
+            mark = "other" 
+        points [18]:
+            time = 32.231884999999998 
+            mark = "v" 
+        points [19]:
+            time = 32.236279000000003 
+            mark = "2f" 
+        points [20]:
+            time = 32.444985000000003 
+            mark = "other" 
+        points [21]:
+            time = 34.890214999999998 
+            mark = "other" 
+        points [22]:
+            time = 36.008474 
+            mark = "glot<" 
+        points [23]:
+            time = 36.094155999999998 
+            mark = "glot>" 
+        points [24]:
+            time = 36.298475000000003 
+            mark = "glot<" 
+        points [25]:
+            time = 36.355595999999998 
+            mark = "glot>" 
+        points [26]:
+            time = 38.277948000000002 
+            mark = "other" 
+        points [27]:
+            time = 38.860140000000001 
+            mark = "other" 
+        points [28]:
+            time = 39.117185999999997 
+            mark = "2fv" 
+        points [29]:
+            time = 40.668247999999998 
+            mark = "glot<" 
+        points [30]:
+            time = 40.745142999999999 
+            mark = "glot>" 
+        points [31]:
+            time = 41.215290000000003 
+            mark = "glot<" 
+        points [32]:
+            time = 41.305365999999999 
+            mark = "glot>" 
+        points [33]:
+            time = 43.058551000000001 
+            mark = "other" 
+        points [34]:
+            time = 43.913169000000003 
+            mark = "other" 
+        points [35]:
+            time = 50.145977999999999 
+            mark = "2fv" 
+        points [36]:
+            time = 50.714992000000002 
+            mark = "glot<" 
+        points [37]:
+            time = 50.816052999999997 
+            mark = "glot>" 
+        points [38]:
+            time = 51.113312999999998 
+            mark = "sil<" 
+        points [39]:
+            time = 52.126334 
+            mark = "sil>" 
+        points [40]:
+            time = 53.583368 
+            mark = "glot<" 
+        points [41]:
+            time = 53.646701 
+            mark = "glot>" 
+        points [42]:
+            time = 53.957062999999998 
+            mark = "2fv" 
+        points [43]:
+            time = 55.990161000000001 
+            mark = "other" 
+        points [44]:
+            time = 56.130766999999999 
+            mark = "glot<" 
+        points [45]:
+            time = 56.172510000000003 
+            mark = "glot>" 
+        points [46]:
+            time = 56.280791999999998 
+            mark = "2fv" 
+        points [47]:
+            time = 56.375791 
+            mark = "glot<" 
+        points [48]:
+            time = 56.434806000000002 
+            mark = "glot>" 
+        points [49]:
+            time = 57.265332999999998 
+            mark = "glot<" 
+        points [50]:
+            time = 57.350256999999999 
+            mark = "glot>" 
+        points [51]:
+            time = 57.576169 
+            mark = "2fv" 
+        points [52]:
+            time = 58.865886000000003 
+            mark = "2fv" 
+        points [53]:
+            time = 59.200412999999998 
+            mark = "other" 
+        points [54]:
+            time = 63.576467000000001 
+            mark = "other speaker>" 
+        points [55]:
+            time = 64.167079999999999 
+            mark = "other speaker<" 
+        points [56]:
+            time = 65.227682999999999 
+            mark = "other" 
+        points [57]:
+            time = 65.815562999999997 
+            mark = "sil<" 
+        points [58]:
+            time = 67.157982000000004 
+            mark = "sil>" 
+        points [59]:
+            time = 67.353324999999998 
+            mark = "glot?<" 
+        points [60]:
+            time = 67.395427999999995 
+            mark = "glot?>" 
+        points [61]:
+            time = 69.882704000000004 
+            mark = "other" 
+        points [62]:
+            time = 70.938500000000005 
+            mark = "other" 
+        points [63]:
+            time = 72.844431999999998 
+            mark = "sil<" 
+        points [64]:
+            time = 73.714011999999997 
+            mark = "sil>" 
+        points [65]:
+            time = 78.772552000000005 
+            mark = "glot<" 
+        points [66]:
+            time = 78.858470999999994 
+            mark = "glot>" 
+        points [67]:
+            time = 79.445910999999995 
+            mark = "glot<" 
+        points [68]:
+            time = 79.577785000000006 
+            mark = "glot>" 
+        points [69]:
+            time = 80.638780999999994 
+            mark = "glot<" 
+        points [70]:
+            time = 80.660759999999996 
+            mark = "glot>" 
+        points [71]:
+            time = 84.333950999999999 
+            mark = "other" 
+        points [72]:
+            time = 84.567062000000007 
+            mark = "glot<" 
+        points [73]:
+            time = 84.676957000000002 
+            mark = "glot>" 
+        points [74]:
+            time = 87.410364000000001 
+            mark = "sil<" 
+        points [75]:
+            time = 88.121686999999994 
+            mark = "sil>" 
+        points [76]:
+            time = 88.129678999999996 
+            mark = "other" 
+        points [77]:
+            time = 88.473155355149956 
+            mark = "other" 
+        points [78]:
+            time = 89.538347999999999 
+            mark = "sil<" 
+        points [79]:
+            time = 90.001907000000003 
+            mark = "sil>" 
+        points [80]:
+            time = 90.926985000000002 
+            mark = "2fv" 
+        points [81]:
+            time = 91.256389999999996 
+            mark = "other" 
+        points [82]:
+            time = 94.80753 
+            mark = "other" 
+        points [83]:
+            time = 98.356097000000005 
+            mark = "glot<" 
+        points [84]:
+            time = 98.430756000000002 
+            mark = "glot>" 
+        points [85]:
+            time = 100.53922900000001 
+            mark = "2fv" 
+        points [86]:
+            time = 101.10412599999999 
+            mark = "sil<" 
+        points [87]:
+            time = 101.653007 
+            mark = "sil>" 
+        points [88]:
+            time = 104.75494 
+            mark = "glot" 
+        points [89]:
+            time = 104.815792 
+            mark = "glot" 
+        points [90]:
+            time = 105.8638 
+            mark = "2fv" 
+        points [91]:
+            time = 106.72249600000001 
+            mark = "other" 
+        points [92]:
+            time = 107.86178200000001 
+            mark = "other" 
+        points [93]:
+            time = 107.875304 
+            mark = "glot<" 
+        points [94]:
+            time = 107.912492 
+            mark = "glot>" 
+        points [95]:
+            time = 110.13360400000001 
+            mark = "2fv" 
+        points [96]:
+            time = 110.931442 
+            mark = "glot<" 
+        points [97]:
+            time = 111.26612799999999 
+            mark = "glot>" 
+        points [98]:
+            time = 111.952409 
+            mark = "glot<" 
+        points [99]:
+            time = 111.98959600000001 
+            mark = "glot>" 
+        points [100]:
+            time = 112.256665 
+            mark = "glot<" 
+        points [101]:
+            time = 112.479789 
+            mark = "glot>" 
+        points [102]:
+            time = 112.72658699999999 
+            mark = "sil<" 
+        points [103]:
+            time = 113.564993 
+            mark = "sil>" 
+        points [104]:
+            time = 113.575135 
+            mark = "other" 
+        points [105]:
+            time = 113.906441 
+            mark = "other" 
+        points [106]:
+            time = 113.923344 
+            mark = "sil<" 
+        points [107]:
+            time = 114.256568 
+            mark = "sil>" 
+        points [108]:
+            time = 118.229597 
+            mark = "other" 
+        points [109]:
+            time = 118.854597 
+            mark = "other" 
+        points [110]:
+            time = 120.764352 
+            mark = "glot<" 
+        points [111]:
+            time = 120.847307 
+            mark = "glot>" 
+        points [112]:
+            time = 121.281436 
+            mark = "glot<" 
+        points [113]:
+            time = 121.350565 
+            mark = "glot>" 
+        points [114]:
+            time = 123.28348 
+            mark = "glot<" 
+        points [115]:
+            time = 123.384578 
+            mark = "glot>" 
+        points [116]:
+            time = 125.003125 
+            mark = "other" 
+        points [117]:
+            time = 128.40651 
+            mark = "glot<" 
+        points [118]:
+            time = 128.48382000000001 
+            mark = "glot>" 
+        points [119]:
+            time = 129.71633700000001 
+            mark = "other" 
+        points [120]:
+            time = 132.95497700000001 
+            mark = "other" 
+        points [121]:
+            time = 133.95344 
+            mark = "glot<" 
+        points [122]:
+            time = 134.04264499999999 
+            mark = "glot>" 
+        points [123]:
+            time = 134.808436 
+            mark = "?<" 
+        points [124]:
+            time = 134.936296 
+            mark = "?>" 
+        points [125]:
+            time = 135.27366599999999 
+            mark = "glot<" 
+        points [126]:
+            time = 135.46396899999999 
+            mark = "glot>" 
+        points [127]:
+            time = 135.56506899999999 
+            mark = "sil<" 
+        points [128]:
+            time = 136.24897000000001 
+            mark = "sil>" 
+        points [129]:
+            time = 137.367707 
+            mark = "glot<" 
+        points [130]:
+            time = 137.48958200000001 
+            mark = "glot>" 
+        points [131]:
+            time = 137.51864800000001 
+            mark = "other" 
+        points [132]:
+            time = 137.79518200000001 
+            mark = "other" 
+        points [133]:
+            time = 139.63631799999999 
+            mark = "other" 
+        points [134]:
+            time = 141.15147200000001 
+            mark = "other" 
+        points [135]:
+            time = 142.19457299999999 
+            mark = "other" 
+        points [136]:
+            time = 144.85411999999999 
+            mark = "other" 
+        points [137]:
+            time = 147.226438 
+            mark = "other" 
+        points [138]:
+            time = 147.416021 
+            mark = ">" 
+        points [139]:
+            time = 152.42040900000001 
+            mark = "other" 
+        points [140]:
+            time = 155.70608799999999 
+            mark = "glot<" 
+        points [141]:
+            time = 155.77745200000001 
+            mark = "glot>" 
+        points [142]:
+            time = 157.24076700000001 
+            mark = "glot<" 
+        points [143]:
+            time = 157.32648699999999 
+            mark = "glot>" 
+        points [144]:
+            time = 158.02607 
+            mark = "other" 
+        points [145]:
+            time = 158.485085 
+            mark = "other" 
+        points [146]:
+            time = 158.49752799999999 
+            mark = "click" 
+        points [147]:
+            time = 158.507206 
+            mark = "sil<" 
+        points [148]:
+            time = 158.66481899999999 
+            mark = "sil>" 
+        points [149]:
+            time = 159.75597300000001 
+            mark = "glot<" 
+        points [150]:
+            time = 159.851124 
+            mark = "glot>" 
+        points [151]:
+            time = 160.20496800000001 
+            mark = "glot<" 
+        points [152]:
+            time = 160.26741200000001 
+            mark = "glot>" 
+        points [153]:
+            time = 161.55578600000001 
+            mark = "glot<" 
+        points [154]:
+            time = 161.605559 
+            mark = "glot>" 
+        points [155]:
+            time = 161.95635100000001 
+            mark = "glot<" 
+        points [156]:
+            time = 162.02176800000001 
+            mark = "glot>" 
+        points [157]:
+            time = 162.35182399999999 
+            mark = "glot<" 
+        points [158]:
+            time = 162.47671099999999 
+            mark = "glot>" 
+        points [159]:
+            time = 162.50941900000001 
+            mark = "other" 
+        points [160]:
+            time = 163.23792499999999 
+            mark = "other" 
+        points [161]:
+            time = 164.65627599999999 
+            mark = "2fv" 
+        points [162]:
+            time = 165.69699700000001 
+            mark = "2fv" 
+        points [163]:
+            time = 167.96402599999999 
+            mark = "sil<" 
+        points [164]:
+            time = 168.79357200000001 
+            mark = "sil>" 
+        points [165]:
+            time = 168.81569300000001 
+            mark = "lip" 
+        points [166]:
+            time = 170.50482600000001 
+            mark = "2fv" 
+        points [167]:
+            time = 170.695424 
+            mark = "other" 
+        points [168]:
+            time = 170.91843600000001 
+            mark = "other" 
+        points [169]:
+            time = 171.30477300000001 
+            mark = "2fv" 
+        points [170]:
+            time = 171.438795 
+            mark = "other" 
+        points [171]:
+            time = 171.819401 
+            mark = "other" 
+        points [172]:
+            time = 173.51657800000001 
+            mark = "!H*?" 
+        points [173]:
+            time = 174.80501100000001 
+            mark = "sil<" 
+        points [174]:
+            time = 175.29582400000001 
+            mark = "sil>" 
+        points [175]:
+            time = 175.301354 
+            mark = "other" 
+        points [176]:
+            time = 175.70230100000001 
+            mark = "other" 
+        points [177]:
+            time = 176.29449500000001 
+            mark = "glot<" 
+        points [178]:
+            time = 176.35693800000001 
+            mark = "glot>" 
+        points [179]:
+            time = 177.5591 
+            mark = "2fv" 
+        points [180]:
+            time = 177.769251 
+            mark = "other" 
+        points [181]:
+            time = 177.936542 
+            mark = "other" 
+        points [182]:
+            time = 178.307074 
+            mark = "glot<" 
+        points [183]:
+            time = 178.33749 
+            mark = "glot>" 
+        points [184]:
+            time = 178.714912 
+            mark = "glot<" 
+        points [185]:
+            time = 178.78627499999999 
+            mark = "glot>" 
+        points [186]:
+            time = 179.43525700000001 
+            mark = "other" 
+        points [187]:
+            time = 182.63789700000001 
+            mark = "other" 
+        points [188]:
+            time = 183.08477199999999 
+            mark = "other" 
+        points [189]:
+            time = 184.598443 
+            mark = "other" 
+        points [190]:
+            time = 185.95261099999999 
+            mark = "other" 
+        points [191]:
+            time = 186.62050300000001 
+            mark = "sil<" 
+        points [192]:
+            time = 187.23021800000001 
+            mark = "sil>" 
+        points [193]:
+            time = 187.67955599999999 
+            mark = "glot<" 
+        points [194]:
+            time = 187.72379799999999 
+            mark = "glot>" 
+        points [195]:
+            time = 187.900767 
+            mark = "glot<" 
+        points [196]:
+            time = 187.997547 
+            mark = "glot>" 
+        points [197]:
+            time = 188.18696 
+            mark = "2fv" 
+        points [198]:
+            time = 189.705028 
+            mark = "2fv" 
+        points [199]:
+            time = 189.987201 
+            mark = "2fv" 
+        points [200]:
+            time = 192.79866000000001 
+            mark = "2fv" 
+        points [201]:
+            time = 193.563005 
+            mark = "2fv" 
+        points [202]:
+            time = 197.51828800000001 
+            mark = "2fv" 
+        points [203]:
+            time = 197.892562 
+            mark = "other" 
+        points [204]:
+            time = 198.49218500000001 
+            mark = "other" 
+        points [205]:
+            time = 199.644216 
+            mark = "2fv" 
+        points [206]:
+            time = 200.62284700000001 
+            mark = "glot<" 
+        points [207]:
+            time = 200.691237 
+            mark = "glot>" 
+        points [208]:
+            time = 204.05005800000001 
+            mark = "glot<" 
+        points [209]:
+            time = 204.243618 
+            mark = "glot>" 
+        points [210]:
+            time = 205.01177300000001 
+            mark = "2fv" 
+        points [211]:
+            time = 205.25290200000001 
+            mark = "other" 
+        points [212]:
+            time = 206.01055199999999 
+            mark = "other" 
+        points [213]:
+            time = 206.49501699999999 
+            mark = "H*?" 
+        points [214]:
+            time = 207.49179599999999 
+            mark = "2fv" 
+        points [215]:
+            time = 207.73877400000001 
+            mark = "other" 
+        points [216]:
+            time = 208.12589399999999 
+            mark = "other" 
+        points [217]:
+            time = 208.91990100000001 
+            mark = "glot<" 
+        points [218]:
+            time = 209.01391599999999 
+            mark = "glot>" 
+        points [219]:
+            time = 212.07968399999999 
+            mark = "2fv" 
+        points [220]:
+            time = 212.36527799999999 
+            mark = "other" 
+        points [221]:
+            time = 212.91277700000001 
+            mark = "other" 
+        points [222]:
+            time = 213.283312 
+            mark = "2fv" 
+        points [223]:
+            time = 216.68956700000001 
+            mark = "glot<" 
+        points [224]:
+            time = 216.75498400000001 
+            mark = "glot>" 
+        points [225]:
+            time = 216.768519 
+            mark = "pitch" 
+        points [226]:
+            time = 217.129088 
+            mark = "pitch" 
+        points [227]:
+            time = 217.34416400000001 
+            mark = "other" 
+        points [228]:
+            time = 217.47700499999999 
+            mark = "other" 
+        points [229]:
+            time = 220.21605600000001 
+            mark = "2p?" 
+        points [230]:
+            time = 220.46276 
+            mark = "pitch" 
+        points [231]:
+            time = 220.60192699999999 
+            mark = "pitch" 
+        points [232]:
+            time = 221.13195400000001 
+            mark = "glot<" 
+        points [233]:
+            time = 221.19737000000001 
+            mark = "glot>" 
+        points [234]:
+            time = 221.550792 
+            mark = "2fv" 
+        points [235]:
+            time = 227.294579 
+            mark = "other" 
+        points [236]:
+            time = 227.71840499999999 
+            mark = "other" 
+        points [237]:
+            time = 227.930497 
+            mark = "H*" 
+        points [238]:
+            time = 231.479681 
+            mark = "glot<" 
+        points [239]:
+            time = 231.55104399999999 
+            mark = "glot>" 
+        points [240]:
+            time = 231.85241400000001 
+            mark = "2fv" 
+        points [241]:
+            time = 232.10865999999999 
+            mark = "other" 
+        points [242]:
+            time = 232.611558 
+            mark = "other" 
+        points [243]:
+            time = 234.42343099999999 
+            mark = "glot<" 
+        points [244]:
+            time = 234.59886599999999 
+            mark = "glot>" 
+        points [245]:
+            time = 235.46048999999999 
+            mark = "2fv" 
+        points [246]:
+            time = 235.79891900000001 
+            mark = "2fv" 
+        points [247]:
+            time = 237.12038200000001 
+            mark = "glot<" 
+        points [248]:
+            time = 237.19174599999999 
+            mark = "glot>" 
+        points [249]:
+            time = 239.01746399999999 
+            mark = "glot<" 
+        points [250]:
+            time = 239.08882800000001 
+            mark = "glot>" 
+        points [251]:
+            time = 241.167294 
+            mark = "glot<" 
+        points [252]:
+            time = 242.080153 
+            mark = "2fv" 
+        points [253]:
+            time = 242.34181899999999 
+            mark = "glot>" 
+        points [254]:
+            time = 242.369597 
+            mark = "other" 
+        points [255]:
+            time = 243.56690699999999 
+            mark = "other" 

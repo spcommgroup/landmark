@@ -1,0 +1,215 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 28.354807256235826 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "Reaction" 
+        xmin = 0 
+        xmax = 28.354807256235826 
+        points: size = 45 
+        points [1]:
+            number = 5.525050428623064 
+            mark = "R1.1.1" 
+        points [2]:
+            number = 6.002771569060359 
+            mark = "R1.1.2" 
+        points [3]:
+            number = 6.550972053903306 
+            mark = "R1.1.3" 
+        points [4]:
+            number = 6.854725556060587 
+            mark = "R1.1.4" 
+        points [5]:
+            number = 7.176905772697196 
+            mark = "R1.1.5" 
+        points [6]:
+            number = 7.860897991775453 
+            mark = "R1.1.6" 
+        points [7]:
+            number = 8.525700907808588 
+            mark = "R1.1.7" 
+        points [8]:
+            number = 9.167844109140333 
+            mark = "R1.1.8" 
+        points [9]:
+            number = 9.434867078047466 
+            mark = "R.1.1.9" 
+        points [10]:
+            number = 9.712983778541478 
+            mark = "R1.1.10" 
+        points [11]:
+            number = 10.383195907708652 
+            mark = "R1.1.11" 
+        points [12]:
+            number = 10.991926633915822 
+            mark = "R1.1.12" 
+        points [13]:
+            number = 11.600470511131183 
+            mark = "R1.1.13" 
+        points [14]:
+            number = 11.910115184091067 
+            mark = "R1.1.14" 
+        points [15]:
+            number = 12.207511642720545 
+            mark = "R1.1.15" 
+        points [16]:
+            number = 12.891374099447054 
+            mark = "R1.1.16" 
+        points [17]:
+            number = 13.528839605067324 
+            mark = "R1.1.17" 
+        points [18]:
+            number = 14.146420436983965 
+            mark = "R1.1.18" 
+        points [19]:
+            number = 14.445340578965146 
+            mark = "R1.1.19" 
+        points [20]:
+            number = 14.788348165665283 
+            mark = "R1.1.20" 
+        points [21]:
+            number = 15.427111659214313 
+            mark = "R1.1.21" 
+        points [22]:
+            number = 16.115616452634434 
+            mark = "R1.1.22" 
+        points [23]:
+            number = 16.70212088744912 
+            mark = "R1.1.23" 
+        points [24]:
+            number = 16.98726570760015 
+            mark = "R1.1.24" 
+        points [25]:
+            number = 17.317382235481354 
+            mark = "R1.1.25" 
+        points [26]:
+            number = 17.90585911812655 
+            mark = "R1.1.26" 
+        points [27]:
+            number = 18.488528412670693 
+            mark = "R1.1.27" 
+        points [28]:
+            number = 19.0103356605399 
+            mark = "R1.1.28" 
+        points [29]:
+            number = 19.30100782439164 
+            mark = "R1.1.29" 
+        points [30]:
+            number = 19.61756802508207 
+            mark = "R1.1.30" 
+        points [31]:
+            number = 20.210786929612972 
+            mark = "R1.1.31" 
+        points [32]:
+            number = 20.790798547886457 
+            mark = "R1.1.32" 
+        points [33]:
+            number = 21.397551833839213 
+            mark = "R1.1.33" 
+        points [34]:
+            number = 21.707041010282225 
+            mark = "R1.1.35" 
+        points [35]:
+            number = 22.032941028272802 
+            mark = "R1.1.36" 
+        points [36]:
+            number = 22.653422109273514 
+            mark = "R1.1.36" 
+        points [37]:
+            number = 23.29546011929878 
+            mark = "R1.1.37" 
+        points [38]:
+            number = 23.84942106836909 
+            mark = "R1.1.38" 
+        points [39]:
+            number = 24.1493849063149 
+            mark = "R1.1.39" 
+        points [40]:
+            number = 24.465293612404203 
+            mark = "R1.1.40" 
+        points [41]:
+            number = 25.065485612230603 
+            mark = "R1.1.41" 
+        points [42]:
+            number = 25.63528784327302 
+            mark = "R1.1.43" 
+        points [43]:
+            number = 26.98152675900032 
+            mark = "R1.1.43" 
+        points [44]:
+            number = 27.265217356857203 
+            mark = "R1.1.44" 
+        points [45]:
+            number = 27.50937254396842 
+            mark = "R1.1.45" 
+    item [2]:
+        class = "TextTier" 
+        name = "Source" 
+        xmin = 0 
+        xmax = 28.354807256235826 
+        points: size = 20 
+        points [1]:
+            number = 5.399614906243256 
+            mark = "S1.1.1" 
+        points [2]:
+            number = 6.024301403716665 
+            mark = "S1.1.2" 
+        points [3]:
+            number = 6.650243224948458 
+            mark = "S1.1.3" 
+        points [4]:
+            number = 6.962118570534376 
+            mark = "S1.1.4" 
+        points [5]:
+            number = 7.271809062662913 
+            mark = "S1.1.5" 
+        points [6]:
+            number = 7.860897991775453 
+            mark = "S1.1.6" 
+        points [7]:
+            number = 8.525199035696112 
+            mark = "S1.1.7" 
+        points [8]:
+            number = 9.150433280370036 
+            mark = "S1.1.8" 
+        points [9]:
+            number = 9.462267045531744 
+            mark = "S1.1.9" 
+        points [10]:
+            number = 9.772070260555843 
+            mark = "S1.1.10" 
+        points [11]:
+            number = 10.399952351132622 
+            mark = "S1.1.11" 
+        points [12]:
+            number = 11.02481998670433 
+            mark = "S1.1.12" 
+        points [13]:
+            number = 11.650707665163887 
+            mark = "S1.1.13" 
+        points [14]:
+            number = 11.962577294993771 
+            mark = "S1.1.14" 
+        points [15]:
+            number = 12.272328316666744 
+            mark = "S1.1.15" 
+        points [16]:
+            number = 12.900199429529735 
+            mark = "S1.1.16" 
+        points [17]:
+            number = 13.525030729949968 
+            mark = "S1.1.17" 
+        points [18]:
+            number = 14.150918854497531 
+            mark = "S1.1.18" 
+        points [19]:
+            number = 14.462834424851238 
+            mark = "S1.1.19" 
+        points [20]:
+            number = 14.774180513579621 
+            mark = "S1.1.20" 

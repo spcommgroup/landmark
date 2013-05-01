@@ -1,0 +1,18 @@
+- Is it necessary to know the articulator to parse a distinctive feature?
+
+- words are stored as sound segments, each being identified by a set of binary features
+
+- to produce a sound segment is to turn on a set of switches;
+  to perceive a sound segment (acoustic processing) is to identify which switches are turned on
+-> Is this reversion supported? If ones cannot speak, how would he imagine articulator motion/positions?
+He could probably find some identities in the sound segment, but not...
+
+- sound signal is continuous but somehow discretizable
+
+- but the way to connect the segments may vary due to several factors in a reasonable way
+
+
+- broad classes: vowel + general classes of consonants -> articulator free
+
+- vowel: wide & strong
+- consonant: involves narrowing -> closure + release
