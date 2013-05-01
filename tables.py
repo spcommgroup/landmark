@@ -1,9 +1,14 @@
 import pickle
-import re
+import LMdicParser
+ 
 
+"""
+0. LMdicParser.LMdic maps phoneme transitions to landmarks
+"""
+predict_table = LMdicParser.LMdic
 
-""" 0. Pronouncing Dictionary """
-# Input Dictionary (pickled python dictionary, produced by LexiconExtract.py)
+""" 1. Pronouncing Dictionary """
+# Input Dictionary (pickled python dictionary, produced by LMdicParser.py)
 lexicon_file = "lexicon"
 lexicon = pickle.load(open(lexicon_file,'rb'))
 
@@ -58,7 +63,6 @@ lexicon['g-']= 'g- g'
 lexicon['markerr']=lexicon['marker']
 lexicon['di-']='di- d ih0'
 lexicon['it\'s-']=lexicon['it\'s']
-lexicon['mhum']='mhum m h m'
 
 
 # conversation 8
@@ -72,81 +76,6 @@ lexicon['ng-']='ng- ng'
 
 
 """
-1. Generate a python dictionary that maps phenome class pairs to predicted landmarks.
-"""
-
-LMs = [
-'V',	#vowel LM			energy peak
-'G',	#glide LM				energy dip
-'Nc',	#nasal closure LM			abrupt onset of nasal
-'Nr',	#nasal release LM			abrupt offset of nasal
-'Fc',	#fricative closure LM		abrupt onset of frication
-'Fr',	#fricative release LM		abrupt offset of frication
-'Sc',	#stop closure LM			cessation of vocal tract activity due to oral closure
-'Sr',	#stop release LM			abrupt release of burst energy due to oral release
-'Tn',	#stridency onset LM		onset of stridency
-'Tf',	#stridency offset LM		offset of stridency
-
-    #(other possible types not dealt with here include abrupt onset and offset of liquids)
-
-'Lc',	#liquid closure LM			abrupt onset of liquid
-'Lr',	#liquid release LM			abrupt offset of liquid
-]
-
-
-classes = ['#','v','g','n','fu','fn','fs','s','a']
-predict_table = {}
-for c in classes:
-    predict_table[c] = {}
-    
-##for line in table:
-##    line = line.strip('\n')
-##    if line!='':
-##        entry = re.split('\s*//\s*', line)[0].split('\t')
-##        print(entry)
-##        f,a,t = entry[0].split()
-##        if len(entry)>1:
-##            lm = entry[1]
-##        else:
-##            lm = ''
-##        if f not in classes or t not in classes:
-##            print("Unknown phoneme class ", f)
-##        else:
-##            predict_table[f][t]=lm
-
-##source = "phn_trans_to_lm.txt"
-source = "lm_prediction.txt"
-table = open(source,'rb')
-
-phn_pattern = '('+'|'.join(classes)+')'
-##lm_pattern = '|'.join(LMs+[',','\s','/'])
-lm_pattern='.*'
-re_phn = '([#a-zA-Z]+)'
-re_lm = '([a-zA-Z/,\s\+\-]*)'     # temp: ignore spaces
-pattern='\d*\.\s?'+phn_pattern+'\s?-\s?'+phn_pattern+'\s*\[('+lm_pattern+')\)\[('+lm_pattern+')\)'
-
-while 1:
-##for l in table.readlines():
-    line = table.readline()
-##    line = str(l)
-    if line!='\n':
-        print(line)
-        m=re.match(pattern, line)
-        prev_phn=m.group(1)
-        succ_phn=m.group(2)
-        if not prev_phn in classes:
-            print("Unknown phoneme class ", prev_phn)
-        if not succ_phn in classes:
-            print("Unknown phoneme class ", succ_phn)
-        prev_lms=m.group(3)
-        succ_lms=m.group(4)
-        predict_table[prev_phn][succ_phn]=[prev_lms, succ_lms]
-        print(predict_table[prev_phn][succ_phn])
-        
-    
-
-
-"""
 3. Map phonemes to manner class
 phn: string, a phoneme symbol as specified in cmudict.0.7a.symbols in CMU's pronouncing
 dictionary files. Note that all vowels end with a number 0,1,or 2 indicating its stress.
@@ -154,7 +83,7 @@ Return a string representing the phoneme manner class of the phoneme
 """
 # 9 total classes including '#' (silence)
 vowel = ['aw','oy','ay','iy', 'ih', 'ey', 'eh', 'ae', 'aa', 'ao', 'ow', 'ah', 'uw', 'uh', 'rr', 'er', 'ex']
-glide = ['r', 'l', 'w', 'y', 'h', 'hh']           #'w', 'y' =  semivowel? 'r', 'l' = liquid? 'hh' = aspirate?
+glide = ['r', 'l', 'w', 'y', 'hh']           #'w', 'y' =  semivowel? 'r', 'l' = liquid? 'hh' = aspirate?
 nasal = ['n', 'm', 'ng']
 ##    fric = ['f' ,'v' ,'th', 'dh' ,'s' ,'z' ,'sh' ,'zh']   # splitted into fric_unmk, fric_nstr, and fric_str
 fric_unmk= ['f' ,'v']
@@ -202,40 +131,17 @@ def is_word(word):
 5. Map hand-label format landmarks to machine generated format
 """
 
-##lm_table_rev = {
-##    'Nc':['m-cl', 'n-cl', 'ng-cl'],
-##    'Nr':['m', 'n', 'ng'],
-##    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl'],
-##    'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2/dj2','j2','jh2'],
-###    'Tn' : ['s-cl', 'sh-cl', 'z-cl', 'zh-cl'],
-###    'Tf': ['s', 'sh', 'z', 'zh'],
-##    'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh/dj-cl', 'j-cl', 'jh-cl'],
-##    'Sr' : ['p', 't', 'k', 'b', 'd', 'g'],
-##    'Sr/Fc':['ch1', 'jh1/dj1','j1', 'j','dh1','jh1'],
-##    'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
-##    'Gr' : ['w', 'y', 'r', 'l', 'h', 'l-rl', 'w-rl','y-rl', 'r-rl','h-rl'],
-##    'V':['V'],
-##    '+g':['+g'],
-##    '-g':['-g'],
-##    '+n':['+n'],
-##    '-n':['-n'],
-##    
-##    }
-
-
 lm_table_rev = {
     'Nc':['m-cl', 'n-cl', 'ng-cl'],
     'Nr':['m', 'n', 'ng'],
-    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl'],
-    'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2/dj2','j2','jh2'],
+    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl', 'ch1', 'jh1/dj1', 'j1', 'dh1'],
+    'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2/dj2','j2'],
 #    'Tn' : ['s-cl', 'sh-cl', 'z-cl', 'zh-cl'],
 #    'Tf': ['s', 'sh', 'z', 'zh'],
-    'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh/dj-cl', 'j-cl', 'jh-cl'],
-    'Sr' : ['p', 't', 'k', 'b', 'd', 'g'],
-    'Sr/Fc':['ch1', 'jh1/dj1','j1', 'j','dh1','jh1'],
-    'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
-    'Gr' :[ 'l-rl', 'w-rl','y-rl', 'r-rl','h-rl'],
-    'G':  ['w', 'y', 'r', 'l', 'h'],
+    'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh/dj-cl', 'j-cl'],
+    'Sr' : ['p', 't', 'k', 'b', 'd', 'g', 'ch1', 'jh1/dj1','j1', 'j'],
+#    'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
+    'G' : ['w', 'y', 'r', 'l', 'h'],
     'V':['V'],
     '+g':['+g'],
     '-g':['-g'],
@@ -249,18 +155,11 @@ for key in lm_table_rev:
     for value in lm_table_rev[key]:
 ##        if value in lm_table:
 ##            lm_table[value].append(key)
-##            print(lm_table[value])
 ##        else:
         lm_table[value]=key
 
 
 """
-6. Alignment cost matrix 
+6. Alignment cost matrix (coming soon...)
 """
-row = {}
-for lm in [None]+LMs:
-    row[lm]={}
-cost=row.copy()
-for lm in cost:
-    cost[lm]=row
 
