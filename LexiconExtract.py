@@ -2,8 +2,6 @@ import pickle
 from TGProcess import *
 
 # Dictionary Path
-d = "C:\\Users\mzhan\Documents\urop_speech\data\\"
-
 DICT=open("cmudict.0.7a")
 
 # File Path(s)
@@ -23,7 +21,7 @@ vocab = []
 
 for fname in wordfiles:
     print ("\nprocessing file", fname, " ...")
-    wordfile=open(d+fname)
+    wordfile=open(fname)
     words = {}
     count=0
     

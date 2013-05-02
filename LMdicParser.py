@@ -34,51 +34,25 @@ LMs = [
 
 import re
 
-#source = "phn_trans_to_lm.txt"
-source = "lm_prediction.txt"
+source = "phn_trans_to_lm.txt"
 table = open(source,'r')
 classes = ['#','v','g','n','fu','fn','fs','s','a']
 LMdic = {}
 for c in classes:
     LMdic[c] = {}
     
-##for line in table:
-##    line = line.strip('\n')
-##    if line!='':
-##        entry = re.split('\s*//\s*', line)[0].split('\t')
-##        print(entry)
-##        f,a,t = entry[0].split()
-##        if len(entry)>1:
-##            lm = entry[1]
-##        else:
-##            lm = ''
-##        if f not in classes or t not in classes:
-##            print("Unknown phoneme class ", f)
-##        else:
-##            LMdic[f][t]=lm
-
-
-
-# Parse time-augmented landmark prediction table
-re_phn = '([#a-zA-Z]+)'
-re_lm = '([a-zA-Z/,\s\+\-]*)'
-pattern='\d*\.\s*'+re_phn+'\s*[-–]\s*'+re_phn+'\s*\['+re_lm+'\)\['+re_lm+'\)\s*'
-
 for line in table:
-    if line!='\n':
-        m=re.match(pattern, line)
-        prev_phn=m.group(1)
-        succ_phn=m.group(2)
-        if not prev_phn in classes:
-            print("Unknown phoneme class ", prev_phn)
-        if not succ_phn in classes:
-            print("Unknown phoneme class ", succ_phn)
-        prev_lms=m.group(3)
-        succ_lms=m.group(4)
-        LMdic[prev_phn][succ_phn]=[prev_lms, succ_lms]
-##        print(LMdic[prev_phn][succ_phn])
-        
-    
-    
+    line = line.strip('\n')
+    if line!='':
+        entry = re.split('\s*//\s*', line)[0].split('\t')
+        f,a,t = entry[0].split()
+        if len(entry)>1:
+            lm = entry[1]
+        else:
+            lm = ''
+        if f not in classes or t not in classes:
+            print("Unknown phoneme class ", f)
+        else:
+            LMdic[f][t]=lm
 
 

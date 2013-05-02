@@ -2,9 +2,9 @@ from ExtendedTextGrid import *
 
 # [Data Preparation]
 # Define file path here
-sourcetg = "C:\\Users\mz\Documents\\landmark\data\source\Conv07_choi_20130228_final.TextGrid"
-sourcepd = "C:\\Users\mz\Documents\\landmark\data\source\conv07g_RS.TextGrid"
-fname = "C:\\Users\mz\Documents\\landmark\data\Conv07_choi_20130228_final.TextGrid"
+sourcetg = "C:\\Users\mz\Documents\\landmark\conv07.TextGrid"
+sourcepd = "C:\\Users\mz\Documents\\landmark\data\conv07g_RS.TextGrid"
+fname = "C:\\Users\mz\Documents\\landmark\data\conv07_ext.TextGrid"
 
 # Load file
 tg = ExtendedTextGrid(f=sourcetg)
@@ -20,14 +20,14 @@ tg.linkLMtoWords("pred. LM")
 tg.linkLMtoWords("act. LM")
 tg.linkLMtoPhones()
 # Align predicted and observed landmarks
-tg.alignLM()
-# Adjust position of each predicted landmark to the aligned observed landmark 
-lm_tier = tg.get_tier("pred. lm")
-# Create a new tier to display landmark modifications
-tg.append(lm_tier.aligned())
-
-# Convert textgrid into table
-tg.saveTab()
+##tg.alignLM()
+### Adjust position of each predicted landmark to the aligned observed landmark 
+##lm_tier = tg.get_tier("pred. lm")
+### Create a new tier to display landmark modifications
+##tg.append(lm_tier.aligned())
+##
+### Convert textgrid into table
+##tg.saveTab()
 
 # DT Analysis
 

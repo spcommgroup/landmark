@@ -476,8 +476,6 @@ class PointTier(Tier):
         pts = []
         while pt.time<start:
             i+=1
-            if i>=len(self.items):
-                return []
             pt = self.items[i]
         while pt.time<end:
             pts += [pt]
@@ -494,8 +492,6 @@ class PointTier(Tier):
         t = self.items
         while t[i].time<start:
             i+=1
-            if i>=len(self.items):
-                return (len(self.items)-1,len(self.items)-1)
         start_index = i
         while t[i].time<end:
             i+=1
@@ -512,8 +508,6 @@ class PointTier(Tier):
         i = max(offset,0)
         while self.items[i].time<endtime:
             i+=1
-            if i>=len(self.items):
-                break
         return i-1
     
 
