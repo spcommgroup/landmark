@@ -130,7 +130,7 @@ def is_word(word):
 """
 5. Map hand-label format landmarks to machine generated format
 """
-
+# Note: Sr usually precedes Fc when both are present
 lm_table_rev = {
     'Nc':['m-cl', 'n-cl', 'ng-cl'],
     'Nr':['m', 'n', 'ng'],
@@ -138,8 +138,8 @@ lm_table_rev = {
     'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2','dj2','j2'],
 #    'Tn' : ['s-cl', 'sh-cl', 'z-cl', 'zh-cl'],
 #    'Tf': ['s', 'sh', 'z', 'zh'],
-    'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh-cl'],
-    'Sr' : ['p', 't', 'k', 'b', 'd', 'g', 'ch1', 'jh1','dj1','j1', 'j'],
+    'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh-cl', 'dj-cl','j-cl'],
+    'Sr' : ['p', 't', 'k', 'b', 'd', 'g', 'ch1', 'jh1','dj1','j1'],     
     'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
     'G' : ['w', 'y', 'r', 'l', 'h'],
     'V':['V'],
@@ -153,10 +153,8 @@ lm_table_rev = {
 lm_table={}
 for key in lm_table_rev:
     for value in lm_table_rev[key]:
-        if key=='Gc':
-            print( value)
-##        if value in lm_table:
-##            lm_table[value].append(key)
+        if value in lm_table:
+            print( key, value)
 ##        else:
         lm_table[value]=key
 
