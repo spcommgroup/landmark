@@ -134,7 +134,7 @@ def is_word(word):
 lm_table_rev = {
     'Nc':['m-cl', 'n-cl', 'ng-cl'],
     'Nr':['m', 'n', 'ng'],
-    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl', 'ch1', 'jh1/dj1', 'j1', 'dh1'],
+    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl', 'ch1', 'jh1','dj1', 'j1', 'dh1'],
     'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2','dj2','j2'],
 #    'Tn' : ['s-cl', 'sh-cl', 'z-cl', 'zh-cl'],
 #    'Tf': ['s', 'sh', 'z', 'zh'],
@@ -153,6 +153,8 @@ lm_table_rev = {
 lm_table={}
 for key in lm_table_rev:
     for value in lm_table_rev[key]:
+        if key=='Gc':
+            print( value)
 ##        if value in lm_table:
 ##            lm_table[value].append(key)
 ##        else:

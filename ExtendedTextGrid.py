@@ -155,7 +155,7 @@ class ExtendedTextGrid(TextGrid):
 ##        self.append(position)
         
     
-    def convertLM(self):
+    def convertLM(self, verbose=False):
         """
         Convert a single hand-labelled landmark into the standard format.
         Returns a new Point instance; the mark is unchanged if conversion failed.
@@ -164,7 +164,7 @@ class ExtendedTextGrid(TextGrid):
         old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
         new_lms = old_lms.merge(old_comments)
         new_lms.name = 'act. LM'
-
+        errors = []
                     
         print('Converting hand-labeled landmarks into standard representation....')
         for point in new_lms:
@@ -180,7 +180,9 @@ class ExtendedTextGrid(TextGrid):
             if mark in lm_table:
                 point.mark= lm_table[mark]+suffix
             else:
-                print('WARNING: Cannot convert landmark', point)
+                if verbose:
+                    print('WARNING: Cannot convert landmark', point)
+                errors.append(point)
 
         print("Converting glides...")
         prev = LMPoint(0, 'Gr')
@@ -197,6 +199,7 @@ class ExtendedTextGrid(TextGrid):
                     prev = lm
 
         self.append(new_lms)
+        return errors
 
     def predictLM(self):
         """ Predict landmarks from generated phonemes."""
