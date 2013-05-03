@@ -175,8 +175,10 @@ class ExtendedTextGrid(TextGrid):
             if 'x' in lm:
                 suffix = '-x' 
             elif '?' in lm:
-                suffix='-?'    
-            mark = lm.strip("?x-")
+                suffix='-?'
+            elif '+' in lm:
+                suffic='-+'
+            mark = lm.strip("?x+-")
             if mark in lm_table:
                 point.mark= lm_table[mark]+suffix
             else:

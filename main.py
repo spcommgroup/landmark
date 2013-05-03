@@ -12,7 +12,7 @@ tg.saveAs(fname)
 ### Apply lexicon, predict landmarks, and unify landmark label format
 ##tg.putPhns()
 ##tg.predictLM()
-e=tg.convertLM()
+e=tg.convertLM(True)
 ### Convert words tier to context-rich objects
 ##tg.extendWords()
 ### Match landmarks with corresponding phones
