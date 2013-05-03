@@ -1,6 +1,0 @@
-1) > perl template082001.pl 
-
-2) type in the words in your utterance when you are prompted to do so
-3) read the nice output on the screen if you care
-4) the results are in output.label
-5) mv output.label yourCustomName.label
