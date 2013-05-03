@@ -9,17 +9,17 @@ fname = "C:\\Users\mz\Documents\\landmark\data\conv07_ext.TextGrid"
 # Load file
 tg = ExtendedTextGrid(f=sourcetg)
 tg.saveAs(fname)
-# Apply lexicon, predict landmarks, and unify landmark label format
-tg.putPhns()
-tg.predictLM()
-tg.convertLM()
-# Convert words tier to context-rich objects
-tg.extendWords()
-# Match landmarks with corresponding phones
-tg.linkLMtoWords("pred. LM")
-tg.linkLMtoWords("act. LM")
-tg.linkLMtoPhones()
-# Align predicted and observed landmarks
+### Apply lexicon, predict landmarks, and unify landmark label format
+##tg.putPhns()
+##tg.predictLM()
+##tg.convertLM()
+### Convert words tier to context-rich objects
+##tg.extendWords()
+### Match landmarks with corresponding phones
+##tg.linkLMtoWords("pred. LM")
+##tg.linkLMtoWords("act. LM")
+##tg.linkLMtoPhones()
+### Align predicted and observed landmarks
 ##tg.alignLM()
 ### Adjust position of each predicted landmark to the aligned observed landmark 
 ##lm_tier = tg.get_tier("pred. lm")

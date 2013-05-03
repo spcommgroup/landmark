@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3714225846156154 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Words" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3714225846156154 
+            text = "mountain" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04754543836750358 
+            text = "m" 
+        intervals [2]:
+            xmin = 0.04754543836750358 
+            xmax = 0.1172151566915538 
+            text = "aw1" 
+        intervals [3]:
+            xmin = 0.1172151566915538 
+            xmax = 0.16303526098403864 
+            text = "n" 
+        intervals [4]:
+            xmin = 0.16303526098403864 
+            xmax = 0.20069562067649116 
+            text = "t" 
+        intervals [5]:
+            xmin = 0.20069562067649116 
+            xmax = 0.21136605592268864 
+            text = "ah0" 
+        intervals [6]:
+            xmin = 0.21136605592268864 
+            xmax = 0.3714225846156154 
+            text = "n" 
+    item [3]:
+        class = "TextTier" 
+        name = "Landmarks		" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        points: size = 4 
+        points [1]:
+            number = 0.048582569605382986 
+            mark = "m" 
+        points [2]:
+            number = 0.08268114262834203 
+            mark = "V" 
+        points [3]:
+            number = 0.20760001995344268 
+            mark = "n-cl" 
+        points [4]:
+            number = 0.3714225846156154 
+            mark = "n" 
+    item [4]:
+        class = "TextTier" 
+        name = "Comments" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        points: size = 6 
+        points [1]:
+            number = 0.1172151566915538 
+            mark = "n-cl-x" 
+        points [2]:
+            number = 0.16052457033787348 
+            mark = "n-x" 
+        points [3]:
+            number = 0.16303526098403864 
+            mark = "t-cl-x" 
+        points [4]:
+            number = 0.17872707752255934 
+            mark = "t-glot" 
+        points [5]:
+            number = 0.19755725736878915 
+            mark = "t-x" 
+        points [6]:
+            number = 0.20508932930727752 
+            mark = "V-x" 
+    item [5]:
+        class = "TextTier" 
+        name = "glottal voicing" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        points: size = 2 
+        points [1]:
+            number = 0.16240758832249824 
+            mark = "<ipp" 
+        points [2]:
+            number = 0.20508932930727752 
+            mark = "ipp>" 
+    item [6]:
+        class = "TextTier" 
+        name = "velopharyngeal" 
+        xmin = 0 
+        xmax = 0.3714225846156154 
+        points: size = 6 
+        points [1]:
+            number = 0 
+            mark = "+n" 
+        points [2]:
+            number = 0.04880078369058438 
+            mark = "-n" 
+        points [3]:
+            number = 0.1172151566915538 
+            mark = "+n" 
+        points [4]:
+            number = 0.16366293364557905 
+            mark = "-n" 
+        points [5]:
+            number = 0.20760001995344268 
+            mark = "+n" 
+        points [6]:
+            number = 0.3714225846156154 
+            mark = "-n" 

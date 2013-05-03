@@ -140,7 +140,7 @@ lm_table_rev = {
 #    'Tf': ['s', 'sh', 'z', 'zh'],
     'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh/dj-cl', 'j-cl'],
     'Sr' : ['p', 't', 'k', 'b', 'd', 'g', 'ch1', 'jh1/dj1','j1', 'j'],
-#    'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
+    'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
     'G' : ['w', 'y', 'r', 'l', 'h'],
     'V':['V'],
     '+g':['+g'],
