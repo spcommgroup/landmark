@@ -460,6 +460,41 @@ class PointTier(Tier):
             print("WARNING: inserted point ",point,"overlaps with existing point", self.items[pos+1])            
         self.items.insert(pos+1, point)
 
+    def insertSameTime(self, points, dt_max=.001):
+        """Adds a list of points, all with the same time (the "requested time"), to the tier."""
+        #TODO: Check that all points have the same time?
+        requested_time = points[0].time
+        if self.items == []:
+            first_time = float(requested_time)
+            dt = dt_max
+        else:
+            add_loc = 0
+            while float(self[add_loc].time) <= float(requested_time):
+                add_loc += 1
+                if add_loc == len(self.items):
+                    #the requested time is after *every* other point
+                    first_time = float(requested_time)
+                    dt = dt_max
+                    break
+            else:
+                #self[add_loc].time is after requested_time.
+                #We wish to squeeze the points before that.
+                if add_loc == 0:
+                    first_time = float(requested_time)
+                    dt = min((float(self[add_loc].time) - float(requested_time))/len(points), dt_max)
+                elif self[add_loc-1].time == requested_time:
+                    dt = min((float(self[add_loc].time) - float(requested_time)
+                          )/(len(points)+1), dt_max);
+                    first_time = float(requested_time) + dt
+                else:
+                    first_time = float(requested_time)
+                    dt = min((float(self[add_loc].time) - float(requested_time))/len(points), dt_max)
+            for number, point in enumerate(points):
+                moved_point = Point(str(first_time + number*dt), point.mark)
+                self.items.insert(add_loc + number, moved_point)
+       
+
+
     def merge(self, ptier):
         """ Return a new PointTier that merges self and ptier.
         ptier: a PointTier
