@@ -1,0 +1,183 @@
+;;; This lexicon is a subset of CMUdict containing words from conv07.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+golf  g aa1 l f
+just  jh ah1 s t
+don't  d ow1 n t
+over  ow1 v er0
+move  m uw1 v
+course  k ao1 r s
+looks  l uh1 k s
+go  g ow1
+corner  k ao1 r n er0
+mill  m ih1 l
+still  s t ih1 l
+underline  ah1 n d er0 l ay2 n
+ground  g r aw1 n d
+teeny  t iy1 n iy0
+fenced  f eh1 n s t
+lake  l ey1 k
+should  sh uh1 d
+to  t uw1
+going  g ow1 ih0 ng
+under  ah1 n d er0
+riding  r ay1 d ih0 ng
+east  iy1 s t
+do  d uw1
+good  g uh1 d
+around  er0 aw1 n d
+get  g eh1 t
+far  f aa1 r
+paradise  p eh1 r ah0 d ay2 s
+gonna  g aa1 n ah0
+coast  k ow1 s t
+underneath  ah2 n d er0 n iy1 th
+test  t eh1 s t
+know  n ow1
+not  n aa1 t
+now  n aw1
+like  l ay1 k
+drop  d r aa1 p
+G AA1
+quarter  k w ao1 r t er0
+where  w eh1 r
+page  p ey1 jh
+two  t uw1
+mean  m iy1 n
+draw  d r ao1
+pretend  p r iy0 t eh1 n d
+old  ow1 l d
+another  ah0 n ah1 dh er0
+ascend  ah0 s eh1 n d
+back  b ae1 k
+up  ah1 p
+K EY1
+second  s eh1 k ah0 n d
+AH1 HH AH1 M
+out  aw1 t
+what  w ah1 t
+K ER1
+bottom  b aa1 t ah0 m
+nuclear  n uw1 k l iy0 er0
+yup  y ah1 p
+your  y ao1 r
+looking  l uh1 k ih0 ng
+there's  dh eh1 r z
+above  ah0 b ah1 v
+between  b ih0 t w iy1 n
+got  g aa1 t
+across  ah0 k r ao1 s
+be  b iy1
+D IH1
+diagonal  d ay0 ae1 g ah0 n ah0 l
+base  b ey1 s
+along  ah0 l ao1 ng
+come  k ah1 m
+on  aa1 n
+about  ah0 b aw1 t
+farmland  f aa1 r m l ae2 n d
+canadian  k ah0 n ey1 d iy0 ah0 n
+of  ah1 v
+K AH0 N EY1 D
+side  s ay1 d
+thing  th ih1 ng
+it's  ih1 t s
+or  ao1 r
+M HH AH1 M
+one  w ah1 n
+down  d aw1 n
+right  r ay1 t
+directly  d er0 eh1 k t l iy0
+marker  m aa1 r k er0
+says  s eh1 z
+straight  s t r ey1 t
+meadow  m eh1 d ow2
+you're  y uh1 r
+little  l ih1 t ah0 l
+from  f r ah1 m
+would  w uh1 d
+beginning  b ih0 g ih1 n ih0 ng
+top  t aa1 p
+there  dh eh1 r
+three  th r iy1
+next  n eh1 k s t
+start  s t aa1 r t
+too  t uw1
+lot  l aa1 t
+S
+west  w eh1 s t
+way  w ey1
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+started  s t aa1 r t ah0 d
+but  b ah1 t
+site  s ay1 t
+finished  f ih1 n ih0 sh t
+part  p aa1 r t
+cottage  k aa1 t ah0 jh
+line  l ay1 n
+kind  k ay1 n d
+word  w er1 d
+abandoned  ah0 b ae1 n d ah0 n d
+ride  r ay1 d
+oh  ow1
+see  s iy1
+n  eh1 n
+um  ah1 m
+below  b ih0 l ow1
+uh  ah1
+monument  m aa1 n y uw0 m ah0 n t
+making  m ey1 k ih0 ng
+toward  t ah0 w ao1 r d
+my  m ay1
+loop  l uw1 p
+and  ah0 n d
+then  dh eh1 n
+almost  ao1 l m ow2 s t
+is  ih1 z
+it  ih1 t
+an  ae1 n
+high  hh ay1
+middle  m ih1 d ah0 l
+as  ae1 z
+skimming  s k ih1 m ih0 ng
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+curved  k er1 v d
+IH1 T S
+if  ih1 f
+yeah  y ae1
+mountain  m aw1 n t ah0 n
+end  eh1 n d
+no  n ow1
+make  m ey1 k
+when  w eh1 n
+how  hh aw1
+take  t ey1 k
+which  w ih1 ch
+inch  ih1 n ch
+tombstone  t uw1 m s t ow2 n
+you  y uw1
+sloping  s l ow1 p ih0 ng
+wheel  w iy1 l
+begin  b ih0 g ih1 n
+towards  t ah0 w ao1 r d z
+okay  ow2 k ey1
+southern  s ah1 dh er0 n
+where's  w eh1 r z
+most  m ow1 s t
+R IH1
+peak  p iy1 k
+kinda  k ih1 n d ah0
+kay  k ey1
+a  ah0
+i  ay1
+maybe  m ey1 b iy0
+curve  k er1 v
+drive  d r ay1 v
+so  s ow1
+very  v eh1 r iy0
+the  dh ah0
+that's  dh ae1 t s
+dot  d aa1 t
+left  l eh1 f t
