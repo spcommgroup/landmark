@@ -1,5 +1,10 @@
-import pickle
+import pickle, sys
 from TGProcess import *
+
+# Require Python 3.x
+if sys.version_info < (3, 0):
+    print("Error: The TextGrid processor requires Python 3.0 or above. Exiting.\n")
+    sys.exit(1)
 
 # Dictionary Path
 cmupath = "cmudict.0.7a"
@@ -37,7 +42,7 @@ count=0
 text = ""
 
 # Find word tier
-tg = TextGrid()
+tg = TextGrid(oprint=False)
 tg.readGridFromPath(path)
 for tier in tg:
     if 'word' in tier.name.lower() or 'conv' in tier.name.lower():     # Word tier is named differently in different textgrid files
@@ -46,7 +51,7 @@ for tier in tg:
 #OR, assuming that text tier always comes first:
 if not text:
     text = tg.tiers[0]    
-print ("found text tier ", text)
+print ("found text tier ", text.name)
 use = input("Use this tier (yes/no)? ")
 if not (use.lower()=="yes" or use.lower()=="y"):
     for tier, i in zip(tg, range(len(tg.tiers))):
@@ -90,9 +95,10 @@ for word in anomalies:
 fix = input("Fix anomalies now (yes/no)? ")
 if fix.lower()=="yes":
     for word in anomalies:
-        pron = input(word+": ")
-        if pron:
-            lexicon[word]=pron
+        if not word.startswith("<") and not word.endswith(">"):
+            pron = input(word+": ")
+            if pron:
+                lexicon[word]=word + "  " + pron.strip()
 
 # jessk added 6/17/13: Save as CMU-formatted Dictionary
 if path.lower().endswith(".textgrid"):

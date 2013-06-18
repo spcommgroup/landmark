@@ -9,11 +9,20 @@
         * Changed time representation from string to float and added time precision EPSILON
         * Original function declarations are preserved; implementations of time-related
         functions are changed to account for the new time format
+  - Updates (6/7/13) jessk:
+        * added TextGrid.readAsLM() and TextGrid.saveAsLM() for .lm file format
+        * added PointTier.removeBlankPoints()
+  - Updates (6/12/13) jessk:
+        * added option to supress text output
+  - Updates (6/18/13) jessk:
+        * added checking for python 3 (exits gracefully instead of throwing error)
 """
 
 import re
 import operator
 import csv
+from time import strftime
+import sys
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -49,14 +58,34 @@ class TextGrid:
         del(self.tiers[i])
     def append(self, t):
         self.tiers.append(t)
-        print('Added ', t)
+        if self.oprint:
+            print('Added ', t)
     def remove(self, t_index):
-        print('Removed ', self.tiers[t_index])        
+        if self.oprint:
+            print('Removed ', self.tiers[t_index])        
         self.tiers.remove(self.tiers[t_index])
 
-    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None ):
+    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None, oprint=True ):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
-        if filepath != None:
+        
+        if sys.version_info < (3, 0):
+            print("The TextGrid processor requires Python 3.0 or above. Exiting.\n")
+            sys.exit(1)
+
+        self.oprint = oprint
+
+        #Only used for .lm filetype:
+        self.waveformName = ""
+        self.waveformChecksum = ""
+
+        if filepath != None and filepath.endswith(".lm"):
+            self.tiers = []
+            self.fileType = fileType
+            self.objectClass = objectClass
+            self.xmin = xmin
+            self.hasTiers = hasTiers
+            self.readAsLM(filepath)
+        elif filepath != None:
             self.tiers = []
             self.readGridFromPath(filepath)
         else:
@@ -71,14 +100,18 @@ class TextGrid:
         
     def writeGridToPath(self, path):
         """Writes the TextGrid in the standard TextGrid format to the file path."""
-        f = open(path+'.textgrid','w',encoding=self.enc)
+        if not path.lower().endswith('.textgrid'):
+            path += ".TextGrid"
+        f = open(path,'w',encoding=self.enc)
         self.writeGrid(f, range(len(self.tiers)))
         
     def writePartialGrid(self, path, tiers):
         """ Write textgrid selectively.
         tiers: list of tier indices.
         """
-        f = open(path+'.textgrid','w',encoding=self.enc)
+        if not path.lower().endswith('.textgrid'):
+            path += ".TextGrid"
+        f = open(path,'w',encoding=self.enc)
         self.writeGrid(f, tiers)    
         
     def writeGrid(self,f, tiers):
@@ -285,7 +318,8 @@ class TextGrid:
                 if match:
                     inTierMeta = True #We just started a tier, we need to read the metadata.
                     continue
-        print("Constructed new",self)
+        if self.oprint:
+            print("Constructed new",self)
 
     def listTiers(self):
         for i in range(0,len(self)):
@@ -298,7 +332,8 @@ class TextGrid:
                 t = tier
         if t == None:
             raise Exception("Tier named \"", n,"\" not found.")
-        print('Found', t)
+        if self.oprint:
+            print('Found', t)
         return t
         
 
@@ -319,13 +354,15 @@ class TextGrid:
             interval = t.items[i]
             if abs(interval.xmin-gapEnd)>EPSILON:
                 t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
-                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+                if self.oprint:
+                    print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
                 i+=1
             gapEnd = interval.xmax
             i+=1
         if abs(interval.xmax- t.xmax)>EPSILON:
             t.append(Interval(interval.xmax, t.xmax, ""))
-            print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
+            if self.oprint:
+                print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
 
 
     def sample(self, end, start = 0):
@@ -361,7 +398,68 @@ class TextGrid:
         new.xmax = tmax
         return new
 
+    def saveAsLM(self, path):
+        """Writes TextGrid in the SpeechMark WaveSurfer landmark .lm format, 
+        as well as the WaveShark .lab format."""
+        if not path.endswith(".lm"):
+            path += ".lm"
+        f = open(path, 'w', encoding=self.enc)
+        f_lab = open(path+".lab", 'w', encoding=self.enc)
+        f.write("#SpeechMark Landmark File\n")
+        f.write("#SMPRODUCT: TGProcess.py\n")
+        f.write("#SMVERSION: 1\n")
+        f.write("#LMVERSION: 2013-03-26\n")
+        f.write("#WAVEFORM NAME: "+self.waveformName+"\n")
+        f.write("#WAVEFORM CHECKSUM: "+self.waveformChecksum+"\n")
+        f.write("#FILE CREATED:"+strftime("%m/%d/%Y %H:%M:%S")+"\n")
+        f.write("#--------------------------------------------------------------\n")
+        f.write("#\n")
+        #condense tiers into single list
+        for tier in self:
+            if type(tier)==IntervalTier:
+                items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier]
+                items.sort(key=lambda item: item[1])
+                for item in items:
+                    f.write(item[2]+" "+item[0]+"\n")
+                    f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
+            elif type(tier)==TextTier:
+                items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier]
+                items.sort(key=lambda item: item[1])
+                last_time = "0"
+                for item in items:
+                    f.write(item[1]+" "+item[0]+"\n")
+                    f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
+                    last_time = item[1]
+            else:
+                return
+        print(items)
+        #write items to both files
+        
 
+    def readAsLM(self, path):
+        """Parses a .lm file and represents it internally in this TextTier() instance."""
+        try:
+            f = open(path,'r',encoding='utf-8')
+        except UnicodeDecodeError:
+            f = open(path,'r',encoding='utf-16')
+        self.enc = f.encoding
+        self.append(PointTier("SpeechMark",0,0)) #Only 1 tier here, xmax=0 is temporary
+        for line in f:
+            if line.startswith("#"): #metadata
+                match = re.compile(r"#WAVEFORM NAME: (.+)").search(line)
+                if match:
+                    self.waveformName = match.groups()[0]
+                    continue
+                match = re.compile(r"#WAVEFORM CHECKSUM: (.+)").search(line)
+                if match:
+                    self.waveformChecksum = match.groups()[0]
+                    continue
+            else:
+                match = re.compile(r"(.+) (.+)").search(line)
+                if match:
+                    self[0].append(Point(float(match.groups()[0]), match.groups()[1]))
+        if len(self[0].items)>0:
+            self.xmax = self[0].items[-1].time
 
 
 # TO-DO: Seperate PointTier and IntervalTier subclasses and enable class invariant checking
@@ -460,6 +558,41 @@ class PointTier(Tier):
             print("WARNING: inserted point ",point,"overlaps with existing point", self.items[pos+1])            
         self.items.insert(pos+1, point)
 
+    def insertSameTime(self, points, dt_max=.001):
+        """Adds a list of points, all with the same time (the "requested time"), to the tier."""
+        #TODO: Check that all points have the same time?
+        requested_time = points[0].time
+        if self.items == []:
+            first_time = float(requested_time)
+            dt = dt_max
+        else:
+            add_loc = 0
+            while float(self[add_loc].time) <= float(requested_time):
+                add_loc += 1
+                if add_loc == len(self.items):
+                    #the requested time is after *every* other point
+                    first_time = float(requested_time)
+                    dt = dt_max
+                    break
+            else:
+                #self[add_loc].time is after requested_time.
+                #We wish to squeeze the points before that.
+                if add_loc == 0:
+                    first_time = float(requested_time)
+                    dt = min((float(self[add_loc].time) - float(requested_time))/len(points), dt_max)
+                elif self[add_loc-1].time == requested_time:
+                    dt = min((float(self[add_loc].time) - float(requested_time)
+                          )/(len(points)+1), dt_max);
+                    first_time = float(requested_time) + dt
+                else:
+                    first_time = float(requested_time)
+                    dt = min((float(self[add_loc].time) - float(requested_time))/len(points), dt_max)
+            for number, point in enumerate(points):
+                moved_point = Point(str(first_time + number*dt), point.mark)
+                self.items.insert(add_loc + number, moved_point)
+       
+
+
     def merge(self, ptier):
         """ Return a new PointTier that merges self and ptier.
         ptier: a PointTier
@@ -525,6 +658,15 @@ class PointTier(Tier):
     def removeByIndex(self, pointIndex):
         """ Remove a Point from the point tier by its index."""
         self.removeItem(pointIndex)
+
+    def removeBlankPoints(self):
+        """Removes all points whose mark is an empty string"""
+        i = 0
+        while i < len(self.items):
+            if self.items[i].mark.strip() == "":
+                self.removeItem(i)
+            else:
+                i+=1
 
     
 
@@ -692,7 +834,6 @@ class Point:
         f.write("            number = " + str(self.time) + "\n")
         f.write("            mark = \"" + self.mark + "\" \n")
     
-
 
 
 

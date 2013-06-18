@@ -24,7 +24,7 @@ lexicon["i'zh---"]='i\'zh--- ay1 zh'
 
 # conversation 2
 lexicon['waterhole']='waterhole w ao1 t er0 hh ow1 l'
-lexicon['anywhere-']=lexicon['anywhere']
+lexicon['anywhere-']='anywhere EH N IY W EH R'.lower()
 # (to be continued...)
 
 # conversation 3
@@ -32,7 +32,7 @@ lexicon['i bet']='i_bet ay1 b eh1 t'
 lexicon['kind of']='kind_of k ay1 n d ah1 v'
 lexicon['r-']='r- r'
 lexicon['left-']=lexicon['left']
-lexicon['carved-']=lexicon['carved']
+lexicon['carved-']='carved K AA R V D'.lower()
 lexicon['to-']=lexicon['to']
 lexicon['o']='o aa1'
 lexicon['in the']='in_the ih1 n dh ah0'
@@ -153,8 +153,8 @@ lm_table_rev = {
 lm_table={}
 for key in lm_table_rev:
     for value in lm_table_rev[key]:
-        if value in lm_table:
-            print( key, value)
+        #if value in lm_table:
+            #print( key, value)
 ##        else:
         lm_table[value]=key
 
