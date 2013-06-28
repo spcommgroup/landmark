@@ -26,9 +26,10 @@ named "Words", "Landmarks", "Comments" respectively):
 """
 
 from TGProcess import *
-import pickle
+import pickle, logging
 from tables import *
 
+logging.basicConfig(filename='log.txt',level=logging.WARNING)
 
 class ExtendedTextGrid(TextGrid):
     def __init__(self, f):
@@ -92,10 +93,10 @@ class ExtendedTextGrid(TextGrid):
         self.tiers = [new_words]+self.tiers
         
         
-    def putPhns(self):
-        text = self.get_tier('words')
+    def putPhns(self, wtier="words", newname="phones"):
+        text = self.get_tier(wtier)
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
-        phn_tier = IntervalTier(name="phones", xmin = 0, xmax=text.xmax)
+        phn_tier = IntervalTier(name=newname, xmin = 0, xmax=text.xmax)
         
         for interval in text:
             try:    
@@ -144,6 +145,7 @@ class ExtendedTextGrid(TextGrid):
                         end_phn = phn_tier[i]             
             except:       # treat non-recognizable words as silences
                 print('Cannot parse word interval:', interval)
+                logging.warning('Cannot parse word interval: '+str(interval)+' from '+self.fname)
                 cur_phn = Phoneme(interval.xmin, interval.xmax)
                 phn_tier.items.append(cur_phn)      # update "phoneme" tier
                 prev_phn = cur_phn

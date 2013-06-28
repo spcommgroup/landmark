@@ -418,13 +418,13 @@ class TextGrid:
         for tier in self:
             if type(tier)==IntervalTier:
                 items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier]
-                items.sort(key=lambda item: item[1])
+                items.sort(key=lambda item: float(item[1]))
                 for item in items:
                     f.write(item[2]+" "+item[0]+"\n")
                     f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
             elif type(tier)==TextTier:
                 items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier]
-                items.sort(key=lambda item: item[1])
+                items.sort(key=lambda item: float(item[1]))
                 last_time = "0"
                 for item in items:
                     f.write(item[1]+" "+item[0]+"\n")
