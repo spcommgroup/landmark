@@ -15,12 +15,8 @@ if sys.version_info[0] < 3:
 #This will crash on python 2.x so it has to go below the version test
 from ExtendedTextGrid import *
 
-for i in range(1, 17):
-    filename = "conv{num:02d}g".format(num=i)
-    filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
-    tg = ExtendedTextGrid(f=filepath)
-    tg.oprint = False
 
+def findWordsTier(tg, filename):
     wtier = None
     tier_names = [tier.name for tier in tg]
     for pn in ["word", "words", "Word", "Words", filename, filename[:-1]]:
@@ -33,36 +29,29 @@ for i in range(1, 17):
             print(str(i) + " " + tier.name)
         wt = int(input("Words tier: "))
         wtier = tg[wt]
+    return wtier
 
-    #### save words tier as lm ####
+def saveTierAsLM(tier,name,filepath):
     newtg = TextGrid(oprint=False)
-    newtg.append(wtier)
-    newtg.saveAsLM(filepath[:-9]+"_words")
+    newtg.append(tier)
+    newtg.saveAsLM(filepath[:-9]+"_"+name)
 
-    #### generate Phones Tier ####
-    tg.putPhns(wtier.name, "gen_phones")
-
-    #### save phones tier as lm ####
-    newtg = TextGrid(oprint=False)
-    newtg.append(tg.get_tier("gen_phones"))
-    newtg.saveAsLM(filepath[:-9]+"_phones")
-
-    #### lexicon extract ####
+def lexiconFromTier(wtier,filepath):
     # Dictionary Path
     cmupath = "cmudict.0.7a"
     DICT = open(cmupath)
-    lexicon = {}
     vocab = []
-
+    my_lexicon = {}
     words = {}
     count = 0
 
     for interval in wtier:
-        word = interval.text.strip(" ?.\t\"").lower()
-        if word in words:
-            words[word] += 1
-        else:
-            words[word] = 1
+        word = interval.text.strip(" ?.\t\"+'[],").lower()
+        for wordpart in word.split():
+            if wordpart in words:
+                words[wordpart.strip(" ?.\t\"+'[],")] += 1
+            else:
+                words[wordpart.strip(" ?.\t\"+'[],")] = 1
 
     vocab += words.keys()
 
@@ -73,27 +62,52 @@ for i in range(1, 17):
         if not entry.startswith(";;;"):
             word = entry.split()[0].lower()
             if word in vocab:
-                lexicon[word] = entry.strip('\n').lower()
+                if not word in lexicon:
+                    lexicon[word.lower().strip("\t \" +?.'[],")] = entry.strip('\n').lower()
                 anomalies.remove(word)
+                my_lexicon[word.lower().strip("\t \" +?.'[],")] = entry.strip('\n').lower()
 
     DICT.close()
 
     print("The following words were not found in the dictionary:")
     for word in anomalies:
-        if not word.startswith("<") and not word.endswith(">"):
+        if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
             print("\t"+word)
     fix = input("Fix anomalies now (yes/no)? ")
     if fix.lower()!="no":
         for word in anomalies:
-            if not word.startswith("<") and not word.endswith(">"):
+            if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
                 pron = input(word+": ")
                 if pron:
-                    lexicon[word]=word + "  " + pron.strip()
+                    lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + pron.strip()
 
     lexpath = filepath[:-9]+ "_lexicon.txt"
     out = open(lexpath, "w")
     out.write(";;; This lexicon is a subset of CMUdict containing words from "+filepath+"\n")
     out.write(";;; It was generated from the CMU dictionary file "+cmupath+"\n")
-    for word in lexicon:
+    for word in my_lexicon:
         out.write(lexicon[word]+"\n")
     out.close()
+
+def processFromPath(filename, filepath):
+    tg = ExtendedTextGrid(f=filepath)
+    tg.oprint = False
+
+    wtier = findWordsTier(tg, filename)
+
+    saveTierAsLM(wtier,"words", filepath)
+
+    lexiconFromTier(wtier, filepath)
+
+    tg.putPhns(wtier.name, "gen_phones")
+
+    saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
+
+if __name__ == "__main__":
+    for i in range(1, 17):
+        filename = "conv{num:02d}g".format(num=i)
+        filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
+        print("Processing "+filename)
+        skip = raw_input("Skip (y/n)? ")
+        if skip=="n":
+            processFromPath(filename, filepath)
