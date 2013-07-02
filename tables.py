@@ -25,7 +25,10 @@ lexicon["i'zh---"]='i\'zh--- ay1 zh'
 # conversation 2
 lexicon['waterhole']='waterhole w ao1 t er0 hh ow1 l'
 lexicon['anywhere-']='anywhere EH N IY W EH R'.lower()
-# (to be continued...)
+lexicon['so     so']='so_so s ow s ow'
+lexicon['actu[ally']='actu[ally] ae k ch uw'
+lexicon['grad[ual']='grad[ual] g r ae jh'
+lexicon['bout'] = '\'bout b aw t'
 
 # conversation 3
 lexicon['i bet']='i_bet ay1 b eh1 t'
@@ -165,15 +168,15 @@ for key in lm_table_rev:
 
 
 
-"""
-Rewrite lexicon to have lines from the conv01-16 lexicons
-"""
+# """
+# Rewrite lexicon to have lines from the conv01-16 lexicons
+# """
 
-lexicon = {}
+# lexicon = {}
 
-for i in range(1,17):
-    conv_lex = open("../landmarks/matcher-data/conv{num:02d}g_lexicon.txt".format(num=i))
-    for entry in conv_lex:
-        if not entry.startswith(";;;"):
-            word = entry.split()[0].lower()
-            lexicon[word] = entry.strip("\n").lower()
+# for i in range(1,17):
+#     conv_lex = open("../landmarks/matcher-data/conv{num:02d}g_lexicon.txt".format(num=i))
+#     for entry in conv_lex:
+#         if not entry.startswith(";;;"):
+#             word = entry.split()[0].lower()
+#             lexicon[word] = entry.strip("\n").lower()
