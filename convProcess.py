@@ -6,7 +6,7 @@ Combines the functionality of generatePhonesTier.py, saveTierAsLM.py, and Lexico
 3. Saves phones tier as .lm
 4. Saves lexicon as _lexicon.txt
 """
-import sys, logging
+import sys, logging, pickle
 # Require Python 3.x
 if sys.version_info[0] < 3:
     print("Error: The TextGrid processor requires Python 3.0 or above. Exiting.\n")
@@ -77,9 +77,17 @@ def lexiconFromTier(wtier,filepath):
     if fix.lower()!="no":
         for word in anomalies:
             if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
-                pron = input(word+": ")
-                if pron:
-                    lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + pron.strip()
+                while True:
+                    pron = input(word+": ")
+                    if pron.startswith("!"): 
+                        if pron[1:] in lexicon:
+                            lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + " ".join(lexicon[pron[1:]].split()[1:])
+                            break
+                        else:
+                            print(pron[1:] + "not found in lexicon")  
+                    elif pron:
+                        lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + pron.strip()
+                        break
 
     lexpath = filepath[:-9]+ "_lexicon.txt"
     out = open(lexpath, "w")
@@ -108,6 +116,11 @@ if __name__ == "__main__":
         filename = "conv{num:02d}g".format(num=i)
         filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
         print("Processing "+filename)
-        skip = raw_input("Skip (y/n)? ")
+        skip = input("Skip (y/n)? ")
         if skip=="n":
             processFromPath(filename, filepath)
+        pickle.dump(lexicon, open("lexicon", 'wb'))
+
+    # filename = "conv02g"
+    # filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
+    # processFromPath(filename,filepath)

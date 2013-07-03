@@ -107,7 +107,7 @@ class ExtendedTextGrid(TextGrid):
                     phn_tier.append(cur_phn)      # update "phoneme" tier
                 # words
                 else:
-                    phonemes = ""
+                    phonemes = []
                     for wordpart in word.split(): #Handle one word interval containing more than 1 word
                         phonemes+=lexicon[wordpart].split()[1:]      # keeps the phonemes only (DictEntry := WORD PHONEME+)
                     duration = (interval.xmax-interval.xmin)/len(phonemes)    # duration of each phoneme
