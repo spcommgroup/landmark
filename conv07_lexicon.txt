@@ -37,7 +37,7 @@ not  n aa1 t
 now  n aw1
 like  l ay1 k
 drop  d r aa1 p
-G AA1
+go-(nna)  G AA1
 quarter  k w ao1 r t er0
 where  w eh1 r
 page  p ey1 jh
@@ -50,12 +50,12 @@ another  ah0 n ah1 dh er0
 ascend  ah0 s eh1 n d
 back  b ae1 k
 up  ah1 p
-K EY1
+(o)-kay  K EY1
 second  s eh1 k ah0 n d
-AH1 HH AH1 M
+uhum  AH1 HH AH1 M
 out  aw1 t
 what  w ah1 t
-K ER1
+cur-(ve)  K ER1
 bottom  b aa1 t ah0 m
 nuclear  n uw1 k l iy0 er0
 yup  y ah1 p
@@ -67,7 +67,7 @@ between  b ih0 t w iy1 n
 got  g aa1 t
 across  ah0 k r ao1 s
 be  b iy1
-D IH1
+di-  D IH1
 diagonal  d ay0 ae1 g ah0 n ah0 l
 base  b ey1 s
 along  ah0 l ao1 ng
@@ -77,12 +77,12 @@ about  ah0 b aw1 t
 farmland  f aa1 r m l ae2 n d
 canadian  k ah0 n ey1 d iy0 ah0 n
 of  ah1 v
-K AH0 N EY1 D
+canad-  K AH0 N EY1 D
 side  s ay1 d
 thing  th ih1 ng
 it's  ih1 t s
 or  ao1 r
-M HH AH1 M
+mhum  M HH AH1 M
 one  w ah1 n
 down  d aw1 n
 right  r ay1 t
@@ -103,7 +103,7 @@ next  n eh1 k s t
 start  s t aa1 r t
 too  t uw1
 lot  l aa1 t
-S
+s-(tart)  S
 west  w eh1 s t
 way  w ey1
 inches  ih1 n ch ah0 z
@@ -144,7 +144,7 @@ at  ae1 t
 have  hh ae1 v
 in  ih0 n
 curved  k er1 v d
-IH1 T S
+it's-  IH1 T S
 if  ih1 f
 yeah  y ae1
 mountain  m aw1 n t ah0 n
@@ -166,7 +166,7 @@ okay  ow2 k ey1
 southern  s ah1 dh er0 n
 where's  w eh1 r z
 most  m ow1 s t
-R IH1
+ri-  R IH1
 peak  p iy1 k
 kinda  k ih1 n d ah0
 kay  k ey1
