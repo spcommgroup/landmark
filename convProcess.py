@@ -73,7 +73,10 @@ def lexiconFromTier(wtier,filepath):
     for word in anomalies:
         if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
             print("\t"+word)
-    fix = input("Fix anomalies now (yes/no)? ")
+    if len(anomalies) > 0:
+        fix = input("Fix anomalies now (yes/no)? ")
+    else:
+        fix = "no"
     if fix.lower()!="no":
         for word in anomalies:
             if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
@@ -112,15 +115,15 @@ def processFromPath(filename, filepath):
     saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
 
 if __name__ == "__main__":
-    for i in range(1, 17):
-        filename = "conv{num:02d}g".format(num=i)
-        filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
-        print("Processing "+filename)
-        skip = input("Skip (y/n)? ")
-        if skip=="n":
-            processFromPath(filename, filepath)
-        pickle.dump(lexicon, open("lexicon", 'wb'))
+    # for i in range(1, 17):
+    #     filename = "conv{num:02d}g".format(num=i)
+    #     filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
+    #     print("Processing "+filename)
+    #     skip = input("Skip (y/n)? ")
+    #     if skip=="n":
+    #         processFromPath(filename, filepath)
+    #     pickle.dump(lexicon, open("lexicon", 'wb'))
 
-    # filename = "conv02g"
-    # filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
-    # processFromPath(filename,filepath)
+    filename = "conv01g"
+    filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
+    processFromPath(filename,filepath)
