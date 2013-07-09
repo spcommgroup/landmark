@@ -129,6 +129,7 @@ def is_word(word):
 
 """
 5. Map hand-label format landmarks to machine generated format
+See "ref\Relating manual landmark labels with predicted landmark labels.docx"
 """
 # Note: Sr usually precedes Fc when both are present
 lm_table_rev = {
@@ -147,20 +148,29 @@ lm_table_rev = {
     '+g':['+g'],
     '-g':['-g'],
     '+n':['+n'],
-    '-n':['-n'],
-    
+    '-n':['-n'],    
     }
 
 lm_table={}
 for key in lm_table_rev:
     for value in lm_table_rev[key]:
-        if value in lm_table:
-            print( key, value)
-##        else:
         lm_table[value]=key
+
+# Standard format of landmark label specified in regex
+import re
+expected = list(lm_table.keys())
+expected.sort(key=len)
+# "x-cl" landmarks need to be put in the front since re "|" operator
+# stops at the first matching RE
+expected.reverse()
+LANDMARK = '|'.join(['('+re.escape(k)+')' for k in expected])
+MUT_TYPE = '(x|\+)'
+MUT_SPEC = '(\-.+)'
+MUTATION = MUT_SPEC+'?\-'+MUT_TYPE
 
 
 """
-6. Alignment cost matrix (coming soon...)
+TODO:
+6. Alignment cost matrix
 """
 

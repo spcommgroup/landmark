@@ -10,7 +10,7 @@ named "Words", "Landmarks", "Comments" respectively):
     - Run tg.predictLM()
 3) Align observed and predicted landmarks
     - Run tg.convertLM() to change the format of hand labels (ignore the warnings for now)
-    - Run tg.linkLMtoWords("pred. LM") and tg.linkLMtoWords("act. LM")
+    - Run tg.linkLMtoWords("predicted") and tg.linkLMtoWords("observed")
     - Run tg.alignLM()
 4) LM context in praat as a tier
     - lm_tier.links("Words"), lm_tier.links("phones") etc  
@@ -58,7 +58,7 @@ class ExtendedTextGrid(TextGrid):
         f = open(self.fname+'.tab', 'w')
         phones = self.get_tier('phones')
         words = self.get_tier('Words')
-        plms = self.get_tier('pred. LM')
+        plms = self.get_tier('predictedicted')
         def pLMcontext(plm):
             phn_context = '\t'.join([phones[i].context() for i in plm.links['phones']])
             wd_context = '\t'.join([words[i].context() for i in plm.links['words']])
@@ -154,52 +154,41 @@ class ExtendedTextGrid(TextGrid):
 ##            position.append(Interval(p.xmin, p.xmax, p.pos()))
 ##        self.append(position)
         
+        
     
     def convertLM(self, verbose=False):
         """
-        Convert a single hand-labelled landmark into the standard format.
-        Returns a new Point instance; the mark is unchanged if conversion failed.
+        Convert hand-labelled landmarks into the standard format and put them into
+        new tier 'observed'
+        (See 'Relating manual landmark labels with predicted landmark labels' in ref folder.)
+        Expected handlabel format:
+        LABEL = LANDMARK(MUTATION)?
+        MUTATION = (MUT_SPEC)?-MUT_TYPE
+        MUT_TYPE = x|+
+        MUT_SPEC = -.*
+        LANDMARK = lm_table.keys()
+        Labels not in this format cannot be parsed and will require manual adjustment.
+        Returns points for which conversion failed.
         """
+        
         old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
         old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
         new_lms = old_lms.merge(old_comments)
-        new_lms.name = 'act. LM'
+        new_lms.name = 'observed'
         errors = []
-                    
+
         print('Converting hand-labeled landmarks into standard representation....')
         for point in new_lms:
-            lm = point.mark
-            if 'x' in lm and '?' in lm:       # Forbid concurrent '-x' and '-?' 
-                raise Exception("'-x' and '-?' occurred together: "+lm)
-            suffix = ''
-            if 'x' in lm:
-                suffix = '-x' 
-            elif '?' in lm:
-                suffix='-?'
-            elif '+' in lm:
-                suffic='-+'
-            mark = lm.strip("?x+-")
-            if mark in lm_table:
-                point.mark= lm_table[mark]+suffix
-            else:
-                if verbose:
-                    print('WARNING: Cannot convert landmark', point)
+            m = point.mark.strip()
+            lm = re.match(LANDMARK, m)
+            if lm==None:
+                print("Cannot parse label %s", point)
                 errors.append(point)
-
-        print("Converting glides...")
-        prev = LMPoint(0, 'Gr')
-        for lm in new_lms:
-            if lm.mark == 'Gc':
-                if prev.mark == 'Gr':
-                    prev = lm
-            if lm.mark == 'Gr':
-                if prev.mark == 'Gc':
-                    t = (lm.time+prev.time)/2
-                    new_lms.insert(LMPoint(t, 'G'))
-                    new_lms.remove(lm)
-                    new_lms.remove(prev)
-                    prev = lm
-
+                continue
+            n = lm_table[lm.group()]
+            # Replace with standard landmark; leave intact if not parsable
+            point.mark=re.sub(LANDMARK, n, m, count=1)
+            
         self.append(new_lms)
         return errors
 
@@ -209,7 +198,7 @@ class ExtendedTextGrid(TextGrid):
             phns = self.get_tier('phones')
         except:
             raise Exception("Phoneme tier not found!")
-        lm_tier = LMTier(name="pred. LM", xmin = self.xmin, xmax=self.xmax)                
+        lm_tier = LMTier(name="predicted", xmin = self.xmin, xmax=self.xmax)                
 ##        g_tier = PointTier(name="g", xmin = self.xmin, xmax=self.xmax)
 ##        n_tier = PointTier(name="v",xmin = self.xmin, xmax=self.xmax)
 
@@ -277,7 +266,7 @@ class ExtendedTextGrid(TextGrid):
         
     def linkLMtoPhones(self):
         """ Create links from predicted landmarks to 'phones' IntervalTier."""
-        plms = self.get_tier('pred. LM')
+        plms = self.get_tier('predicted')
         phns = self.get_tier('phones')
         plms.linkToIntervalTier(phns)
                 
@@ -296,11 +285,11 @@ class ExtendedTextGrid(TextGrid):
         MATCH = 1   # match 
         MISS = -1   # mutation
         words = self.get_tier('words')
-        plms = self.get_tier('pred. LM')
-        alms = self.get_tier('act. LM')
+        plms = self.get_tier('predicted')
+        alms = self.get_tier('observed')
         phns = self.get_tier('phones')
-        psections = self.split('pred. LM', 'phones')
-        asections = self.split('act. LM', 'phones')
+        psections = self.split('predicted', 'phones')
+        asections = self.split('observed', 'phones')
 
         
         def compare(predLM, actlLM, poffset=0, aoffset=0):
@@ -462,7 +451,7 @@ class ExtendedTextGrid(TextGrid):
         count=0
         bad=[]
         o=0
-        lm_tier = self.get_tier('act. LM')
+        lm_tier = self.get_tier('observed')
         phn_tier=self.get_tier('phones')
         wd_tier = self.get_tier('words')
         # Update phonemes
@@ -589,7 +578,7 @@ class LMTier(PointTier):
         """ Link LM points to intervals in iTier (phones, words, etc.)
         according to temporal proximity. tname: name of an IntervalTier """
         # TO-DO: doubly-directed link
-        if 'pred' in self.name:
+        if 'predicted'==self.name:
             delta = 2000*EPSILON
             print('PRED')
         else:
