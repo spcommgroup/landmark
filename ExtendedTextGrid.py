@@ -32,10 +32,14 @@ import LMref
 
 class ExtendedTextGrid(TextGrid):
     def __init__(self, f):
+        "f: textgrid file name"
+        if f[-8:].lower()!='.textgrid':
+            f+='.textgrid'
         TextGrid.__init__(self, filepath = f)
         self.fname = f[:-9]
 
     def readObject(tg):   # static method for reading .pkl file
+        "tg: pkl file name including extension"        
         pkl= pickle.load(open(tg, 'rb'))
         pkl.fname = tg[:-4]
         return pkl
@@ -49,7 +53,8 @@ class ExtendedTextGrid(TextGrid):
     def save(self):
         self.writeGridToPath(self.fname)
     def saveAs(self, path):
-        "without .textgrid extension; directory must exist"
+        "Save to a new file; path should not have any file extension; directory must exist"
+        self.fname = path
         self.writeGridToPath(path)
 
 
@@ -85,6 +90,7 @@ class ExtendedTextGrid(TextGrid):
 
         
     def extendWords(self):
+        "Change all Interval instances in 'words' tier into Word instances  " 
         words = self.get_tier('words')
         new_words = IntervalTier('words', self.xmin, self.xmax)
         for w in words:
@@ -94,6 +100,7 @@ class ExtendedTextGrid(TextGrid):
         
         
     def putPhns(self):
+        "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
         text = self.get_tier('words')
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
         phn_tier = IntervalTier(name="phones", xmin = 0, xmax=text.xmax)
@@ -110,11 +117,10 @@ class ExtendedTextGrid(TextGrid):
                     phonemes=LMref.lexicon[word].split()[1:]      # keeps the phonemes only (DictEntry := WORD PHONEME+)
                     duration = (interval.xmax-interval.xmin)/len(phonemes)    # duration of each phoneme
 
-                    # Find phoneme positions
+                    # Find syllabic positions
                     n = 0
                     sn = 0
-                    prevType = None
-                    
+                    prevType = None                   
                     for i in range(len(phonemes)):
                         phn = phonemes[i]
                         tphn= interval.xmin+i*duration   # start time of current phoneme                                    
@@ -134,15 +140,15 @@ class ExtendedTextGrid(TextGrid):
                         sn+=1
                         cur_phn = Phoneme(tphn, tphn+duration, phn, t, n, sn)
                         phn_tier.append(cur_phn)
-                        prevType = t
-                        
+                        prevType = t                       
                     # Determine 'c' (coda) by iterating through the word reversely
                     i=-1
                     end_phn = phn_tier[i]
                     while end_phn.type == 'a':
                         end_phn.type = 'c'
                         i-=1
-                        end_phn = phn_tier[i]             
+                        end_phn = phn_tier[i]
+                        
             except:       # treat non-recognizable words as silences
                 print('Cannot parse word interval:', interval)
                 cur_phn = Phoneme(interval.xmin, interval.xmax)
@@ -215,8 +221,8 @@ class ExtendedTextGrid(TextGrid):
         
     def split(self, target, reference, delimiter='#'):
         """
-        Split target tier according to the delimiters found in the reference tier.
-        Return a list of tuples spedifying the range of each section        
+        Split target tier around delimiters found in the reference tier.
+        Return a list of sections, each represented as a tuple      
         target: name of PointTier
         reference: name of IntervalTier
         delimiter: a string
@@ -263,7 +269,8 @@ class ExtendedTextGrid(TextGrid):
     def alignLM(self):
         '''
         Modified implementation of Needleman-Wunsch algorithm, seen at http://en.wikipedia.org/wiki/Needleman-Wunsch_algorithm.
-        Minimizes cost of deletions, insertions of mutations, where all three are weighted equally undesirably.
+        Minimizes cost of deletions, insertions of mutations, where all three are weighted equally undesirable,
+        while forbidding alignments the cross word boundaries.
         Requires the existence of the predicted and actual landmark tier.
         '''
 
@@ -277,6 +284,7 @@ class ExtendedTextGrid(TextGrid):
         plms = self.get_tier('predicted')
         alms = self.get_tier('observed')
         phns = self.get_tier('phones')
+        # Split the sequence down around silences
         psections = self.split('predicted', 'phones')
         asections = self.split('observed', 'phones')
 
@@ -650,6 +658,7 @@ class Phoneme(Interval):
                
         # Pitch accent (boolean)    
         self.prom = False     # default
+        
 
     def context(self):
         return '\t'.join([str(attr) for attr in [self.manner, self.stress, self.type, self.number, self.subnumber]])
