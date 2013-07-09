@@ -27,7 +27,7 @@ named "Words", "Landmarks", "Comments" respectively):
 
 from TGProcess import *
 import pickle
-from tables import *
+import LMref 
 
 
 class ExtendedTextGrid(TextGrid):
@@ -106,7 +106,7 @@ class ExtendedTextGrid(TextGrid):
                     phn_tier.append(cur_phn)      # update "phoneme" tier
                 # words
                 else:
-                    phonemes=lexicon[word].split()[1:]      # keeps the phonemes only (DictEntry := WORD PHONEME+)
+                    phonemes=LMref.lexicon[word].split()[1:]      # keeps the phonemes only (DictEntry := WORD PHONEME+)
                     duration = (interval.xmax-interval.xmin)/len(phonemes)    # duration of each phoneme
 
                     # Find phoneme positions
@@ -158,17 +158,9 @@ class ExtendedTextGrid(TextGrid):
     
     def convertLM(self, verbose=False):
         """
-        Convert hand-labelled landmarks into the standard format and put them into
-        new tier 'observed'
-        (See 'Relating manual landmark labels with predicted landmark labels' in ref folder.)
-        Expected handlabel format:
-        LABEL = LANDMARK(MUTATION)?
-        MUTATION = (MUT_SPEC)?-MUT_TYPE
-        MUT_TYPE = x|+
-        MUT_SPEC = -.*
-        LANDMARK = lm_table.keys()
-        Labels not in this format cannot be parsed and will require manual adjustment.
-        Returns points for which conversion failed.
+        Convert hand-labeled landmarks into the standard format if possible
+        (or leave unchanged if parsing failed) and put them into new tier 'observed'
+        (See 'Relating manual landmark labels with predicted landmark labels' in reference folder.)
         """
         
         old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
@@ -179,16 +171,11 @@ class ExtendedTextGrid(TextGrid):
 
         print('Converting hand-labeled landmarks into standard representation....')
         for point in new_lms:
-            m = point.mark.strip()
-            lm = re.match(LANDMARK, m)
-            if lm==None:
-                print("Cannot parse label %s", point)
-                errors.append(point)
-                continue
-            n = lm_table[lm.group()]
-            # Replace with standard landmark; leave intact if not parsable
-            point.mark=re.sub(LANDMARK, n, m, count=1)
-            
+            try:
+                point.mark = stdLM(point.mark)
+            except Exception as e:
+                print(e)
+                errors.append(point)           
         self.append(new_lms)
         return errors
 
@@ -205,7 +192,7 @@ class ExtendedTextGrid(TextGrid):
         prev = Phoneme(0,0)
         for phn in phns:
             # generate landmark from phoneme pairs
-            lm=predict_table[phoneme_class(prev.text)][phoneme_class(phn.text)]            
+            lm=LMref.predict_table[LMref.phoneme_class(prev.text)][LMref.phoneme_class(phn.text)]            
             if lm!='':
                 lm_tier.insert(LMPoint(phn.xmin, lm))
                 
@@ -419,7 +406,7 @@ class ExtendedTextGrid(TextGrid):
         text = []       # words in subphrase
         tprev = self.xmin
         for w in words:
-            if is_word(w.text):
+            if LMref.is_word(w.text):
                 text+=[w]
                 w.links['ip']=len(text)
                 if w.break3:
@@ -433,7 +420,7 @@ class ExtendedTextGrid(TextGrid):
         text = []       # words in phrase
         tprev = self.xmin
         for w in words:
-            if is_word(w.text):
+            if LMref.is_word(w.text):
                 text+=[w]
                 w.links['IP']=len(text)
                 if w.break4:
@@ -474,7 +461,7 @@ class ExtendedTextGrid(TextGrid):
                 done=False
                 marked=None                
                 for p in [phn_tier[i] for i in phns]:
-                    if phoneme_class(p.text)=='v':
+                    if LMref.phoneme_class(p.text)=='v':
                         if not done:
                             p.accent = True
                             done=True
@@ -643,7 +630,7 @@ class Phoneme(Interval):
         Interval.__init__(self, tmin, tmax, phn)
         
         # manner class of the phoneme (string)
-        self.manner = phoneme_class(phn)
+        self.manner = LMref.phoneme_class(phn)
         
         # Lexical stress (int)
         try:
