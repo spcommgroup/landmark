@@ -415,25 +415,28 @@ class TextGrid:
         f.write("#--------------------------------------------------------------\n")
         f.write("#\n")
         #condense tiers into single list
+        items = []
         for tier in self:
-            if type(tier)==IntervalTier:
-                items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier]
-                items.sort(key=lambda item: float(item[1]))
-                for item in items:
-                    f.write(item[2]+" "+item[0]+"\n")
-                    f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
-            elif type(tier)==TextTier:
-                items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier]
-                items.sort(key=lambda item: float(item[1]))
-                last_time = "0"
-                for item in items:
-                    f.write(item[1]+" "+item[0]+"\n")
-                    f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
-                    last_time = item[1]
+            if type(tier[0])==Interval:
+                items.extend([(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier])
+            elif type(tier[0])==Point:
+                items.extend([(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier])
             else:
+                print("Error")
                 return
-        print(items)
+        items.sort(key=lambda item: float(item[1]))
         #write items to both files
+        last_time = "0"
+        for item in items:
+            if len(item)==3: #Interval
+                f.write(item[2]+" "+item[0]+"\n")
+                f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
+                last_time = item[2]
+            elif len(item)==2: #Point
+                f.write(item[1]+" "+item[0]+"\n")
+                f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
+                last_time = item[1]
+        # print(items)
         
 
     def readAsLM(self, path):
