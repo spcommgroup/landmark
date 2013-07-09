@@ -49,7 +49,8 @@ class ExtendedTextGrid(TextGrid):
     def save(self):
         self.writeGridToPath(self.fname)
     def saveAs(self, path):
-        self.writeGridToPath(self.fname)
+        "without .textgrid extension; directory must exist"
+        self.writeGridToPath(path)
 
 
 
@@ -161,6 +162,7 @@ class ExtendedTextGrid(TextGrid):
         Convert hand-labeled landmarks into the standard format if possible
         (or leave unchanged if parsing failed) and put them into new tier 'observed'
         (See 'Relating manual landmark labels with predicted landmark labels' in reference folder.)
+        Return the unconverted points.
         """
         
         old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
@@ -172,7 +174,7 @@ class ExtendedTextGrid(TextGrid):
         print('Converting hand-labeled landmarks into standard representation....')
         for point in new_lms:
             try:
-                point.mark = stdLM(point.mark)
+                point.mark = LMref.stdLM(point.mark)
             except Exception as e:
                 print(e)
                 errors.append(point)           
