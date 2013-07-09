@@ -168,6 +168,10 @@ MUT_TYPE = '(x|\+)'
 MUT_SPEC = '(\-.+)'
 MUTATION = MUT_SPEC+'?\-'+MUT_TYPE
 
+STD_LM = '|'.join(['('+re.escape(k)+')' for k in lm_table_rev.keys()])
+STD = STD_LM+'('+MUTATION+')?'
+
+
 def stdLM(label):
     """ Given hand-labeled landmark, return the standard landmark with mutaiton markings preseved;
     raise an exception if not parsable
@@ -179,7 +183,12 @@ def stdLM(label):
     n = lm_table[lm.group()]
     return re.sub(LANDMARK, n, m, count=1)
 
-    
+def is_std(label):
+    """ Check if given label is in standard landmark format. """
+    if re.match(STD, label):
+        return True
+    return False
+     
 
 
 """
