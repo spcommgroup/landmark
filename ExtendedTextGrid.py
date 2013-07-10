@@ -33,10 +33,10 @@ import LMref
 class ExtendedTextGrid(TextGrid):
     def __init__(self, f):
         "f: textgrid file name"
-        if f[-8:].lower()!='.textgrid':
-            f+='.textgrid'
-        TextGrid.__init__(self, filepath = f)
-        self.fname = f[:-9]
+        if f[-9:].lower()=='.textgrid':
+            TextGrid.__init__(self, filepath = f)
+            self.fname = f[:-9]
+        else: raise Exception('File not found:', f)
 
     def readObject(tg):   # static method for reading .pkl file
         "tg: pkl file name including extension"        
@@ -184,7 +184,7 @@ class ExtendedTextGrid(TextGrid):
             except Exception as e:
                 print(e)
                 errors.append(point)           
-        self.append(new_lms)
+        self.append(new_lms.splitLMs())
         return errors
 
     def predictLM(self):
@@ -252,12 +252,14 @@ class ExtendedTextGrid(TextGrid):
             sections+= [section]
         return sections
 
-    def linkLMtoWords(self, tname):
+    def linkLMtoWords(self):
         """ Create links from landmarks in given LMTier to 'words' IntervalTier.
         tname: name of landmark tier. """
         words = self.get_tier('words')
-        lmTier = self.get_tier(tname)
-        lmTier.linkToIntervalTier(words)
+        plms = self.get_tier('predicted')
+        olms = self.get_tier('observed')
+        plms.linkToIntervalTier(words)
+        olms.linkToIntervalTier(words)
         
     def linkLMtoPhones(self):
         """ Create links from predicted landmarks to 'phones' IntervalTier."""
@@ -270,7 +272,7 @@ class ExtendedTextGrid(TextGrid):
         '''
         Modified implementation of Needleman-Wunsch algorithm, seen at http://en.wikipedia.org/wiki/Needleman-Wunsch_algorithm.
         Minimizes cost of deletions, insertions of mutations, where all three are weighted equally undesirable,
-        while forbidding alignments the cross word boundaries.
+        while while certain rules are reinforced.
         Requires the existence of the predicted and actual landmark tier.
         '''
 
@@ -280,32 +282,36 @@ class ExtendedTextGrid(TextGrid):
         I = -1   # insertion
         MATCH = 1   # match 
         MISS = -1   # mutation
-        words = self.get_tier('words')
-        plms = self.get_tier('predicted')
-        alms = self.get_tier('observed')
-        phns = self.get_tier('phones')
-        # Split the sequence down around silences
-        psections = self.split('predicted', 'phones')
-        asections = self.split('observed', 'phones')
 
-        
-        def compare(predLM, actlLM, poffset=0, aoffset=0):
+        def compare(plm, olm, poffset=0, aoffset=0):
             """ Computes the similarity of two landmark labels. A match occurs if two labels are identical or
             if one is representing the deletion or uncertainty of the other. """
-            pword1,pword2 = predLM.links['words']
-            aword1,aword2 = actlLM.links['words']            
+            if not plm:
+                if not olm:
+                    return 0
+##                elif '-x' in olm.mark:
+##                    # Deletion label cannot be an insertion?
+##                    return -INFTY
+                else:
+                    return I
+            if not olm:
+                return D
+                    
+            pword1,pword2 = plm.links['words']
+            oword1,oword2 = olm.links['words']            
 
-            # Crossover cannot exceed two words
-            if abs(pword1-aword1)>1 and abs(pword2-aword2)>1:
+            # landmarks cannot be aligned when they are more than a word apart
+            if abs(pword1-oword1)>1 and abs(pword2-oword2)>1:
                 return -INFTY
-            # 
-            if predLM.mark.strip('-x?')==actlLM.mark.strip('-x?'):  
+            # landmarks should compared without the mutation marking
+            if plm.mark.strip('-x?')==olm.mark.strip('-x?'):  
                 return MATCH
-            elif '-x' in actlLM.mark:      # BAD: LM deletion label M-x not matching corresponding LM label M
+            # Deletion label must be aligned to the landmark marked as deleted
+            elif '-x' in olm.mark:
                 return -INFTY   
             return MISS
 
-        def align(l1,s1,e1, l2,s2,e2):
+        def alignSection(l1,s1,e1, l2,s2,e2):
             """
             Align two sequences given by l1[s1:e1], l2[s2:e2]
             Note that e1, e2 are exclusive bounds.
@@ -325,21 +331,24 @@ class ExtendedTextGrid(TextGrid):
 
             for j in range(1,m+1):         
                 for i in range(1,n+1):                    
-                    deletion = (F[j][i-1][0] + D, (j,i-1))
-                    insertion = (F[j-1][i][0] + I, (j-1, i))                    
+                    deletion = (F[j][i-1][0] + compare(l1[s1+i-1],None), (j,i-1))
+                    insertion = (F[j-1][i][0] + compare(None,l2[s2+j-1]), (j-1, i))                    
                     mutation = (F[j-1][i-1][0] + compare(l1[s1+i-1],l2[s2+j-1]), (j-1,i-1))                                                       
-                    opt = max([deletion, insertion, mutation])      # max compares the first item in the (C, prev) tuples
-                    F[j].append(opt)
+                    F[j].append(max([deletion, insertion, mutation]) )
                     
-            #Fun stats:
+            #Stats:
             insertionCount = 0
             deletionCount = 0
             mutationCount = 0
             noChangeCount = 0  
 
             # Find the aligned sequence which yielded the minimal cost
+            print("Section alignment score:", F[m][n])
             (j,i) = (m,n)    #"Bottom-right"
             while i>0 or j>0:
+                if F[j][i][0]>=INFTY:
+                    # Rule violations
+                    raise Exception("Error aligning", l1, s1, ' - ', e1, ' and ', l2,':',s2, '-',e2)
                 if F[j][i][1]==(j-1,i):
                     #Insertion of element in l2 that doesn't exist in l1.
                     insertionCount+= 1
@@ -366,22 +375,53 @@ class ExtendedTextGrid(TextGrid):
                                     
             total = insertionCount+deletionCount+mutationCount
 
-            print("Compared", m, "predicted landmarks against", n, "actual landmarks")
+            print("Compared", n, "predicted landmarks against", m, "observed landmarks")
             print("Total number of alterations is ", total, ":")
             print("   " + str(insertionCount) + " insertions,")
             print("   " + str(deletionCount) + " deletions, ")
             print("   " + str(mutationCount) + " mutations,")
             print("   " + str(noChangeCount) + " preserved.")
 
-        for i in range(len(psections)):
-            s1 = psections[i][0]
-            e1 = psections[i][1]
-            s2 = asections[i][0]
-            e2 = asections[i][1]
-            print("Aligning section", i, ', from', plms[s1].time, 'to', plms[e1-1].time)
-            align(plms, s1,e1, alms, s2, e2)
-        plms.counterLMTier = alms
-        alms.counterLMTier = plms
+            # Return relevant stats in the order of stat_keys
+            result = (insertionCount,deletionCount,mutationCount,noChangeCount)
+
+            return result
+
+
+        words = self.get_tier('words')      # need to check word boundaries when aligning 
+        p = self.get_tier('predicted')
+        o = self.get_tier('observed')
+        self.clearAlignment()
+        
+        # Split the sequence down around silences
+        psections = self.split('predicted', 'phones')
+        osections = self.split('observed', 'phones')
+
+        # Stat
+        stat_keys = ['ins', 'del', 'mut', 'pre']
+        stat = dict((k,[]) for k in stat_keys)
+
+        for s in range(len(psections)):
+            s1,e1 = psections[s]
+            s2,e2 = osections[s]
+            print("Aligning section", s, ', from', s1, p[s1], '/', s2, o[s2], 'to', e1-1, p[e1-1], '/',e2-1, o[e2-1])
+            result = alignSection(p, s1,e1, o, s2, e2)
+            for i in range(len(stat_keys)):
+                stat[stat_keys[i]].append(result[i])
+            
+        p.counterLMTier = o
+        o.counterLMTier = p
+
+        return stat
+
+    def clearAlignment(self):
+        "Remove old alignment information"
+        p = self.get_tier('predicted')
+        o = self.get_tier('observed')
+        for x in p:
+            x.counterLM ==None
+        for x in o:
+            x.counterLM ==None        
 
     def addBreaks(self, breaks):
         """ Construct phrase and subphrase context tier according to given breaks;
@@ -533,6 +573,7 @@ class LMTier(PointTier):
         counterLMTier = None
         
     def lmTier(ptier):
+        """ Converts a regular point tier into LMTier """
         new = LMTier(ptier.name,ptier.xmin,ptier.xmax)
         for p in ptier:
             new.append(LMPoint(p.time, p.mark))
@@ -658,6 +699,8 @@ class Phoneme(Interval):
                
         # Pitch accent (boolean)    
         self.prom = False     # default
+
+        self.links = {}
         
 
     def context(self):
@@ -696,6 +739,9 @@ class Word(Interval):
         self.langFreq = -1
         # *Prominence (int)
         self.prominence = False
+
+        self.links = {}
+
     def context(self):
         return '\t'.join([str(attr) for attr in [self.text, self.prominence, self.links['ip'], self.links['IP']]])
         
