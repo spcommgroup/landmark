@@ -185,14 +185,11 @@ class ExtendedTextGrid(TextGrid):
                 print(e)
                 errors.append(point)           
         self.append(new_lms.splitLMs())
-        return errors
+        return self.tiers[-1]
 
     def predictLM(self):
         """ Predict landmarks from generated phonemes."""
-        try:
-            phns = self.get_tier('phones')
-        except:
-            raise Exception("Phoneme tier not found!")
+        phns = self.get_tier('phones')
         lm_tier = LMTier(name="predicted", xmin = self.xmin, xmax=self.xmax)                
 ##        g_tier = PointTier(name="g", xmin = self.xmin, xmax=self.xmax)
 ##        n_tier = PointTier(name="v",xmin = self.xmin, xmax=self.xmax)
@@ -218,6 +215,7 @@ class ExtendedTextGrid(TextGrid):
             prev=phn
         
         self.append(LMTier.lmTier(lm_tier).splitLMs())
+        return self.tiers[-1]
         
     def split(self, target, reference, delimiter='#'):
         """
@@ -388,7 +386,7 @@ class ExtendedTextGrid(TextGrid):
             return result
 
 
-        words = self.get_tier('words')      # need to check word boundaries when aligning 
+        words = self.get_tier('words')      # need to check word boundaries when aligning
         p = self.get_tier('predicted')
         o = self.get_tier('observed')
         self.clearAlignment()
@@ -421,7 +419,17 @@ class ExtendedTextGrid(TextGrid):
         for x in p:
             x.counterLM ==None
         for x in o:
-            x.counterLM ==None        
+            x.counterLM ==None
+
+    def prepareLM(self):
+        """ Main routine that predicts landmarks from words and compares with observed landmarks. """
+        self.putPhns()
+        self.predictLM()
+        self.convertLM()
+        self.extendWords()
+        self.linkLMtoWords()
+        self.alignLM()
+        
 
     def addBreaks(self, breaks):
         """ Construct phrase and subphrase context tier according to given breaks;
