@@ -298,7 +298,9 @@ class ExtendedTextGrid(TextGrid):
             # landmarks should compared without the mutation marking
             p = re.match(LMref.STD_LM, plm.mark).group()
             o = re.match(LMref.STD_LM, olm.mark).group()
-            if p==o:  
+            if p==o:
+                if '-x' in olm.mark:
+                    return D
                 return MATCH
             # Deletion label can never be aligned to a landmark other than the one marked deleted i.e. A-x cannot match B-x if A!=B
             elif '-x' in olm.mark:
@@ -436,22 +438,16 @@ class ExtendedTextGrid(TextGrid):
         # Align predicted and observed landmarks
         self.alignLM()
 
-        
-    def linkToPhones(self):
-        """ Create links from predicted landmarks to 'phones' IntervalTier."""
-        plms = self.get_tier('predicted')
-        phns = self.get_tier('phones')
-        plms.linkToIntervalTier(phns)
                         
 
     def linkToBreaks(self, breaks):
         """ Construct phrase and subphrase context tier according to given breaks;
         also link each word with its corresponding phrase and subphrase.
-        Breaks: a PointTier
+        breaks: a PointTier contains break labels
         """
         words = self.get_tier("words")
-        phrs = IntervalTier("phrases", self.xmin, self.xmax)
-        sphrs = IntervalTier("subphrases", self.xmin, self.xmax)
+        phrs = PointTier("phrases", self.xmin, self.xmax)
+        sphrs = PointTier("subphrases", self.xmin, self.xmax)
 
         # Initiate links field in words --> TO-DO: modify constructor
         for w in words:
@@ -552,9 +548,29 @@ class ExtendedTextGrid(TextGrid):
                 wd_tier[ind].prominence=True
                 o=ind
 
-    def extractContext():
-        self.linkToPhones()
+    def extractContext(self):
+        """ Main function to associate landmarks with contex tiers; overwrite previous runs """
+        p = self.get_tier("predicted")
+        o = self.get_tier("observed")
+
+        # Phoneme-level position
+        phns = self.get_tier("phones")
+        p.linkToIntervalTier(phns)
         
+        # Phrase-level position
+        b = self.get_tier("breaks")
+        breaks3 = b.filter("3")
+        self.append(breaks3)
+        o.linkToPointTier(breaks3)
+        breaks4 = b.filter("4")
+        self.append(breaks4)
+        o.linkToPointTier(breaks4)
+        
+        # Tones
+        t = self.get_tier("tones")
+        accents = t.filter("*")
+        self.append(accents)
+        o.linkToPointTier(accents)
         
 
             
@@ -651,9 +667,7 @@ class LMTier(PointTier):
         PointTier.insert(self, lmpoint)
 
     def linkToIntervalTier(self, iTier):
-        """ Link LM points to intervals in iTier (phones, words, etc.)
-        according to temporal proximity. tname: name of an IntervalTier """
-        # TO-DO: doubly-directed link
+        """ Link LM points to closest intervals in iTier (phones, words, etc.)  """
         if 'predicted'==self.name:
             delta = 2000*EPSILON
         else:
@@ -664,7 +678,21 @@ class LMTier(PointTier):
             succ = iTier.findAsIndex(p.time+delta, offset-10)
             p.links[iTier.name] = (prev, succ)
             offset = succ
+
+    def linkToPointTier(self, pTier):
+        """ Link LM points to the closest point in pTier. """
+        # Search boundary
+        offset = 0
+        delta = 0.1*pTier.minDist() # anything smaller than half of the min distance in pTier
+        for p in self.items:
+            link = pTier.findLastAsIndex(p.time+delta, offset-1)
+            if link+1<len(pTier.items) and abs(pTier[link+1].time - p.time) < abs(pTier[link].time - p.time):
+                link = link+1
+            offset = link
+            p.links[pTier.name] = link
             
+            
+        
     def links(self, tname):
         """ Return a tier representation of landmarks' links to another tier."""
         link_tier=PointTier(self.name+'->'+tname, self.xmin, self.xmax)
@@ -733,9 +761,7 @@ class Phoneme(Interval):
         self.number = n
         # Subnumber (int)
         self.subnumber = sn
-               
-        # Pitch accent (boolean)    
-        self.prom = False     # default
+
 
         self.links = {}
         
