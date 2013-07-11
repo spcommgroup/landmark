@@ -486,7 +486,7 @@ class PointTier(Tier):
 
     def filter(self, key, not_key=None):
         """ Return a new PointTier that has only points containing key excluding not_key. """
-        new = PointTier(key, self.xmin, self.xmax)
+        new = PointTier(self.name+'-'+key, self.xmin, self.xmax)
         items = [p for p in self.items if key in p.mark]
         if not_key:
             items = [p for p in items if not_key not in p.mark]
@@ -514,10 +514,10 @@ class PointTier(Tier):
         which are between the start time and end time. Note that end_index is an exclusive bound. """
         i = offset
         t = self.items
-        while t[i].time<start:
+        while t[i].time<start and i<len(self.items):
             i+=1
         start_index = i
-        while t[i].time<end:
+        while t[i].time<end and i<len(self.items):
             i+=1
             if i>=len(self.items):
                 break
@@ -530,8 +530,9 @@ class PointTier(Tier):
     def findLastAsIndex(self, endtime, offset=0):
         """ Returns the last point preceding the given time """
         i = max(offset,0)
-        while self.items[i].time<endtime:
+        while self.items[i].time<endtime and i<len(self.items):
             i+=1
+            
         return i-1
     
 
