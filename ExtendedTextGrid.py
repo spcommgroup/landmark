@@ -10,7 +10,7 @@ named "Words", "Landmarks", "Comments" respectively):
     - Run tg.predictLM()
 3) Align observed and predicted landmarks
     - Run tg.convertLM() to change the format of hand labels (ignore the warnings for now)
-    - Run tg.linkLMtoWords("predicted") and tg.linkLMtoWords("observed")
+    - Run tg.linkToWords("predicted") and tg.linkToWords("observed")
     - Run tg.alignLM()
 4) LM context in praat as a tier
     - lm_tier.links("Words"), lm_tier.links("phones") etc  
@@ -250,7 +250,7 @@ class ExtendedTextGrid(TextGrid):
             sections+= [section]
         return sections
 
-    def linkLMtoWords(self):
+    def linkToWords(self):
         """ Create links from landmarks in given LMTier to 'words' IntervalTier.
         tname: name of landmark tier. """
         words = self.get_tier('words')
@@ -258,13 +258,7 @@ class ExtendedTextGrid(TextGrid):
         olms = self.get_tier('observed')
         plms.linkToIntervalTier(words)
         olms.linkToIntervalTier(words)
-        
-    def linkLMtoPhones(self):
-        """ Create links from predicted landmarks to 'phones' IntervalTier."""
-        plms = self.get_tier('predicted')
-        phns = self.get_tier('phones')
-        plms.linkToIntervalTier(phns)
-                
+
                 
     def alignLM(self):
         '''
@@ -302,9 +296,11 @@ class ExtendedTextGrid(TextGrid):
             if abs(pword1-oword1)>1 and abs(pword2-oword2)>1:
                 return -INFTY
             # landmarks should compared without the mutation marking
-            if plm.mark.strip('-x?')==olm.mark.strip('-x?'):  
+            p = re.match(LMref.STD_LM, plm.mark).group()
+            o = re.match(LMref.STD_LM, olm.mark).group()
+            if p==o:  
                 return MATCH
-            # Deletion label must be aligned to the landmark marked as deleted
+            # Deletion label can never be aligned to a landmark other than the one marked deleted i.e. A-x cannot match B-x if A!=B
             elif '-x' in olm.mark:
                 return -INFTY   
             return MISS
@@ -420,18 +416,35 @@ class ExtendedTextGrid(TextGrid):
             x.counterLM ==None
         for x in o:
             x.counterLM ==None
+            
 
     def prepareLM(self):
         """ Main routine that predicts landmarks from words and compares with observed landmarks. """
+        # Generate landmarks
         self.putPhns()
-        self.predictLM()
+        self.predictLM()        
         self.convertLM()
-        self.extendWords()
-        self.linkLMtoWords()
-        self.alignLM()
         
+        # If 'Cannot recognize label' exception is raised here, fix corresponding hand labels and run again
+        self.get_tier('predicted').checkFormat()
+        self.get_tier('observed').checkFormat()
 
-    def addBreaks(self, breaks):
+        # Prepare word tier
+        self.extendWords()
+        self.linkToWords()
+
+        # Align predicted and observed landmarks
+        self.alignLM()
+
+        
+    def linkToPhones(self):
+        """ Create links from predicted landmarks to 'phones' IntervalTier."""
+        plms = self.get_tier('predicted')
+        phns = self.get_tier('phones')
+        plms.linkToIntervalTier(phns)
+                        
+
+    def linkToBreaks(self, breaks):
         """ Construct phrase and subphrase context tier according to given breaks;
         also link each word with its corresponding phrase and subphrase.
         Breaks: a PointTier
@@ -491,7 +504,7 @@ class ExtendedTextGrid(TextGrid):
         self.append(sphrs)
         self.append(phrs)        
 
-    def addTones(self, tones):
+    def linkToTones(self, tones):
         """ Set tone attribute of phonemes; requires completion of lm alignment. """
         count=0
         bad=[]
@@ -538,7 +551,11 @@ class ExtendedTextGrid(TextGrid):
                 ind = wd_tier.findAsIndex(t.time,o)
                 wd_tier[ind].prominence=True
                 o=ind
-           
+
+    def extractContext():
+        self.linkToPhones()
+        
+        
 
             
 
@@ -564,11 +581,19 @@ class LMPoint(Point):
                 subsplit = s.split('/')
                 for ss in subsplit:
                     # splitted lms result from the same phoneme transitions, i.e. lm.phns
-                    out.append(LMPoint(t, ss.strip()))     
-                    t += subdelta
+                    mark = ss.strip()
+                    if LMref.is_std(mark):
+                        out.append(LMPoint(t, mark))     
+                        t += subdelta
+                    else:
+                        print(mark, 'is not a recognized standard landmark')
             else:
-                out.append(LMPoint(t, s.strip()))
-                t+= delta
+                mark = s.strip()
+                if LMref.is_std(mark):
+                    out.append(LMPoint(t, mark))
+                    t+= delta
+                else:
+                    print(mark, 'is not a recognized standard landmark')
         return out
 
 
@@ -614,6 +639,11 @@ class LMTier(PointTier):
         new.items = self.items+ptier.items
         new.items.sort()
         return new
+
+    def checkFormat(self):
+        for p in self.items:
+            if not LMref.is_std(p.mark):
+                raise Exception("Cannot recognize label", p)
     
     def insert(self, lmpoint):
         if not isinstance(lmpoint, LMPoint):
@@ -626,7 +656,6 @@ class LMTier(PointTier):
         # TO-DO: doubly-directed link
         if 'predicted'==self.name:
             delta = 2000*EPSILON
-            print('PRED')
         else:
             delta = 100*EPSILON
         offset = 0      # moving start of search
