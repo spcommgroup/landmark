@@ -561,6 +561,19 @@ class PointTier(Tier):
         """ Remove a Point from the point tier by its index."""
         self.removeItem(pointIndex)
 
+    def averageDist(self):
+        """ Average distance between adjacent points """
+        t = self.items
+        return sum([t[i].time - t[i-1].time for i in range(1, len(t))])/(len(t)-1)
+    def maxDist(self):
+        """ Maximum distance between adjacent points """
+        t = self.items
+        return max([t[i].time - t[i-1].time for i in range(1, len(t))])
+    def minDist(self):
+        """ Minimum distance between adjacent points """
+        t = self.items
+        return min([t[i].time - t[i-1].time for i in range(1, len(t))])
+
     
 
 class IntervalTier(Tier):
@@ -669,7 +682,17 @@ class IntervalTier(Tier):
     def removeByIndex(self,intervalIndex):
         """ Remove an Interval from the interval tier by its index."""
         self.removeItem(intervalIndex)
-        
+
+    def average(self):
+        """ Average interval length """
+        t = self.items
+        return sum([p.xmax - p.xmin for p in t])/len(t)
+    def max(self):
+        t = self.items
+        return max([p.xmax - p.xmin for p in t])        
+    def min(self):
+        t = self.items
+        return min([p.xmax - p.xmin for p in t])        
             
     
 class Interval:
