@@ -99,7 +99,7 @@ class TextGrid:
         """ Read input textgrid file """
         tg = TextGrid()
         tg.readGridFromPath(f)
-        return
+        return tg
 
     def readGridFromPath(self, filepath):
         """Parses a .TextGrid file and represents it internally in this TextTier() instance."""
