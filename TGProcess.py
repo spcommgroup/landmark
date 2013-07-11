@@ -300,32 +300,6 @@ class TextGrid:
             raise Exception("Tier named \"", n,"\" not found.")
         print('Found', t)
         return t
-        
-
-    # Fill in the gaps in an interval layer with empty text
-    def fill_tier(self, t):
-        """ Fill the gaps in an interval tier with empty intervals. """
-##        This function is created to correct manually created interval
-##        tiers which consist of interval that do not span the text grid's
-##        entire time range.
-
-        if t.tierClass != 'IntervalTier':
-            print("Tier", t.name, "is not an Interval Tier.")
-            return
-        
-        gapEnd = 0
-        i = 0
-        while i<len(t.items):
-            interval = t.items[i]
-            if abs(interval.xmin-gapEnd)>EPSILON:
-                t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
-                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
-                i+=1
-            gapEnd = interval.xmax
-            i+=1
-        if abs(interval.xmax- t.xmax)>EPSILON:
-            t.append(Interval(interval.xmax, t.xmax, ""))
-            print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
 
 
     def sample(self, end, start = 0):
@@ -574,6 +548,15 @@ class PointTier(Tier):
         t = self.items
         return min([t[i].time - t[i-1].time for i in range(1, len(t))])
 
+    def toIntervalTier(self, n):
+        new = IntervalTier(n, self.xmin, self.xmax)
+        t = self.items
+        new.items = [Interval(t[i-1].time, t[i].time, '') for i in range(1, len(t))]
+        new.fix_gaps()
+        return new
+        
+            
+
     
 
 class IntervalTier(Tier):
@@ -692,7 +675,26 @@ class IntervalTier(Tier):
         return max([p.xmax - p.xmin for p in t])        
     def min(self):
         t = self.items
-        return min([p.xmax - p.xmin for p in t])        
+        return min([p.xmax - p.xmin for p in t])
+
+        
+
+    # Fill in the gaps in an interval layer with empty text
+    def fix_gaps(self):
+        """ Fill the gaps in an interval tier with empty intervals. """     
+        gapEnd = 0
+        i = 0
+        while i<len(self.items):
+            interval = self.items[i]
+            if abs(interval.xmin-gapEnd)>EPSILON:
+                self.items.insert(i, Interval(gapEnd, interval.xmin, ""))
+                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+                i+=1
+            gapEnd = interval.xmax
+            i+=1
+        if abs(interval.xmax- self.xmax)>EPSILON:
+            self.append(Interval(interval.xmax, self.xmax, ""))
+            print("inserted at ", i, " ", interval.xmax, "-", self.xmax)
             
     
 class Interval:
