@@ -487,7 +487,7 @@ class PointTier(Tier):
     def filter(self, key, not_key=None):
         """ Return a new PointTier that has only points containing key excluding not_key. """
         new = PointTier(key, self.xmin, self.xmax)
-        items = [p for p in self.items if keyword in p.mark]
+        items = [p for p in self.items if key in p.mark]
         if not_key:
             items = [p for p in items if not_key not in p.mark]
         new.items = items
