@@ -95,6 +95,12 @@ class TextGrid:
             f.write("    item [" + str(tierNum+1) + "]:\n")
             self.tiers[tierNum].writeTier(f)
 
+    def open(f):
+        """ Read input textgrid file """
+        tg = TextGrid()
+        tg.readGridFromPath(f)
+        return
+
     def readGridFromPath(self, filepath):
         """Parses a .TextGrid file and represents it internally in this TextTier() instance."""
         try:
@@ -476,6 +482,15 @@ class PointTier(Tier):
         new = PointTier(self.name+'+'+ptier.name, min(self.xmin, ptier.xmin), max(self.xmax,ptier.xmax))
         new.items = self.items+ptier.items
         new.items.sort()
+        return new
+
+    def filter(self, key, not_key=None):
+        """ Return a new PointTier that has only points containing key excluding not_key. """
+        new = PointTier(key, self.xmin, self.xmax)
+        items = [p for p in self.items if keyword in p.mark]
+        if not_key:
+            items = [p for p in items if not_key not in p.mark]
+        new.items = items
         return new
 
     def find(self, start, end, offset=0):
