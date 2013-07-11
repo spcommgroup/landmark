@@ -35,6 +35,7 @@ LMs = [
 
 
 source = "phn_trans_to_lm.txt"
+
 table = open(source,'r')
 classes = ['#','v','g','n','fu','fn','fs','s','a']
 predict_table = {}
@@ -241,9 +242,4 @@ def is_std(label):
     return False
      
 
-
-"""
-TODO:
-6. Alignment cost matrix
-"""
 
