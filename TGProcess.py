@@ -514,10 +514,10 @@ class PointTier(Tier):
         which are between the start time and end time. Note that end_index is an exclusive bound. """
         i = offset
         t = self.items
-        while t[i].time<start and i<len(self.items):
+        while i<len(self.items) and t[i].time<start:
             i+=1
         start_index = i
-        while t[i].time<end and i<len(self.items):
+        while t[i].time<end:
             i+=1
             if i>=len(self.items):
                 break
@@ -530,7 +530,7 @@ class PointTier(Tier):
     def findLastAsIndex(self, endtime, offset=0):
         """ Returns the last point preceding the given time """
         i = max(offset,0)
-        while self.items[i].time<endtime and i<len(self.items):
+        while i<len(self.items) and self.items[i].time<endtime:
             i+=1
             
         return i-1
