@@ -614,7 +614,7 @@ class LMPoint(Point):
 
 
 
-
+    
 class LMTier(PointTier):
     """ Class Invariant - All items must be LMPoint instances """
     def __init__(self, name, xmin, xmax):
