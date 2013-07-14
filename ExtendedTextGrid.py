@@ -64,7 +64,8 @@ class ExtendedTextGrid(TextGrid):
         f = open(self.fname+'.tab', 'w')
         phones = self.get_tier('phones')
         words = self.get_tier('Words')
-        plms = self.get_tier('predictedicted')
+        p = self.get_tier('predicted')
+        o = self.get_tier('observed')
         def pLMcontext(plm):
             phn_context = '\t'.join([phones[i].context() for i in plm.links['phones']])
             wd_context = '\t'.join([words[i].context() for i in plm.links['words']])
@@ -410,6 +411,7 @@ class ExtendedTextGrid(TextGrid):
 
         return stat
 
+
     def clearAlignment(self):
         "Remove old alignment information"
         p = self.get_tier('predicted')
@@ -440,11 +442,12 @@ class ExtendedTextGrid(TextGrid):
 
                         
 
-    def linkToBreaks(self, breaks):
+    def linkToBreaks(self):
         """ Construct phrase and subphrase context tier according to given breaks;
         also link each word with its corresponding phrase and subphrase.
         breaks: a PointTier contains break labels
         """
+        breaks = self.get_tier("breaks")
         words = self.get_tier("words")
         phrs = PointTier("phrases", self.xmin, self.xmax)
         sphrs = PointTier("subphrases", self.xmin, self.xmax)
@@ -500,14 +503,16 @@ class ExtendedTextGrid(TextGrid):
         self.append(sphrs)
         self.append(phrs)        
 
-    def linkToTones(self, tones):
-        """ Set tone attribute of phonemes; requires completion of lm alignment. """
+    def linkToTones(self):
+        """ Determine accents of phonemes; requires completion of lm alignment. """
         count=0
         bad=[]
         o=0
         lm_tier = self.get_tier('observed')
         phn_tier=self.get_tier('phones')
         wd_tier = self.get_tier('words')
+
+        tones = self.get_tier('tones')
         # Update phonemes
         for t in tones:
             if '*' in t.mark:
@@ -611,7 +616,6 @@ class LMPoint(Point):
                 else:
                     print(mark, 'is not a recognized standard landmark')
         return out
-
 
 
     
