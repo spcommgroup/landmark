@@ -411,6 +411,44 @@ class ExtendedTextGrid(TextGrid):
 
         return stat
 
+    def summarize(self):
+        """ Four LMTier instances which summarize alignment result. """
+
+        prs = LMTier('Preserved', self.xmin, self.xmax)
+        dlt = LMTier('Deleted',  self.xmin, self.xmax)
+        ins = LMTier('Inserted',  self.xmin, self.xmax)
+        mut = LMTier('Mutated',  self.xmin, self.xmax)
+
+        p = self.get_tier('predicted')
+        o = self.get_tier('observed')
+
+        for x in p:
+            # todo: merge context links from the observed lm
+            if not x.counterLM:
+##                print('unlabeled deletion',x)
+                x.
+                dlt.insert(x)
+            else:
+                m = x.counterLM.mark
+                if m==x.mark:
+                    prs.insert(x)
+                elif m==x.mark+'-x':
+##                    print('labeled deletion',x)
+                    dlt.insert(x)
+                else:
+                    mut.insert(x)
+##                    if m[-1] in ['+', 'x', '?']:
+##                        print('WARNING: may not be real mutation',x,'->',x.counterLM)
+
+        for x in o:
+            if not x.counterLM:
+                ins.insert(x)
+                # Todo: Guess the responsible phoneme transition and update x.links['phones']
+                
+                if x.mark[-1]=='x':
+                    print('WARNING: cannot find landmarked marked as deleted by',x)
+        return prs, dlt, ins, mut
+            
 
     def clearAlignment(self):
         "Remove old alignment information"
@@ -706,36 +744,6 @@ class LMTier(PointTier):
         links.sort()
         link_tier.items = links
         return link_tier
-                
-    def aligned(self, mode = 'm'):
-        """ Return a LMTier with time adjustment on each point to
-        line up with its counter landmark, if present; insert 
-        mark where a counter lm is not found; deletion is implied
-        by a missing point."""
-        if self.counterLMTier==None:
-            print('Not aligned.')
-            return
-        tier = LMTier('modifications', self.xmin, self.xmax)
-        if mode == 'a':
-            tier = LMTier('aligned', self.xmin, self.xmax)
-            
-        for lm in self.items:
-            if lm.counterLM == None:
-                tier.insert(LMPoint(lm.time, lm.mark+'-x'))
-            else:
-                if lm.mark!=lm.counterLM.mark:     # show changes only
-                    tier.insert(LMPoint(lm.counterLM.time, lm.mark+'->'+lm.counterLM.mark))
-                elif mode=='a':
-                    tier.insert(LMPoint(lm.counterLM.time, lm.mark))
-                                    
-                
-        for lm in self.counterLMTier:
-            if lm.counterLM==None:
-                tier.insert(LMPoint(lm.time, lm.mark+'-!'))
-                if '-' in lm.mark:
-                    print('WARNING: insertion of comment', lm)
-         
-        return tier
 
     def reset(self):
         """ Clear alignment by setting counterLM to None for all LMPoints."""
