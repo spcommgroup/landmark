@@ -422,11 +422,11 @@ class ExtendedTextGrid(TextGrid):
         p = self.get_tier('predicted')
         o = self.get_tier('observed')
 
-        for x in p:
+        for i in range(len(p)):
+            x = p[i]
             # todo: merge context links from the observed lm
             if not x.counterLM:
 ##                print('unlabeled deletion',x)
-                x.
                 dlt.insert(x)
             else:
                 m = x.counterLM.mark
