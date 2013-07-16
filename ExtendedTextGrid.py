@@ -6,7 +6,7 @@
     - .pkl (TextGrid python object) file: ExtendedTextGrid.readObject('conv07.pkl')
 2) Predict landmarks given words, hand-labeled landmarks, and comments (presumbly 
 named "Words", "Landmarks", "Comments" respectively):
-    - Run tg.putPhns()
+    - Run tg.predictPhns()
     - Run tg.predictLM()
 3) Align observed and predicted landmarks
     - Run tg.convertLM() to change the format of hand labels (ignore the warnings for now)
@@ -100,7 +100,7 @@ class ExtendedTextGrid(TextGrid):
         self.tiers = [new_words]+self.tiers
         
         
-    def putPhns(self):
+    def predictPhns(self):
         "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
         text = self.get_tier('words')
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
@@ -447,7 +447,8 @@ class ExtendedTextGrid(TextGrid):
                 
                 if x.mark[-1]=='x':
                     print('WARNING: cannot find landmarked marked as deleted by',x)
-        return prs, dlt, ins, mut
+        for t in [prs, dlt, ins, mut]:
+            self.append(t)
             
 
     def clearAlignment(self):
@@ -460,12 +461,15 @@ class ExtendedTextGrid(TextGrid):
             x.counterLM ==None
             
 
-    def prepareLM(self):
+    def prepare(self):
         """ Main routine that predicts landmarks from words and compares with observed landmarks. """
         # Generate landmarks
-        self.putPhns()
-        self.predictLM()        
-        self.convertLM()
+        if not self.get_tier("phones"):
+            self.predictPhns()
+        if not self.get_tier("predicted"):
+            self.predictLM()        
+        if not self.get_tier("observed"):
+            self.convertLM()
         
         # If 'Cannot recognize label' exception is raised here, fix corresponding hand labels and run again
         self.get_tier('predicted').checkFormat()
@@ -476,7 +480,12 @@ class ExtendedTextGrid(TextGrid):
         self.linkToWords()
 
         # Align predicted and observed landmarks
+        self.clearAlignment()
         self.alignLM()
+
+        # Produce alignment results (preservations, insertions, deletions, mutations) as LMTier instances
+        self.summarize()
+
 
                         
 
@@ -654,6 +663,10 @@ class LMPoint(Point):
                 else:
                     print(mark, 'is not a recognized standard landmark')
         return out
+
+    def context(self):
+        """ Return all context information in a dict. Infer the context if it is not aligned. """
+        
 
 
     
