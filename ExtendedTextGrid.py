@@ -27,7 +27,7 @@ named "Words", "Landmarks", "Comments" respectively):
 
 from TGProcess import *
 import pickle
-import LMref 
+import LMref
 
 
 class ExtendedTextGrid(TextGrid):
@@ -422,13 +422,16 @@ class ExtendedTextGrid(TextGrid):
         p = self.get_tier('predicted')
         o = self.get_tier('observed')
 
-        for i in range(len(p)):
-            x = p[i]
+        for label in p:
+            x = label.copy()
+            x.links[p.name]=label.index
             # todo: merge context links from the observed lm
             if not x.counterLM:
+                x.links[o.name]=None
 ##                print('unlabeled deletion',x)
                 dlt.insert(x)
             else:
+                x.links[o.name]=x.counterLM.index
                 m = x.counterLM.mark
                 if m==x.mark:
                     prs.insert(x)
@@ -440,11 +443,12 @@ class ExtendedTextGrid(TextGrid):
 ##                    if m[-1] in ['+', 'x', '?']:
 ##                        print('WARNING: may not be real mutation',x,'->',x.counterLM)
 
-        for x in o:
+        for label in o:
+            x = label.copy()
+            x.links[o.name]=label.index
+            x.links[p.name]=None            
             if not x.counterLM:
-                ins.insert(x)
-                # Todo: Guess the responsible phoneme transition and update x.links['phones']
-                
+                ins.insert(x)                
                 if x.mark[-1]=='x':
                     print('WARNING: cannot find landmarked marked as deleted by',x)
         for t in [prs, dlt, ins, mut]:
@@ -605,11 +609,11 @@ class ExtendedTextGrid(TextGrid):
         p = self.get_tier("predicted")
         o = self.get_tier("observed")
 
-        # Phoneme-level position
+        # Phoneme positions are associated with predicted landmarks
         phns = self.get_tier("phones")
         p.linkToIntervalTier(phns)
         
-        # Phrase-level position
+        # Phrase position are associated with observed landmarks
         b = self.get_tier("breaks")
         breaks3 = b.filter("3")
         self.append(breaks3)
@@ -618,7 +622,7 @@ class ExtendedTextGrid(TextGrid):
         self.append(breaks4)
         o.linkToPointTier(breaks4)
         
-        # Tones
+        # Tones are associated with observed landmarks
         t = self.get_tier("tones")
         accents = t.filter("*")
         self.append(accents)
