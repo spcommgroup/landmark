@@ -14,6 +14,8 @@
 import re
 import operator
 import csv
+import copy as cp
+
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -304,10 +306,8 @@ class TextGrid:
         for tier in self.tiers:     # tier names are not case-sensitive
             if tier.name.strip().lower() == n.lower():
                 t = tier
-        if t == None:
-            raise Exception("Tier named \"", n,"\" not found.")
         print('Found', t)
-        return t
+        return t        
 
 
     def sample(self, end, start = 0):
@@ -735,7 +735,8 @@ class Interval:
         f.write("            xmin = " + str(self.xmin) + "\n")
         f.write("            xmax = " + str(self.xmax) + "\n")
         f.write("            text = \"" + self.text + "\" \n")
-                    
+    def copy(self):
+        return cp.deepcopy(self)
         
 
 
@@ -769,7 +770,8 @@ class Point:
         f.write("            mark = \"" + self.mark + "\" \n")
     
 
-
+    def copy(self):
+        return cp.deepcopy(self)
 
 
 
