@@ -507,49 +507,25 @@ class PointTier(Tier):
         new.resetIndices()
         return new
 
-    def find(self, start, end, offset=0):
-        """ Returns the Point instances located between given start time and end time """
+    def find(self, time, offset=0, buffer=0):
+        """ Returns the Point instances located at the given time, or None if not found; when buffer is nonzero, the first point found is returned """
         i = max(offset,0)
         pt = self.items[i]
-        pts = []
-        while pt.time<start:
-            i+=1
-            pt = self.items[i]
-        while pt.time<end:
-            pts += [pt]
-            i+=1
-            if i>=len(self.items):
-                break
-            pt = self.items[i]
-        return pts
-    
-    def findAsIndexRange(self, start, end, offset=0):
-        """ Returns a tuple (start_index,end_index) s.t. tier[start:end] contains all Point instances
-        which are between the start time and end time. Note that end_index is an exclusive bound. """
-        i = offset
-        t = self.items
-        while i<len(self.items) and t[i].time<start:
-            i+=1
-        start_index = i
-        while t[i].time<end:
-            i+=1
-            if i>=len(self.items):
-                break
-        end_index = i
-        return (start_index, end_index)
-    
-    def findLast(self, endtime, offset=0):
-        return self.items[self.findLastAsIndex(endtime, offset)]
-    
-    def findLastAsIndex(self, endtime, offset=0):
-        """ Returns the last point preceding the given time """
-        i = max(offset,0)
-        while i<len(self.items) and self.items[i].time<endtime:
-            i+=1
+        for p in self.items[offset:]:
+            if abs(p.time-time)<=buffer:
+                return p
             
-        return i-1
+    def findBetween(self, start, end, offset=0):
+        """ Find the points bounded by [start, end). """
+        out = []
+        p=self.find(start, offset)
+        for p in self.items[offset:]:
+            if p.time>=end:
+                break
+            if p.time>=start:
+                out.append(p)
+        return out          
     
-
     def locate(self, mark, offset=0):
         """
         Return the first point with the given mark, searching starting from offset.
@@ -629,53 +605,23 @@ class IntervalTier(Tier):
         Tier.append(self, interval)
         
     def find(self, time, offset=0):
-        """ Find the interval that covers a given time; if not found, return the first interval after the time """
-        i = max(offset,0)
-        intl = self.items[i]
-        while time-intl.xmax>EPSILON:
-            i+=1
-            if i>=len(self.items):
+        """ Find the interval that covers a given time; if no interval does, return None """
+        for i in self.items[offset:]:
+            if i.xmin > time:
                 break
-            intl = self.items[i]
-        return intl
-    
-    def findAsIndex(self, time, offset=0):
-        """ Find the index of the interval that covers a given time """
-        i = max(offset,0)
-##        print(len(self.items))
-        intl = self.items[i]
-        while time-intl.xmax>EPSILON:
-            i+=1
-            if i>=len(self.items):
-                break
-            intl = self.items[i]
-        return i
+            if i.xmax > time:
+                return i
+   
 
     def findBetween(self, start, end, offset=0):
-        """ Find the intervals bounded by given start and end times. """
-        i = max(offset,0)
-        intl = self.items[i]
+        """ Find the intervals bounded by [start, end). """
         out = []
-        while time-intl.xmax>EPSILON:
-            out.append(intl)
-            i+=1
-            if i>=len(self.items):
+        for i in self.items[offset:]:
+            if i.xmax>end:
                 break
-            intl = self.items[i]
+            if i.xmin>=start:
+                out.append(i)
         return out        
-
-    def findBetweenAsIndices(self, start, end, offset=0):
-        """ Find indices of the intervals bounded by given start and end times. """
-        i = max(offset,0)
-        intl = self.items[i]
-        out = []
-        while time-intl.xmax>EPSILON:
-            out.append(i)
-            i+=1
-            if i>=len(self.items):
-                break
-            intl = self.items[i]
-        return out
 
     def remove(self, interval):
         """ Remove an Interval instance from the interval tier."""
@@ -772,6 +718,25 @@ class Point:
 
     def copy(self):
         return cp.deepcopy(self)
+
+    def dist_to(self, other, ref=None):
+        """
+        Return the distance from self to another item in terms of ref (negative if self comes later). If ref is None as defaulted, absolute
+        time is returned. If ref is a tier, the distance will be given as counts of items in that tier.
+        """
+        if not ref:
+            return other.time-self.time
+        else:
+            t1 = self.time
+            t2 = other.time
+            if t1>t2:
+                t2 = self.time
+                t1 = other.time                                
+            items = ref.find(t1, t2)
+            d = len(items)
+            return d*(t1<=t2)-d*(t1>t2)
+            
+        
 
 
 
