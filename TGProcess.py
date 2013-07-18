@@ -779,6 +779,14 @@ class IntervalTier(Tier):
     def removeByIndex(self,intervalIndex):
         """ Remove an Interval from the interval tier by its index."""
         self.removeItem(intervalIndex)
+
+    def fixIntervalSpaces(self):
+        """Sometimes in a generated interval tier, the intervals
+        don't line up exactly. This will run through and fix 
+        spaces between intervals."""
+        for (item_a, item_b) in zip(self, self[1:]):
+            if item_a.xmax != item_b.xmin:
+                item_b.xmin = item_a.xmax
         
             
     

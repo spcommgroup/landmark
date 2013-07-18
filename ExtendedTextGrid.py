@@ -151,6 +151,7 @@ class ExtendedTextGrid(TextGrid):
                 cur_phn = Phoneme(interval.xmin, interval.xmax)
                 phn_tier.items.append(cur_phn)      # update "phoneme" tier
                 prev_phn = cur_phn
+        phn_tier.fixIntervalSpaces()
         self.append(phn_tier)
         # Put in another tier showing syllabic positions of phonemes
 ##        position = IntervalTier(name = 'syll. pos.', xmin=self.xmin, xmax=self.xmax)
