@@ -12,6 +12,12 @@ predict_table = LMdicParser.LMdic
 lexicon_file = "lexicon"
 lexicon = pickle.load(open(lexicon_file,'rb'))
 
+with open("cmudict.0.7a") as f:
+    for entry in f:
+        if not entry.startswith(";;;"):
+            word = entry.split()[0].lower()
+            lexicon[word] = entry.strip("\n").lower()
+
 ## Adaptations of the lexicon for unusual pronounciations and absent entries in cmudict
 # conversation 1
 lexicon['do+you+have']='do+you+have d uw1 y uw1 hh ae1 v'
