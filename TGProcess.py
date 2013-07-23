@@ -661,7 +661,31 @@ class IntervalTier(Tier):
             self.append(Interval(interval.xmax, self.xmax, ""))
             print("inserted at ", i, " ", interval.xmax, "-", self.xmax)
         self.resetIndices()
-            
+
+
+
+    def group(self, ptier, groupName):
+        """
+        Group consecutive intervals according to points in PointTier ptier.
+        Return a new IntervalTier named groupName. """
+        
+        groups = IntervalTier(groupName, self.xmin, self.xmax)
+        b1 = Point(0,None)      # starting point
+        for b2 in ptier:
+            intl1 = self.items[intervals[0].index-1]
+            intl2 = self.items[intervals[-1].index+1]            
+
+            if w1.xmax - b1 < b1 - w1.xmin:
+                intervals = [w1]+intervals
+            if w2.xmax - b2 > b2 - w2.xmin:
+                intervals.append(w2)            
+            group = Interval(b1.time, b2.time, ' '.join([w.text for w in intervals]))         
+            for intl in intervals:
+                intl.links[ptier.name]=(b1, b2)
+                intl.links[groupName]=sph
+            groups.apend(sph)
+            b1=b2
+            intervals = self.findBetween(b1.time, b2.time, intervals[-1].index+1)
     
 class Interval:
     def __init__(self, xmin, xmax, text):     
