@@ -1,27 +1,19 @@
 """
-- By Minshu Zhan 2012
+- Minshu Zhan 2013 July
 [Usage]
 1) Read file
     - .textgrid (praat) file: ExtendedTextGrid(f='conv07.textgrid')
     - .pkl (TextGrid python object) file: ExtendedTextGrid.readObject('conv07.pkl')
-2) Predict landmarks given words, hand-labeled landmarks, and comments (presumbly 
+2) Predict landmarks and align: given words, hand-labeled landmarks, and comments (presumbly 
 named "Words", "Landmarks", "Comments" respectively):
-    - Run tg.predictPhns()
-    - Run tg.predictLM()
-3) Align observed and predicted landmarks
-    - Run tg.convertLM() to change the format of hand labels (ignore the warnings for now)
-    - Run tg.linkToWords("predicted") and tg.linkToWords("observed")
-    - Run tg.alignLM()
-4) LM context in praat as a tier
-    - lm_tier.links("Words"), lm_tier.links("phones") etc  
-5) LM alignment as a tier
-    - lm_tier.aligned() 
-6) Write file
-    - tg.writeGridToPath('conv07') (notice omission of extension name; both .textgrid and 
-    .pkl will be created.)
-    - alias: tg.saveAs('conv07')
-    - save with the original name: tg.save()
-7) Write out context in a tab-delimited format
+    - Run tg.prepare()
+3) Extract context information
+    - Run tg.extractContext() 
+6) Save
+    - tg.save()
+    - tg.writeGridToPath('conv07')  textgrid file only
+    - alias: tg.saveAs('conv07')    save under a new name (no extension)
+7) Write out context in a tab-delimited format that can be parsed by orange
     - tg.saveTab()
 """
 
