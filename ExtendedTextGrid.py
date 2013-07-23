@@ -62,31 +62,22 @@ class ExtendedTextGrid(TextGrid):
     def saveTab(self):
         """ Save as .tab file named 'fname' """
         f = open(self.fname+'.tab', 'w')
-        phones = self.get_tier('phones')
+        phns = self.get_tier('phones')
         words = self.get_tier('Words')
-        p = self.get_tier('predicted')
-        o = self.get_tier('observed')
-        def pLMcontext(plm):
-            phn_context = '\t'.join([phones[i].context() for i in plm.links['phones']])
-            wd_context = '\t'.join([words[i].context() for i in plm.links['words']])
-            if plm.counterLM!=None:
-                if plm.mark==plm.counterLM.mark:
-                    y='P'       # Preserved
-                else:
-                    y = 'M'     # Modified
-            else:
-                y = 'D'         # Deleted
-            return '\t'.join([phn_context,wd_context, y])
-        x1s = ['_cls','_acnt', '_type','_num', '_snum', '_acnt']
-        h1='\t'.join(['\t'.join([y+ x for x in x1s]) for y in ['phn1', 'phn2']])
-        x2s = ['_text', '_prom', '_ip', '_IP']
-        h2 = '\t'.join(['\t'.join([y+ x for x in x2s]) for y in ['w1', 'w2']])
-        n=2*len(x1s+x2s)
-        header = '\t'.join([h1, h2, 'modification'])+'\n'+ \
-        '\t'.join(['discrete' for i in range(n+1)])+'\n'+\
-        '\t'*n+'class\n'
+        result = [self.get_tier('Preserved'), self.get_tier('Deleted'), self.get_tier('Inserted'), self.get_tier('Mutated')]
+        data = []
+        for change in changes:
+            for point in change:
+                entry = point.context()
+                entry['outcome']=change.name
+                data.append(entry)
+
+        params = data[0].keys()
+
+        header = '\t'.join(params)
+
         f.write(header)
-        f.write('\n'.join([pLMcontext(m) for m in plms]))
+        f.write('\n'.join(['\t'.join(e.values()) for e in data]))
         f.close()
 
         
@@ -294,7 +285,7 @@ class ExtendedTextGrid(TextGrid):
             oword1,oword2 = olm.links['words']            
 
             # landmarks cannot be aligned when they are more than a word apart
-            if abs(pword1-oword1)>1 and abs(pword2-oword2)>1:
+            if abs(pword1.index-oword1.index)>1 and abs(pword2.index-oword2.index)>1:
                 return -INFTY
             # landmarks should compared without the mutation marking
             p = re.match(LMref.STD_LM, plm.mark).group()
@@ -424,14 +415,14 @@ class ExtendedTextGrid(TextGrid):
 
         for label in p:
             x = label.copy()
-            x.links[p.name]=label.index
+            x.links[p.name]=label
             # todo: merge context links from the observed lm
             if not x.counterLM:
                 x.links[o.name]=None
 ##                print('unlabeled deletion',x)
                 dlt.insert(x)
             else:
-                x.links[o.name]=x.counterLM.index
+                x.links[o.name]=x.counterLM
                 m = x.counterLM.mark
                 if m==x.mark:
                     prs.insert(x)
@@ -445,7 +436,7 @@ class ExtendedTextGrid(TextGrid):
 
         for label in o:
             x = label.copy()
-            x.links[o.name]=label.index
+            x.links[o.name]=label
             x.links[p.name]=None            
             if not x.counterLM:
                 ins.insert(x)                
@@ -484,150 +475,191 @@ class ExtendedTextGrid(TextGrid):
         self.linkToWords()
 
         # Align predicted and observed landmarks
-        self.clearAlignment()
         self.alignLM()
 
         # Produce alignment results (preservations, insertions, deletions, mutations) as LMTier instances
         self.summarize()
+            
 
-
-                        
-
-    def linkToBreaks(self):
+    def extractBreaks(self):
         """ Construct phrase and subphrase context tier according to given breaks;
         also link each word with its corresponding phrase and subphrase.
         breaks: a PointTier contains break labels
         """
         breaks = self.get_tier("breaks")
         words = self.get_tier("words")
-        phrs = PointTier("phrases", self.xmin, self.xmax)
-        sphrs = PointTier("subphrases", self.xmin, self.xmax)
+        phrases = PointTier("phrases", self.xmin, self.xmax)
+        subphrases = PointTier("subphrases", self.xmin, self.xmax)
 
-        # Initiate links field in words --> TO-DO: modify constructor
-        for w in words:
-            w.links['ip']=-1
-            w.links['IP']=-1
+##        for w in words:
+##            w.break3=None
+##            w.break4=None
         
         # First pass: put phrasing information in words
-        o = 0
-        for w in words:
-            bs =  breaks.findAsIndexRange(w.xmin, w.xmax, offset=o)
-            for i in bs[:-1]:
-                if '3' in breaks[i].mark:
-                    w.break3 = True
-                else:
-                    w.break3 = False
-                if '4' in breaks[i].mark:
-                    w.break4 = True
-                else:
-                    w.break4 = False
-            o = bs[-1]
+##        o = 0
+##        for w in words:
+##            bs =  breaks.findBetween(w.xmin, w.xmax, offset=o)
+##            for b in bs:
+##                if '3' in b.mark:
+##                    w.break3 = True
+##                if '4' in b.mark:
+##                    w.break4 = True
+##                o = b.index
+##        t = b3[0]       
+##        for w in words:
+##            w.links[b3.name]=b3.findBetween(w.xmin, w.xmax, t)
+##            t = w.links[b3.name][-1]
+##        t = b4[0]
+##        for w in words:
+##            w.links[b4.name]=b4.findBetween(w.xmin, w.xmax, t)
+##            t = w.links[b4.name][-1]
             
-        # Second pass: create subphrases
-        text = []       # words in subphrase
+        # Second pass: word position in subphrases: words.findBetween(sph.xmin, sph.xmax)
+        
+        b1 = breaks4[0]
+        for b2 in breaks4[1:]:
+            words = w.findBetween(b1.time, b2.time, words[-1].index+1)
+            w1 = words[words[0].index-1]
+            w2 = words[words[-1].index+1]
+            if w1.xmax - b1 < b1 - w1.xmin:
+                words = [w1]+words
+            if w2.xmax - b2 > b2 - w2.xmin:
+                words.append(w2)            
+            sph = Subphrase(b1.time, b2.time, ' '.join([w.text for w in words]))         
+            for i in range(len(words)):
+                word.links[breaks4.name]=(b1, b2)
+                word.links[subphrases.name]=sph
+            subphrases.apend(sph)
+            b1=b2
+        
+        b1 = breaks3[0]
+        for b2 in breaks3[1:]:
+            words = w.findBetween(b1.time, b2.time, words[-1].index+1)
+            w1 = words[words[0].index-1]
+            w2 = words[words[-1].index+1]
+            if w1.xmax - b1 < b1 - w1.xmin:
+                words = [w1]+words
+            if w2.xmax - b2 > b2 - w2.xmin:
+                words.append(w2)            
+            ph = Phrase(b1.time, b2.time, ' '.join([w.text for w in words]))         
+            for i in range(len(words)):
+                word.links[breaks3.name]=(b1, b2)
+                word.links[Phrase.name]=ph
+            phrases.apend(sph)
+            b1=b2
+
+        text = []       
         tprev = self.xmin
         for w in words:
             if LMref.is_word(w.text):
                 text+=[w]
-                w.links['ip']=len(text)
-                if w.break3:
+                w.ip=len(text)
+                if w.break4:
                     sphrs.append(Subphrase(tprev,w.xmax,text))
                     text=[]
                     tprev = w.xmax
-        if not w.break3:
+        if not w.break4:    # last word
                 sphrs.append(Subphrase(tprev,w.xmax,text))
             
-        # Third pass: crease phrases
-        text = []       # words in phrase
+        # Third pass: word position in phrases
+        text = []       
         tprev = self.xmin
         for w in words:
             if LMref.is_word(w.text):
                 text+=[w]
-                w.links['IP']=len(text)
-                if w.break4:
+                w.IP=len(text)
+                if w.break3:
                     phrs.append(Phrase(tprev,w.xmax,text))
                     text=[]
                     tprev = w.xmax
-        if not w.break4:
+        if not w.break3:
                 phrs.append(Phrase(tprev,w.xmax,text))
 
         self.append(sphrs)
         self.append(phrs)        
 
-    def linkToTones(self):
-        """ Determine accents of phonemes; requires completion of lm alignment. """
+    def extractTones(self):
+        """ Associate accents with landmarks and words. """
         count=0
         bad=[]
         o=0
-        lm_tier = self.get_tier('observed')
-        phn_tier=self.get_tier('phones')
-        wd_tier = self.get_tier('words')
+        lm = self.get_tier('observed')
+        wd = self.get_tier('words')
+        
 
-        tones = self.get_tier('tones')
-        # Update phonemes
-        for t in tones:
-            if '*' in t.mark:
-                count+=1
-                # Find the nearest observed landmarks 
-                ind = lm_tier.findLastAsIndex(t.time,o)
-                prevLM = lm_tier[ind]
-                succLM = lm_tier[ind+1]
-                # Find the corresponding predicted landmarks
-                prevPLM = prevLM.counterLM
-                succPLM = succLM.counterLM
-                # Find associated phonemes
-                phns = []
-                if prevPLM!=None:
-                    phns+= prevPLM.links['phones']
-                if succPLM!=None:
-                    phns+= succPLM.links['phones']
-                done=False
-                marked=None                
-                for p in [phn_tier[i] for i in phns]:
-                    if LMref.phoneme_class(p.text)=='v':
-                        if not done:
-                            p.accent = True
-                            done=True
-                            marked=p
-                        else:
-                            if marked!=p:
-                                print("Prominance", t, "has been used on",
-                                      marked, "not adding to", p)
-                if not done:
-                    print("Did not use prominance", t)
-                o=ind
-        # Update words
-        o=0
-        for t in tones:
-            if '*' in t.mark:
-                ind = wd_tier.findAsIndex(t.time,o)
-                wd_tier[ind].prominence=True
-                o=ind
+        tones = self.get_tier('tones').filter('*')
+        # Mark landmarks
+        t1 = tones[0]
+                                            
+        for p in lm:
+            t1 = tones.findBefore(p.time, t1.index)
+            t2 = tones.findAfter(p.time, t1.index)
+            p.links[tones.name]=(t1,t2)
+                                            
+
+        # Mark words
+        t = tones[0]
+        for w in wd:
+            w.links[tones.name]= tones.findBetween(w.xmin, w.xmax, t.index)
+            t = w.links[tones.name][-1]
+                                            
+                                            
+            
+        # Mark phonemes
+##        for t in tones:
+##            if '*' in t.mark:
+##                count+=1
+##                # Find the nearest observed landmarks 
+##                ind = lm_tier.findLastAsIndex(t.time,o)
+##                prevLM = lm_tier[ind]
+##                succLM = lm_tier[ind+1]
+##                # Find the corresponding predicted landmarks
+##                prevPLM = prevLM.counterLM
+##                succPLM = succLM.counterLM
+##                # Find associated phonemes
+##                phns = []
+##                if prevPLM!=None:
+##                    phns+= prevPLM.links['phones']
+##                if succPLM!=None:
+##                    phns+= succPLM.links['phones']
+##                done=False
+##                marked=None                
+##                for p in [phn_tier[i] for i in phns]:
+##                    if LMref.phoneme_class(p.text)=='v':
+##                        if not done:
+##                            p.accent = True
+##                            done=True
+##                            marked=p
+##                        else:
+##                            if marked!=p:
+##                                print("Prominance", t, "has been used on",
+##                                      marked, "not adding to", p)
+##                if not done:
+##                    print("Did not use prominance", t)
+##                o=ind
+##        # Update words
+##        o=0
+##        for t in tones:
+##            if '*' in t.mark:
+##                ind = wd_tier.findAsIndex(t.time,o)
+##                wd_tier[ind].prominence=True
+##                o=ind
 
     def extractContext(self):
         """ Main function to associate landmarks with contex tiers; overwrite previous runs """
-        p = self.get_tier("predicted")
-        o = self.get_tier("observed")
-
-        # Phoneme positions are associated with predicted landmarks
-        phns = self.get_tier("phones")
-        p.linkToIntervalTier(phns)
+        p = self.get_tier("Predicted")
+        d = self.get_tier("Deleted")
+        i = self.get_tier("Inserted")
+        m = self.get_tier("Mutated")
+        summary = p.merge(d).merge(i).merge(m)
         
-        # Phrase position are associated with observed landmarks
-        b = self.get_tier("breaks")
-        breaks3 = b.filter("3")
-        self.append(breaks3)
-        o.linkToPointTier(breaks3)
-        breaks4 = b.filter("4")
-        self.append(breaks4)
-        o.linkToPointTier(breaks4)
+        # TODO: phrase-subphrase-word-phoneme hierarchy relative positions
+       
         
-        # Tones are associated with observed landmarks
-        t = self.get_tier("tones")
-        accents = t.filter("*")
-        self.append(accents)
-        o.linkToPointTier(accents)
-        
+        # TODO: prosody markings associated with different tiers
+        self.extractBreaks()
+        self.extractTones()        
+       
 
             
 
@@ -669,7 +701,18 @@ class LMPoint(Point):
         return out
 
     def context(self):
-        """ Return all context information in a dict. Infer the context if it is not aligned. """
+        """ Return all context information in a flat dictionary. Keys are parameter names. """
+        c = {}
+        c['name']=re.match(LMref.STD_LM, self.mark).group()
+
+        phones = c.links['phones']
+        if phones: 
+            [c.extend(phn.context().items()) for phn in self.links['phones']]
+        else:
+            # TODO: guess context for un-aligned landmark
+            pass
+        return c
+            
         
 
 
@@ -733,10 +776,10 @@ class LMTier(PointTier):
             delta = 100*EPSILON
         offset = 0      # moving start of search
         for p in self.items:
-            prev = iTier.findAsIndex(p.time-delta, offset-10)    # for concurrent points
-            succ = iTier.findAsIndex(p.time+delta, offset-10)
+            prev = iTier.find(p.time-delta, offset)    # for concurrent points
+            offset = succ.index
+            succ = iTier.find(p.time+delta, offset)
             p.links[iTier.name] = (prev, succ)
-            offset = succ
 
     def linkToPointTier(self, pTier):
         """ Link LM points to the closest point in pTier. """
@@ -763,7 +806,7 @@ class LMTier(PointTier):
         return link_tier
 
     def reset(self):
-        """ Clear alignment by setting counterLM to None for all LMPoints."""
+        """ Clear alignment by setting counterLM to   None for all LMPoints."""
         self.counterLMTier = None
         for m in self.items:
             m.counterLM=None
@@ -796,8 +839,18 @@ class Phoneme(Interval):
         
 
     def context(self):
-        return '\t'.join([str(attr) for attr in [self.manner, self.stress, self.type, self.number, self.subnumber]])
+        c = {}
+        c['manner class']=self.manner
+        c['type']= self.type
+        c['stress']=self.stress
+        c['number']=self.number
+        c['subnumber']=self.subnumber
 
+        # TODO: association with breaks and tones
+        
+        return c
+
+    
     def is_end(self):
         return self.type == 'c' or (self.type=='n' and self.number == self.word.syllableCount)
     
@@ -835,7 +888,12 @@ class Word(Interval):
         self.links = {}
 
     def context(self):
-        return '\t'.join([str(attr) for attr in [self.text, self.prominence, self.links['ip'], self.links['IP']]])
+        c = {}
+        c['text']=c.text
+        c['ip']=self.ip
+        c['IP']=self.IP
+
+        return c
         
   
     
