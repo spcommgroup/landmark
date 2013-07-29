@@ -23,6 +23,7 @@ import operator
 import csv
 from time import strftime
 import sys
+import copy as cp
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -127,6 +128,12 @@ class TextGrid:
         for tierNum in tiers:
             f.write("    item [" + str(tierNum+1) + "]:\n")
             self.tiers[tierNum].writeTier(f)
+
+    def open(f):
+        """ Read input textgrid file """
+        tg = TextGrid()
+        tg.readGridFromPath(f)
+        return tg
 
     def readGridFromPath(self, filepath):
         """Parses a .TextGrid file and represents it internally in this TextTier() instance."""
@@ -318,6 +325,8 @@ class TextGrid:
                 if match:
                     inTierMeta = True #We just started a tier, we need to read the metadata.
                     continue
+        for t in self.tiers:
+            t.resetIndices()
         if self.oprint:
             print("Constructed new",self)
 
@@ -337,32 +346,32 @@ class TextGrid:
         return t
         
 
-    # Fill in the gaps in an interval layer with empty text
-    def fill_tier(self, t):
-        """ Fill the gaps in an interval tier with empty intervals. """
-##        This function is created to correct manually created interval
-##        tiers which consist of interval that do not span the text grid's
-##        entire time range.
+#     # Fill in the gaps in an interval layer with empty text
+#     def fill_tier(self, t):
+#         """ Fill the gaps in an interval tier with empty intervals. """
+# ##        This function is created to correct manually created interval
+# ##        tiers which consist of interval that do not span the text grid's
+# ##        entire time range.
 
-        if t.tierClass != 'IntervalTier':
-            print("Tier", t.name, "is not an Interval Tier.")
-            return
+#         if t.tierClass != 'IntervalTier':
+#             print("Tier", t.name, "is not an Interval Tier.")
+#             return
         
-        gapEnd = 0
-        i = 0
-        while i<len(t.items):
-            interval = t.items[i]
-            if abs(interval.xmin-gapEnd)>EPSILON:
-                t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
-                if self.oprint:
-                    print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
-                i+=1
-            gapEnd = interval.xmax
-            i+=1
-        if abs(interval.xmax- t.xmax)>EPSILON:
-            t.append(Interval(interval.xmax, t.xmax, ""))
-            if self.oprint:
-                print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
+#         gapEnd = 0
+#         i = 0
+#         while i<len(t.items):
+#             interval = t.items[i]
+#             if abs(interval.xmin-gapEnd)>EPSILON:
+#                 t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
+#                 if self.oprint:
+#                     print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+#                 i+=1
+#             gapEnd = interval.xmax
+#             i+=1
+#         if abs(interval.xmax- t.xmax)>EPSILON:
+#             t.append(Interval(interval.xmax, t.xmax, ""))
+#             if self.oprint:
+#                 print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
 
 
     def sample(self, end, start = 0):
@@ -491,9 +500,11 @@ class Tier:
     def __delitem__(self,i):
         self.removeItem(i) #See below
     def append(self,item):
+        item.index = len(self.items)
         self.items.append(item)
     def sort(self, *args, **kwords):
         self.items.sort(*args,**kwords)
+        self.resetIndices()
     def writeTier(self,f):
         """Writes the contents of the Tier to the file f in TextGrid format.
         Intended to be called as part of TextGrid().writeGrid(), as to contribute to a valid TextGrid file."""
@@ -515,9 +526,11 @@ class Tier:
            
     def remove(self, item):
         self.items.remove(item)
+        self.resetIndices()
         
     def removeItem(self,itemIndex):
         del(self.items[itemIndex])
+        self.resetIndices()
 
     def writeTierToPathAsCSV(self,filepath):
         """Writes the contents of a tier to a path as a CSV (Excel-readable) file."""
@@ -531,6 +544,10 @@ class Tier:
             for interval in self:
                 tierWriter.writerow([interval.xmin,interval.xmax,interval.text])
 
+    def resetIndices(self):
+        """ Mark all items with their indices """
+        for i in range(len(self.items)):
+            self.items[i].index = i
 
 class PointTier(Tier):
     """
@@ -547,7 +564,7 @@ class PointTier(Tier):
             raise Exception("Point", point, "exceeded tier boundary [", self.xmin, ',',self.xmax)
         
         if self.items == [] or self.items[-1].time<point.time:
-            self.items.append(point)
+            self.append(point)
             return
 
         pos = self.findLastAsIndex(point.time)
@@ -560,6 +577,7 @@ class PointTier(Tier):
             point.time+=EPSILON
             print("WARNING: inserted point ",point,"overlaps with existing point", self.items[pos+1])            
         self.items.insert(pos+1, point)
+        self.resetIndices()
 
     def insertSameTime(self, points, dt_max=.001):
         """Adds a list of points, all with the same time (the "requested time"), to the tier."""
@@ -603,30 +621,33 @@ class PointTier(Tier):
         new = PointTier(self.name+'+'+ptier.name, min(self.xmin, ptier.xmin), max(self.xmax,ptier.xmax))
         new.items = self.items+ptier.items
         new.items.sort()
+        new.resetIndices()
         return new
 
-    def find(self, start, end, offset=0):
-        """ Returns the Point instances located between given start time and end time """
+    def filter(self, key, not_key=None):
+        """ Return a new PointTier that has only points containing key excluding not_key. """
+        new = PointTier(self.name+'-'+key, self.xmin, self.xmax)
+        items = [p for p in self.items if key in p.mark]
+        if not_key:
+            items = [p for p in items if not_key not in p.mark]
+        new.items = items
+        new.resetIndices()
+        return new
+
+    def find(self, start, end, offset=0, buffer=0):
+        """ Returns the Point instances located at the given time, or None if not found; when buffer is nonzero, the first point found is returned """
         i = max(offset,0)
         pt = self.items[i]
-        pts = []
-        while pt.time<start:
-            i+=1
-            pt = self.items[i]
-        while pt.time<end:
-            pts += [pt]
-            i+=1
-            if i>=len(self.items):
-                break
-            pt = self.items[i]
-        return pts
+        for p in self.items[offset]:
+            if abs(p.time-time)<=buffer:
+                return p
     
     def findAsIndexRange(self, start, end, offset=0):
         """ Returns a tuple (start_index,end_index) s.t. tier[start:end] contains all Point instances
         which are between the start time and end time. Note that end_index is an exclusive bound. """
         i = offset
         t = self.items
-        while t[i].time<start:
+        while i<len(self.items) and t[i].time<start:
             i+=1
         start_index = i
         while t[i].time<end:
@@ -642,9 +663,20 @@ class PointTier(Tier):
     def findLastAsIndex(self, endtime, offset=0):
         """ Returns the last point preceding the given time """
         i = max(offset,0)
-        while self.items[i].time<endtime:
+        while i<len(self.items) and self.items[i].time<endtime:
             i+=1
         return i-1
+
+    def findBetween(self, start, end, offset=0):
+        """ Find the points bounded by [start, end). """
+        out = []
+        p=self.find(start, offset)
+        for p in self.items[offset:]:
+            if p.time>=end:
+                break
+            if p.time>=start:
+                out.append(p)
+        return out  
     
 
     def locate(self, mark, offset=0):
@@ -653,14 +685,34 @@ class PointTier(Tier):
         """
         raise Exception("Not implemented.")
 
-
     def remove(self, point):
         """ Remove a Point instance from the point tier."""
-        self.items.remove(point)
+        Tier.remove(self,point)
     
     def removeByIndex(self, pointIndex):
         """ Remove a Point from the point tier by its index."""
         self.removeItem(pointIndex)
+
+    def averageDist(self):
+        """ Average distance between adjacent points """
+        t = self.items
+        return sum([t[i].time - t[i-1].time for i in range(1, len(t))])/(len(t)-1)
+    def maxDist(self):
+        """ Maximum distance between adjacent points """
+        t = self.items
+        return max([t[i].time - t[i-1].time for i in range(1, len(t))])
+    def minDist(self):
+        """ Minimum distance between adjacent points """
+        t = self.items
+        return min([t[i].time - t[i-1].time for i in range(1, len(t))])
+
+    def toIntervalTier(self, n):
+        new = IntervalTier(n, self.xmin, self.xmax)
+        t = self.items
+        new.items = [Interval(t[i-1].time, t[i].time, '') for i in range(1, len(t))]
+        new.fix_gaps()
+        new.resetIndices()
+        return new
 
     def removeBlankPoints(self):
         """Removes all points whose mark is an empty string"""
@@ -683,31 +735,22 @@ class IntervalTier(Tier):
         Tier.__init__(self, "IntervalTier", name, xmin, xmax)
 
     ## WARNING: THIS FUNCTION MAY BREAK CLASS INVARIANT ##
-    # TO-DO:  does this function even make sense??
+    # TO-DO:  reimplement interval insertion/deletion
     def insert(self, interval):        
         """Insert an interval to the Tier."""
         if not isinstance(interval, Interval):
             raise Exception("Not an Interval instance: ", interval)
-            return
+            # return
         if interval.xmax>self.xmax+EPSILON or interval.xmin<self.xmin-EPSILON:
             raise Exception("Interval", interval, "exceeded tier boundary.")
                             
-        #TODO: Use logn(n) algorithm to find correct placement 
-##        left = self.xmin
-##        right = self.xmax
-##        while left<right:
-##            middle = (right+left)/2
-##            dif= interval.xmin-middle
-##            if dif<0:
-##                right = middle
-##            elif dif<EPSILON:
-##                
+        #TODO: Use logn(n) algorithm to find correct placement        
                             
         addLoc = 0
         while self[addLoc].xmin<interval.xmin:
             addLoc+=1
             if addLoc == len(self.items):
-                self.items.append(interval)
+                self.append(interval)
                 return
             
     def append(self, interval):
@@ -715,24 +758,21 @@ class IntervalTier(Tier):
         """Insert an interval to the Tier."""
         if not isinstance(interval, Interval):
             raise Exception("Not an Interval instance: ", interval)
-            return
+            # return
         if interval.xmax>self.xmax+EPSILON or interval.xmin<self.xmin-EPSILON:
             raise Exception("Interval", interval, "exceeded tier boundary.")
         
         if self.items!=[] and interval.xmin < self.items[-1].xmax-EPSILON:
             raise Exception("Interval", interval, "overlaps with existing interval", self.items[-1])                            
-        self.items.append(interval)
+        Tier.append(self, interval)
         
     def find(self, time, offset=0):
-        """ Find the interval that covers a given time """
-        i = max(offset,0)
-        intl = self.items[i]
-        while time-intl.xmax>EPSILON:
-            i+=1
-            if i>=len(self.items):
+        """ Find the interval that covers a given time; if no interval does, return None """
+        for i in self.items[offset:]:
+            if i.xmin > time:
                 break
-            intl = self.items[i]
-        return intl
+            if i.xmax > time:
+                return i
     
     def findAsIndex(self, time, offset=0):
         """ Find the index of the interval that covers a given time """
@@ -747,17 +787,14 @@ class IntervalTier(Tier):
         return i
 
     def findBetween(self, start, end, offset=0):
-        """ Find the intervals bounded by given start and end times. """
-        i = max(offset,0)
-        intl = self.items[i]
+        """ Find the intervals bounded by [start, end). """
         out = []
-        while time-intl.xmax>EPSILON:
-            out.append(intl)
-            i+=1
-            if i>=len(self.items):
+        for i in self.items[offset:]:
+            if i.xmax>end:
                 break
-            intl = self.items[i]
-        return out        
+            if i.xmin>=start:
+                out.append(i)
+        return out       
 
     def findBetweenAsIndices(self, start, end, offset=0):
         """ Find indices of the intervals bounded by given start and end times. """
@@ -772,9 +809,20 @@ class IntervalTier(Tier):
             intl = self.items[i]
         return out
 
+    def average(self):
+        """ Average interval length """
+        t = self.items
+        return sum([p.xmax - p.xmin for p in t])/len(t)
+    def max(self):
+        t = self.items
+        return max([p.xmax - p.xmin for p in t])        
+    def min(self):
+        t = self.items
+        return min([p.xmax - p.xmin for p in t])
+
     def remove(self, interval):
         """ Remove an Interval instance from the interval tier."""
-        self.items.remove(interval)
+        Tier.remove(self, interval)
         
     def removeByIndex(self,intervalIndex):
         """ Remove an Interval from the interval tier by its index."""
@@ -787,7 +835,47 @@ class IntervalTier(Tier):
         for (item_a, item_b) in zip(self, self[1:]):
             if item_a.xmax != item_b.xmin:
                 item_b.xmin = item_a.xmax
+
+    def group(self, ptier, groupName):
+        """
+        Group consecutive intervals according to points in PointTier ptier.
+        Return a new IntervalTier named groupName. """
         
+        groups = IntervalTier(groupName, self.xmin, self.xmax)
+        b1 = Point(0,None)      # starting point
+        for b2 in ptier:
+            intl1 = self.items[intervals[0].index-1]
+            intl2 = self.items[intervals[-1].index+1]            
+
+            if w1.xmax - b1 < b1 - w1.xmin:
+                intervals = [w1]+intervals
+            if w2.xmax - b2 > b2 - w2.xmin:
+                intervals.append(w2)            
+            group = Interval(b1.time, b2.time, ' '.join([w.text for w in intervals]))         
+            for intl in intervals:
+                intl.links[ptier.name]=(b1, b2)
+                intl.links[groupName]=sph
+            groups.apend(sph)
+            b1=b2
+            intervals = self.findBetween(b1.time, b2.time, intervals[-1].index+1)
+        
+    # Fill in the gaps in an interval layer with empty text
+    def fix_gaps(self):
+        """ Fill the gaps in an interval tier with empty intervals. """     
+        gapEnd = 0
+        i = 0
+        while i<len(self.items):
+            interval = self.items[i]
+            if abs(interval.xmin-gapEnd)>EPSILON:
+                self.items.insert(i, Interval(gapEnd, interval.xmin, ""))
+                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+                i+=1
+            gapEnd = interval.xmax
+            i+=1
+        if abs(interval.xmax- self.xmax)>EPSILON:
+            self.append(Interval(interval.xmax, self.xmax, ""))
+            print("inserted at ", i, " ", interval.xmax, "-", self.xmax)
+        self.resetIndices()
             
     
 class Interval:
@@ -795,8 +883,9 @@ class Interval:
         self.xmin = xmin
         self.xmax = xmax
         self.text = text
+        self.index = None
     def __str__(self):
-        return "(" + str(self.xmin) + "," + str(self.xmax )+") " + self.text
+        return ' '.join(['['+str(self.index)+']', "(" + str(self.xmin) + "," + str(self.xmax )+") ", self.text])
     __repr__ = __str__
 
     def __eq__(self, other):
@@ -807,6 +896,9 @@ class Interval:
         f.write("            xmin = " + str(self.xmin) + "\n")
         f.write("            xmax = " + str(self.xmax) + "\n")
         f.write("            text = \"" + self.text + "\" \n")
+
+    def copy(self):
+        return cp.deepcopy(self)
                     
         
 
@@ -815,8 +907,9 @@ class Point:
     def __init__(self, time, mark):
         self.time = time
         self.mark = mark
+        self.index = None
     def __str__(self):
-        return str(self.time) + " " + self.mark
+        return ' '.join(['['+str(self.index)+']', str(self.time), self.mark])
     __repr__ = __str__
     #This __lt__ function is definend only for sorting purposes.
     #If we wish to expand for __gt__, __eq__, etc, we'll need to devote some thought to it,
@@ -836,14 +929,34 @@ class Point:
     
 
 
-    def setMarkFromList(self,list):
-        """Takes a list of landmarks, joins them with slashes, and sets the resulting string as the point's mark."""
-        mark = "/".join(list)
+    # def setMarkFromList(self,list):
+    #     """Takes a list of landmarks, joins them with slashes, and sets the resulting string as the point's mark."""
+    #     mark = "/".join(list)
 
     
     def writePoint(self,f):
         f.write("            number = " + str(self.time) + "\n")
         f.write("            mark = \"" + self.mark + "\" \n")
+
+    def copy(self):
+        return cp.deepcopy(self)
+
+    def dist_to(self, other, ref=None):
+        """
+        Return the distance from self to another item in terms of ref (negative if self comes later). If ref is None as defaulted, absolute
+        time is returned. If ref is a tier, the distance will be given as counts of items in that tier.
+        """
+        if not ref:
+            return other.time-self.time
+        else:
+            t1 = self.time
+            t2 = other.time
+            if t1>t2:
+                t2 = self.time
+                t1 = other.time                                
+            items = ref.find(t1, t2)
+            d = len(items)
+            return d*(t1<=t2)-d*(t1>t2)
     
 
 
