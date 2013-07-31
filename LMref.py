@@ -177,6 +177,16 @@ MUT_TYPE = '(x|\+)'
 MUT_SPEC = '(\-.+)'
 MUTATION = MUT_SPEC+'?\-'+MUT_TYPE
 
+def stdLM(label):
+    """ Given hand-labeled landmark, return the standard landmark with mutaiton markings preseved;
+    raise an exception if not parsable
+    """
+    m = label.strip()
+    lm = re.match(LANDMARK, m)
+    if not lm:
+        raise Exception("Cannot parse label %s", label)
+    n = lm_table[lm.group()]
+    return re.sub(LANDMARK, n, m, count=1)
 
 """
 TODO:
