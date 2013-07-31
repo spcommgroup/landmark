@@ -2,17 +2,20 @@ from ExtendedTextGrid import *
 
 # [Data Preparation]
 # Define file path here
-sourcetg = "C:\\Users\mz\Documents\\landmark\conv07.TextGrid"
-sourcepd = "C:\\Users\mz\Documents\\landmark\data\conv07g_RS.TextGrid"
-fname = "C:\\Users\mz\Documents\\landmark\data\conv07_ext.TextGrid"
+lankmark_file = "data\source\Conv07_choi_20130228_final.TextGrid"
+prosody_file = "data\source\conv07g_RS.TextGrid"
+fname = "data\processed\conv07.TextGrid"
 
 # Load file
-tg = ExtendedTextGrid(f=sourcetg)
+tg = ExtendedTextGrid(f=landmark_file)
+
+# Save as new file
 tg.saveAs(fname)
+
 ### Apply lexicon, predict landmarks, and unify landmark label format
 ##tg.putPhns()
 ##tg.predictLM()
-e=tg.convertLM(True)
+e=tg.convertLM(verbose=True)
 ### Convert words tier to context-rich objects
 ##tg.extendWords()
 ### Match landmarks with corresponding phones
