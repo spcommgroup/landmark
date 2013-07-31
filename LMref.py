@@ -244,23 +244,3 @@ def is_std(label):
         return True
     return False
      
-
-"""
-TODO:
-6. Alignment cost matrix
-"""
-
-
-
-# """
-# Rewrite lexicon to have lines from the conv01-16 lexicons
-# """
-
-# lexicon = {}
-
-# for i in range(1,17):
-#     conv_lex = open("../landmarks/matcher-data/conv{num:02d}g_lexicon.txt".format(num=i))
-#     for entry in conv_lex:
-#         if not entry.startswith(";;;"):
-#             word = entry.split()[0].lower()
-#             lexicon[word] = entry.strip("\n").lower()
