@@ -82,8 +82,8 @@ for entry in DICT:
 
 #print (lexicon)
 # Output File
-out=open("lexicon", 'wb')
-pickle.dump(lexicon, out)
+# out=open("lexicon", 'wb')
+# pickle.dump(lexicon, out)
 
 out.close()
 DICT.close()

@@ -62,8 +62,8 @@ def lexiconFromTier(wtier,filepath):
         if not entry.startswith(";;;"):
             word = entry.split()[0].lower()
             if word in vocab:
-                if not word in lexicon:
-                    lexicon[word.lower().strip("\t \" +?.'[],")] = entry.strip('\n').lower()
+                if not word in LMref.lexicon:
+                    LMref.lexicon[word.lower().strip("\t \" +?.'[],")] = entry.strip('\n').lower()
                 anomalies.remove(word)
                 my_lexicon[word.lower().strip("\t \" +?.'[],")] = entry.strip('\n').lower()
 
@@ -71,7 +71,7 @@ def lexiconFromTier(wtier,filepath):
 
     print("The following words were not found in the dictionary:")
     for word in anomalies:
-        if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
+        if not word.startswith("<") and not word.endswith(">") and not word in LMref.lexicon:
             print("\t"+word)
     if len(anomalies) > 0:
         fix = input("Fix anomalies now (yes/no)? ")
@@ -79,17 +79,17 @@ def lexiconFromTier(wtier,filepath):
         fix = "no"
     if fix.lower()!="no":
         for word in anomalies:
-            if not word.startswith("<") and not word.endswith(">") and not word in lexicon:
+            if not word.startswith("<") and not word.endswith(">") and not word in LMref.lexicon:
                 while True:
                     pron = input(word+": ")
                     if pron.startswith("!"): 
-                        if pron[1:] in lexicon:
-                            lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + " ".join(lexicon[pron[1:]].split()[1:])
+                        if pron[1:] in LMref.lexicon:
+                            LMref.lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + " ".join(LMref.lexicon[pron[1:]].split()[1:])
                             break
                         else:
                             print(pron[1:] + "not found in lexicon")  
                     elif pron:
-                        lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + pron.strip()
+                        LMref.lexicon[word.lower().strip("\t \" +?.'[],")]=word + "  " + pron.strip()
                         break
 
     lexpath = filepath[:-9]+ "_lexicon.txt"
@@ -97,7 +97,7 @@ def lexiconFromTier(wtier,filepath):
     out.write(";;; This lexicon is a subset of CMUdict containing words from "+filepath+"\n")
     out.write(";;; It was generated from the CMU dictionary file "+cmupath+"\n")
     for word in my_lexicon:
-        out.write(lexicon[word]+"\n")
+        out.write(LMref.lexicon[word]+"\n")
     out.close()
 
 def processFromPath(filename, filepath):
