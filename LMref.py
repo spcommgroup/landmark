@@ -1,14 +1,62 @@
 import pickle
-import LMdicParser
+import re
  
 
 """
-0. LMdicParser.LMdic maps phoneme transitions to landmarks
+0. Load predict_table which maps phoneme transitions to landmarks
+
+The input file follows the format:
+
+
+# - g       (+g)
+# - n       +g/+n/Nc
+...
+
+where the phenome pair and the prediction in each entry is seperated by tab(s).
+Extra spaces and '\n' are allowed.
 """
-predict_table = LMdicParser.LMdic
+LMs = [
+'V',  #vowel LM      energy peak
+'G',  #glide LM        energy dip
+'Nc',  #nasal closure LM      abrupt onset of nasal
+'Nr',  #nasal release LM      abrupt offset of nasal
+'Fc',  #fricative closure LM    abrupt onset of frication
+'Fr',  #fricative release LM    abrupt offset of frication
+'Sc',  #stop closure LM      cessation of vocal tract activity due to oral closure
+'Sr',  #stop release LM      abrupt release of burst energy due to oral release
+##'Tn',  #stridency onset LM    onset of stridency
+##'Tf',  #stridency offset LM    offset of stridency
+
+    #(other possible types not dealt with here include abrupt onset and offset of liquids)
+
+'Lc',  #liquid closure LM      abrupt onset of liquid
+'Lr',  #liquid release LM      abrupt offset of liquid
+]
+
+
+source = "phn_trans_to_lm.txt"
+table = open(source,'r')
+classes = ['#','v','g','n','fu','fn','fs','s','a']
+predict_table = {}
+for c in classes:
+    predict_table[c] = {}
+    
+for line in table:
+    line = line.strip('\n')
+    if line!='':
+        entry = re.split('\s*//\s*', line)[0].split('\t')
+        f,a,t = entry[0].split()
+        if len(entry)>1:
+            lm = entry[1]
+        else:
+            lm = ''
+        if f not in classes or t not in classes:
+            print("Unknown phoneme class ", f)
+        else:
+            predict_table[f][t]=lm
 
 """ 1. Pronouncing Dictionary """
-# Input Dictionary (pickled python dictionary, produced by LMdicParser.py)
+# Input Dictionary (pickled python dictionary, produced by predict_tableParser.py)
 lexicon_file = "lexicon"
 lexicon = pickle.load(open(lexicon_file,'rb'))
 
@@ -166,7 +214,6 @@ for key in lm_table_rev:
         lm_table[value]=key
 
 # Standard format of landmark label specified in regex
-import re
 expected = list(lm_table.keys())
 expected.sort(key=len)
 # "x-cl" landmarks need to be put in the front since re "|" operator
@@ -178,7 +225,7 @@ MUT_SPEC = '(\-.+)'
 MUTATION = MUT_SPEC+'?\-'+MUT_TYPE
 
 STD_LM = '|'.join(['('+re.escape(k)+')' for k in lm_table_rev.keys()])
-STD = STD_LM+'('+MUTATION+')?'
+STD_LABEL = STD_LM+'('+MUTATION+')?'
 
 def stdLM(label):
     """ Given hand-labeled landmark, return the standard landmark with mutaiton markings preseved;
@@ -193,7 +240,7 @@ def stdLM(label):
 
 def is_std(label):
     """ Check if given label is in standard landmark format. """
-    if re.match(STD, label):
+    if re.match(STD_LABEL, label):
         return True
     return False
      
