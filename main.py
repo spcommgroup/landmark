@@ -2,7 +2,7 @@ from ExtendedTextGrid import *
 
 # [Data Preparation]
 # Define file path here
-lankmark_file = "data\source\Conv07_choi_20130228_final.TextGrid"
+landmark_file = "data\source\Conv07_choi_20130228_final.TextGrid"
 prosody_file = "data\source\conv07g_RS.TextGrid"
 fname = "data\processed\conv07.TextGrid"
 
