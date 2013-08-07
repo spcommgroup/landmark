@@ -7,6 +7,7 @@ Combines the functionality of generatePhonesTier.py, saveTierAsLM.py, and Lexico
 4. Saves lexicon as _lexicon.txt
 """
 import sys, logging, pickle
+from lexiconToLMTypes import *
 # Require Python 3.x
 if sys.version_info[0] < 3:
     print("Error: The TextGrid processor requires Python 3.0 or above. Exiting.\n")
@@ -14,7 +15,7 @@ if sys.version_info[0] < 3:
 
 #This will crash on python 2.x so it has to go below the version test
 from ExtendedTextGrid import *
-
+ 
 
 def findWordsTier(tg, filename):
     wtier = None
@@ -100,19 +101,53 @@ def lexiconFromTier(wtier,filepath):
         out.write(LMref.lexicon[word]+"\n")
     out.close()
 
+def generateLandmarkTier(phonetier):
+    import phones_to_landmarks_dict
+    d = phones_to_landmarks_dict.c
+    
+    lmtier = PointTier(name="LM", xmin = 0, xmax=phonetier.xmax)
+    
+    for interval in phonetier:
+        try:    
+            # non-words
+            phone = interval.text.lower().strip("\t \" +?.'[],012")     # ignore uncertainty marks
+            if not ('<' in phone or '>' in phone or phone=='' or phone=="#"):    
+                lms=d[phone]
+                duration = (interval.xmax-interval.xmin)/len(lms)    # duration of each phoneme
+
+                # Find phoneme positions
+                n = 0
+                sn = 0
+                prevType = None
+                
+                for i in range(len(lms)):
+                    lm = lms[i]
+                    if len(lms)==1: #Single LM (V or glide)
+                        i = .5 #Put LM in middle of phone
+                    time_of_lm= interval.xmin+i*duration   # start time of current phoneme                                    
+                    lm_point = Point(time_of_lm, lm)
+                    lmtier.append(lm_point)    
+        except KeyError:       # ignore (but print) unrecognized phones
+            print('Cannot parse word interval:', interval.text)
+    return lmtier
+def extendLexicon(filename):
+    pass
+
 def processFromPath(filename, filepath):
     tg = ExtendedTextGrid(f=filepath)
     tg.oprint = False
 
     wtier = findWordsTier(tg, filename)
 
-    saveTierAsLM(wtier,"words", filepath)
+    # saveTierAsLM(wtier,"words", filepath)
 
-    lexiconFromTier(wtier, filepath)
+    # lexiconFromTier(wtier, filepath)
 
-    tg.putPhns(wtier.name, "gen_phones")
+    tg.predictPhns(wtier.name, "gen_phones")
 
-    saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
+    saveTierAsLM(generateLandmarkTier(tg.get_tier("gen_phones")), "landmarks", filepath)
+
+    # saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
 
 if __name__ == "__main__":
     # for i in range(1, 17):

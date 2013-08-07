@@ -153,7 +153,7 @@ class ExtendedTextGrid(TextGrid):
         
     def putPhns(self, wtier="words", newname="phones"):
         """backwards compatibility"""
-        predictPhns(self, wtier, newname)
+        self.predictPhns(self, wtier, newname)
         
         
     
