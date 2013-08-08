@@ -1,5 +1,6 @@
 """
 - Minshu Zhan 2013 August
+>>>>>>> 9acce8c07c2bf9ac45a46aacb78fd63aecf8ebed
 [Usage]
 1) Read file
     - .textgrid (praat) file: ExtendedTextGrid('conv07.textgrid')
@@ -18,8 +19,10 @@ named "Words", "Landmarks", "Comments" respectively):
 """
 
 from TGProcess import *
-import pickle
+import pickle, logging
 import LMref
+
+logging.basicConfig(filename="log.txt", level=logging.WARNING)
 
 
 class ExtendedTextGrid(TextGrid):
@@ -67,8 +70,9 @@ class ExtendedTextGrid(TextGrid):
         params = data[0].keys()
 
         header = '\t'.join(params)+'\n'
+        param_types = '\t'.join(['discrete']*len(params))+'\n'
 
-        f.write(header)
+        f.write(header+param_types)
         f.write('\n'.join(['\t'.join(e.values()) for e in data]))
         f.close()
 
@@ -87,7 +91,7 @@ class ExtendedTextGrid(TextGrid):
         "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
         text = self.get_tier('words')
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
-        phn_tier = IntervalTier(name="phones", xmin = 0, xmax=text.xmax)
+        phn_tier = IntervalTier(name=newname, xmin = 0, xmax=text.xmax)
         
         for interval in text:
             try:    
@@ -135,9 +139,11 @@ class ExtendedTextGrid(TextGrid):
                         
             except:       # treat non-recognizable words as silences
                 print('Cannot parse word interval:', interval)
+                logging.warning("Cannot parse word interval: "+str(interval)+" from "+self.fname)
                 cur_phn = Phoneme(interval.xmin, interval.xmax)
                 phn_tier.items.append(cur_phn)      # update "phoneme" tier
                 prev_phn = cur_phn
+        phn_tier.fixIntervalSpaces()
         self.append(phn_tier)
         # Put in another tier showing syllabic positions of phonemes
 ##        position = IntervalTier(name = 'syll. pos.', xmin=self.xmin, xmax=self.xmax)
@@ -728,9 +734,15 @@ class LMPoint(Point):
             pass
         return c
             
-        
 
-
+        phones = c.links['phones']
+        if phones: 
+            [c.extend(phn.context().items()) for phn in self.links['phones']]
+        else:
+            # TODO: guess context for un-aligned landmark
+            pass
+        return c
+            
     
 class LMTier(PointTier):
     """ Class Invariant - All items must be LMPoint instances """
@@ -807,8 +819,6 @@ class LMTier(PointTier):
                 link = link+1
             offset = link
             p.links[pTier.name] = link
-            
-            
         
     def links(self, tname):
         """ Return a tier representation of landmarks' links to another tier."""
@@ -937,11 +947,3 @@ class Phrase(Interval):
         self.dialogFreq = None
         # Grammatical Constituent (string)  
         self.gramConst = None       # Need additional information
-
-
-        
-
-    
-               
-            
-        

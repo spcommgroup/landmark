@@ -56,14 +56,16 @@ for line in table:
         else:
             predict_table[f][t]=lm
 
-
-
-
-
 """ 1. Pronouncing Dictionary """
 # Input Dictionary (pickled python dictionary, produced by predict_tableParser.py)
 lexicon_file = "lexicon"
 lexicon = pickle.load(open(lexicon_file,'rb'))
+
+with open("cmudict.0.7a") as f:
+    for entry in f:
+        if not entry.startswith(";;;"):
+            word = entry.split()[0].lower()
+            lexicon[word] = entry.strip("\n").lower()
 
 ## Adaptations of the lexicon for unusual pronounciations and absent entries in cmudict
 # conversation 1
@@ -77,15 +79,18 @@ lexicon["i'zh---"]='i\'zh--- ay1 zh'
 
 # conversation 2
 lexicon['waterhole']='waterhole w ao1 t er0 hh ow1 l'
-lexicon['anywhere-']=lexicon['anywhere']
-# (to be continued...)
+lexicon['anywhere-']='anywhere EH N IY W EH R'.lower()
+lexicon['so     so']='so_so s ow s ow'
+lexicon['actu[ally']='actu[ally] ae k ch uw'
+lexicon['grad[ual']='grad[ual] g r ae jh'
+lexicon['bout'] = '\'bout b aw t'
 
 # conversation 3
 lexicon['i bet']='i_bet ay1 b eh1 t'
 lexicon['kind of']='kind_of k ay1 n d ah1 v'
 lexicon['r-']='r- r'
 lexicon['left-']=lexicon['left']
-lexicon['carved-']=lexicon['carved']
+lexicon['carved-']='carved K AA R V D'.lower()
 lexicon['to-']=lexicon['to']
 lexicon['o']='o aa1'
 lexicon['in the']='in_the ih1 n dh ah0'
@@ -188,12 +193,12 @@ See "ref\Relating manual landmark labels with predicted landmark labels.docx"
 lm_table_rev = {
     'Nc':['m-cl', 'n-cl', 'ng-cl'],
     'Nr':['m', 'n', 'ng'],
-    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl'], 
+    'Fc':['f-cl', 'th-cl', 's-cl', 'sh-cl', 'v-cl', 'dh-cl', 'z-cl', 'zh-cl'],
     'Fr':['f', 'th', 's', 'sh', 'v', 'dh', 'z', 'zh', 'ch2', 'jh2','dj2','j2'],
 #    'Tn' : ['s-cl', 'sh-cl', 'z-cl', 'zh-cl'],
 #    'Tf': ['s', 'sh', 'z', 'zh'],
     'Sc' : ['p-cl', 't-cl', 'k-cl', 'b-cl', 'd-cl', 'g-cl', 'ch-cl', 'jh-cl', 'dj-cl','j-cl'],
-    'Sr' : ['p', 't', 'k', 'b', 'd', 'g'],
+    'Sr' : ['p', 't', 'k', 'b', 'd', 'g'],     
     'Sr/Fc': ['ch1', 'jh1', 'dj1', 'j1'],
     'Gc' : ['w-cl', 'y-cl', 'r-cl', 'l-cl', 'h-cl'],
     'G' : ['w', 'y', 'r', 'l', 'h'],
@@ -201,7 +206,7 @@ lm_table_rev = {
     '+g':['+g'],
     '-g':['-g'],
     '+n':['+n'],
-    '-n':['-n'],    
+    '-n':['-n'],
     }
 
 lm_table={}
@@ -223,7 +228,6 @@ MUTATION = MUT_SPEC+'?\-'+MUT_TYPE
 STD_LM = '|'.join(['('+re.escape(k)+')' for k in lm_table_rev.keys()])
 STD_LABEL = STD_LM+'('+MUTATION+')?'
 
-
 def stdLM(label):
     """ Given hand-labeled landmark, return the standard landmark with mutaiton markings preseved;
     raise an exception if not parsable
@@ -241,5 +245,3 @@ def is_std(label):
         return True
     return False
      
-
-
