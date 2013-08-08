@@ -440,16 +440,17 @@ class PointTier(Tier):
             self.append(point)            
             return
 
-        pos = self.findLastAsIndex(point.time)
+        concur = self.find(point.time)
+##        print(point, self.find(point.time))
 
-        if self.items[pos+1].time==point.time:            
+        if concur:            
             ## this happens mainly when merging landmarks from the landmark tier and comments tier;
             ## only one of the points with identical times can be displayed in Praat, but both exist
             ## in the textgrid object
             ## TODO: a better way?
             point.time+=EPSILON
-            print("WARNING: inserted point ",point,"overlaps with existing point", self.items[pos+1])            
-        self.items.insert(pos+1, point)
+            print("WARNING: inserted point ",point,"overlaps with existing point", concur)            
+        self.items.insert(concur.index+1, point)
         self.resetIndices()
 
     def insertSameTime(self, points, dt_max=.001):

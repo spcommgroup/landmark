@@ -223,15 +223,16 @@ class ExtendedTextGrid(TextGrid):
             if p.text==delimiter:
                 smax = (p.xmax+p.xmin)/2     # midpoint of boundary silence interval                
                 if smax>smin:                 
-                    section = target_tier.findAsIndexRange(smin, smax)
-                    sections+=[section]
+                    section = target_tier.findBetween(smin, smax)
+                    if len(section)>0:
+                        sections+=[(section[0].index,section[-1].index)]
                 smin = smax
             else:
                 smax = p.xmax
-        if smax>smin:            
-            section = target_tier.findAsIndexRange(smin, smax)
-
-            sections+= [section]
+        if smax>smin:                 
+            section = target_tier.findBetween(smin, smax)
+            if len(section)>0:
+                sections+=[(section[0].index,section[-1].index)]
         return sections
 
     def linkToWords(self):
@@ -769,7 +770,7 @@ class LMTier(PointTier):
         offset = 0      # moving start of search
         for p in self.items:
             prev = iTier.find(p.time-delta, offset)    # for concurrent points
-            offset = succ.index
+            offset = prev.index
             succ = iTier.find(p.time+delta, offset)
             p.links[iTier.name] = (prev, succ)
 
