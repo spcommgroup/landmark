@@ -327,7 +327,6 @@ class TextGrid:
                     continue
         for t in self.tiers:
             t.resetIndices()
-
         if self.oprint:
             print("Constructed new",self)
 
@@ -342,7 +341,6 @@ class TextGrid:
                 t = tier
         print('Found', t)
         return t        
-
 
 
     def sample(self, end, start = 0):
@@ -703,7 +701,6 @@ class IntervalTier(Tier):
         """Insert an interval to the Tier."""
         if not isinstance(interval, Interval):
             raise Exception("Not an Interval instance: ", interval)
-
         if interval.xmax>self.xmax+EPSILON or interval.xmin<self.xmin-EPSILON:
             raise Exception("Interval", interval, "exceeded tier boundary.")
         
@@ -718,7 +715,6 @@ class IntervalTier(Tier):
                 break
             if i.xmax > time:
                 return i
-   
 
     def findBetween(self, start, end, offset=0):
         """ Find the intervals bounded by [start, end). """
@@ -728,7 +724,6 @@ class IntervalTier(Tier):
                 break
             if i.xmin>=start:
                 out.append(i)
-
         return out       
 
     def findBetweenAsIndices(self, start, end, offset=0):
@@ -794,6 +789,7 @@ class IntervalTier(Tier):
             b1=b2
             intervals = self.findBetween(b1.time, b2.time, intervals[-1].index+1)
         
+
     # Fill in the gaps in an interval layer with empty text
     def fix_gaps(self):
         """ Fill the gaps in an interval tier with empty intervals. """     
@@ -811,7 +807,6 @@ class IntervalTier(Tier):
             self.append(Interval(interval.xmax, self.xmax, ""))
             print("inserted at ", i, " ", interval.xmax, "-", self.xmax)
         self.resetIndices()
-
     
 class Interval:
     def __init__(self, xmin, xmax, text):     
@@ -833,7 +828,6 @@ class Interval:
         f.write("            text = \"" + self.text + "\" \n")
     def copy(self):
         return cp.deepcopy(self)
-        
 
 
 class Point:
@@ -860,7 +854,6 @@ class Point:
             return False
         return abs(self.time-other.time)<EPSILON and (self.mark==other.mark)
     
-
     def writePoint(self,f):
         f.write("            number = " + str(self.time) + "\n")
         f.write("            mark = \"" + self.mark + "\" \n")
