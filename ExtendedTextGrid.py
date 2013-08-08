@@ -56,7 +56,7 @@ class ExtendedTextGrid(TextGrid):
         f = open(self.fname+'.tab', 'w')
         phns = self.get_tier('phones')
         words = self.get_tier('Words')
-        result = [self.get_tier('Preserved'), self.get_tier('Deleted'), self.get_tier('Inserted'), self.get_tier('Mutated')]
+        changes = [self.get_tier('Preserved'), self.get_tier('Deleted'), self.get_tier('Inserted'), self.get_tier('Mutated')]
         data = []
         for change in changes:
             for point in change:
@@ -66,7 +66,7 @@ class ExtendedTextGrid(TextGrid):
 
         params = data[0].keys()
 
-        header = '\t'.join(params)
+        header = '\t'.join(params)+'\n'
 
         f.write(header)
         f.write('\n'.join(['\t'.join(e.values()) for e in data]))
@@ -218,21 +218,30 @@ class ExtendedTextGrid(TextGrid):
         smax = 0
         target_tier=self.get_tier(target)
         ref_tier = self.get_tier(reference)
+
+        offset = 0
         
         for p in ref_tier:            
             if p.text==delimiter:
                 smax = (p.xmax+p.xmin)/2     # midpoint of boundary silence interval                
                 if smax>smin:                 
-                    section = target_tier.findBetween(smin, smax)
-                    if len(section)>0:
-                        sections+=[(section[0].index,section[-1].index)]
+                    section = target_tier.findBetween(smin, smax, offset)
+                    if len(section)==0:
+                        section = (offset, offset)
+                    else:
+                        section = (section[0].index, section[-1].index)
+                    sections.append(section)
+
                 smin = smax
             else:
                 smax = p.xmax
         if smax>smin:                 
-            section = target_tier.findBetween(smin, smax)
-            if len(section)>0:
-                sections+=[(section[0].index,section[-1].index)]
+            section = target_tier.findBetween(smin, smax, offset)
+            if len(section)==0:
+                section = (offset, offset)
+            else:
+                section = (section[0].index, section[-1].index)
+            sections.append(section)
         return sections
 
     def linkToWords(self):
@@ -385,7 +394,7 @@ class ExtendedTextGrid(TextGrid):
         for s in range(len(psections)):
             s1,e1 = psections[s]
             s2,e2 = osections[s]
-            print("Aligning section", s, ', from', s1, p[s1], '/', s2, o[s2], 'to', e1-1, p[e1-1], '/',e2-1, o[e2-1])
+            print("Aligning section", s, ', from', p[s1], '/', o[s2], 'to', p[e1-1], '/', o[e2-1])
             result = alignSection(p, s1,e1, o, s2, e2)
             for i in range(len(stat_keys)):
                 stat[stat_keys[i]].append(result[i])
@@ -408,31 +417,40 @@ class ExtendedTextGrid(TextGrid):
 
         for label in p:
             x = label.copy()
+            # Corresponding predicted landmark
             x.links[p.name]=label
             # todo: merge context links from the observed lm
             if not x.counterLM:
-                x.links[o.name]=None
-##                print('unlabeled deletion',x)
+                # Unlabeled deletion
+##                x.links[o.name]=None
                 dlt.insert(x)
             else:
+                # Corresponding observed landmark
                 x.links[o.name]=x.counterLM
+                # Merge links
+                x.links = dict(list(x.links.items()) + list(x.counterLM.links.items()))
                 m = x.counterLM.mark
+                # Preservation
                 if m==x.mark:
                     prs.insert(x)
+                # Labeled deletion
                 elif m==x.mark+'-x':
 ##                    print('labeled deletion',x)
                     dlt.insert(x)
+                # Mutation
                 else:
                     mut.insert(x)
 ##                    if m[-1] in ['+', 'x', '?']:
 ##                        print('WARNING: may not be real mutation',x,'->',x.counterLM)
 
         for label in o:
+            # Insertion
             x = label.copy()
             x.links[o.name]=label
-            x.links[p.name]=None            
+##            x.links[p.name]=None            
             if not x.counterLM:
-                ins.insert(x)                
+                ins.insert(x)
+                # Deletion label marked as insertion
                 if x.mark[-1]=='x':
                     print('WARNING: cannot find landmarked marked as deleted by',x)
         for t in [prs, dlt, ins, mut]:
@@ -470,6 +488,9 @@ class ExtendedTextGrid(TextGrid):
         # Align predicted and observed landmarks
         self.alignLM()
 
+        # Extract contextual info
+        self.extractContext()
+        
         # Produce alignment results (preservations, insertions, deletions, mutations) as LMTier instances
         self.summarize()
             
@@ -641,17 +662,14 @@ class ExtendedTextGrid(TextGrid):
     def extractContext(self):
         """ Main function to associate landmarks with contex tiers; overwrite previous runs """
         p = self.get_tier("Predicted")
-        d = self.get_tier("Deleted")
-        i = self.get_tier("Inserted")
-        m = self.get_tier("Mutated")
-        summary = p.merge(d).merge(i).merge(m)
+        o = self.get_tier("observed")
         
         # TODO: phrase-subphrase-word-phoneme hierarchy relative positions
-       
+        p.linkToIntervalTier(self.get_tier('phones'))
         
         # TODO: prosody markings associated with different tiers
-        self.extractBreaks()
-        self.extractTones()        
+##        self.extractBreaks()
+##        self.extractTones()        
        
 
             
@@ -698,9 +716,13 @@ class LMPoint(Point):
         c = {}
         c['name']=re.match(LMref.STD_LM, self.mark).group()
 
-        phones = c.links['phones']
-        if phones: 
-            [c.extend(phn.context().items()) for phn in self.links['phones']]
+        if 'phones' in self.links:
+            phones = self.links['phones']            
+            phn1, phn2 = phones
+            for k,v in phn1.context().items():
+                c['phone1-'+k]=v
+            for k,v in phn2.context().items():
+                c['phone2-'+k]=v
         else:
             # TODO: guess context for un-aligned landmark
             pass
@@ -835,9 +857,9 @@ class Phoneme(Interval):
         c = {}
         c['manner class']=self.manner
         c['type']= self.type
-        c['stress']=self.stress
-        c['number']=self.number
-        c['subnumber']=self.subnumber
+        c['stress']=str(self.stress)
+        c['number']=str(self.number)
+        c['subnumber']=str(self.subnumber)
 
         # TODO: association with breaks and tones
         
