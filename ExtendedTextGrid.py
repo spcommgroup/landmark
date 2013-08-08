@@ -1,6 +1,5 @@
 """
 - Minshu Zhan 2013 August
->>>>>>> 9acce8c07c2bf9ac45a46aacb78fd63aecf8ebed
 [Usage]
 1) Read file
     - .textgrid (praat) file: ExtendedTextGrid('conv07.textgrid')
@@ -91,7 +90,7 @@ class ExtendedTextGrid(TextGrid):
         "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
         text = self.get_tier('words')
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
-        phn_tier = IntervalTier(name=newname, xmin = 0, xmax=text.xmax)
+        phn_tier = IntervalTier(name='phones', xmin = 0, xmax=text.xmax)
         
         for interval in text:
             try:    
