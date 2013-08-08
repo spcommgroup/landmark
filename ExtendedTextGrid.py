@@ -1,19 +1,19 @@
 """
-- Minshu Zhan 2013 July
+- Minshu Zhan 2013 August
 [Usage]
 1) Read file
-    - .textgrid (praat) file: ExtendedTextGrid(f='conv07.textgrid')
+    - .textgrid (praat) file: ExtendedTextGrid('conv07.textgrid')
     - .pkl (TextGrid python object) file: ExtendedTextGrid.readObject('conv07.pkl')
 2) Predict landmarks and align: given words, hand-labeled landmarks, and comments (presumbly 
 named "Words", "Landmarks", "Comments" respectively):
     - Run tg.prepare()
 3) Extract context information
     - Run tg.extractContext() 
-6) Save
+4) Save data
     - tg.save()
     - tg.writeGridToPath('conv07')  textgrid file only
     - alias: tg.saveAs('conv07')    save under a new name (no extension)
-7) Write out context in a tab-delimited format that can be parsed by orange
+5) Write out context in a tab-delimited format that can be parsed by orange
     - tg.saveTab()
 """
 
