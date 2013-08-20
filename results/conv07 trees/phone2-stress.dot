@@ -1,0 +1,11 @@
+digraph G {
+"bg==" [ shape=ellipse label="phone2-stress"]
+"bg==" -> "bi0w" [ label="-1" ]
+"bi0w" [ shape=box label="Preserved (77.07%)"]
+"bg==" -> "bi0x" [ label="0" ]
+"bi0x" [ shape=box label="Preserved (79.93%)"]
+"bg==" -> "bi0y" [ label="1" ]
+"bi0y" [ shape=box label="Preserved (88.65%)"]
+"bg==" -> "bi0z" [ label="2" ]
+"bi0z" [ shape=box label="Preserved (63.64%)"]
+}

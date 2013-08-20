@@ -1,6 +1,6 @@
 phone1-manner class	phone2-type	phone2-subnumber	phone2-manner class	outcome	name	phone1-subnumber	phone2-number	phone2-stress	phone1-stress	phone1-type	phone1-number
 discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete
-											
+				class
 v	a	1	s	Preserved	V	1	1	-1	2	n	1
 v	a	1	s	Preserved	Sc	1	1	-1	2	n	1
 s	n	1	v	Preserved	Sr	1	2	1	-1	a	1
