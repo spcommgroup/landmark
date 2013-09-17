@@ -13,8 +13,8 @@ v - v 	V
 v - g 	V
 v - n 	V, Nc
 v - fu	V, Fc
-v 每 fn	V, Fc
-v 每 fs	V, Fc/Tn
+v 穡C fn	V, Fc
+v 穡C fs	V, Fc/Tn
 v - s 	V, Sc
 v - a
 
@@ -22,9 +22,9 @@ g - # 	G
 g - v 	G
 g - g 	G
 g - n 	G, Nc
-g 每 fu	G, Fc
-g 每 fn	G, Fc
-g 每 fs	G, Fc/Tn
+g 穡C fu	G, Fc
+g 穡C fn	G, Fc
+g 穡C fs	G, Fc/Tn
 g - s 	G, Sc
 g - a	G, Sc, Sr, Fc
 
@@ -32,49 +32,49 @@ n - # 	Nr
 n - v 	Nr
 n - g 	Nr
 n - n 					// but (Nr, Nc) may be possible for different places
-n 每 fu	Nr, Fc
-n 每 fn	Nr, Fc
-n 每 fs	Nr, Fc/Tn
+n 穡C fu	Nr, Fc
+n 穡C fn	Nr, Fc
+n 穡C fs	Nr, Fc/Tn
 n - s 	Nr, Sc
 n - a	Nr, Sc, Sr, Fc
 
 fu - #	Fr
-fu 每 v	Fr
-fu 每 g	Fr
-fu 每 n	Fr,Nc
-fu 每 fu				// but (Fr/(+/-g)/Fc) may be possible for different places
+fu 穡C v	Fr
+fu 穡C g	Fr
+fu 穡C n	Fr,Nc
+fu 穡C fu				// but (Fr/(+/-g)/Fc) may be possible for different places
 fu - fn	Fr/Fc			// a change from unmarked for stridency to [-strid]
-fu 每 fs	Fr/Fc/Tn
-fu 每 s	Fr, Nc
-fu 每 a	Fr/Sc, Sr, Fc
+fu 穡C fs	Fr/Fc/Tn
+fu 穡C s	Fr, Nc
+fu 穡C a	Fr/Sc, Sr, Fc
 
 fn - #	Fr
-fn 每 v	Fr
-fn 每 g	Fr
-fn 每 n	Fr, Nc
-fn 每 fu	Fr/Fc			// a change from [-strid] to unmarked for stridency
-fn 每 fn				// but (Fr/(+/-g)/Fc) may be possible for different places
-fn 每 fs	Fr/Fc/Tn
-fn 每 s	Fr,Nc
-fn 每 a	Fr/Sc, Sr, Fc
+fn 穡C v	Fr
+fn 穡C g	Fr
+fn 穡C n	Fr, Nc
+fn 穡C fu	Fr/Fc			// a change from [-strid] to unmarked for stridency
+fn 穡C fn				// but (Fr/(+/-g)/Fc) may be possible for different places
+fn 穡C fs	Fr/Fc/Tn
+fn 穡C s	Fr,Nc
+fn 穡C a	Fr/Sc, Sr, Fc
 
 fs - #	Fr/Tf
-fs 每 v	Fr/Tf
-fs 每 g	Fr/Tf
-fs 每 n	Fr/Tf,Nc
-fs 每 fu	Fr/Tf/Fc		// a change from [+strid] to unmarked for stridency
-fs 每 fn	Fr/Tf/Fc		// a change from [+strid] to [-strid]
-fs 每 fs		 		// but (Fr/(+/g)/Fc) may be possible for differenct places
-fs 每 s	Fr/Tf,Nc
-fs 每 a	Fr/Tf/Sc, Sr, Fc
+fs 穡C v	Fr/Tf
+fs 穡C g	Fr/Tf
+fs 穡C n	Fr/Tf,Nc
+fs 穡C fu	Fr/Tf/Fc		// a change from [+strid] to unmarked for stridency
+fs 穡C fn	Fr/Tf/Fc		// a change from [+strid] to [-strid]
+fs 穡C fs		 		// but (Fr/(+/g)/Fc) may be possible for differenct places
+fs 穡C s	Fr/Tf,Nc
+fs 穡C a	Fr/Tf/Sc, Sr, Fc
 
 s - # 	Sr
 s - v 	Sr			// Sr and (+g) time difference = VOT
 s - g 	Sr
 s - n 	Sr, Nc
-s 每 fu	Sr/Fc
-s 每 fn	Sr/Fc
-s 每 fs	Sr/Fc/Tn
+s 穡C fu	Sr/Fc
+s 穡C fn	Sr/Fc
+s 穡C fs	Sr/Fc/Tn
 s - s 	Sr/Sc		hot dog
 s - a	Sr/Sc, Sr, Fc	// cold juice
 
@@ -82,9 +82,9 @@ a - # 	Fr
 a - v 	Fr
 a - g 	Fr
 a - n 	Fr, Nc
-a 每 fu	Fr/Fc
-a 每 fn	Fr/Fc
-a 每 fs	Fr/Fc/Tn
+a 穡C fu	Fr/Fc
+a 穡C fn	Fr/Fc
+a 穡C fs	Fr/Fc/Tn
 a - s 	Fr/Sc		// church bell
 a - a	Fr/Sc, Sr, Fc
 
