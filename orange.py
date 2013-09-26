@@ -4,13 +4,50 @@ print "DONE"
 import os
 from subprocess import call
 
-data = Orange.data.Table("data/source/Conv07_choi_20130228_final.tab")
+input_tab = "data/source/Conv07_choi_20130228_final.tab"
+data = Orange.data.Table(input_tab)
 # tree = Orange.classification.tree.TreeLearner(data)
 
 all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber", 
                   "phone2-manner class", "outcome", "name", "phone1-subnumber",
                   "phone2-number", "phone2-stress", "phone1-stress",
                   "phone1-type", "phone1-number"]
+
+def readTab(file_name):
+    """Reads a .tab file into a 2D array. Separates meta info from data."""
+    data = []
+    meta = []
+    l=0
+    for line in open(file_name):
+        if l<3:
+            meta.append(line.strip("\n").split("\t"))
+        else:
+            if len(line.strip("\n").split("\t")) == len(meta[0]):
+                data.append(line.strip("\n").split("\t"))
+        l += 1
+    return (meta, data)
+
+def saveTab((meta, data), file_name):
+    output = ""
+    meta.extend(data)
+    for line in meta:
+        output += "\t".join(line) + "\n"
+    f = open(file_name, "w")
+    f.write(output)
+    f.close()
+    return file_name
+
+def combineMedialCategory(input_filename=input_tab):
+    (meta,data) = readTab(input_filename)
+    columns = [meta[0].index("phone2-type"), meta[0].index("phone1-type")]
+    for line in data:
+        for column in columns:
+            if line[column] in "na":
+                line[column] = "m"
+
+    output_filename = input_filename[:-4]+"_combineMedialCategory.tab"
+    saveTab((meta, data), output_filename)
+    return output_filename;
 
 def segmental_context():
     """This shows the distribution of LM preservations/deletions depending on 
@@ -25,7 +62,7 @@ def segmental_context():
         attributes_names = filter(lambda x: x.startswith(phone), all_attributes) + ["outcome"]
         save_path = os.path.join("results", "conv07 trees", phone)
         tree_file_name = phone + "-all.dot" #will also save a .png with the same name
-        make_tree_from_attributes(attributes_names, save_path, tree_file_name)
+        make_tree_from_attributes(attributes_names, save_path, tree_file_name, modified_data)
 
 def word_position():
     """This shows the distribution depending on where in the word this LM is: 
@@ -34,11 +71,17 @@ def word_position():
     a {m} (=medial) category, and use this new .tab file to run the 
     program again."""
 
+    input_without_inserted = saveTab(readTab(input_tab), input_tab[:-4]+"_withoutInserted.tab")
+    data_without_inserted = Orange.data.Table(input_without_inserted)
+
     attributes_names = filter(lambda x: x.endswith("type"), all_attributes) + ["outcome"]
     save_path = os.path.join("results", "conv07 trees", "word_position")
     tree_file_name = "word-position.dot" #will also save a .png with the same name
-    make_tree_from_attributes(attributes_names, save_path, tree_file_name)
     
+    make_tree_from_attributes(attributes_names, save_path, tree_file_name)
+
+    modified_data = Orange.data.Table(combineMedialCategory(input_without_inserted))
+    make_tree_from_attributes(attributes_names, save_path, "word-pos-with-m.dot", modified_data)
     # for entry in data:
     #     for attribute in entry:
 
@@ -79,4 +122,6 @@ def make_tree_from_attributes(attributes_names, outpath, tree_file_name, data=da
 #         call(["dot","-Tpng",file_name,"-o",file_name[:-3]+"png"])
 #         print "Saved", file_name[:-3]+"png"
 
-segmental_context()
+# word_position()
+
+word_position()
