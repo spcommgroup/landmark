@@ -79,6 +79,8 @@ class ExtendedTextGrid(TextGrid):
     def extendWords(self):
         "Change all Interval instances in 'words' tier into Word instances  " 
         words = self.get_tier('words')
+        if words == None:
+            words = self.get_tier('word')
         new_words = IntervalTier('words', self.xmin, self.xmax)
         for w in words:
             new_words.append(Word(w.xmin, w.xmax, w.text))
@@ -159,9 +161,14 @@ class ExtendedTextGrid(TextGrid):
         (See 'Relating manual landmark labels with predicted landmark labels' in reference folder.)
         Return the unconverted points.
         """
-        
-        old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
-        old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
+        if self.get_tier('landmarks'):
+            old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
+        elif self.get_tier('LM'):
+            old_lms = LMTier.lmTier(self.get_tier('LM')).splitLMs()
+        if self.get_tier('comments'):
+            old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
+        elif self.get_tier('LMmod'):
+            old_comments = LMTier.lmTier(self.get_tier("LMmod")).splitLMs()
         new_lms = old_lms.merge(old_comments)
         new_lms.name = 'observed'
         errors = []
@@ -186,7 +193,10 @@ class ExtendedTextGrid(TextGrid):
         prev = Phoneme(0,0)
         for phn in phns:
             # generate landmark from phoneme pairs
-            lm=LMref.predict_table[LMref.phoneme_class(prev.text)][LMref.phoneme_class(phn.text)]            
+            try:
+                lm=LMref.predict_table[LMref.phoneme_class(prev.text)][LMref.phoneme_class(phn.text)]            
+            except KeyError:
+                raise RuntimeError(LMref.phoneme_class(prev.text), LMref.phoneme_class(phn.text), prev.text, phn.text, phn.xmax)
             if lm!='':
                 lm_tier.insert(LMPoint(phn.xmin, lm))
                 
@@ -423,6 +433,7 @@ class ExtendedTextGrid(TextGrid):
         for label in p:
             x = label.copy()
             # Corresponding predicted landmark
+            print("436",p.name,label)
             x.links[p.name]=label
             # todo: merge context links from the observed lm
             if not x.counterLM:
@@ -722,8 +733,10 @@ class LMPoint(Point):
         c['name']=re.match(LMref.STD_LM, self.mark).group()
 
         if 'phones' in self.links:
+            print(self.links['phones'])
             phones = self.links['phones']            
             phn1, phn2 = phones
+            print(type(phn1))
             for k,v in phn1.context().items():
                 c['phone1-'+k]=v
             for k,v in phn2.context().items():

@@ -140,7 +140,7 @@ dictionary files. Note that all vowels end with a number 0,1,or 2 indicating its
 Return a string representing the phoneme manner class of the phoneme
 """
 # 9 total classes including '#' (silence)
-vowel = ['aw','oy','ay','iy', 'ih', 'ey', 'eh', 'ae', 'aa', 'ao', 'ow', 'ah', 'uw', 'uh', 'rr', 'er', 'ex']
+vowel = ['aw','oy','ay','iy', 'ih', 'ey', 'eh', 'ae', 'aa', 'ao', 'ow', 'ah', 'uw', 'uh', 'rr', 'er', 'ex', 'ax']
 glide = ['r', 'l', 'w', 'y', 'hh']           #'w', 'y' =  semivowel? 'r', 'l' = liquid? 'hh' = aspirate?
 nasal = ['n', 'm', 'ng']
 ##    fric = ['f' ,'v' ,'th', 'dh' ,'s' ,'z' ,'sh' ,'zh']   # splitted into fric_unmk, fric_nstr, and fric_str
@@ -159,9 +159,10 @@ def phoneme_class(phn):
 ##    asp = ['h']  
 ##    liq = ['l','r']
 ##    syl_nasal = []
+    phn= phn.strip()
 
-    if phn=='#': return '#'
-    if phn[:-1] in vowel: return 'v'
+    if phn=='#' or phn=='' or phn.startswith('<'): return '#'
+    if phn.strip("01234") in vowel: return 'v'
     if phn in glide: return 'g'
     if phn in nasal: return 'n'
 ##    if phn in fric: return 'f'

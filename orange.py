@@ -4,10 +4,11 @@ print "DONE"
 import os
 from subprocess import call
 
-input_tab = "data/source/Conv07_choi_20130228_final.tab"
-data = Orange.data.Table(input_tab)
-# tree = Orange.classification.tree.TreeLearner(data)
 
+# Data related to conv07
+conv07_tab = "data/source/Conv07_choi_20130228_final.tab"
+conv07_data = Orange.data.Table(conv07_tab)
+# tree = Orange.classification.tree.TreeLearner(data)
 all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber", 
                   "phone2-manner class", "outcome", "name", "phone1-subnumber",
                   "phone2-number", "phone2-stress", "phone1-stress",
@@ -37,7 +38,7 @@ def saveTab((meta, data), file_name):
     f.close()
     return file_name
 
-def combineMedialCategory(input_filename=input_tab):
+def combineMedialCategory(input_filename=conv07_tab):
     (meta,data) = readTab(input_filename)
     columns = [meta[0].index("phone2-type"), meta[0].index("phone1-type")]
     for line in data:
@@ -62,7 +63,7 @@ def segmental_context():
         attributes_names = filter(lambda x: x.startswith(phone), all_attributes) + ["outcome"]
         save_path = os.path.join("results", "conv07 trees", phone)
         tree_file_name = phone + "-all.dot" #will also save a .png with the same name
-        make_tree_from_attributes(attributes_names, save_path, tree_file_name, modified_data)
+        make_tree_from_attributes(save_path, tree_file_name, attributes_names, modified_data)
 
 def word_position():
     """This shows the distribution depending on where in the word this LM is: 
@@ -71,57 +72,34 @@ def word_position():
     a {m} (=medial) category, and use this new .tab file to run the 
     program again."""
 
-    input_without_inserted = saveTab(readTab(input_tab), input_tab[:-4]+"_withoutInserted.tab")
+    input_without_inserted = saveTab(readTab(conv07_tab), conv07_tab[:-4]+"_withoutInserted.tab")
     data_without_inserted = Orange.data.Table(input_without_inserted)
 
     attributes_names = filter(lambda x: x.endswith("type"), all_attributes) + ["outcome"]
     save_path = os.path.join("results", "conv07 trees", "word_position")
     tree_file_name = "word-position.dot" #will also save a .png with the same name
-    
-    make_tree_from_attributes(attributes_names, save_path, tree_file_name)
+
+    make_tree_from_attributes(save_path, tree_file_name, attributes_names)
 
     modified_data = Orange.data.Table(combineMedialCategory(input_without_inserted))
-    make_tree_from_attributes(attributes_names, save_path, "word-pos-with-m.dot", modified_data)
-    # for entry in data:
-    #     for attribute in entry:
+    make_tree_from_attributes(save_path, "word-pos-with-m.dot", attributes_names, modified_data)
 
-
-# print tree.to_string()
-# tree.dot(file_name=os.path.join("results","conv07 trees","full_tree.dot"), node_shape="ellipse", leaf_shape="box")
-
-def make_tree_from_attributes(attributes_names, outpath, tree_file_name, data=data):
-    attributes = filter(lambda x: x.name in attributes_names, data.domain.features)
-    # for attribute_name in attributes_names:
-    #     attributes.extend([x for x in data.domain.features if x.name == attribute_name])
-    # outpath = os.path.join("results","conv07 trees",*attributes_names)
+def make_tree_from_attributes(outpath, tree_file_name, attributes_names=None, data=conv07_data):
+    if attributes_names != None: 
+        attributes = filter(lambda x: x.name in attributes_names, data.domain.features)
+        new_domain = Orange.data.Domain(attributes, data.domain.class_var)
+        data = Orange.data.Table(new_domain, data)
+    tree = Orange.classification.tree.TreeLearner(data)
     call(["mkdir", "-p", outpath])
-    # print("attributes =", [x.name for x in attributes])
-    new_domain = Orange.data.Domain(attributes, data.domain.class_var)
-    new_data = Orange.data.Table(new_domain, data)
-    new_tree = Orange.classification.tree.TreeLearner(new_data)
 
-    # file_name = os.path.join(outpath, list(data.domain)[feature_id].name+".dot")
     file_name = os.path.join(outpath, tree_file_name)
-    new_tree.dot(file_name=file_name, node_shape="ellipse", leaf_shape="box")
-    # print "Saved", file_name
-    # os.system("dot -Tpng '"+file_name+"' -o '"+file_name[:-3]+"png'")
+    tree.dot(file_name=file_name, node_shape="ellipse", leaf_shape="box")
+
     call(["dot","-Tpng",file_name,"-o",file_name[:-3]+"png"])
     print "Saved", file_name[:-3]+"png"
 
-# for feature_id in range(len(data.domain[:len(data.domain)-1])):
-#     if not (data.domain[feature_id] in attributes):
-#         new_domain = Orange.data.Domain(attributes + [list(data.domain)[feature_id]], data.domain.class_var)
-#         new_data = Orange.data.Table(new_domain, data)
-#         new_tree = Orange.classification.tree.TreeLearner(new_data)
+child_tab = "data/source/SLI3122_CNREP_choi.tab"
+child_data = Orange.data.Table(child_tab)
+child_outpath = os.path.join("results","child_trees")
 
-#         # file_name = os.path.join(outpath, list(data.domain)[feature_id].name+".dot")
-#         file_name = os.path.join(outpath, tree_file_name)
-#         new_tree.dot(file_name=file_name, node_shape="ellipse", leaf_shape="box")
-#         print "Saved", file_name
-#         # os.system("dot -Tpng '"+file_name+"' -o '"+file_name[:-3]+"png'")
-#         call(["dot","-Tpng",file_name,"-o",file_name[:-3]+"png"])
-#         print "Saved", file_name[:-3]+"png"
-
-# word_position()
-
-word_position()
+make_tree_from_attributes(child_outpath, "full_tree.dot", None, child_data)
