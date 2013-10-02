@@ -70,8 +70,9 @@ class ExtendedTextGrid(TextGrid):
 
         header = '\t'.join(params)+'\n'
         param_types = '\t'.join(['discrete']*len(params))+'\n'
+        classrow = '\t'.join(['class' if item=='outcome' else '' for item in params])+'\n'
 
-        f.write(header+param_types)
+        f.write(header+param_types+classrow)
         f.write('\n'.join(['\t'.join(e.values()) for e in data]))
         f.close()
 
@@ -92,8 +93,11 @@ class ExtendedTextGrid(TextGrid):
         "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
         text = self.get_tier('words')
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
+        if self.get_tier('phones'):
+            #There is an existing phones tier, but we don't want to use it
+            x = self.get_tier('phones')
+            x.name = 'phones_prev'
         phn_tier = IntervalTier(name='phones', xmin = 0, xmax=text.xmax)
-        
         for interval in text:
             try:    
                 # non-words
@@ -486,8 +490,7 @@ class ExtendedTextGrid(TextGrid):
     def prepare(self):
         """ Main routine that predicts landmarks from words and compares with observed landmarks. """
         # Generate landmarks
-        if not self.get_tier("phones"):
-            self.predictPhns()
+        self.predictPhns()
         if not self.get_tier("predicted"):
             self.predictLM()        
         if not self.get_tier("observed"):
@@ -814,6 +817,7 @@ class LMTier(PointTier):
         else:
             delta = 100*EPSILON
         offset = 0      # moving start of search
+        print("Linking To Interval Tier, "+str(type(iTier)))
         for p in self.items:
             prev = iTier.find(p.time-delta, offset)    # for concurrent points
             offset = prev.index
