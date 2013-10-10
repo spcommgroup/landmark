@@ -1,0 +1,4655 @@
+phone2-stress	phone1-number	phone1-stress	phone1-manner class	name	phone2-subnumber	phone2-manner class	phone1-type	phone1-subnumber	phone2-type	phone2-number	outcome
+discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete
+											class
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	a	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fn	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	fn	c	2	o	0	Preserved
+-1	1	-1	fs	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fs	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+-1	2	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	2	-1	n	Sc	1	s	c	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+0	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fn	n	1	a	2	Preserved
+-1	2	0	v	Fc	1	fn	n	1	a	2	Preserved
+2	2	-1	fn	Fr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	n	n	1	c	3	Preserved
+-1	3	2	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	2	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	2	a	1	Preserved
+-1	1	-1	s	Sr	2	s	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	3	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fn	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	c	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	c	2	Preserved
+-1	2	-1	s	Fc	1	fu	c	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+-1	3	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+0	3	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	c	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	c	2	Preserved
+-1	2	-1	s	Sr	1	fu	c	1	o	0	Preserved
+-1	2	-1	s	Fc	1	fu	c	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	-1	g	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	2	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+-1	3	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+1	3	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fn	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fn	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+2	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fs	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	1	-1	g	G	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+1	2	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+0	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	fn	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+2	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	a	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	a	2	Preserved
+1	2	-1	fs	Fr	1	v	a	1	n	3	Preserved
+-1	3	1	v	V	1	n	n	1	a	3	Preserved
+-1	3	1	v	Nc	1	n	n	1	a	3	Preserved
+-1	3	-1	n	Nr	2	s	a	1	a	3	Preserved
+-1	3	-1	n	Sc	2	s	a	1	a	3	Preserved
+0	3	-1	s	Sr	1	v	a	2	n	4	Preserved
+-1	4	-1	g	G	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+1	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	-1	g	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fs	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	1	-1	g	G	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+0	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	0	v	Fc	1	fn	n	1	a	2	Preserved
+2	2	-1	fn	Fr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	n	n	1	c	3	Preserved
+-1	3	2	v	Nc	1	n	n	1	c	3	Preserved
+-1	0	-1	#	Nc	1	n		0	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	-1	a	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+0	1	-1	fu	Fr	1	v	a	1	n	2	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+1	2	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	fn	c	1	o	0	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+2	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	2	v	V	1	n	n	1	a	1	Preserved
+-1	1	2	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	a	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	a	2	Preserved
+1	2	-1	n	Nr	1	v	a	1	n	3	Preserved
+-1	3	1	v	V	1	fn	n	1	c	3	Preserved
+-1	3	1	v	Fc	1	fn	n	1	c	3	Preserved
+1	3	-1	fn	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	2	-1	n	Sc	2	s	a	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	0	-1	#	Sc	1	s		0	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fs	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fn	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Sc	1	s		0	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	a	c	2	o	0	Preserved
+-1	1	-1	s	Fc	1	a	c	2	o	0	Preserved
+1	0	-1	a	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	s	c	2	o	0	Preserved
+-1	1	-1	s	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	a	1	Preserved
+0	1	-1	fs	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+-1	2	-1	s	Sr	2	g	a	1	a	2	Preserved
+0	2	-1	g	G	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	fs	n	1	o	0	Preserved
+-1	3	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+-1	0	-1	s	Sr	3	g	o	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	3	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	2	-1	n	Sc	2	s	a	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	0	-1	#	Sc	1	s		0	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+0	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	3	-1	s	Sr	1	s	c	2	o	0	Preserved
+-1	3	-1	s	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+0	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	3	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	3	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+2	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+2	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	0	-1	#	Sc	1	s		0	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+0	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+-1	3	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+-1	1	-1	a	Fr	1	s	c	2	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fn	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+0	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	2	-1	n	Sc	2	s	a	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	3	-1	s	Sr	1	s	c	2	o	0	Preserved
+-1	3	-1	s	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	o	0	Preserved
+-1	1	1	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+-1	1	-1	a	Fr	1	s	c	2	o	0	Preserved
+-1	1	-1	a	Sc	1	s	c	2	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	1	-1	g	G	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+0	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	3	-1	s	Sr	1	s	c	2	o	0	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+0	2	-1	a	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	fn	c	1	o	0	Preserved
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+-1	3	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+1	3	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+-1	1	-1	a	Fr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	fn	c	1	o	0	Preserved
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	3	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	3	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+2	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	2	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+1	2	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	-1	a	Fr	1	s	c	1	o	0	Preserved
+-1	1	-1	a	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	0	-1	#	Nc	1	n		0	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	a	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	a	a	1	a	1	Preserved
+-1	1	-1	n	Sr	2	a	a	1	a	1	Preserved
+-1	1	-1	n	Fc	2	a	a	1	a	1	Preserved
+0	1	-1	a	Fr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+0	2	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	n	c	1	o	0	Preserved
+-1	2	-1	g	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+-1	2	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	2	-1	n	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	a	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+1	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	a	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+0	3	0	v	V	2	v	n	1	n	3	Preserved
+-1	3	0	v	Nc	1	n	n	2	c	3	Preserved
+-1	3	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	3	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	a	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+2	2	-1	s	Sr	1	v	a	1	n	3	Preserved
+-1	3	2	v	V	1	fs	n	1	c	3	Preserved
+-1	3	2	v	Fc	1	fs	n	1	c	3	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	3	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	3	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+2	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+0	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	2	1	v	V	1	fs	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	fs	c	1	c	1	Preserved
+-1	1	-1	fu	Fc	2	fs	c	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	g	c	1	o	0	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+-1	2	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fu	c	1	o	0	Preserved
+-1	1	-1	s	Fc	1	fu	c	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fs	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	s	c	1	o	0	Preserved
+-1	1	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+0	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fu		0	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	n	c	1	c	1	Preserved
+-1	1	-1	g	Nc	2	n	c	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	2	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	n	c	1	c	1	Preserved
+-1	1	-1	g	Nc	2	n	c	1	c	1	Preserved
+-1	1	-1	n	Nr	3	s	c	2	c	1	Preserved
+-1	1	-1	n	Sc	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	3	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	n	a	1	a	1	Preserved
+-1	1	-1	g	Nc	2	n	a	1	a	1	Preserved
+2	1	-1	n	Nr	1	v	a	2	n	2	Preserved
+-1	2	2	v	V	1	fs	n	1	c	2	Preserved
+-1	2	2	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+-1	2	-1	s	Sc	1	s	c	2	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	2	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	2	a	1	Preserved
+-1	1	-1	s	Sr	2	s	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	3	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	0	-1	#	Nc	1	n		0	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fu	c	1	o	0	Preserved
+-1	1	-1	s	Fc	1	fu	c	1	o	0	Preserved
+-1	0	-1	fu	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Fc	1	fu		0	o	0	Preserved
+-1	0	-1	fu	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+1	2	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fn	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+0	1	-1	fu	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+-1	2	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	2	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	-1	g	Sc	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	-1	g	G	1	a	c	1	o	0	Preserved
+-1	1	-1	g	Sc	1	a	c	1	o	0	Preserved
+-1	1	-1	g	Sr	1	a	c	1	o	0	Preserved
+-1	1	-1	g	Fc	1	a	c	1	o	0	Preserved
+1	0	-1	a	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	a	1	Preserved
+0	1	-1	fs	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+-1	2	-1	s	Sr	2	g	a	1	a	2	Preserved
+0	2	-1	g	G	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	s	n	1	o	0	Preserved
+-1	3	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	fs	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+-1	0	-1	s	Sr	3	g	o	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	3	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	0	-1	#	Fc	1	fu		0	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	2	0	v	V	1	fu	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	s	c	1	o	0	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	1	fs	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fs	c	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fn	n	1	c	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	a	1	Preserved
+0	1	-1	fs	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+0	2	-1	g	G	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	s	n	1	o	0	Preserved
+-1	3	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	2	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	2	a	1	Preserved
+-1	1	-1	s	Sr	2	s	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	3	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fs	n	1	o	0	Preserved
+2	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	fn	n	1	a	1	Preserved
+-1	2	1	v	V	1	fs	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fn	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	n	c	1	c	1	Preserved
+-1	1	-1	g	Nc	2	n	c	1	c	1	Preserved
+-1	1	-1	n	Nr	3	s	c	2	c	1	Preserved
+-1	1	-1	n	Sc	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	3	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	a	c	2	o	0	Preserved
+-1	1	-1	s	Sr	1	a	c	2	o	0	Preserved
+-1	1	-1	s	Fc	1	a	c	2	o	0	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fu		0	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	n	c	2	o	0	Preserved
+-1	1	-1	fs	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	3	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+-1	1	-1	fu	Fr	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	fn	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	a	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	a	2	Preserved
+-1	2	-1	n	Nr	2	s	a	1	a	2	Preserved
+-1	2	-1	n	Sc	2	s	a	1	a	2	Preserved
+0	2	-1	s	Sr	1	v	a	2	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	3	-1	s	Sr	1	s	c	2	o	0	Preserved
+-1	3	-1	s	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	-1	a	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	3	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	3	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+2	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	3	s	c	2	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	3	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	3	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+2	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	n	c	2	o	0	Preserved
+-1	1	-1	fs	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+1	2	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	-1	a	Fc	1	fs	c	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fn	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fu	c	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fs	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	n	n	1	c	2	Preserved
+-1	2	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	-1	g	Sc	2	s	c	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fu	c	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+1	2	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	a	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	1	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	n	c	1	o	0	Preserved
+-1	2	-1	g	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+0	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	s	n	1	c	2	Preserved
+-1	2	1	v	Sc	1	s	n	1	c	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+-1	1	-1	fu	Fr	2	g	a	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	2	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	fs	c	1	c	1	Preserved
+-1	1	-1	fu	Fc	2	fs	c	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	n	n	1	c	2	Preserved
+-1	2	1	v	Nc	1	n	n	1	c	2	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	fs	c	1	c	1	Preserved
+-1	1	-1	fu	Fc	2	fs	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	s	c	1	c	1	Preserved
+-1	1	-1	g	Sc	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Fc	1	fs	c	1	o	0	Preserved
+2	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	fn	n	1	a	1	Preserved
+-1	1	2	v	Fc	1	fn	n	1	a	1	Preserved
+1	1	-1	fn	Fr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fs	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+-1	2	-1	s	Sr	1	fs	c	2	o	0	Preserved
+-1	2	-1	s	Fc	1	fs	c	2	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	-1	g	G	1	s	c	1	o	0	Preserved
+-1	1	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	a	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	a	2	Preserved
+0	2	-1	n	Nr	1	v	a	1	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fs	n	1	o	0	Preserved
+-1	2	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	s	c	1	o	0	Preserved
+-1	1	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	a	1	Preserved
+0	1	-1	fs	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+-1	2	-1	s	Sr	2	g	a	1	a	2	Preserved
+0	2	-1	g	G	1	v	a	2	n	3	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	2	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+0	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	fs	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+-1	0	-1	s	Sr	3	g	o	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	3	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fu	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fu	c	1	o	0	Preserved
+-1	0	-1	fu	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	s	n	1	o	0	Preserved
+-1	1	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	1	-1	g	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	a	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	a	2	Preserved
+0	2	-1	n	Nr	1	v	a	1	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	2	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	2	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Nc	1	n		0	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	a	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	a	2	Preserved
+0	2	-1	n	Nr	1	v	a	1	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fs	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fs	c	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+1	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+2	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	n	n	1	a	1	Preserved
+-1	1	2	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	2	0	v	Sc	1	s	n	1	a	2	Preserved
+-1	2	-1	s	Sr	2	g	a	1	a	2	Preserved
+1	2	-1	g	G	1	v	a	2	n	3	Preserved
+-1	3	1	v	V	1	s	n	1	a	3	Preserved
+-1	3	1	v	Sc	1	s	n	1	a	3	Preserved
+0	3	-1	g	G	1	v	a	2	n	4	Preserved
+-1	4	0	v	V	1	fs	n	1	c	4	Preserved
+-1	4	0	v	Fc	1	fs	n	1	c	4	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	fs	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	a	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	a	2	Preserved
+0	2	-1	n	Nr	1	v	a	1	n	3	Preserved
+-1	3	0	v	V	1	n	n	1	c	3	Preserved
+-1	3	0	v	Nc	1	n	n	1	c	3	Preserved
+-1	3	-1	n	Nr	2	s	c	1	c	3	Preserved
+-1	3	-1	n	Sc	2	s	c	1	c	3	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	0	-1	#	Nc	1	n		0	o	0	Preserved
+2	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	2	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	fn	a	1	a	1	Preserved
+-1	1	-1	g	Fc	2	fn	a	1	a	1	Preserved
+-1	1	-1	fn	Fr	3	g	a	2	a	1	Preserved
+1	1	-1	g	G	1	v	a	3	n	2	Preserved
+-1	2	1	v	V	1	fs	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	-1	s	Nc	1	n	c	2	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	fn	c	1	c	1	Preserved
+-1	1	-1	g	Fc	2	fn	c	1	c	1	Preserved
+0	1	-1	fn	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+0	2	0	v	V	2	v	n	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	2	v	V	1	s	n	1	a	1	Preserved
+-1	1	2	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	s	c	1	o	0	Preserved
+-1	1	-1	n	Sc	1	s	c	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	0	v	V	2	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	2	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	2	a	1	Preserved
+-1	1	-1	s	Sr	2	s	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	3	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	o	0	Preserved
+-1	2	0	v	Sc	1	s	n	1	o	0	Preserved
+0	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	a	1	Preserved
+1	1	-1	g	G	1	v	a	1	n	2	Preserved
+1	2	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	n	c	1	o	0	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fn	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+1	2	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+-1	1	-1	a	Fr	1	s	c	2	o	0	Preserved
+-1	1	-1	a	Sc	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	fs	c	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	n	a	1	a	1	Preserved
+-1	1	-1	g	Nc	2	n	a	1	a	1	Preserved
+2	1	-1	n	Nr	1	v	a	2	n	2	Preserved
+-1	2	2	v	V	1	fs	n	1	c	2	Preserved
+-1	2	2	v	Fc	1	fs	n	1	c	2	Preserved
+-1	2	-1	fs	Fr	2	s	c	1	c	2	Preserved
+1	2	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+1	1	-1	a	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	a	c	1	o	0	Preserved
+-1	1	-1	fs	Sc	1	a	c	1	o	0	Preserved
+-1	1	-1	fs	Sr	1	a	c	1	o	0	Preserved
+-1	1	-1	fs	Fc	1	a	c	1	o	0	Preserved
+1	0	-1	a	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	fs	c	1	c	1	Preserved
+-1	1	-1	g	Fc	2	fs	c	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+0	2	0	v	V	2	v	n	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	Nc	1	n	n	1	c	2	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+1	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	s	c	1	o	0	Preserved
+-1	1	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	2	v	n	1	n	1	Preserved
+-1	1	0	v	Nc	1	n	n	2	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+-1	0	-1	fs	Fr	2	s	o	1	o	0	Preserved
+-1	0	-1	s	Sr	3	g	o	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	3	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Nc	1	n	c	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	2	fn	c	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+0	2	0	v	V	2	v	n	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	1	-1	g	G	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	o	0	Preserved
+-1	1	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+-1	1	-1	s	Sr	2	g	a	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+0	2	0	v	V	2	v	n	1	n	2	Preserved
+-1	2	0	v	Sc	1	s	n	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+0	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	a	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	1	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+0	1	-1	fu	Fr	1	v	a	1	n	2	Preserved
+0	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fn	n	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fs	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fs	c	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	s	c	2	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	fs	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	0	-1	#	Fc	1	fs		0	o	0	Preserved
+-1	0	-1	fs	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fs	n	1	o	0	Preserved
+-1	0	-1	fs	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	1	-1	n	Sc	2	s	a	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	2	n	2	Preserved
+-1	2	0	v	V	1	s	n	1	c	2	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	o	0	Preserved
+-1	1	1	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	o	0	Preserved
+-1	1	1	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+0	1	-1	g	G	1	v	a	1	n	2	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+1	1	-1	g	G	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	s	n	1	a	1	Preserved
+-1	1	0	v	Sc	1	s	n	1	a	1	Preserved
+1	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	1	v	V	1	fu	n	1	c	2	Preserved
+-1	2	1	v	Fc	1	fu	n	1	c	2	Preserved
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Preserved
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	o	0	Preserved
+-1	1	1	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+-1	1	-1	n	Nr	2	s	a	1	a	1	Preserved
+-1	2	0	v	V	1	fs	n	1	o	0	Preserved
+-1	2	0	v	Fc	1	fs	n	1	o	0	Preserved
+1	0	-1	fs	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fn	n	1	o	0	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Fc	1	fn	c	1	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	Fc	2	fs	c	1	c	1	Preserved
+0	1	-1	fs	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+1	1	-1	s	Sr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	1	fn	c	1	o	0	Preserved
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	2	s	c	1	c	1	Preserved
+0	1	-1	s	Sr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	0	v	V	1	g	n	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	2	0	v	V	1	g	n	1	c	2	Preserved
+-1	2	-1	g	G	1	s	c	1	o	0	Preserved
+-1	2	-1	g	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	fn	c	1	o	0	Preserved
+1	1	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	G	1	fn	c	1	o	0	Preserved
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	0	-1	#	Fc	1	fu		0	o	0	Preserved
+-1	0	-1	fu	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	s	c	1	c	1	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+-1	1	-1	fu	Fr	1	g	c	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+1	0	-1	s	Sr	1	v	o	1	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	a	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	a	1	Preserved
+0	1	-1	fu	Fr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	n	n	1	o	0	Preserved
+-1	2	0	v	Nc	1	n	n	1	o	0	Preserved
+1	0	-1	n	Nr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	a	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	a	1	Preserved
+0	1	-1	s	Sr	1	v	a	1	n	2	Preserved
+1	2	0	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	0	-1	#	Fc	1	fn		0	o	0	Preserved
+-1	0	-1	fn	Fr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	o	0	Preserved
+-1	1	1	v	Sc	1	s	n	1	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+-1	1	1	v	V	1	g	n	1	a	1	Preserved
+-1	1	-1	g	G	2	s	a	1	a	1	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+1	2	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fu	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fu	n	1	c	1	Preserved
+1	1	-1	fu	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sc	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Sr	2	a	c	1	c	1	Preserved
+-1	1	-1	n	Fc	2	a	c	1	c	1	Preserved
+0	1	-1	a	Fr	1	v	c	2	n	1	Preserved
+-1	1	0	v	V	1	n	n	1	c	1	Preserved
+-1	1	0	v	Nc	1	n	n	1	c	1	Preserved
+-1	1	-1	n	Nr	2	s	c	1	c	1	Preserved
+-1	1	-1	s	Sc	1	s	c	2	o	0	Preserved
+-1	0	-1	s	Sr	2	g	o	1	o	0	Preserved
+1	0	-1	g	G	1	v	o	2	n	1	Preserved
+1	1	1	v	V	1	v	n	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	c	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	c	1	Preserved
+1	1	-1	n	Nr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	fn	c	2	o	0	Preserved
+-1	1	-1	fs	Fc	1	fn	c	2	o	0	Preserved
+1	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	s	n	1	c	1	Preserved
+-1	1	1	v	Sc	1	s	n	1	c	1	Preserved
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Preserved
+-1	1	-1	s	Fc	2	fs	c	1	c	1	Preserved
+-1	1	-1	fs	Fr	1	g	c	2	o	0	Preserved
+1	0	-1	g	G	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	g	n	1	c	1	Preserved
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Preserved
+0	0	-1	fn	Fr	1	v	o	1	n	1	Preserved
+-1	1	0	v	V	1	fu	n	1	o	0	Preserved
+-1	1	0	v	Fc	1	fu	n	1	o	0	Preserved
+1	0	-1	fu	Fr	1	v	o	1	n	1	Preserved
+-1	1	1	v	V	1	n	n	1	a	1	Preserved
+-1	1	1	v	Nc	1	n	n	1	a	1	Preserved
+0	1	-1	n	Nr	1	v	a	1	n	2	Preserved
+-1	2	0	v	V	1	fs	n	1	c	2	Preserved
+-1	2	0	v	Fc	1	fs	n	1	c	2	Preserved
+1	2	-1	fs	Fr	1	v	c	1	n	1	Preserved
+-1	1	1	v	V	1	fs	n	1	c	1	Preserved
+-1	1	1	v	Fc	1	fs	n	1	c	1	Preserved
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	1	s	n	1	o	0	Deleted
+-1	1	-1	fs	Nc	1	s	c	1	o	0	Deleted
+-1	1	1	v	V	1	fs	n	1	o	0	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	3	-1	n	Nr	1	s	c	1	o	0	Deleted
+-1	3	-1	n	Sc	1	s	c	1	o	0	Deleted
+-1	3	-1	fs	Fr	0	#	c	1		0	Deleted
+2	2	1	v	V	1	v	n	1	n	1	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	g	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	3	-1	n	Nr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	s	Sr	3	g	a	2	a	1	Deleted
+-1	2	0	v	V	1	s	n	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	2	-1	s	Sr	1	fu	c	1	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	-1	fu	Fr	0	#	c	1		0	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	g	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Deleted
+0	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	2	1	v	Sc	1	s	n	1	a	2	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	fs	Nc	1	s	c	1	o	0	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	0	v	V	1	n	n	1	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	2	v	V	1	s	n	1	a	1	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	1	v	Fc	1	fs	n	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	4	0	v	V	1	g	n	1	c	4	Deleted
+1	1	0	v	V	1	v	n	1	n	1	Deleted
+-1	1	-1	s	Sr	1	n	c	2	o	0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	2	0	v	V	1	fn	n	1	a	2	Deleted
+-1	3	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Deleted
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Deleted
+0	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	2	-1	a	Fr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	2	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	fn	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	a	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	a	c	2	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	2	0	v	V	1	s	n	1	a	2	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	0	v	V	1	s	n	1	a	1	Deleted
+-1	3	-1	n	Sc	2	s	c	1	c	3	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	2	-1	a	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	2	1	v	Fc	1	fu	n	1	c	2	Deleted
+-1	1	0	v	V	1	s	n	1	a	1	Deleted
+-1	2	-1	n	Sc	2	s	a	1	a	2	Deleted
+0	2	-1	s	Sr	1	v	a	2	n	3	Deleted
+-1	2	-1	a	Fr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	2	2	v	V	0	#	n	1		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Nc	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	-1	fu	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	fu	Fr	0	#	c	1		0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Nc	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	3	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	n	c	2	o	0	Deleted
+-1	1	-1	a	Sc	1	s	c	2	o	0	Deleted
+-1	2	-1	a	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	fs	Nc	1	s	c	1	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	0	v	V	1	s	n	1	a	1	Deleted
+-1	2	-1	n	Sc	2	s	a	1	a	2	Deleted
+0	2	-1	s	Sr	1	v	a	2	n	3	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	a	Sc	1	s	c	2	o	0	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	0	v	V	1	s	n	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	1	v	V	1	fu	n	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+0	1	-1	s	Sr	1	v	a	2	n	2	Deleted
+-1	2	0	v	V	1	n	n	1	c	2	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Deleted
+-1	3	0	v	V	1	n	n	2	c	3	Deleted
+-1	3	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	2	fs	c	1	c	1	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	2	2	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	2	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Nc	1	s	c	1	o	0	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	1	v	Fc	1	fn	n	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	-1	g	Sc	2	s	c	1	c	1	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	2	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	s	Sr	3	g	a	2	a	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	2	0	v	V	1	n	n	1	c	2	Deleted
+-1	2	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Deleted
+1	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	1	1	v	V	1	g	n	1	c	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	2	0	v	V	1	s	n	1	a	2	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	g	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	fu	Fr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+-1	2	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	g	Sc	1	s	c	1	o	0	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	1	-1	fn	Fr	0	#	c	1		0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	2	0	v	V	1	s	n	1	a	2	Deleted
+-1	2	-1	s	Sr	2	g	a	1	a	2	Deleted
+-1	1	-1	s	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	s	Sr	3	g	a	2	a	1	Deleted
+-1	1	2	v	Fc	1	fn	n	1	a	1	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	2	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	fs	Nc	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	0	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sc	1	a	c	2	o	0	Deleted
+1	0	-1	a	Fr	1	v	o	1	n	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	3	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	2	0	v	V	1	n	n	1	c	2	Deleted
+-1	2	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	fu	Nc	2	s	a	1	a	1	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	o	0	Deleted
+-1	2	-1	g	G	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	2	2	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	1	fs	n	1	o	0	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	fs	Nc	3	s	c	2	c	1	Deleted
+-1	2	2	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+0	1	-1	s	Sr	1	v	a	1	n	2	Deleted
+-1	2	0	v	V	1	n	n	1	c	2	Deleted
+-1	1	-1	a	Fr	1	fs	c	1	o	0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fu	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	1	v	V	1	fu	n	1	c	1	Deleted
+-1	1	-1	fu	Fr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	2	0	v	Nc	1	n	n	1	c	2	Deleted
+-1	2	-1	n	Nr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	-1	s	Sr	1	fu	c	1	o	0	Deleted
+1	1	-1	s	Sr	1	v	c	1	n	1	Deleted
+-1	1	0	v	V	1	s	n	1	a	1	Deleted
+-1	2	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	2	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	1	v	V	1	s	n	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	1	o	0	Deleted
+-1	1	1	v	V	1	fu	n	1	c	1	Deleted
+-1	1	-1	fs	Fr	0	#	c	2		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	o	0	Deleted
+0	1	-1	s	Sr	1	v	c	1	n	1	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	2	-1	g	G	1	s	c	1	o	0	Deleted
+0	1	-1	s	Sr	1	v	c	1	n	1	Deleted
+-1	1	0	v	V	1	n	n	1	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Deleted
+1	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	1	1	v	V	1	fs	n	1	o	0	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	0	v	Nc	1	n	n	2	c	1	Deleted
+-1	1	-1	n	Nr	1	fs	c	1	o	0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	1	1	v	V	1	g	n	1	c	1	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	2	0	v	V	1	fn	n	1	o	0	Deleted
+-1	2	0	v	Fc	1	fn	n	1	o	0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	2	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	2	0	v	V	1	s	n	1	a	2	Deleted
+1	0	-1	a	Fr	1	v	o	1	n	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Deleted
+0	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	1	1	v	Fc	1	fn	n	1	o	0	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	3	-1	n	Nr	2	s	c	1	c	3	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	1	v	V	1	n	n	1	c	1	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	n	Sc	2	s	a	1	a	1	Deleted
+-1	2	0	v	V	1	s	n	1	a	2	Deleted
+-1	3	-1	s	Sr	2	g	a	1	a	3	Deleted
+-1	4	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+1	0	-1	s	Sr	1	v	o	1	n	1	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+-1	1	0	v	V	1	n	n	1	o	0	Deleted
+-1	3	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	1	v	Sc	1	s	n	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	2	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	0	v	Nc	1	n	n	1	c	1	Deleted
+-1	1	-1	n	Nr	2	s	c	1	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	n	c	2	o	0	Deleted
+-1	1	-1	g	G	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	2	0	v	V	1	s	n	2	o	0	Deleted
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	2	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	s	Sr	3	g	a	2	a	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	2	0	v	Fc	1	fn	n	1	o	0	Deleted
+-1	1	-1	g	G	2	s	a	1	a	1	Deleted
+-1	1	-1	g	Sc	2	s	a	1	a	1	Deleted
+-1	1	1	v	V	1	fu	n	1	c	1	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	s	Fc	1	fs	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	2	-1	fs	Nc	2	s	c	1	c	2	Deleted
+-1	1	1	v	Fc	1	fu	n	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	s	Sr	1	n	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	-1	g	G	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	2	0	v	Fc	1	fn	n	1	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	2	0	v	V	1	s	n	2	o	0	Deleted
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	0	v	V	1	n	n	1	a	1	Deleted
+-1	2	0	v	V	1	n	n	1	c	2	Deleted
+-1	2	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	0	v	V	1	n	n	2	c	1	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	0	-1	fs	Nc	2	s	o	1	o	0	Deleted
+-1	1	-1	s	Sr	1	n	c	1	o	0	Deleted
+-1	1	-1	g	Fc	2	fn	c	1	c	1	Deleted
+-1	1	-1	fn	Nc	1	s	c	2	o	0	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	2	0	v	V	1	s	n	2	o	0	Deleted
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Sr	1	g	c	1	o	0	Deleted
+-1	1	-1	n	Fc	1	fn	c	1	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	2	0	v	V	1	s	n	2	o	0	Deleted
+-1	1	-1	fs	Fr	2	s	c	1	c	1	Deleted
+-1	1	-1	fs	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fs	c	2	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	s	c	1	o	0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	fn	c	2	o	0	Deleted
+-1	1	-1	s	Fc	1	fn	c	2	o	0	Deleted
+1	0	-1	fn	Fr	1	v	o	1	n	1	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+0	1	-1	s	Sr	1	v	c	1	n	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sc	1	s	c	2	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+0	1	-1	s	Sr	1	v	a	1	n	2	Deleted
+-1	2	0	v	V	1	g	n	1	c	2	Deleted
+1	1	-1	s	Sr	1	v	c	1	n	1	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	2		0	Deleted
+-1	1	-1	fs	Nc	1	s	c	2	o	0	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+1	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	2	g	a	1	a	1	Deleted
+-1	2	0	v	Sc	1	s	n	1	c	2	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	2	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	1	v	V	1	g	n	1	o	0	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	0	-1	#	Sc	1	s		0	o	0	Deleted
+-1	1	-1	n	Sc	2	s	a	1	a	1	Deleted
+0	1	-1	s	Sr	1	v	a	2	n	2	Deleted
+-1	1	1	v	Fc	1	fn	n	1	o	0	Deleted
+-1	1	-1	s	Sr	0	#	c	1		0	Deleted
+-1	1	-1	s	Sr	1	fn	c	1	o	0	Deleted
+-1	1	-1	g	G	2	fs	c	1	c	1	Deleted
+-1	1	-1	fu	Nc	2	s	c	1	c	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+0	1	-1	s	Sr	1	v	c	2	n	1	Deleted
+-1	1	1	v	Sc	1	s	n	1	a	1	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	g	Fc	1	fn	c	1	o	0	Deleted
+-1	1	0	v	V	0	#	n	1		0	Deleted
+-1	1	-1	s	Sr	1	g	c	2	o	0	Deleted
+-1	1	1	v	Sc	1	s	n	1	c	1	Deleted
+-1	1	1	v	V	0	#	n	1		0	Deleted
+-1	1	-1	n	Nr	0	#	c	1		0	Deleted
+-1	1	-1	a	Fr	0	#	c	2		0	Deleted
+-1	1	-1	g	G	0	#	c	1		0	Deleted
+1	0	-1	g	G	1	v	o	2	n	1	Deleted
+-1	1	-1	g	Sc	2	s	a	1	a	1	Deleted
+-1	1	-1	n	Sc	2	s	c	1	c	1	Deleted
+-1	1	-1	s	Sr	1	s	c	2	o	0	Deleted
+-1	1	-1	g	G	1	fn	c	1	o	0	Deleted
+-1	1	-1	fs	Fr	0	#	c	1		0	Deleted
+Inserted	G
+Inserted	V
+Inserted	G
+Inserted	Nr
+Inserted	V
+Inserted	Sc
+Inserted	V
+Inserted	Nr
+Inserted	Sc
+Inserted	Fr
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	Nr
+Inserted	G
+Inserted	G
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	V
+Inserted	Fr
+Inserted	G
+Inserted	Nr
+Inserted	Nr
+Inserted	Fr
+Inserted	Fc
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Nc
+Inserted	Nr
+Inserted	G
+Inserted	G
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	G
+Inserted	Sr
+Inserted	Sc
+Inserted	G
+Inserted	Sr
+Inserted	G
+Inserted	Nr
+Inserted	Nc
+Inserted	Nr
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	Fr
+Inserted	Sr
+Inserted	Sr
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	Sr
+Inserted	Nr
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	V
+Inserted	G
+Inserted	V
+Inserted	G
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	Nr
+Inserted	Nr
+Inserted	G
+Inserted	Nr
+Inserted	Sr
+Inserted	Fr
+Inserted	Fr
+Inserted	G
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	V
+Inserted	G
+Inserted	Sc
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	Nc
+Inserted	Nr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	G
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	G
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Fr
+Inserted	Nc
+Inserted	Nr
+Inserted	G
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	G
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Fc
+Inserted	Fr
+Inserted	V
+Inserted	Sr
+Inserted	Sc
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	G
+Inserted	V
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	G
+Inserted	Sr
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	Fr
+Inserted	Sr
+Inserted	Fr
+Inserted	Nr
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Fc
+Inserted	Fr
+Inserted	Sc
+Inserted	V
+Inserted	G
+Inserted	V
+Inserted	Sc
+Inserted	Fc
+Inserted	Fr
+Inserted	Fr
+Inserted	Nr
+Inserted	Fr
+Inserted	V
+Inserted	Fr
+Inserted	Fc
+Inserted	V
+Inserted	Sc
+Inserted	Fr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	V
+Inserted	Fc
+Inserted	Fr
+Inserted	Nr
+Inserted	Nr
+Inserted	Sc
+Inserted	Fr
+Inserted	V
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	Sc
+Inserted	V
+Inserted	G
+Inserted	Sc
+Inserted	Fr
+Inserted	Nc
+Inserted	Nr
+Inserted	G
+Inserted	G
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	G
+Inserted	Fr
+Inserted	Sr
+Inserted	Fr
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	V
+Inserted	V
+Inserted	Fr
+Inserted	Fr
+Inserted	G
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Nr
+Inserted	Nr
+Inserted	Fr
+Inserted	V
+Inserted	Nr
+Inserted	Sr
+Inserted	Sc
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	V
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Sr
+Inserted	Fr
+Inserted	Sc
+Inserted	G
+Inserted	Fr
+Inserted	Sr
+Inserted	G
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Sr
+Inserted	G
+Inserted	Sr
+Inserted	V
+Inserted	G
+Inserted	Nr
+Inserted	Sr
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	G
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	Nr
+Inserted	G
+Inserted	Sr
+Inserted	V
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	V
+Inserted	Nr
+Inserted	V
+Inserted	G
+Inserted	V
+Inserted	G
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	Fr
+Inserted	V
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	V
+Inserted	Sr
+Inserted	Fr
+Inserted	Sr
+Inserted	V
+Inserted	G
+Inserted	G
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Sc
+Inserted	Fc
+Inserted	Fr
+Inserted	Nr
+Inserted	Fr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	V
+Inserted	Fc
+Inserted	Fr
+Inserted	V
+Inserted	G
+Inserted	Sr
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Sc
+Inserted	G
+Inserted	V
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	V
+Inserted	Fc
+Inserted	Sc
+Inserted	V
+Inserted	Sc
+Inserted	Sc
+Inserted	V
+Inserted	V
+Inserted	Nc
+Inserted	Nr
+Inserted	V
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Fc
+Inserted	V
+Inserted	V
+Inserted	V
+Inserted	Sr
+Inserted	Sr
+Inserted	Nc
+Inserted	Nr
+Inserted	G
+Inserted	Nc
+Inserted	Nr
+Inserted	Sr
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+Inserted	Sr
+Inserted	Sr
+Inserted	Nc
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Sr
+Inserted	Nr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	G
+Inserted	Nr
+Inserted	Fr
+Inserted	Fc
+Inserted	G
+Inserted	Fr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sc
+Inserted	Nr
+Inserted	Sc
+Inserted	G
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+Inserted	Fc
+Inserted	Fr
+Inserted	G
+Inserted	V
+Inserted	Nc
+Inserted	Nr
+Inserted	Nr
+Inserted	Sr
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	Fr
+Inserted	V
+Inserted	Sr
+Inserted	Sc
+Inserted	Sc
+Inserted	G
+Inserted	Fr
+Inserted	Sr
+Inserted	Nr
+Inserted	G
+Inserted	Sr
+Inserted	V
+Inserted	Nc
+Inserted	Nr
+Inserted	V
+Inserted	Sr
+Inserted	V
+Inserted	Nr
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+Inserted	Nr
+Inserted	Sr
+Inserted	Nr
+Inserted	V
+Inserted	Sr
+Inserted	Nr
+Inserted	V
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Fr
+Inserted	V
+Inserted	Sr
+Inserted	Nc
+Inserted	Nr
+Inserted	V
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Fr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	Sc
+Inserted	Fr
+Inserted	Fr
+Inserted	Sr
+Inserted	G
+Inserted	Nr
+Inserted	Nr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	V
+Inserted	Sc
+Inserted	Fc
+Inserted	Fc
+Inserted	Fr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sr
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	G
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Nr
+Inserted	Fc
+Inserted	Fr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sr
+Inserted	Fc
+Inserted	Fr
+Inserted	Nc
+Inserted	Nr
+Inserted	Sc
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	Sc
+Inserted	G
+Inserted	Sc
+Inserted	Fr
+Inserted	Fr
+Inserted	Sc
+Inserted	G
+Inserted	Fc
+Inserted	Sc
+Inserted	Sr
+Inserted	Nr
+Inserted	Sr
+Inserted	Sr
+Inserted	G
+Inserted	G
+Inserted	V
+Inserted	Nr
+Inserted	V
+Inserted	Nc
+Inserted	Nr
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	Sr
+Inserted	Sc
+Inserted	V
+Inserted	Fc
+Inserted	Fr
+Inserted	Sr
+Inserted	Nr
+Inserted	Nr
+Inserted	V
+Inserted	V
+Inserted	Nr
+Inserted	V
+Inserted	G
+Inserted	Nr
+Inserted	Nr
+Inserted	Sr
+Inserted	V
+Inserted	Nr
+Inserted	Fr
+Inserted	Fr
+Inserted	Fr
+Inserted	Sr
+Inserted	Sc
+Inserted	Sc
+Inserted	Sr
+Inserted	Sr
+Inserted	G
+Inserted	Nr
+Inserted	Fr
+Inserted	Fr
+Inserted	V
+Inserted	Sr
+Inserted	V
+Inserted	Nr
+Inserted	G
+Inserted	Fr
+Inserted	G
+Inserted	Sr
+Inserted	G
+Inserted	Fr
+-1	1	1	v	V	1	g	n	1	a	1	Mutated
+0	1	-1	s	Sr	1	v	a	2	n	2	Mutated
+1	1	-1	s	Sr	1	v	c	2	n	1	Mutated
+0	2	-1	s	Sr	1	v	a	1	n	3	Mutated
+-1	1	0	v	Nc	1	n	n	1	c	1	Mutated
+-1	1	-1	n	Nr	2	s	c	1	c	1	Mutated
+-1	1	0	v	V	1	s	n	1	o	0	Mutated
+0	1	-1	s	Sr	1	v	c	1	n	1	Mutated
+-1	1	1	v	Fc	1	fu	n	1	c	1	Mutated
+-1	1	-1	fu	Fr	1	n	c	1	o	0	Mutated
+-1	1	-1	fu	Fc	1	fn	c	1	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	1	-1	fs	Fc	1	fn	c	1	o	0	Mutated
+1	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+1	1	-1	s	Sr	1	v	c	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	2	-1	fu	Fr	1	fn	c	1	o	0	Mutated
+-1	1	1	v	Fc	1	fu	n	1	c	1	Mutated
+-1	3	-1	s	Sc	1	s	c	2	o	0	Mutated
+1	0	-1	s	Sr	1	v	o	1	n	1	Mutated
+-1	1	1	v	Nc	1	n	n	1	c	1	Mutated
+-1	1	-1	n	Nr	1	s	c	1	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+-1	1	1	v	Sc	1	s	n	1	a	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+1	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	1	-1	fu	Fr	1	s	c	1	o	0	Mutated
+1	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+1	0	-1	g	G	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+1	1	-1	s	Sr	1	v	c	2	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	2	-1	fu	Fc	1	fn	c	1	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	2	n	2	Mutated
+1	0	-1	s	Sr	1	v	o	1	n	1	Mutated
+1	1	-1	fn	Fr	1	v	a	1	n	2	Mutated
+-1	1	1	v	Fc	1	fu	n	1	c	1	Mutated
+1	1	-1	fu	Fr	1	v	c	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+1	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	2	n	2	Mutated
+1	0	-1	s	Sr	1	v	o	1	n	1	Mutated
+1	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+-1	0	-1	fn	Fr	2	g	o	1	o	0	Mutated
+0	1	-1	s	Sr	1	v	a	2	n	2	Mutated
+-1	1	-1	fu	Fr	1	fn	c	1	o	0	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+1	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+-1	1	-1	fn	Fr	1	s	c	2	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	c	1	n	1	Mutated
+-1	2	-1	s	Sr	1	g	c	1	o	0	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+0	1	-1	s	Sr	1	v	a	1	n	2	Mutated
+0	0	-1	fn	Fr	1	v	o	1	n	1	Mutated
+-1	1	-1	s	Sr	1	s	c	1	o	0	Mutated
+0	1	-1	s	Sr	1	v	a	2	n	2	Mutated

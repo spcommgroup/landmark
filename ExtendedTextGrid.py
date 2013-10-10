@@ -25,10 +25,11 @@ logging.basicConfig(filename="log.txt", level=logging.WARNING)
 
 
 class ExtendedTextGrid(TextGrid):
-    def __init__(self, f):
+    def __init__(self, f, verbose=False):
+        self.verbose = verbose
         "f: textgrid file name"
         if f[-9:].lower()=='.textgrid':
-            TextGrid.__init__(self, filepath = f)
+            TextGrid.__init__(self, filepath = f, oprint=verbose)
             self.fname = f[:-9]
         else: raise Exception('File not found:', f)
 
@@ -143,7 +144,8 @@ class ExtendedTextGrid(TextGrid):
                         end_phn = phn_tier[i]
                         
             except:       # treat non-recognizable words as silences
-                print('Cannot parse word interval:', interval)
+                if self.verbose:
+                    print('Cannot parse word interval:', interval)
                 logging.warning("Cannot parse word interval: "+str(interval)+" from "+self.fname)
                 cur_phn = Phoneme(interval.xmin, interval.xmax)
                 phn_tier.items.append(cur_phn)      # update "phoneme" tier
@@ -169,15 +171,18 @@ class ExtendedTextGrid(TextGrid):
             old_lms = LMTier.lmTier(self.get_tier('landmarks')).splitLMs()
         elif self.get_tier('LM'):
             old_lms = LMTier.lmTier(self.get_tier('LM')).splitLMs()
-        if self.get_tier('comments'):
-            old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
-        elif self.get_tier('LMmod'):
+        if self.get_tier('LMmod'):
             old_comments = LMTier.lmTier(self.get_tier("LMmod")).splitLMs()
+        elif self.get_tier('LMmods'):
+            old_comments = LMTier.lmTier(self.get_tier("LMmods")).splitLMs()
+        elif self.get_tier('comments'):
+            old_comments = LMTier.lmTier(self.get_tier("comments")).splitLMs()
         new_lms = old_lms.merge(old_comments)
         new_lms.name = 'observed'
         errors = []
 
-        print('Converting hand-labeled landmarks into standard representation....')
+        if self.verbose:
+            print('Converting hand-labeled landmarks into standard representation....')
         for point in new_lms:
             try:
                 point.mark = LMref.stdLM(point.mark)
@@ -352,7 +357,8 @@ class ExtendedTextGrid(TextGrid):
             noChangeCount = 0  
 
             # Find the aligned sequence which yielded the minimal cost
-            print("Section alignment score:", F[m][n])
+            if self.verbose:
+                print("Section alignment score:", F[m][n])
             (j,i) = (m,n)    #"Bottom-right"
             while i>0 or j>0:
                 if F[j][i][0]>=INFTY:
@@ -384,12 +390,13 @@ class ExtendedTextGrid(TextGrid):
                                     
             total = insertionCount+deletionCount+mutationCount
 
-            print("Compared", n, "predicted landmarks against", m, "observed landmarks")
-            print("Total number of alterations is ", total, ":")
-            print("   " + str(insertionCount) + " insertions,")
-            print("   " + str(deletionCount) + " deletions, ")
-            print("   " + str(mutationCount) + " mutations,")
-            print("   " + str(noChangeCount) + " preserved.")
+            if self.verbose:
+                print("Compared", n, "predicted landmarks against", m, "observed landmarks")
+                print("Total number of alterations is ", total, ":")
+                print("   " + str(insertionCount) + " insertions,")
+                print("   " + str(deletionCount) + " deletions, ")
+                print("   " + str(mutationCount) + " mutations,")
+                print("   " + str(noChangeCount) + " preserved.")
 
             # Return relevant stats in the order of stat_keys
             result = (insertionCount,deletionCount,mutationCount,noChangeCount)
@@ -413,7 +420,8 @@ class ExtendedTextGrid(TextGrid):
         for s in range(len(psections)):
             s1,e1 = psections[s]
             s2,e2 = osections[s]
-            print("Aligning section", s, ', from', p[s1], '/', o[s2], 'to', p[e1-1], '/', o[e2-1])
+            if self.verbose:
+                print("Aligning section", s, ', from', p[s1], '/', o[s2], 'to', p[e1-1], '/', o[e2-1])
             result = alignSection(p, s1,e1, o, s2, e2)
             for i in range(len(stat_keys)):
                 stat[stat_keys[i]].append(result[i])
@@ -437,7 +445,8 @@ class ExtendedTextGrid(TextGrid):
         for label in p:
             x = label.copy()
             # Corresponding predicted landmark
-            print("436",p.name,label)
+            if self.verbose:   
+                print("436",p.name,label)
             x.links[p.name]=label
             # todo: merge context links from the observed lm
             if not x.counterLM:
@@ -472,7 +481,8 @@ class ExtendedTextGrid(TextGrid):
                 ins.insert(x)
                 # Deletion label marked as insertion
                 if x.mark[-1]=='x':
-                    print('WARNING: cannot find landmarked marked as deleted by',x)
+                    if self.verbose:
+                        print('WARNING: cannot find landmarked marked as deleted by',x)
         for t in [prs, dlt, ins, mut]:
             self.append(t)
             
@@ -695,7 +705,8 @@ class ExtendedTextGrid(TextGrid):
 
 
 class LMPoint(Point):
-    def __init__(self, time, mark): 
+    def __init__(self, time, mark, verbose=False):
+        self.verbose = verbose 
         Point.__init__(self, time, mark)
         # the phoneme pair which generates the LM and the LM (Phoneme instances)
         self.counterLM = None
@@ -720,14 +731,16 @@ class LMPoint(Point):
                         out.append(LMPoint(t, mark))     
                         t += subdelta
                     else:
-                        print(mark, 'is not a recognized standard landmark')
+                        if self.verbose:
+                            print(mark, 'is not a recognized standard landmark')
             else:
                 mark = s.strip()
                 if LMref.is_std(mark):
                     out.append(LMPoint(t, mark))
                     t+= delta
                 else:
-                    print(mark, 'is not a recognized standard landmark')
+                    if self.verbose:
+                        print(mark, 'is not a recognized standard landmark')
         return out
 
     def context(self):
@@ -736,10 +749,10 @@ class LMPoint(Point):
         c['name']=re.match(LMref.STD_LM, self.mark).group()
 
         if 'phones' in self.links:
-            print(self.links['phones'])
+            # print(self.links['phones'])
             phones = self.links['phones']            
             phn1, phn2 = phones
-            print(type(phn1))
+            # print(type(phn1))
             for k,v in phn1.context().items():
                 c['phone1-'+k]=v
             for k,v in phn2.context().items():
@@ -761,7 +774,8 @@ class LMPoint(Point):
     
 class LMTier(PointTier):
     """ Class Invariant - All items must be LMPoint instances """
-    def __init__(self, name, xmin, xmax):
+    def __init__(self, name, xmin, xmax, verbose=False):
+        self.verbose = verbose
         PointTier.__init__(self, name, xmin, xmax)
         counterLMTier = None
         
@@ -817,7 +831,8 @@ class LMTier(PointTier):
         else:
             delta = 100*EPSILON
         offset = 0      # moving start of search
-        print("Linking To Interval Tier, "+str(type(iTier)))
+        if self.verbose:
+            print("Linking To Interval Tier, "+str(type(iTier)))
         for p in self.items:
             prev = iTier.find(p.time-delta, offset)    # for concurrent points
             offset = prev.index

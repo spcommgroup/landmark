@@ -339,7 +339,8 @@ class TextGrid:
         for tier in self.tiers:     # tier names are not case-sensitive
             if tier.name.strip().lower() == n.lower():
                 t = tier
-        print('Found', t)
+        if self.oprint:
+            print('Found', t)
         return t        
 
 
@@ -523,7 +524,8 @@ class PointTier(Tier):
     Class Invariants:
         - All items are Point instances
     """
-    def __init__(self, name, xmin, xmax):
+    def __init__(self, name, xmin, xmax, oprint=False):
+        self.oprint = oprint
         Tier.__init__(self, "TextTier", name, xmin, xmax)
         
     def insert(self, point): #TODO: Use log(n) algorithm to find correct placement
@@ -546,7 +548,8 @@ class PointTier(Tier):
             ## in the textgrid object
             ## TODO: a better way?
             point.time+=EPSILON
-            print("WARNING: inserted point ",point,"overlaps with existing point", concur)            
+            if self.oprint:
+                print("WARNING: inserted point ",point,"overlaps with existing point", concur)            
         self.items.insert(concur.index+1, point)
         self.resetIndices()
 

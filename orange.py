@@ -8,6 +8,7 @@ from subprocess import call
 # Data related to conv07
 conv07_tab = "data/source/Conv07_choi_20130228_final.tab"
 conv07_data = Orange.data.Table(conv07_tab)
+conv07_outpath = os.path.join("results", "conv07 trees")
 # tree = Orange.classification.tree.TreeLearner(data)
 all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber", 
                   "phone2-manner class", "outcome", "name", "phone1-subnumber",
@@ -50,7 +51,7 @@ def combineMedialCategory(input_filename=conv07_tab):
     saveTab((meta, data), output_filename)
     return output_filename;
 
-def segmental_context(save_path=os.path.join("results", "conv07 trees"), data=conv07_data):
+def segmental_context(save_path=conv07_outpath, data=conv07_data):
     """This shows the distribution of LM preservations/deletions depending on 
      i) what the previous segment is, and 
      ii) what th following segment is. 
@@ -101,5 +102,10 @@ child_tab = "data/source/SLI3122_CNREP_choi.tab"
 child_data = Orange.data.Table(child_tab)
 child_outpath = os.path.join("results","child_trees")
 
-segmental_context(save_path=child_outpath, data=child_data)
-word_position(tab_file=child_tab, save_path=child_outpath, data=child_data)
+conv09_tab = "data/source/conv09g_jessk.tab"
+conv09_data = Orange.data.Table(conv09_tab)
+conv09_outpath = os.path.join("results","conv09 trees")
+
+make_tree_from_attributes(conv09_outpath, "full-tree.dot", all_attributes, conv09_data)
+segmental_context(save_path=conv09_outpath, data=conv09_data)
+word_position(tab_file=conv09_tab, save_path=conv09_outpath, data=conv09_data)

@@ -4,9 +4,11 @@ the textgrid to fix bad landmarks), then returns the path of the output .tab fil
 """
 
 from ExtendedTextGrid import *
-
-tg = ExtendedTextGrid("data/source/SLI3122_CNREP_choi.TextGrid")
+src = "data/source/conv09g_jessk.TextGrid"
+print("Creating .tab from "+src+"...")
+tg = ExtendedTextGrid(src)
 tg.prepare()
 tg.extractContext()
 tg.saveTab()
+print("Saved as "+tg.fname+".tab")
 
