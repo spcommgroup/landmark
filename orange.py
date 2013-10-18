@@ -4,7 +4,7 @@ print "DONE"
 import os
 from subprocess import call
 
-TAB_FILE = "data/source/conv12g_chelsea.tab"
+TAB_FILE = "conv12g_chelsea.tab"
 OUTPUT_FILE_FOLDER = "conv12 trees"
 
 
@@ -115,6 +115,7 @@ def make_tree_from_attributes(outpath, tree_file_name, attributes_names=None, da
 # conv12_outpath = os.path.join("results","conv12 trees")
 
 def main(tab,folder):
+    tab = "data/source/"+tab
     outpath = os.path.join("results", folder)
     data = Orange.data.Table(tab)
     make_tree_from_attributes(outpath, "full-tree.dot", all_attributes, data)
