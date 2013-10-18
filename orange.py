@@ -4,12 +4,16 @@ print "DONE"
 import os
 from subprocess import call
 
+TAB_FILE = "data/source/conv12g_chelsea.tab"
+OUTPUT_FILE_FOLDER = "conv12 trees"
+
 
 # Data related to conv07
 conv07_tab = "data/source/Conv07_choi_20130228_final.tab"
 conv07_data = Orange.data.Table(conv07_tab)
 conv07_outpath = os.path.join("results", "conv07 trees")
 # tree = Orange.classification.tree.TreeLearner(data)
+
 all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber", 
                   "phone2-manner class", "outcome", "name", "phone1-subnumber",
                   "phone2-number", "phone2-stress", "phone1-stress",
@@ -98,14 +102,23 @@ def make_tree_from_attributes(outpath, tree_file_name, attributes_names=None, da
     call(["dot","-Tpng",file_name,"-o",file_name[:-3]+"png"])
     print "Saved", file_name[:-3]+"png"
 
-child_tab = "data/source/SLI3122_CNREP_choi.tab"
-child_data = Orange.data.Table(child_tab)
-child_outpath = os.path.join("results","child_trees")
+# child_tab = "data/source/SLI3122_CNREP_choi.tab"
+# child_data = Orange.data.Table(child_tab)
+# child_outpath = os.path.join("results","child_trees")
 
-conv09_tab = "data/source/conv09g_jessk.tab"
-conv09_data = Orange.data.Table(conv09_tab)
-conv09_outpath = os.path.join("results","conv09 trees")
+# conv09_tab = "data/source/conv09g_jessk.tab"
+# conv09_data = Orange.data.Table(conv09_tab)
+# conv09_outpath = os.path.join("results","conv09 trees")
 
-make_tree_from_attributes(conv09_outpath, "full-tree.dot", all_attributes, conv09_data)
-segmental_context(save_path=conv09_outpath, data=conv09_data)
-word_position(tab_file=conv09_tab, save_path=conv09_outpath, data=conv09_data)
+# conv12_tab = "data/source/conv12g_chelsea.tab"
+# conv12_data = Orange.data.Table(conv12_tab)
+# conv12_outpath = os.path.join("results","conv12 trees")
+
+def main(tab,folder):
+    outpath = os.path.join("results", folder)
+    data = Orange.data.Table(tab)
+    make_tree_from_attributes(outpath, "full-tree.dot", all_attributes, data)
+    segmental_context(save_path=outpath, data=data)
+    word_position(tab_file=tab, save_path=outpath, data=data)
+
+main(TAB_FILE,OUTPUT_FILE_FOLDER)

@@ -1,0 +1,2018 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 893.544 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "LM" 
+        xmin = 0 
+        xmax = 893.544 
+        points: size = 515 
+        points [1]:
+            number = 0.47799992433433114 
+            mark = "m-cl" 
+        points [2]:
+            number = 0.5536512171057164 
+            mark = "m" 
+        points [3]:
+            number = 0.5601433740815013 
+            mark = "k" 
+        points [4]:
+            number = 0.6315571008151348 
+            mark = "V" 
+        points [5]:
+            number = 2.0783072340533666 
+            mark = "V" 
+        points [6]:
+            number = 2.172204441189604 
+            mark = "m-cl" 
+        points [7]:
+            number = 2.461105426612031 
+            mark = "m" 
+        points [8]:
+            number = 3.4110277059313323 
+            mark = "w" 
+        points [9]:
+            number = 3.5254519726295404 
+            mark = "V" 
+        points [10]:
+            number = 3.5684625125941154 
+            mark = "r" 
+        points [11]:
+            number = 3.604169375960932 
+            mark = "V" 
+        points [12]:
+            number = 3.721839721147033 
+            mark = "y" 
+        points [13]:
+            number = 3.722112770240646 
+            mark = "" 
+        points [14]:
+            number = 3.7786460946851506 
+            mark = "r" 
+        points [15]:
+            number = 3.8289603112474833 
+            mark = "s-cl" 
+        points [16]:
+            number = 3.923369636489977 
+            mark = "s" 
+        points [17]:
+            number = 3.9266157149778693 
+            mark = "t-cl" 
+        points [18]:
+            number = 3.9444691466612776 
+            mark = "t" 
+        points [19]:
+            number = 3.968814735320471 
+            mark = "V" 
+        points [20]:
+            number = 4.032113265834373 
+            mark = "r" 
+        points [21]:
+            number = 4.062139491847378 
+            mark = "V" 
+        points [22]:
+            number = 4.224331076975982 
+            mark = "p-cl" 
+        points [23]:
+            number = 4.242184508659391 
+            mark = "p" 
+        points [24]:
+            number = 4.300613921441455 
+            mark = "V" 
+        points [25]:
+            number = 4.516954321194658 
+            mark = "n-cl" 
+        points [26]:
+            number = 4.614742435642417 
+            mark = "n" 
+        points [27]:
+            number = 4.626915229972013 
+            mark = "t-cl" 
+        points [28]:
+            number = 4.684938882943091 
+            mark = "t" 
+        points [29]:
+            number = 4.810439189927825 
+            mark = "V" 
+        points [30]:
+            number = 4.950832084529172 
+            mark = "s-cl" 
+        points [31]:
+            number = 5.023463090695765 
+            mark = "s" 
+        points [32]:
+            number = 5.2504395953807865 
+            mark = "d-cl" 
+        points [33]:
+            number = 5.264641188765316 
+            mark = "d" 
+        points [34]:
+            number = 5.58973527793397 
+            mark = "s-cl" 
+        points [35]:
+            number = 5.661149004667603 
+            mark = "s" 
+        points [36]:
+            number = 5.8149319730315066 
+            mark = "p-cl" 
+        points [37]:
+            number = 5.831973885092942 
+            mark = "p" 
+        points [38]:
+            number = 6.005409768097845 
+            mark = "s-cl" 
+        points [39]:
+            number = 6.081692612563317 
+            mark = "s" 
+        points [40]:
+            number = 6.17615835874807 
+            mark = "s-cl" 
+        points [41]:
+            number = 6.213488261358833 
+            mark = "s" 
+        points [42]:
+            number = 7.836174589170877 
+            mark = "V" 
+        points [43]:
+            number = 8.05277856894652 
+            mark = "k-cl" 
+        points [44]:
+            number = 8.067385922142035 
+            mark = "k" 
+        points [45]:
+            number = 8.140422688119616 
+            mark = "V" 
+        points [46]:
+            number = 10.673222155999134 
+            mark = "h" 
+        points [47]:
+            number = 10.720290294073575 
+            mark = "V" 
+        points [48]:
+            number = 12.824607401551296 
+            mark = "V" 
+        points [49]:
+            number = 13.042251600428939 
+            mark = "sh-cl" 
+        points [50]:
+            number = 13.13756452480107 
+            mark = "sh" 
+        points [51]:
+            number = 13.14324516215488 
+            mark = "V" 
+        points [52]:
+            number = 13.173271388167885 
+            mark = "r" 
+        points [53]:
+            number = 13.25280031112125 
+            mark = "V" 
+        points [54]:
+            number = 13.373716734795243 
+            mark = "h" 
+        points [55]:
+            number = 13.428900069089414 
+            mark = "V" 
+        points [56]:
+            number = 13.612303503655335 
+            mark = "d-cl" 
+        points [57]:
+            number = 15.235646173893262 
+            mark = "m-cl" 
+        points [58]:
+            number = 15.50993980612017 
+            mark = "m" 
+        points [59]:
+            number = 15.599206964537212 
+            mark = "w" 
+        points [60]:
+            number = 15.665642686017746 
+            mark = "V" 
+        points [61]:
+            number = 15.753286805349862 
+            mark = "V" 
+        points [62]:
+            number = 15.893071060488353 
+            mark = "V" 
+        points [63]:
+            number = 15.9876330756998 
+            mark = "r" 
+        points [64]:
+            number = 16.09069606787738 
+            mark = "V" 
+        points [65]:
+            number = 16.203943295292117 
+            mark = "V" 
+        points [66]:
+            number = 16.321613640691716 
+            mark = "m-cl" 
+        points [67]:
+            number = 16.421161444467796 
+            mark = "m" 
+        points [68]:
+            number = 16.474569159639447 
+            mark = "V" 
+        points [69]:
+            number = 16.547220285909862 
+            mark = "n-cl" 
+        points [70]:
+            number = 16.59509994369315 
+            mark = "n" 
+        points [71]:
+            number = 16.627154968819248 
+            mark = "V" 
+        points [72]:
+            number = 16.829243475029227 
+            mark = "m-cl" 
+        points [73]:
+            number = 16.930277668148193 
+            mark = "m" 
+        points [74]:
+            number = 17.89674443552496 
+            mark = "y" 
+        points [75]:
+            number = 18.01575390422329 
+            mark = "V" 
+        points [76]:
+            number = 18.207678295168154 
+            mark = "V" 
+        points [77]:
+            number = 18.30359438061077 
+            mark = "n-cl" 
+        points [78]:
+            number = 18.394484578436668 
+            mark = "n" 
+        points [79]:
+            number = 18.405845853164905 
+            mark = "l" 
+        points [80]:
+            number = 18.480449488506057 
+            mark = "V" 
+        points [81]:
+            number = 18.622242977568913 
+            mark = "k-cl" 
+        points [82]:
+            number = 18.653080723203892 
+            mark = "k" 
+        points [83]:
+            number = 19.213572735767066 
+            mark = "l" 
+        points [84]:
+            number = 19.324301180013983 
+            mark = "V" 
+        points [85]:
+            number = 19.436290888049466 
+            mark = "f-cl" 
+        points [86]:
+            number = 19.508516134536116 
+            mark = "f" 
+        points [87]:
+            number = 19.510950693406453 
+            mark = "t-cl" 
+        points [88]:
+            number = 19.530427164369147 
+            mark = "t" 
+        points [89]:
+            number = 19.60553296948194 
+            mark = "V" 
+        points [90]:
+            number = 19.67329485803964 
+            mark = "r" 
+        points [91]:
+            number = 19.82729076657445 
+            mark = "V" 
+        points [92]:
+            number = 20.120968650202094 
+            mark = "g-cl" 
+        points [93]:
+            number = 20.17128286685572 
+            mark = "g" 
+        points [94]:
+            number = 20.215104926521775 
+            mark = "V" 
+        points [95]:
+            number = 20.43091297634245 
+            mark = "d-cl" 
+        points [96]:
+            number = 20.441462731447242 
+            mark = "d" 
+        points [97]:
+            number = 20.472706236949893 
+            mark = "V" 
+        points [98]:
+            number = 20.675357272847638 
+            mark = "w" 
+        points [99]:
+            number = 20.743524921217062 
+            mark = "n-cl" 
+        points [100]:
+            number = 20.86200678624011 
+            mark = "n" 
+        points [101]:
+            number = 26.661292377345262 
+            mark = "w" 
+        points [102]:
+            number = 26.722156349103674 
+            mark = "V" 
+        points [103]:
+            number = 26.816525685287285 
+            mark = "l" 
+        points [104]:
+            number = 26.936224829745502 
+            mark = "V" 
+        points [105]:
+            number = 26.9977477411516 
+            mark = "f-cl" 
+        points [106]:
+            number = 27.079305463307875 
+            mark = "f" 
+        points [107]:
+            number = 27.08458034086027 
+            mark = "t-cl" 
+        points [108]:
+            number = 27.125967841655996 
+            mark = "t" 
+        points [109]:
+            number = 27.18115117605029 
+            mark = "V" 
+        points [110]:
+            number = 27.303497819270724 
+            mark = "r" 
+        points [111]:
+            number = 27.37462231625417 
+            mark = "V" 
+        points [112]:
+            number = 27.517027633325103 
+            mark = "t-cl" 
+        points [113]:
+            number = 29.270693510512555 
+            mark = "n" 
+        points [114]:
+            number = 29.34425666832974 
+            mark = "V" 
+        points [115]:
+            number = 29.41445311575778 
+            mark = "k-cl" 
+        points [116]:
+            number = 29.42824894935635 
+            mark = "k" 
+        points [117]:
+            number = 29.49195323979683 
+            mark = "n-cl" 
+        points [118]:
+            number = 29.532934980780826 
+            mark = "n" 
+        points [119]:
+            number = 29.540238657391836 
+            mark = "y" 
+        points [120]:
+            number = 29.579734009032943 
+            mark = "V" 
+        points [121]:
+            number = 29.621933029452112 
+            mark = "r" 
+        points [122]:
+            number = 29.71160594784284 
+            mark = "V" 
+        points [123]:
+            number = 29.79248880027968 
+            mark = "V" 
+        points [124]:
+            number = 29.86755436544839 
+            mark = "l" 
+        points [125]:
+            number = 29.996433405600474 
+            mark = "V" 
+        points [126]:
+            number = 30.052428259618214 
+            mark = "f-cl" 
+        points [127]:
+            number = 30.1092346332594 
+            mark = "f" 
+        points [128]:
+            number = 30.11166919212974 
+            mark = "t-cl" 
+        points [129]:
+            number = 30.13723206026827 
+            mark = "t" 
+        points [130]:
+            number = 30.192029754822887 
+            mark = "V" 
+        points [131]:
+            number = 30.213671674748195 
+            mark = "r" 
+        points [132]:
+            number = 30.278187484812115 
+            mark = "V" 
+        points [133]:
+            number = 30.38003319755453 
+            mark = "t-cl" 
+        points [134]:
+            number = 30.42101493853853 
+            mark = "t" 
+        points [135]:
+            number = 30.43871579027857 
+            mark = "d-cl" 
+        points [136]:
+            number = 30.44317914820752 
+            mark = "d" 
+        points [137]:
+            number = 30.452105864065423 
+            mark = "V" 
+        points [138]:
+            number = 30.50769495827144 
+            mark = "r" 
+        points [139]:
+            number = 30.531229027351362 
+            mark = "V" 
+        points [140]:
+            number = 30.57702371606019 
+            mark = "k" 
+        points [141]:
+            number = 30.585950431918093 
+            mark = "sh-cl" 
+        points [142]:
+            number = 30.700780458635634 
+            mark = "sh" 
+        points [143]:
+            number = 30.710112934305258 
+            mark = "V" 
+        points [144]:
+            number = 30.795033264887284 
+            mark = "n-cl" 
+        points [145]:
+            number = 30.901748095370372 
+            mark = "n" 
+        points [146]:
+            number = 35.5284536709183 
+            mark = "V" 
+        points [147]:
+            number = 36.32698897893983 
+            mark = "V" 
+        points [148]:
+            number = 36.51963916206341 
+            mark = "k-cl" 
+        points [149]:
+            number = 36.53100043677104 
+            mark = "k" 
+        points [150]:
+            number = 36.60566024199257 
+            mark = "V" 
+        points [151]:
+            number = 36.681943086458034 
+            mark = "f-cl" 
+        points [152]:
+            number = 36.808540147485836 
+            mark = "f" 
+        points [153]:
+            number = 36.818278382949515 
+            mark = "V" 
+        points [154]:
+            number = 36.905922502122614 
+            mark = "s-cl" 
+        points [155]:
+            number = 36.99194358205176 
+            mark = "s" 
+        points [156]:
+            number = 36.99843573902754 
+            mark = "r" 
+        points [157]:
+            number = 37.01304309222306 
+            mark = "V" 
+        points [158]:
+            number = 37.29753973983496 
+            mark = "r" 
+        points [159]:
+            number = 37.341361799421506 
+            mark = "V" 
+        points [160]:
+            number = 37.43928762746001 
+            mark = "k-cl" 
+        points [161]:
+            number = 41.17515264250581 
+            mark = "V" 
+        points [162]:
+            number = 41.28551931109415 
+            mark = "h" 
+        points [163]:
+            number = 41.462430588684285 
+            mark = "V" 
+        points [164]:
+            number = 46.790851111010205 
+            mark = "w" 
+        points [165]:
+            number = 46.849280523792274 
+            mark = "V" 
+        points [166]:
+            number = 46.94605423871256 
+            mark = "V" 
+        points [167]:
+            number = 47.084362548485224 
+            mark = "V" 
+        points [168]:
+            number = 47.15415323610154 
+            mark = "l" 
+        points [169]:
+            number = 47.35784466158637 
+            mark = "V" 
+        points [170]:
+            number = 47.472734636243196 
+            mark = "f-cl" 
+        points [171]:
+            number = 47.58594162350845 
+            mark = "f" 
+        points [172]:
+            number = 47.66100718854096 
+            mark = "t" 
+        points [173]:
+            number = 48.8071562552409 
+            mark = "V" 
+        points [174]:
+            number = 48.88776873130217 
+            mark = "y" 
+        points [175]:
+            number = 48.990020203856304 
+            mark = "V" 
+        points [176]:
+            number = 49.18397339385979 
+            mark = "d-cl" 
+        points [177]:
+            number = 49.23509913013685 
+            mark = "d" 
+        points [178]:
+            number = 49.25214104222921 
+            mark = "V" 
+        points [179]:
+            number = 52.407089110807725 
+            mark = "n-cl" 
+        points [180]:
+            number = 52.51989033846665 
+            mark = "n" 
+        points [181]:
+            number = 52.53125161319488 
+            mark = "V" 
+        points [182]:
+            number = 57.66688266236911 
+            mark = "f-cl" 
+        points [183]:
+            number = 57.728558153750974 
+            mark = "f" 
+        points [184]:
+            number = 57.812956194589304 
+            mark = "V" 
+        points [185]:
+            number = 57.970391001537735 
+            mark = "s-cl" 
+        points [186]:
+            number = 58.113218455264146 
+            mark = "s" 
+        points [187]:
+            number = 58.155417475683315 
+            mark = "r" 
+        points [188]:
+            number = 58.2889124537401 
+            mark = "V" 
+        points [189]:
+            number = 58.40901735801004 
+            mark = "n-cl" 
+        points [190]:
+            number = 58.46744677089812 
+            mark = "n" 
+        points [191]:
+            number = 58.48124260449669 
+            mark = "k-cl" 
+        points [192]:
+            number = 58.50396515395317 
+            mark = "k" 
+        points [193]:
+            number = 58.63941683098098 
+            mark = "r" 
+        points [194]:
+            number = 58.692165606504936 
+            mark = "V" 
+        points [195]:
+            number = 58.81876266776244 
+            mark = "k-cl" 
+        points [196]:
+            number = 58.91127590483523 
+            mark = "w" 
+        points [197]:
+            number = 58.93562149353859 
+            mark = "V" 
+        points [198]:
+            number = 59.00784674002524 
+            mark = "w" 
+        points [199]:
+            number = 59.07926046688845 
+            mark = "V" 
+        points [200]:
+            number = 59.28470506877845 
+            mark = "y" 
+        points [201]:
+            number = 59.3033700201177 
+            mark = "V" 
+        points [202]:
+            number = 59.324854257008596 
+            mark = "r" 
+        points [203]:
+            number = 59.34302067372803 
+            mark = "f-cl" 
+        points [204]:
+            number = 59.42362794354313 
+            mark = "f" 
+        points [205]:
+            number = 59.4277972850853 
+            mark = "V" 
+        points [206]:
+            number = 59.51434347659403 
+            mark = "s-cl" 
+        points [207]:
+            number = 59.57350841847803 
+            mark = "s" 
+        points [208]:
+            number = 59.58998724457324 
+            mark = "r" 
+        points [209]:
+            number = 59.609729418495654 
+            mark = "V" 
+        points [210]:
+            number = 59.65146996770857 
+            mark = "n-cl" 
+        points [211]:
+            number = 59.69971520555358 
+            mark = "n" 
+        points [212]:
+            number = 59.711429069886314 
+            mark = "V" 
+        points [213]:
+            number = 59.72433417465967 
+            mark = "n-cl" 
+        points [214]:
+            number = 59.76662321030159 
+            mark = "n" 
+        points [215]:
+            number = 59.78025777573877 
+            mark = "k-cl" 
+        points [216]:
+            number = 59.8696552668526 
+            mark = "k" 
+        points [217]:
+            number = 59.87461876868851 
+            mark = "r" 
+        points [218]:
+            number = 59.88766795546777 
+            mark = "V" 
+        points [219]:
+            number = 59.93934283262872 
+            mark = "k-cl" 
+        points [220]:
+            number = 59.97170486459882 
+            mark = "k" 
+        points [221]:
+            number = 59.99681807218425 
+            mark = "V" 
+        points [222]:
+            number = 60.06968227913534 
+            mark = "g-cl" 
+        points [223]:
+            number = 60.08238884383526 
+            mark = "g" 
+        points [224]:
+            number = 60.107206353014796 
+            mark = "V" 
+        points [225]:
+            number = 60.24369053688971 
+            mark = "n-cl" 
+        points [226]:
+            number = 60.32012846516266 
+            mark = "n" 
+        points [227]:
+            number = 60.65273769883082 
+            mark = "V" 
+        points [228]:
+            number = 60.86572191680518 
+            mark = "y" 
+        points [229]:
+            number = 60.97608858559377 
+            mark = "V" 
+        points [230]:
+            number = 61.546016409141025 
+            mark = "V" 
+        points [231]:
+            number = 61.74483871688518 
+            mark = "m-cl" 
+        points [232]:
+            number = 61.79190685504502 
+            mark = "m" 
+        points [233]:
+            number = 61.818687002618724 
+            mark = "V" 
+        points [234]:
+            number = 61.870624258519236 
+            mark = "k-cl" 
+        points [235]:
+            number = 61.888477690235035 
+            mark = "k" 
+        points [236]:
+            number = 61.958268377851354 
+            mark = "V" 
+        points [237]:
+            number = 62.0572737719117 
+            mark = "h" 
+        points [238]:
+            number = 62.11732622404668 
+            mark = "V" 
+        points [239]:
+            number = 62.19264496905136 
+            mark = "v-cl" 
+        points [240]:
+            number = 62.25594349968011 
+            mark = "th" 
+        points [241]:
+            number = 62.28353516687726 
+            mark = "V" 
+        points [242]:
+            number = 62.441781493449135 
+            mark = "t-cl" 
+        points [243]:
+            number = 62.46369252328216 
+            mark = "t" 
+        points [244]:
+            number = 62.54639542478601 
+            mark = "w" 
+        points [245]:
+            number = 62.64314882402186 
+            mark = "l" 
+        points [246]:
+            number = 62.706853114462334 
+            mark = "V" 
+        points [247]:
+            number = 62.80058363097029 
+            mark = "h" 
+        points [248]:
+            number = 62.88295287275001 
+            mark = "V" 
+        points [249]:
+            number = 62.915357487672 
+            mark = "v-cl" 
+        points [250]:
+            number = 62.9705408220663 
+            mark = "v" 
+        points [251]:
+            number = 63.026170156216395 
+            mark = "V" 
+        points [252]:
+            number = 63.117060354042295 
+            mark = "k-cl" 
+        points [253]:
+            number = 63.16494001182558 
+            mark = "k" 
+        points [254]:
+            number = 63.25152362159857 
+            mark = "V" 
+        points [255]:
+            number = 63.35661541283477 
+            mark = "r" 
+        points [256]:
+            number = 63.37406308473884 
+            mark = "v-cl" 
+        points [257]:
+            number = 63.4320867378152 
+            mark = "v" 
+        points [258]:
+            number = 63.4373616153676 
+            mark = "d-cl" 
+        points [259]:
+            number = 63.449940169531004 
+            mark = "d" 
+        points [260]:
+            number = 63.473879998422646 
+            mark = "w" 
+        points [261]:
+            number = 63.572210522763555 
+            mark = "V" 
+        points [262]:
+            number = 63.65823160284879 
+            mark = "V" 
+        points [263]:
+            number = 63.76740066540225 
+            mark = "p-cl" 
+        points [264]:
+            number = 63.792963533540785 
+            mark = "p" 
+        points [265]:
+            number = 63.88748963960043 
+            mark = "V" 
+        points [266]:
+            number = 64.02666525502133 
+            mark = "l" 
+        points [267]:
+            number = 69.0269542717743 
+            mark = "V" 
+        points [268]:
+            number = 69.19412731420407 
+            mark = "h" 
+        points [269]:
+            number = 69.24768760935146 
+            mark = "V" 
+        points [270]:
+            number = 69.28920717837492 
+            mark = "v-cl" 
+        points [271]:
+            number = 69.31761036519552 
+            mark = "v" 
+        points [272]:
+            number = 69.32653708105342 
+            mark = "t-cl" 
+        points [273]:
+            number = 69.4190503181262 
+            mark = "t" 
+        points [274]:
+            number = 69.57161600733394 
+            mark = "V" 
+        points [275]:
+            number = 72.38707602027623 
+            mark = "m-cl" 
+        points [276]:
+            number = 72.42927504069539 
+            mark = "m" 
+        points [277]:
+            number = 72.4438823939174 
+            mark = "V" 
+        points [278]:
+            number = 72.50474636567583 
+            mark = "t-cl" 
+        points [279]:
+            number = 72.56479881781078 
+            mark = "t" 
+        points [280]:
+            number = 72.64838533902567 
+            mark = "V" 
+        points [281]:
+            number = 72.72872578174678 
+            mark = "p-cl" 
+        points [282]:
+            number = 72.82854269543057 
+            mark = "p" 
+        points [283]:
+            number = 72.84315004865259 
+            mark = "w" 
+        points [284]:
+            number = 72.89914490267032 
+            mark = "V" 
+        points [285]:
+            number = 73.13529711309296 
+            mark = "n-cl" 
+        points [286]:
+            number = 73.21969515393128 
+            mark = "n	" 
+        points [287]:
+            number = 73.77810906777862 
+            mark = "V" 
+        points [288]:
+            number = 74.01588431744813 
+            mark = "s-cl" 
+        points [289]:
+            number = 74.06457549485486 
+            mark = "s" 
+        points [290]:
+            number = 74.10920907414436 
+            mark = "V" 
+        points [291]:
+            number = 74.42245564879431 
+            mark = "m-cl" 
+        points [292]:
+            number = 74.53687991570013 
+            mark = "m" 
+        points [293]:
+            number = 74.5506757492987 
+            mark = "k-cl" 
+        points [294]:
+            number = 74.58475957348341 
+            mark = "k" 
+        points [295]:
+            number = 74.69487013612373 
+            mark = "V" 
+        points [296]:
+            number = 74.75086499014145 
+            mark = "n-cl" 
+        points [297]:
+            number = 74.80199072641852 
+            mark = "n" 
+        points [298]:
+            number = 74.82877087399223 
+            mark = "V" 
+        points [299]:
+            number = 74.88801180650374 
+            mark = "f-cl" 
+        points [300]:
+            number = 74.90586523821955 
+            mark = "f" 
+        points [301]:
+            number = 74.91073435596022 
+            mark = "p-cl" 
+        points [302]:
+            number = 74.97078680809518 
+            mark = "p" 
+        points [303]:
+            number = 75.07060372177898 
+            mark = "V" 
+        points [304]:
+            number = 75.11813797966667 
+            mark = "r" 
+        points [305]:
+            number = 75.15546788234516 
+            mark = "V" 
+        points [306]:
+            number = 75.20821665786912 
+            mark = "l" 
+        points [307]:
+            number = 75.27476126699165 
+            mark = "V" 
+        points [308]:
+            number = 75.37295514142855 
+            mark = "l" 
+        points [309]:
+            number = 75.4435573486683 
+            mark = "t-cl" 
+        points [310]:
+            number = 75.48494484946401 
+            mark = "t" 
+        points [311]:
+            number = 75.59199333967129 
+            mark = "V" 
+        points [312]:
+            number = 75.67476834126273 
+            mark = "th-cl" 
+        points [313]:
+            number = 75.71615584205844 
+            mark = "th" 
+        points [314]:
+            number = 75.73725535226804 
+            mark = "V" 
+        points [315]:
+            number = 75.82814555009392 
+            mark = "d-cl" 
+        points [316]:
+            number = 75.88251736486477 
+            mark = "d" 
+        points [317]:
+            number = 75.89793623771023 
+            mark = "V" 
+        points [318]:
+            number = 76.05537104465866 
+            mark = "s-cl" 
+        points [319]:
+            number = 76.09594702583092 
+            mark = "s" 
+        points [320]:
+            number = 76.10730830055917 
+            mark = "r" 
+        points [321]:
+            number = 76.32062562149366 
+            mark = "t-cl" 
+        points [322]:
+            number = 76.94445908508794 
+            mark = "b" 
+        points [323]:
+            number = 76.95582035981617 
+            mark = "V" 
+        points [324]:
+            number = 77.01506129232769 
+            mark = "V" 
+        points [325]:
+            number = 77.0653755089813 
+            mark = "s-cl" 
+        points [326]:
+            number = 77.16032330492443 
+            mark = "t" 
+        points [327]:
+            number = 77.24012552783013 
+            mark = "V" 
+        points [328]:
+            number = 77.3342618041498 
+            mark = "V" 
+        points [329]:
+            number = 77.38295298155654 
+            mark = "r" 
+        points [330]:
+            number = 77.48926205222789 
+            mark = "V" 
+        points [331]:
+            number = 77.65446665551518 
+            mark = "V" 
+        points [332]:
+            number = 77.71857670576738 
+            mark = "v-cl" 
+        points [333]:
+            number = 77.77457155978512 
+            mark = "v" 
+        points [334]:
+            number = 77.7940480307478 
+            mark = "V" 
+        points [335]:
+            number = 78.00910073096085 
+            mark = "t-cl" 
+        points [336]:
+            number = 78.55916683548178 
+            mark = "b" 
+        points [337]:
+            number = 78.59479321902519 
+            mark = "V" 
+        points [338]:
+            number = 78.78793488940522 
+            mark = "b-cl" 
+        points [339]:
+            number = 78.85610253777463 
+            mark = "b" 
+        points [340]:
+            number = 78.89018636195935 
+            mark = "V" 
+        points [341]:
+            number = 79.27075720521181 
+            mark = "t-cl" 
+        points [342]:
+            number = 80.60703279810366 
+            mark = "b" 
+        points [343]:
+            number = 80.61920559245534 
+            mark = "V" 
+        points [344]:
+            number = 80.77258280128655 
+            mark = "b-cl" 
+        points [345]:
+            number = 80.78719015450857 
+            mark = "b" 
+        points [346]:
+            number = 80.80423206660092 
+            mark = "V" 
+        points [347]:
+            number = 80.91946785313017 
+            mark = "f-cl" 
+        points [348]:
+            number = 81.04363035551732 
+            mark = "f" 
+        points [349]:
+            number = 81.05499163024557 
+            mark = "V" 
+        points [350]:
+            number = 81.19051540736096 
+            mark = "r" 
+        points [351]:
+            number = 81.24234032322983 
+            mark = "V" 
+        points [352]:
+            number = 81.2934660595069 
+            mark = "n-cl" 
+        points [353]:
+            number = 81.34540331540741 
+            mark = "n" 
+        points [354]:
+            number = 81.36650282561699 
+            mark = "ch-cl" 
+        points [355]:
+            number = 81.42980135624573 
+            mark = "ch" 
+        points [356]:
+            number = 81.46469670005389 
+            mark = "V" 
+        points [357]:
+            number = 81.60508959490996 
+            mark = "s-cl" 
+        points [358]:
+            number = 81.81755515627692 
+            mark = "s" 
+        points [359]:
+            number = 82.36031758418686 
+            mark = "f-cl" 
+        points [360]:
+            number = 82.4341658699204 
+            mark = "f" 
+        points [361]:
+            number = 82.43903498766107 
+            mark = "V" 
+        points [362]:
+            number = 82.47717640996301 
+            mark = "r" 
+        points [363]:
+            number = 82.52018695000562 
+            mark = "n-cl" 
+        points [364]:
+            number = 82.53966342096831 
+            mark = "n" 
+        points [365]:
+            number = 82.55589381343722 
+            mark = "h" 
+        points [366]:
+            number = 82.57455876477647 
+            mark = "V" 
+        points [367]:
+            number = 82.64840705051 
+            mark = "f-cl" 
+        points [368]:
+            number = 82.69222911017606 
+            mark = "f" 
+        points [369]:
+            number = 82.70927102226841 
+            mark = "V" 
+        points [370]:
+            number = 82.8391141620197 
+            mark = "ch-cl" 
+        points [371]:
+            number = 82.91945460474079 
+            mark = "ch" 
+        points [372]:
+            number = 82.92756980097525 
+            mark = "V" 
+        points [373]:
+            number = 83.11692717304607 
+            mark = "s-cl" 
+        points [374]:
+            number = 83.35551394233903 
+            mark = "s" 
+        points [375]:
+            number = 83.81001355121323 
+            mark = "m-cl" 
+        points [376]:
+            number = 84.23119223578144 
+            mark = "m" 
+        points [377]:
+            number = 84.63405974870662 
+            mark = "y" 
+        points [378]:
+            number = 84.65759381778653 
+            mark = "V" 
+        points [379]:
+            number = 84.87264651799958 
+            mark = "r" 
+        points [380]:
+            number = 84.94324872523934 
+            mark = "V" 
+        points [381]:
+            number = 84.99275142226952 
+            mark = "f-cl" 
+        points [382]:
+            number = 85.10717568917532 
+            mark = "f" 
+        points [383]:
+            number = 85.1209715227739 
+            mark = "l" 
+        points [384]:
+            number = 85.16641662168685 
+            mark = "V" 
+        points [385]:
+            number = 87.98384134759013 
+            mark = "y" 
+        points [386]:
+            number = 88.08771585939114 
+            mark = "V" 
+        points [387]:
+            number = 93.36037191129815 
+            mark = "y" 
+        points [388]:
+            number = 93.49411492678634 
+            mark = "V" 
+        points [389]:
+            number = 93.61259679180937 
+            mark = "s-cl" 
+        points [390]:
+            number = 93.69212571490704 
+            mark = "s" 
+        points [391]:
+            number = 93.69537179340081 
+            mark = "l" 
+        points [392]:
+            number = 93.70673306812905 
+            mark = "V" 
+        points [393]:
+            number = 93.75542424553578 
+            mark = "k-cl" 
+        points [394]:
+            number = 93.79762326595494 
+            mark = "k" 
+        points [395]:
+            number = 93.8771521890526 
+            mark = "V" 
+        points [396]:
+            number = 93.89528464977018 
+            mark = "n-cl" 
+        points [397]:
+            number = 93.94397582717691 
+            mark = "n" 
+        points [398]:
+            number = 93.9545255822817 
+            mark = "V" 
+        points [399]:
+            number = 93.9865806074078 
+            mark = "v-cl" 
+        points [400]:
+            number = 94.02472202970974 
+            mark = "v" 
+        points [401]:
+            number = 94.05718281464756 
+            mark = "V" 
+        points [402]:
+            number = 94.09978759487845 
+            mark = "n-cl" 
+        points [403]:
+            number = 94.1578112479548 
+            mark = "n" 
+        points [404]:
+            number = 94.16349188531892 
+            mark = "b" 
+        points [405]:
+            number = 94.17728771891748 
+            mark = "V" 
+        points [406]:
+            number = 94.23048249419726 
+            mark = "t-cl" 
+        points [407]:
+            number = 94.26578359781713 
+            mark = "t" 
+        points [408]:
+            number = 94.36654868102838 
+            mark = "w" 
+        points [409]:
+            number = 94.40834194163583 
+            mark = "V" 
+        points [410]:
+            number = 94.50044941889689 
+            mark = "n-cl" 
+        points [411]:
+            number = 94.55928459159668 
+            mark = "n" 
+        points [412]:
+            number = 94.6309716182679 
+            mark = "d-cl" 
+        points [413]:
+            number = 94.66586696207607 
+            mark = "d" 
+        points [414]:
+            number = 94.68493767322704 
+            mark = "V" 
+        points [415]:
+            number = 94.80991169523765 
+            mark = "s-cl" 
+        points [416]:
+            number = 94.86184895113816 
+            mark = "s" 
+        points [417]:
+            number = 94.87483326511328 
+            mark = "V" 
+        points [418]:
+            number = 94.89610921839896 
+            mark = "r" 
+        points [419]:
+            number = 95.08357025141487 
+            mark = "V" 
+        points [420]:
+            number = 95.14199966430294 
+            mark = "p-cl" 
+        points [421]:
+            number = 95.18135836604004 
+            mark = "p" 
+        points [422]:
+            number = 95.2441748468692 
+            mark = "V" 
+        points [423]:
+            number = 95.29854666164005 
+            mark = "ch-cl" 
+        points [424]:
+            number = 95.37645254549082 
+            mark = "ch" 
+        points [425]:
+            number = 95.38456774172528 
+            mark = "V" 
+        points [426]:
+            number = 95.4162769201838 
+            mark = "k-cl" 
+        points [427]:
+            number = 95.43859370982855 
+            mark = "k" 
+        points [428]:
+            number = 95.53313574595995 
+            mark = "V" 
+        points [429]:
+            number = 95.65082621133159 
+            mark = "m-cl" 
+        points [430]:
+            number = 95.68693883457492 
+            mark = "m" 
+        points [431]:
+            number = 95.69140219250387 
+            mark = "p-cl" 
+        points [432]:
+            number = 95.76200439974362 
+            mark = "p" 
+        points [433]:
+            number = 98.70825866769386 
+            mark = "V" 
+        points [434]:
+            number = 98.89019996132218 
+            mark = "m-cl" 
+        points [435]:
+            number = 99.05006932714095 
+            mark = "m" 
+        points [436]:
+            number = 99.09632594567734 
+            mark = "s-cl" 
+        points [437]:
+            number = 99.57945297466345 
+            mark = "s" 
+        points [438]:
+            number = 99.5964948867558 
+            mark = "V" 
+        points [439]:
+            number = 99.74999236864728 
+            mark = "t-cl" 
+        points [440]:
+            number = 99.76297668262241 
+            mark = "t" 
+        points [441]:
+            number = 99.84980928233108 
+            mark = "V" 
+        points [442]:
+            number = 99.98088982148957 
+            mark = "r" 
+        points [443]:
+            number = 100.07622325727237 
+            mark = "b-cl" 
+        points [444]:
+            number = 100.12004531693843 
+            mark = "b" 
+        points [445]:
+            number = 100.14400526580211 
+            mark = "V" 
+        points [446]:
+            number = 100.28795777890406 
+            mark = "m-cl" 
+        points [447]:
+            number = 100.35206782915625 
+            mark = "m" 
+        points [448]:
+            number = 100.36018302539071 
+            mark = "V" 
+        points [449]:
+            number = 100.44133498773526 
+            mark = "b-cl" 
+        points [450]:
+            number = 100.46324601756828 
+            mark = "b" 
+        points [451]:
+            number = 100.47379577267307 
+            mark = "V" 
+        points [452]:
+            number = 100.56225141162864 
+            mark = "h" 
+        points [453]:
+            number = 100.6133771479057 
+            mark = "V" 
+        points [454]:
+            number = 100.6669374430531 
+            mark = "f-cl" 
+        points [455]:
+            number = 100.7383511699163 
+            mark = "f" 
+        points [456]:
+            number = 100.75957139995818 
+            mark = "V" 
+        points [457]:
+            number = 100.77174419430986 
+            mark = "n-cl" 
+        points [458]:
+            number = 100.79771282226011 
+            mark = "n" 
+        points [459]:
+            number = 100.82449296983381 
+            mark = "V" 
+        points [460]:
+            number = 100.90970253029559 
+            mark = "ch-cl" 
+        points [461]:
+            number = 101.04522630741099 
+            mark = "ch" 
+        points [462]:
+            number = 101.05496454289234 
+            mark = "V" 
+        points [463]:
+            number = 101.08174469046604 
+            mark = "th-cl" 
+        points [464]:
+            number = 101.11826307352108 
+            mark = "th" 
+        points [465]:
+            number = 101.1328704267431 
+            mark = "V" 
+        points [466]:
+            number = 101.18237312377327 
+            mark = "r" 
+        points [467]:
+            number = 101.30572410653699 
+            mark = "V" 
+        points [468]:
+            number = 101.48020082557777 
+            mark = "t-cl" 
+        points [469]:
+            number = 101.55161455244097 
+            mark = "t" 
+        points [470]:
+            number = 105.72978490595325 
+            mark = "m-cl" 
+        points [471]:
+            number = 106.03167020587497 
+            mark = "m" 
+        points [472]:
+            number = 106.05033515721422 
+            mark = "l" 
+        points [473]:
+            number = 106.07792682441136 
+            mark = "V" 
+        points [474]:
+            number = 106.13473319805256 
+            mark = "l" 
+        points [475]:
+            number = 106.22562339587844 
+            mark = "V" 
+        points [476]:
+            number = 106.31326751521055 
+            mark = "b-cl" 
+        points [477]:
+            number = 106.34978589826561 
+            mark = "b" 
+        points [478]:
+            number = 106.37158458806697 
+            mark = "V" 
+        points [479]:
+            number = 106.43163704020192 
+            mark = "l" 
+        points [480]:
+            number = 106.5168466006637 
+            mark = "V" 
+        points [481]:
+            number = 107.79582841281503 
+            mark = "y" 
+        points [482]:
+            number = 107.88671861064091 
+            mark = "V" 
+        points [483]:
+            number = 107.96381297486823 
+            mark = "l" 
+        points [484]:
+            number = 108.07255660440994 
+            mark = "k-cl" 
+        points [485]:
+            number = 108.12449386031045 
+            mark = "m-cl" 
+        points [486]:
+            number = 108.1520855275076 
+            mark = "m" 
+        points [487]:
+            number = 108.16669288072961 
+            mark = "V" 
+        points [488]:
+            number = 108.29978209897467 
+            mark = "h" 
+        points [489]:
+            number = 108.3663267080972 
+            mark = "V" 
+        points [490]:
+            number = 108.41014876776326 
+            mark = "f-cl" 
+        points [491]:
+            number = 108.48805465161402 
+            mark = "f" 
+        points [492]:
+            number = 108.49941592634225 
+            mark = "V" 
+        points [493]:
+            number = 108.5091541618236 
+            mark = "n-cl" 
+        points [494]:
+            number = 108.54323798600832 
+            mark = "n" 
+        points [495]:
+            number = 108.55622229998345 
+            mark = "V" 
+        points [496]:
+            number = 108.56920661395857 
+            mark = "n-cl" 
+        points [497]:
+            number = 108.59517524190882 
+            mark = "n" 
+        points [498]:
+            number = 108.62763602684664 
+            mark = "ch-cl" 
+        points [499]:
+            number = 108.68768847898161 
+            mark = "ch" 
+        points [500]:
+            number = 108.70067279295674 
+            mark = "b-cl" 
+        points [501]:
+            number = 108.75423308810414 
+            mark = "b" 
+        points [502]:
+            number = 108.76559436283237 
+            mark = "V" 
+        points [503]:
+            number = 108.7980551477702 
+            mark = "l" 
+        points [504]:
+            number = 108.90842181655879 
+            mark = "V" 
+        points [505]:
+            number = 110.8729302980064 
+            mark = "y" 
+        points [506]:
+            number = 110.89889892595666 
+            mark = "V" 
+        points [507]:
+            number = 113.44924443242364 
+            mark = "V" 
+        points [508]:
+            number = 113.50118168832415 
+            mark = "k-cl" 
+        points [509]:
+            number = 113.51578904154617 
+            mark = "k" 
+        points [510]:
+            number = 113.59207188615005 
+            mark = "V" 
+        points [511]:
+            number = 113.84526600866505 
+            mark = "y" 
+        points [512]:
+            number = 114.37437680315149 
+            mark = "s-cl" 
+        points [513]:
+            number = 114.53505768859371 
+            mark = "s" 
+        points [514]:
+            number = 114.54641896332194 
+            mark = "V" 
+        points [515]:
+            number = 114.65191651436986 
+            mark = "V" 
+    item [2]:
+        class = "TextTier" 
+        name = "LMmods" 
+        xmin = 0 
+        xmax = 893.544 
+        points: size = 142 
+        points [1]:
+            number = 0.5568972955936088 
+            mark = "k-cl-x" 
+        points [2]:
+            number = 3.6653063967025283 
+            mark = "z-cl-+" 
+        points [3]:
+            number = 3.669090945718781 
+            mark = "s-cl-x" 
+        points [4]:
+            number = 3.715347564171248 
+            mark = "s-x" 
+        points [5]:
+            number = 3.7188666917527535 
+            mark = "z-+" 
+        points [6]:
+            number = 3.7486198686721455 
+            mark = "V-x" 
+        points [7]:
+            number = 4.049966697517782 
+            mark = "t-cl-x" 
+        points [8]:
+            number = 4.0548358152496204 
+            mark = "t-glide-+" 
+        points [9]:
+            number = 4.062139491847378 
+            mark = "t-x" 
+        points [10]:
+            number = 4.097734015948178 
+            mark = "n-cl-x" 
+        points [11]:
+            number = 4.1675247034378655 
+            mark = "n-x" 
+        points [12]:
+            number = 4.194304850962977 
+            mark = "g-cl-x" 
+        points [13]:
+            number = 4.204854606048628 
+            mark = "g-x" 
+        points [14]:
+            number = 13.222774085108245 
+            mark = "g" 
+        points [15]:
+            number = 13.682094191145023 
+            mark = "d-x" 
+        points [16]:
+            number = 15.715956902671369 
+            mark = "d-cl-x" 
+        points [17]:
+            number = 15.722449059658933 
+            mark = "d-glide-+" 
+        points [18]:
+            number = 15.724072098905824 
+            mark = "d-x" 
+        points [19]:
+            number = 15.77215463659497 
+            mark = "n-cl-x" 
+        points [20]:
+            number = 15.795282945863168 
+            mark = "n-x" 
+        points [21]:
+            number = 15.81029605889691 
+            mark = "t-cl-x" 
+        points [22]:
+            number = 15.815165176637583 
+            mark = "ch-cl-+" 
+        points [23]:
+            number = 15.873188829713937 
+            mark = "ch-+" 
+        points [24]:
+            number = 15.874406109149106 
+            mark = "t-x" 
+        points [25]:
+            number = 15.876029148395997 
+            mark = "y-x" 
+        points [26]:
+            number = 16.17188827016602 
+            mark = "d-cl-x" 
+        points [27]:
+            number = 16.181626505647365 
+            mark = "d-glide-+" 
+        points [28]:
+            number = 16.19258202056388 
+            mark = "d-x" 
+        points [29]:
+            number = 16.198262657927998 
+            mark = "th-cl-x" 
+        points [30]:
+            number = 16.20759513359762 
+            mark = "th-x" 
+        points [31]:
+            number = 19.509773653915367 
+            mark = "t-cl-x" 
+        points [32]:
+            number = 19.513425492220872 
+            mark = "t-x" 
+        points [33]:
+            number = 20.047931884091998 
+            mark = "t-cl-x" 
+        points [34]:
+            number = 20.11285345396764 
+            mark = "t-x" 
+        points [35]:
+            number = 20.37532388213643 
+            mark = "n-cl-x" 
+        points [36]:
+            number = 20.4175229025556 
+            mark = "n-x" 
+        points [37]:
+            number = 20.427666897848667 
+            mark = "g-cl-x" 
+        points [38]:
+            number = 20.43091297634245 
+            mark = "g-x" 
+        points [39]:
+            number = 26.791368576960473 
+            mark = "t-cl-x" 
+        points [40]:
+            number = 26.80272985168871 
+            mark = "t-x" 
+        points [41]:
+            number = 27.082145781989936 
+            mark = "t-cl-x" 
+        points [42]:
+            number = 27.085391860483718 
+            mark = "t-x" 
+        points [43]:
+            number = 27.562878492049776 
+            mark = "t-x" 
+        points [44]:
+            number = 29.485866842620986 
+            mark = "V-x" 
+        points [45]:
+            number = 29.752318578919127 
+            mark = "d-cl-x" 
+        points [46]:
+            number = 29.75962225553014 
+            mark = "d-glide-+" 
+        points [47]:
+            number = 29.770577770446653 
+            mark = "d-x" 
+        points [48]:
+            number = 29.86106220846083 
+            mark = "t-cl-x" 
+        points [49]:
+            number = 29.866337086013225 
+            mark = "t-x" 
+        points [50]:
+            number = 30.110066272854887 
+            mark = "t-cl-x" 
+        points [51]:
+            number = 30.111689312101777 
+            mark = "t-x" 
+        points [52]:
+            number = 37.47012537309499 
+            mark = "k-x" 
+        points [53]:
+            number = 46.9008983417105 
+            mark = "t-cl-x" 
+        points [54]:
+            number = 46.90779625849728 
+            mark = "t-glide-+" 
+        points [55]:
+            number = 46.915911454717005 
+            mark = "t-x" 
+        points [56]:
+            number = 46.999964507646894 
+            mark = "n-cl-x" 
+        points [57]:
+            number = 47.05109024392396 
+            mark = "n-x" 
+        points [58]:
+            number = 47.07462431300388 
+            mark = "th-cl-x" 
+        points [59]:
+            number = 47.079493430744556 
+            mark = "th-x" 
+        points [60]:
+            number = 47.59446257953916 
+            mark = "t-cl-x" 
+        points [61]:
+            number = 58.12782580848617 
+            mark = "t-cl-x" 
+        points [62]:
+            number = 58.14243316170819 
+            mark = "t-x" 
+        points [63]:
+            number = 58.47150436901535 
+            mark = "g-cl-x" 
+        points [64]:
+            number = 58.48124260449669 
+            mark = "g-x" 
+        points [65]:
+            number = 58.901537669353885 
+            mark = "k-x" 
+        points [66]:
+            number = 58.9818055652154 
+            mark = "t-cl-x" 
+        points [67]:
+            number = 58.99722443806087 
+            mark = "t-x" 
+        points [68]:
+            number = 59.24256221837511 
+            mark = "s-cl-x" 
+        points [69]:
+            number = 59.24499677724545 
+            mark = "z-cl-+" 
+        points [70]:
+            number = 59.277051802371545 
+            mark = "z-+" 
+        points [71]:
+            number = 59.280703640677054 
+            mark = "s-x" 
+        points [72]:
+            number = 59.77099109191718 
+            mark = "g-cl-x" 
+        points [73]:
+            number = 59.77496189338591 
+            mark = "g-x" 
+        points [74]:
+            number = 62.239713107211195 
+            mark = "v-x" 
+        points [75]:
+            number = 62.24539374457532 
+            mark = "th-cl-x" 
+        points [76]:
+            number = 62.6082534802137 
+            mark = "V-x" 
+        points [77]:
+            number = 62.981902096794535 
+            mark = "th-cl-x" 
+        points [78]:
+            number = 62.98599993485584 
+            mark = "th-glide-+" 
+        points [79]:
+            number = 62.98965177316135 
+            mark = "th0x" 
+        points [80]:
+            number = 63.60101946939587 
+            mark = "d-cl-x" 
+        points [81]:
+            number = 63.61603258242962 
+            mark = "d-glide-+" 
+        points [82]:
+            number = 63.624147778664074 
+            mark = "d-x" 
+        points [83]:
+            number = 63.674075908706016 
+            mark = "n-cl-x" 
+        points [84]:
+            number = 63.751576032745064 
+            mark = "n-x" 
+        points [85]:
+            number = 74.80685984415919 
+            mark = "d-cl-x" 
+        points [86]:
+            number = 74.80929440302953 
+            mark = "d-x" 
+        points [87]:
+            number = 76.3498403279377 
+            mark = "t-x	" 
+        points [88]:
+            number = 77.00532305684635 
+            mark = "t-cl-x" 
+        points [89]:
+            number = 77.01019217458702 
+            mark = "t-glide-+" 
+        points [90]:
+            number = 77.0134382530808 
+            mark = "t-x" 
+        points [91]:
+            number = 77.0312916847966 
+            mark = "t-cl-x" 
+        points [92]:
+            number = 77.03778384178416 
+            mark = "t-glide-+" 
+        points [93]:
+            number = 77.04265295952484 
+            mark = "t-x" 
+        points [94]:
+            number = 77.15139658906654 
+            mark = "s-x" 
+        points [95]:
+            number = 77.15545418718376 
+            mark = "t-cl-x" 
+        points [96]:
+            number = 77.26528263615694 
+            mark = "th-cl-x" 
+        points [97]:
+            number = 77.27826695013206 
+            mark = "th-glide-+" 
+        points [98]:
+            number = 77.2912512641072 
+            mark = "th-x" 
+        points [99]:
+            number = 77.60090636036777 
+            mark = "t=cl=x" 
+        points [100]:
+            number = 77.61551371358979 
+            mark = "t-glide-+" 
+        points [101]:
+            number = 77.63012106681181 
+            mark = "t-x" 
+        points [102]:
+            number = 78.02460008369452 
+            mark = "t-x" 
+        points [103]:
+            number = 79.27806088182283 
+            mark = "t-x" 
+        points [104]:
+            number = 80.89593378405026 
+            mark = "t-cl-x" 
+        points [105]:
+            number = 80.91703329425984 
+            mark = "t-x" 
+        points [106]:
+            number = 82.50801415565394 
+            mark = "V-x" 
+        points [107]:
+            number = 82.5429094994621 
+            mark = "d-cl-x" 
+        points [108]:
+            number = 82.54615557795587 
+            mark = "d-x" 
+        points [109]:
+            number = 82.55183621532 
+            mark = "V-x" 
+        points [110]:
+            number = 82.75390460155792 
+            mark = "n-cl-x" 
+        points [111]:
+            number = 82.819637691057 
+            mark = "n-x" 
+        points [112]:
+            number = 93.59149728159979 
+            mark = "t-cl-x" 
+        points [113]:
+            number = 93.60448159557492 
+            mark = "t-x" 
+        points [114]:
+            number = 93.76678552026401 
+            mark = "k-x" 
+        points [115]:
+            number = 93.78626199122671 
+            mark = "k-cl-x" 
+        points [116]:
+            number = 93.94681614585898 
+            mark = "d-cl-x" 
+        points [117]:
+            number = 93.95046798416448 
+            mark = "d-x" 
+        points [118]:
+            number = 94.16105732644859 
+            mark = "b-cl-x" 
+        points [119]:
+            number = 94.56077517083988 
+            mark = "dh-cl-x" 
+        points [120]:
+            number = 94.56199245027504 
+            mark = "dh-glide-+" 
+        points [121]:
+            number = 94.5648327689571 
+            mark = "dh-x" 
+        points [122]:
+            number = 100.27497346492893 
+            mark = "t-cl-x" 
+        points [123]:
+            number = 100.28633473965716 
+            mark = "t-x" 
+        points [124]:
+            number = 101.04684934665788 
+            mark = "t-cl-x" 
+        points [125]:
+            number = 101.05334150364544 
+            mark = "t-x" 
+        points [126]:
+            number = 106.10389545236163 
+            mark = "t-cl-x" 
+        points [127]:
+            number = 106.11119912897263 
+            mark = "t-glide-+" 
+        points [128]:
+            number = 106.11769128596019 
+            mark = "t-x" 
+        points [129]:
+            number = 106.17855525771861 
+            mark = "b-cl-x" 
+        points [130]:
+            number = 106.19397413056407 
+            mark = "b-glide-+" 
+        points [131]:
+            number = 106.20371236604542 
+            mark = "b-x" 
+        points [132]:
+            number = 106.26538785742727 
+            mark = "t-cl-x" 
+        points [133]:
+            number = 106.28486432838997 
+            mark = "t-x" 
+        points [134]:
+            number = 108.08391787913817 
+            mark = "k-x" 
+        points [135]:
+            number = 108.21700709738323 
+            mark = "b-cl-x" 
+        points [136]:
+            number = 108.23486052909904 
+            mark = "b-x" 
+        points [137]:
+            number = 113.77222924255494 
+            mark = "d-cl-x" 
+        points [138]:
+            number = 113.80306698824587 
+            mark = "d-glide-+" 
+        points [139]:
+            number = 113.83877385167747 
+            mark = "d-x" 
+        points [140]:
+            number = 114.59673317997556 
+            mark = "t-cl-x" 
+        points [141]:
+            number = 114.61296357244447 
+            mark = "t-glide-+" 
+        points [142]:
+            number = 114.63081700416028 
+            mark = "t-x" 
+    item [3]:
+        class = "TextTier" 
+        name = "Comments" 
+        xmin = 0 
+        xmax = 893.544 
+        points: size = 7 
+        points [1]:
+            number = 4.133440879314994 
+            mark = "<nasalized vowel>" 
+        points [2]:
+            number = 4.684938882943091 
+            mark = "<very faint t>" 
+        points [3]:
+            number = 15.780675592641147 
+            mark = "<nasalized vowel>" 
+        points [4]:
+            number = 20.393177313852235 
+            mark = "<nasalized vowel>" 
+        points [5]:
+            number = 47.0267446552206 
+            mark = "<nasalized vowel>" 
+        points [6]:
+            number = 63.71140581138451 
+            mark = "<nasalized vowel>" 
+        points [7]:
+            number = 82.77825019026128 
+            mark = "<nasalized vowel>" 

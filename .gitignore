@@ -1,3 +1,4 @@
 *.pyc
 *~$*
 *~lock*
+__pycache__/*
