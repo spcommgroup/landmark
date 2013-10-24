@@ -1,7 +1,7 @@
 print("Loading orange ..... "),
 import Orange
 print "DONE"
-import os
+import os, sys
 from subprocess import call
 
 TAB_FILE = "conv12g_chelsea.tab"
@@ -14,7 +14,7 @@ conv07_data = Orange.data.Table(conv07_tab)
 conv07_outpath = os.path.join("results", "conv07 trees")
 # tree = Orange.classification.tree.TreeLearner(data)
 
-all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber", 
+all_attributes = ["phone1-manner class", "phone2-type", "phone2-subnumber",
                   "phone2-manner class", "outcome", "name", "phone1-subnumber",
                   "phone2-number", "phone2-stress", "phone1-stress",
                   "phone1-type", "phone1-number"]
@@ -56,12 +56,12 @@ def combineMedialCategory(input_filename=conv07_tab):
     return output_filename;
 
 def segmental_context(save_path=conv07_outpath, data=conv07_data):
-    """This shows the distribution of LM preservations/deletions depending on 
-     i) what the previous segment is, and 
-     ii) what th following segment is. 
-    This should already be included in the multi-factor .tab file, 
-    so you can just put previous segment info in a .tab file and 
-    run the program, then put following segment info in a .tab file 
+    """This shows the distribution of LM preservations/deletions depending on
+     i) what the previous segment is, and
+     ii) what th following segment is.
+    This should already be included in the multi-factor .tab file,
+    so you can just put previous segment info in a .tab file and
+    run the program, then put following segment info in a .tab file
     and run the program again."""
 
     save_path = os.path.join(save_path, "segmental_context")
@@ -71,10 +71,10 @@ def segmental_context(save_path=conv07_outpath, data=conv07_data):
         make_tree_from_attributes(save_path, tree_file_name, attributes_names, data=data)
 
 def word_position(tab_file=conv07_tab, save_path=os.path.join("results", "conv07 trees", "word_position"), data=conv07_data):
-    """This shows the distribution depending on where in the word this LM is: 
-    the .tab info with the {o, n, c, a} info is what we need. 
-    After running on this info, then combine the {n, a} data into 
-    a {m} (=medial) category, and use this new .tab file to run the 
+    """This shows the distribution depending on where in the word this LM is:
+    the .tab info with the {o, n, c, a} info is what we need.
+    After running on this info, then combine the {n, a} data into
+    a {m} (=medial) category, and use this new .tab file to run the
     program again."""
 
     input_without_inserted = saveTab(readTab(tab_file), tab_file[:-4]+"_withoutInserted.tab")
@@ -89,12 +89,18 @@ def word_position(tab_file=conv07_tab, save_path=os.path.join("results", "conv07
     make_tree_from_attributes(save_path, "word-pos-with-m.dot", attributes_names, modified_data)
 
 def make_tree_from_attributes(outpath, tree_file_name, attributes_names=None, data=conv07_data):
-    if attributes_names != None: 
+    if attributes_names != None:
         attributes = filter(lambda x: x.name in attributes_names, data.domain.features)
         new_domain = Orange.data.Domain(attributes, data.domain.class_var)
         data = Orange.data.Table(new_domain, data)
     tree = Orange.classification.tree.TreeLearner(data)
-    call(["mkdir", "-p", outpath])
+    if not os.path.exists(outpath):
+        os.makedirs(outpath)
+    # try:
+    # 	call(["mkdir", "-p", outpath])
+    # except WindowsError:
+    # 	print sys.exc_info()[1]
+
 
     file_name = os.path.join(outpath, tree_file_name)
     tree.dot(file_name=file_name, node_shape="ellipse", leaf_shape="box")
