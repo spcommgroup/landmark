@@ -90,15 +90,15 @@ class ExtendedTextGrid(TextGrid):
         self.tiers = [new_words]+self.tiers
         
         
-    def predictPhns(self):
+    def predictPhns(self, wtier='words', outname='phones'):
         "Translate words into phoneme sequences according to lexicon and append a 'phones' tier."""
-        text = self.get_tier('words')
+        text = self.get_tier(wtier)
         # Initiate new textgrid tiers for predicted landmarks, phonemes, voicing, and nosal info
-        if self.get_tier('phones'):
+        if self.get_tier(outname):
             #There is an existing phones tier, but we don't want to use it
-            x = self.get_tier('phones')
-            x.name = 'phones_prev'
-        phn_tier = IntervalTier(name='phones', xmin = 0, xmax=text.xmax)
+            x = self.get_tier(outname)
+            x.name = outname + '_prev'
+        phn_tier = IntervalTier(name=outname, xmin = 0, xmax=text.xmax)
         for interval in text:
             try:    
                 # non-words

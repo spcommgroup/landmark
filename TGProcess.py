@@ -396,13 +396,13 @@ class TextGrid:
         #condense tiers into single list
         items = []
         for tier in self:
-            if type(tier[0])==Interval:
+            if isinstance(tier[0], Interval):
                 items.extend([(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier])
-            elif type(tier[0])==Point:
+            elif isinstance(tier[0], Point):
                 items.extend([(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier])
             else:
-                print("Error")
-                return
+                print("Warning: Unexpected tier type "+str(type(tier[0])))
+                # return
         items.sort(key=lambda item: float(item[1]))
         #write items to both files
         last_time = "0"

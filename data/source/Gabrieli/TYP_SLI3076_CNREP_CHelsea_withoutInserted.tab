@@ -1,0 +1,23 @@
+phone2-subnumber	phone1-type	phone1-manner class	phone1-stress	phone1-number	name	phone2-stress	outcome	phone2-number	phone1-subnumber	phone2-type	phone2-manner class
+discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete
+							class				
+1		#	-1	0	Sc	-1	Preserved	0	0	o	s
+1	o	s	-1	0	Sr	1	Preserved	1	1	n	v
+1	n	v	1	1	V	-1	Preserved	1	1	c	n
+1		#	-1	0	Sc	-1	Preserved	0	0	o	s
+1	o	s	-1	0	Sr	1	Preserved	1	1	n	v
+1	n	v	1	1	V	-1	Preserved	1	1	a	g
+1	a	g	-1	1	G	0	Preserved	2	1	n	v
+1		#	-1	0	Sc	-1	Preserved	0	0	o	s
+2	o	s	-1	0	Sr	-1	Preserved	0	1	o	g
+1	o	g	-1	0	G	1	Preserved	1	2	n	v
+1	n	v	1	1	V	-1	Preserved	1	1	a	n
+1	n	v	1	1	Nc	-1	Preserved	1	1	a	n
+2	a	n	-1	1	Nr	-1	Preserved	1	1	a	s
+2	a	n	-1	1	Sc	-1	Preserved	1	1	a	s
+1	a	s	-1	1	Sr	0	Preserved	2	2	n	v
+1	n	v	1	1	Nc	-1	Deleted	1	1	c	n
+0	c	n	-1	1	Nr	-1	Deleted	0	1		#
+0	n	v	0	2	V	-1	Deleted	0	1		#
+1	n	v	0	2	V	-1	Deleted	2	1	c	g
+0	c	g	-1	2	G	-1	Deleted	0	1		#

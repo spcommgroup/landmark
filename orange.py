@@ -4,8 +4,14 @@ print "DONE"
 import os, sys
 from subprocess import call
 
-TAB_FILE = "conv12g_chelsea.tab"
-OUTPUT_FILE_FOLDER = "conv12 trees"
+TAB_FILES = ["Gabrieli/ASDH_SLI_3126_allison.tab",
+			 "Gabrieli/ASDL_BILDC3099_allison.tab",
+			 "Gabrieli/SLI_SLI3086_allison.tab",
+			 "Gabrieli/SLI3084_allison.tab"]
+OUTPUT_FILE_FOLDERS = ["Gabrieli/ASDH_SLI_3126_allison",
+					   "Gabrieli/ASDL_BILDC3099_allison",
+					   "Gabrieli/SLI_SLI3086_allison",
+					   "Gabrieli/SLI3084_allison"]
 
 
 # Data related to conv07
@@ -128,4 +134,5 @@ def main(tab,folder):
     segmental_context(save_path=outpath, data=data)
     word_position(tab_file=tab, save_path=outpath, data=data)
 
-main(TAB_FILE,OUTPUT_FILE_FOLDER)
+for TAB_FILE, OUTPUT_FILE_FOLDER in zip(TAB_FILES, OUTPUT_FILE_FOLDERS):
+	main(TAB_FILE,OUTPUT_FILE_FOLDER)

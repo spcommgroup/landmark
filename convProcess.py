@@ -139,15 +139,15 @@ def processFromPath(filename, filepath):
 
     wtier = findWordsTier(tg, filename)
 
-    # saveTierAsLM(wtier,"words", filepath)
+    saveTierAsLM(wtier,"words", filepath)
 
-    # lexiconFromTier(wtier, filepath)
+    lexiconFromTier(wtier, filepath)
 
     tg.predictPhns(wtier.name, "gen_phones")
 
     saveTierAsLM(generateLandmarkTier(tg.get_tier("gen_phones")), "landmarks", filepath)
 
-    # saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
+    saveTierAsLM(tg.get_tier("gen_phones"), "phones", filepath)
 
 if __name__ == "__main__":
     # for i in range(1, 17):
@@ -159,6 +159,6 @@ if __name__ == "__main__":
     #         processFromPath(filename, filepath)
     #     pickle.dump(lexicon, open("lexicon", 'wb'))
 
-    filename = "conv01g"
-    filepath = "../landmarks/matcher-data/"+filename+".TextGrid"
+    filename = "conv09g_jessk"
+    filepath = "../TIMIT labeling/AEMT/"+filename+".TextGrid"
     processFromPath(filename,filepath)
